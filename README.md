@@ -34,3 +34,9 @@
 ## その他
 
 ‣ 楽曲はレコードの判定で作られています。つまり、サウンド設定の「ジュークボックス／音符ブロック」にて音量の調整が可能です。<br>
+
+# 最後に
+
+このREADME.mdや、LICENSE等を設定するにあたって、Aoutumuri氏(Youtube: https://www.youtube.com/channel/UCtVg2I271bfgF41xTcELrIg )に協力していただきました。<br>
+この場を借りてお礼申し上げます。ありがとうございました。
+
