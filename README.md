@@ -7,6 +7,8 @@
 # 利用規約等
 ## はじめに
 
+Minecraft | Survival of the Fittest © 2 by [ちょこばうむ](https://x.com/choco_baumu) is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed) <br>
+
 このデータパックはMinecraft ver 1.21でのみ動作を確認しています。他のバージョンでの使用や、<br>
 他のデータパック、mod等を含む環境への導入はサポートされていません。<br>
 また、このデータパックはブロックを破壊する要素等を多く含み、Minecraftの設定を無視する部分があります。<br>
@@ -39,4 +41,3 @@
 
 このREADME.mdや、LICENSE等を設定するにあたって、Aotumuri氏(Youtube: https://www.youtube.com/channel/UCtVg2I271bfgF41xTcELrIg )に協力していただきました。<br>
 この場を借りてお礼申し上げます。ありがとうございました。
-
