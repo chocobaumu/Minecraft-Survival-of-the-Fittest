@@ -39,7 +39,7 @@
 
 # 最後に
 
-このREADME.mdや、LICENSE等を設定するにあたって、Aotumuri氏(Youtube: https://www.youtube.com/channel/UCtVg2I271bfgF41xTcELrIg )に協力していただきました。<br>
+このREADME.mdや、LICENSE等を設定するにあたって、Aotumuri氏([Youtubeはこちら](https://www.youtube.com/channel/UCtVg2I271bfgF41xTcELrIg ))に協力していただきました。<br>
 この場を借りてお礼申し上げます。ありがとうございました。
 
 > [!IMPORTANT]
