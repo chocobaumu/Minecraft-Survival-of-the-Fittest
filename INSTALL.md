@@ -1,7 +1,7 @@
 # 導入方法
 
 ## ダウンロード
-導入したいバージョンをダウンロードします。<br>
+導入したいバージョンを[Releases](https://github.com/chocobaumu/Minecraft-Survival-of-the-Fittest/releases)からダウンロードします。<br>
 ダウンロードしたフォルダを解凍します。<br>
 解凍したフォルダーのを開きます。<br>
  解凍したフォルダーを進むと、「Survival of the Fittest (バージョン) Datapack.zip」と「[MC (バージョン)] Survival of the Fittest Resource Pack - (バージョン).zip」があります。<br>
