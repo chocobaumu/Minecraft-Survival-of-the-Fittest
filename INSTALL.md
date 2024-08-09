@@ -1,8 +1,5 @@
 # 導入方法
 
->[!CAUTION]
->この導入方法はWindows用です。私はMac環境を持っていないので、Mac環境の方はご自身で調べて頂くようお願いいたします。
-
 ## ダウンロード
 導入したいバージョンを[Releases](https://github.com/chocobaumu/Minecraft-Survival-of-the-Fittest/releases)からダウンロードします。<br>
 ダウンロードしたフォルダを解凍します。<br>
