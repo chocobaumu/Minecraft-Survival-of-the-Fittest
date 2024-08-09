@@ -1,5 +1,5 @@
 >[!WARNING]
->現在のSource codeは、なぜか中身がない状態です。ダウンロードの際は**必ず**各バージョンの「ダウンロードはこちら」か、Source codeの上にある「Survival.of.the.Fittest.(バージョン).zip」からダウンロードしてください。
+>現在のSource codeは、なぜか中身がない状態です。Assetsからダウンロードする場合は、Source codeの上にある「Survival.of.the.Fittest.(バージョン).zip」からダウンロードしてください。
 
 # Minecraft | Survival of the Fittest
 ほとんどのバニラモブを強化、そして、新アイテムや新モブ等を多数追加。他にもいろいろな仕様の追加を含みます。新モード「ナイトメアモード」やいくつかの「イベント」も！
