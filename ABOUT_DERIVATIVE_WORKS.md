@@ -120,10 +120,16 @@ AIの制御等に共通して使用されるタグや関数などです。アド
 `function survivalotfittest:internal/set_items/boots`: 実行時、ランダムな防具アイテムを対象の足に与えます。アイテムの強さの上限はゲーム内での経過日数に比例します。<br>
 <br>
 
-## その他
+## スコアボード
+`Choco.SotF.Temperature.Bonus`: 温度の補正値です。<br>
 <br>
 
-### スコアボード
+`Choco.SotF.Hot_Resistance`: 高温に対する耐性です。高いほど耐性が高くなります。<br>
+<br>
+
+`Choco.SotF.Cold_Resistance`: 低温に対する耐性です。低いほど耐性が高くなります。<br>
+<br>
+
 `#HardeModeの持つChoco.SotF.ScoreStorage.0`: ナイトメアモードであるかどうかを表します。0が通常モード、1がナイトメアモードです。	<sub>私のタイプミスで#Hard"e"Modeになってしまっています。</sub>  <br>
 <br>
 `Choco.SotF.HardMode.Attributes`: ナイトメアモードで付与されるアトリビュートです。効果は以下の通りです。<br>
