@@ -122,6 +122,14 @@ AIの制御等に共通して使用されるタグや関数などです。アド
 
 ## スコアボード
 `Choco.SotF.Temperature.Bonus`: 温度の補正値です。<br>
+　`#survivalotfittest:little_hot`に含まれるバイオームでは、この値が10可算されます。<br>
+　`#survivalotfittest:hot`に含まれるバイオームでは、この値が20可算されます。<br>
+　`#survivalotfittest:extremely_hot`に含まれるバイオームでは、この値が50可算されます。<br>
+　`#survivalotfittest:little_cold`に含まれるバイオームでは、この値が10減算されます。<br>
+　`#survivalotfittest:cold`に含まれるバイオームでは、この値が20減算されます。<br>
+　`#survivalotfittest:extremely_cold`に含まれるバイオームでは、この値が50減算されます。<br>
+　`#survivalotfittest:normal`に含まれる、またはどこにも含まれていないバイオームではバイオームによる補正がありません。<br>
+　その他いくつかの条件によって温度が算出されます。詳しくは`survivalotfittest:entity/player/temperature/math`を参照してください。<br>
 <br>
 
 `Choco.SotF.Hot_Resistance`: 高温に対する耐性です。高いほど耐性が高くなります。<br>
