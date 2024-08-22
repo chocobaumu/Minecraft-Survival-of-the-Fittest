@@ -130,16 +130,16 @@ AIの制御等に共通して使用されるタグや関数などです。アド
 　`#survivalotfittest:extremely_cold`に含まれるバイオームでは、この値が50減算されます。<br>
 　`#survivalotfittest:normal`に含まれる、またはどこにも含まれていないバイオームではバイオームによる補正がありません。<br>
 　その他いくつかの条件によって温度が算出されます。詳しくは`survivalotfittest:entity/player/temperature/math`を参照してください。<br>
-<br>
-
 `Choco.SotF.Hot_Resistance`: 高温に対する耐性です。高いほど耐性が高くなります。<br>
-<br>
-
 `Choco.SotF.Cold_Resistance`: 低温に対する耐性です。低いほど耐性が高くなります。<br>
 <br>
 
-`#HardeModeの持つChoco.SotF.ScoreStorage.0`: ナイトメアモードであるかどうかを表します。0が通常モード、1がナイトメアモードです。	<sub>私のタイプミスで#Hard"e"Modeになってしまっています。</sub>  <br>
+`Choco.SotF.Coma`: 昏睡値です。Ver 1.0.2時点では試験的な内容「トラップ」でのみ使用されます。これは結果の値であり、通常、操作されるものではありません。プレイヤーにのみ有効です。<br>
+`Choco.SotF.Coma_Gain`: 外部から受けた昏睡値です。時間経過とともに`Choco.SotF.Coma`に変換されます。変換量は`Choco.SotF.Stats.Perseverance`によって制御されます。通常、プレイヤーに昏睡値を与える場合この値が操作されます。プレイヤーにのみ有効です。<br>
+`Choco.SotF.Stats.Perseverance`: 忍耐力のステータスです。数値が高いと昏睡値が上昇しにくくなります。Ver 1.0.2時点でこのステータスは未完成であり、ボーナス値についてのスコアボードが存在しません。プレイヤーにのみ有効です。<br>
 <br>
+
+`#HardeModeの持つChoco.SotF.ScoreStorage.0`: ナイトメアモードであるかどうかを表します。0が通常モード、1がナイトメアモードです。	<sub>私のタイプミスで#Hard"e"Modeになってしまっています。</sub>  <br>
 `Choco.SotF.HardMode.Attributes`: ナイトメアモードで付与されるアトリビュートです。効果は以下の通りです。<br>
 0 = 無し <br>
 1 = マジックシールド(3枚の盾を装備、1毎につき1回攻撃を無効化する) <br>
