@@ -33,7 +33,7 @@
 
 ## お願い
 
-‣ 不具合等を発見したら、[Issues](https://github.com/chocobaumu/Minecraft-Survival-of-the-Fittest/issues)か、[Discordサーバー](https://discord.gg/a4RjZe2Bpu ) の[#報告]([https://discord.com/channels/1211127404110811216/1211130201719963668 ](https://discord.com/channels/1211127404110811216/1274168682054160416)) に報告をしていただけると幸いです。<br>
+‣ 不具合等を発見したら、[Issues](https://github.com/chocobaumu/Minecraft-Survival-of-the-Fittest/issues)か、[Discordサーバー](https://discord.gg/a4RjZe2Bpu ) の[#報告](https://discord.com/channels/1211127404110811216/1274168682054160416)  に報告をしていただけると幸いです。<br>
 ‣ 楽曲やデータパック等を使用した際に、このデータパックやちょこばうむについて書いていただけると、私が泣いて喜びます(強制ではありません)。<br>
 
 ## その他
