@@ -4,7 +4,8 @@
 # Minecraft | Survival of the Fittest
 ほとんどのバニラモブを強化、そして、新アイテムや新モブ等を追加。他にもいろいろな仕様の追加を含みます。新モード「ナイトメアモード」やいくつかの「イベント」も！<br>
 
-[導入方法はこちら](https://github.com/chocobaumu/Minecraft-Survival-of-the-Fittest/blob/main/INSTALL.md)
+[導入方法はこちら](https://github.com/chocobaumu/Minecraft-Survival-of-the-Fittest/blob/main/INSTALL.md)<br>
+[アドオンについてはこちら(製作者に向けた内容も含みます)](https://github.com/chocobaumu/Minecraft-Survival-of-the-Fittest/blob/main/ABOUT_DERIVATIVE_WORKS.md)<br>
 
 > [!CAUTION]
 > おそらくですが、このデータパックはほとんどのモブに関するデータパックと競合します。後述の通り、他のデータパックやmod等と合わせての使用はサポートされていません。
