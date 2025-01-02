@@ -1,0 +1,2 @@
+execute if score @s Choco.SotF.Tick.0 matches 181 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Earthquake","Choco.SotF.Scale.0"]}
+execute if score @s Choco.SotF.ScoreStorage.0 matches 2.. run function survivalotfittest:entity/marker/desaster/earthquake/levels/2

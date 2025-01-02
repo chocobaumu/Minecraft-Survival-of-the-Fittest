@@ -1,0 +1,1 @@
+data merge entity @s {Item:{id:"minecraft:recovery_compass",components:{"minecraft:item_model":"survivalotfittest:seaserpent_scale","minecraft:item_name":'"シーサーペントのウロコ"',"minecraft:rarity":"uncommon","minecraft:custom_data":{SotF:Seaserpent_Scale}}}}

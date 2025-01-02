@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:enchanted_book"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "survivalotfittest:item/using_enchanted_book"
+    }
+  }
+  

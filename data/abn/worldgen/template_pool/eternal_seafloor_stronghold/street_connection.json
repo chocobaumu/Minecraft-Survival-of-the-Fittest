@@ -1,0 +1,168 @@
+{
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/street_stopper",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 10
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/street_stopper_2",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/street",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 150
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/street_2",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 100
+      }
+      ,
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/street_3",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 80
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/street_4",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 10
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/street_5",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 30
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/vertical_tunnel",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 75
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/vertical_tunnel_2",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/vertical_tunnel_3",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/room/normal_1",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 40
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/room/normal_2",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 40
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/room/normal_3",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 40
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/room/normal_4",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 40
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/room/normal_5",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 40
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/room/normal_6",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 40
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/room/normal_7",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 40
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/room/boss",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 150
+      }
+    ],
+    "fallback": "abn:eternal_seafloor_stronghold/end"
+  }

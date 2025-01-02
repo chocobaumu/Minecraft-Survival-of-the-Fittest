@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "#C#",
+    "CXC",
+    "#H#"
+  ],
+  "key": {
+    "#": "#minecraft:logs",
+    "X": "minecraft:furnace",
+    "C": "minecraft:iron_ingot",
+    "H": "minecraft:brick"
+  },
+  "result": {
+    "id": "minecraft:smoker",
+    "count": 1
+  }
+}

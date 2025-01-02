@@ -1,0 +1,2 @@
+execute store result score #Aquacrux Choco.SotF.Data.HurtTime run data get entity @s HurtTime
+execute if score #Aquacrux Choco.SotF.Data.HurtTime matches 9 run function survivalotfittest:item/aquacrux/damage

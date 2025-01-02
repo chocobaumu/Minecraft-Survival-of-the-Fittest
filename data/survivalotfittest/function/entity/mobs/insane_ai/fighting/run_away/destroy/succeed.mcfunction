@@ -1,0 +1,2 @@
+execute if score @s Choco.SotF.Pos.1 matches 1.. unless block ~ ~-0.5 ~ #survivalotfittest:cannot_destroy positioned ~ ~-0.5 ~ run function survivalotfittest:summon/misc/destroy_block_marker
+execute if score @s Choco.SotF.Pos.1 matches -2..2 facing entity @n[tag=Choco.SotF.InsaneAI.Target] feet rotated ~180 0 run function survivalotfittest:entity/mobs/insane_ai/fighting/chasing/destroy/make_hole

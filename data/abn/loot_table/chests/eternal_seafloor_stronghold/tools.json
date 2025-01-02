@@ -1,0 +1,280 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:wooden_shovel",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:stone_shovel",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_shovel",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:diamond_shovel",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:netherite_shovel",
+                "weight": 1
+              }
+            ],
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1,
+                  "min": 0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "conditions": []
+          }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 2,
+          "min": 1
+        },
+        "functions": []
+      },
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:wooden_pickaxe",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:stone_pickaxe",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_pickaxe",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:diamond_pickaxe",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:netherite_pickaxe",
+                "weight": 1
+              }
+            ],
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1,
+                  "min": 0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "conditions": []
+          }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 2,
+          "min": 1
+        },
+        "functions": []
+      },
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:wooden_axe",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:stone_axe",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_axe",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:diamond_axe",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:netherite_axe",
+                "weight": 1
+              }
+            ],
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1,
+                  "min": 0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "conditions": []
+          }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 2,
+          "min": 1
+        },
+        "functions": []
+      },
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:wooden_hoe",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:stone_hoe",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_hoe",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:diamond_hoe",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:netherite_hoe",
+                "weight": 1
+              }
+            ],
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1,
+                  "min": 0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "conditions": []
+          }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 2,
+          "min": 1
+        },
+        "functions": []
+      },
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:brush",
+                "weight": 32
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:flint_and_steel",
+                "weight": 26
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:shears",
+                "weight": 24
+              },
+              {
+                "type": "minecraft:item",
+                "name": "bundle",
+                "weight": 14
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:spyglass",
+                "weight": 12
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:compass",
+                "weight": 10
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:recovery_compass",
+                "weight": 1
+              }
+            ],
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1,
+                  "min": 0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "conditions": []
+          }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 8,
+          "min": 0
+        },
+        "functions": []
+      }
+    ]
+  }

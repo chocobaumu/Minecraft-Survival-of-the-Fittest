@@ -1,0 +1,77 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 5,
+                  "max": 10
+                }
+              }
+            ],
+            "name": "minecraft:bone",
+            "weight": 15
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 5,
+                  "max": 10
+                }
+              }
+            ],
+            "name": "minecraft:quartz",
+            "weight": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_ingot",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 5,
+                  "max": 10
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "weight": 5,
+            "functions": [
+              {
+                "function": "minecraft:enchant_randomly",
+                "options": [
+                  "minecraft:thorns",
+                  "minecraft:protection"
+                ],
+                "only_compatible": false,
+                "conditions": []
+              }
+            ]
+          }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 7,
+          "min": 3
+        }
+      }
+    ]
+  }

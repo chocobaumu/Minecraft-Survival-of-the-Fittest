@@ -1,0 +1,4 @@
+execute if entity @e[type=boat,tag=!Choco.SotF.Custom,distance=..16] facing entity @e[type=boat,tag=!Choco.SotF.Custom,distance=..16,sort=nearest,limit=1] eyes run tp ^ ^ ^
+execute if entity @e[type=chest_boat,tag=!Choco.SotF.Custom,distance=..16] facing entity @e[type=chest_boat,tag=!Choco.SotF.Custom,distance=..16,sort=nearest,limit=1] eyes run tp ^ ^ ^
+execute if entity @e[type=axolotl,tag=!Choco.SotF.Custom,distance=..16] facing entity @e[type=axolotl,tag=!Choco.SotF.Custom,distance=..16,sort=nearest,limit=1] eyes run tp ^ ^ ^
+execute if entity @e[tag=Choco.SotF.Enemies_Target,distance=..16] facing entity @e[tag=Choco.SotF.Enemies_Target,distance=..16,sort=nearest,limit=1] eyes run tp ^ ^ ^

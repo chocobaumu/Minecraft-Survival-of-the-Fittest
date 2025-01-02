@@ -1,0 +1,16 @@
+{
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "distance": 0,
+    "spread": 1,
+    "count": 1,
+    "preferred_biomes": "#abn:abn_all",
+    "salt": 617219
+  },
+  "structures": [
+    {
+      "structure": "abn:the_aquafrost_altar",
+      "weight": 1
+    }
+  ]
+}

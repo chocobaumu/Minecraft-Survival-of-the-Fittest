@@ -1,0 +1,2 @@
+execute store result score @s Choco.SotF.ScoreStorage.0 run random value 1..100
+execute if score @s Choco.SotF.ScoreStorage.0 matches 1 at @s run function survivalotfittest:entity/mobs/cat/damaging_succeed

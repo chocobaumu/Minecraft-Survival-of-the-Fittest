@@ -1,0 +1,2 @@
+execute facing entity @e[tag=Choco.SotF.Kraken_Eats,sort=nearest,limit=1,predicate=!survivalotfittest:if_calm] feet rotated ~180 ~ at @s run tp @s ~ ~ ~ ~ ~
+execute store result entity @s Rotation[1] float 1 run data get entity @s Rotation[1] -1

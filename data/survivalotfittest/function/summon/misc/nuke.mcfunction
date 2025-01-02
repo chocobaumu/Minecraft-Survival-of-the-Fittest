@@ -1,0 +1,1 @@
+summon item_display ~ ~ ~ {view_range:127f,shadow_radius:1.5f,shadow_strength:1f,Tags:["Choco.SotF.Nuke"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.75f,0.75f,2f]},item:{id:"minecraft:red_terracotta",count:1}}

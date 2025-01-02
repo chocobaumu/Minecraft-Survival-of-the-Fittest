@@ -1,0 +1,9 @@
+execute positioned ~ ~ ~ if block ~ ~ ~ #survivalotfittest:priority_destruction_block run setblock ~ ~ ~ air destroy
+execute positioned ~1 ~ ~ if block ~ ~ ~ #survivalotfittest:priority_destruction_block run setblock ~ ~ ~ air destroy
+execute positioned ~-1 ~ ~ if block ~ ~ ~ #survivalotfittest:priority_destruction_block run setblock ~ ~ ~ air destroy
+execute positioned ~ ~ ~1 if block ~ ~ ~ #survivalotfittest:priority_destruction_block run setblock ~ ~ ~ air destroy
+execute positioned ~ ~ ~-1 if block ~ ~ ~ #survivalotfittest:priority_destruction_block run setblock ~ ~ ~ air destroy
+execute positioned ~1 ~ ~1 if block ~ ~ ~ #survivalotfittest:priority_destruction_block run setblock ~ ~ ~ air destroy
+execute positioned ~1 ~ ~-1 if block ~ ~ ~ #survivalotfittest:priority_destruction_block run setblock ~ ~ ~ air destroy
+execute positioned ~-1 ~ ~1 if block ~ ~ ~ #survivalotfittest:priority_destruction_block run setblock ~ ~ ~ air destroy
+execute positioned ~-1 ~ ~-1 if block ~ ~ ~ #survivalotfittest:priority_destruction_block run setblock ~ ~ ~ air destroy

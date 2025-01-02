@@ -1,0 +1,1 @@
+give @p raw_iron[item_model="survivalotfittest:metal_scraps",item_name='"金属スクラップ"',rarity="common",custom_data={SotF:Metal_Scraps},lore=['{"color":"gray","italic":false,"text":"いつかに存在した魔導機械の一部。熔かして再利用できる。"}']] 1

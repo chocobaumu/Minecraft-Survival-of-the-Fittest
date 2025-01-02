@@ -1,0 +1,15 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "separation": 0,
+    "salt": 1792729,
+    "spacing": 2,
+    "spread_type": "triangular"
+  },
+  "structures": [
+    {
+      "structure": "abn:toxic_pillar",
+      "weight": 1
+    }
+  ]
+}

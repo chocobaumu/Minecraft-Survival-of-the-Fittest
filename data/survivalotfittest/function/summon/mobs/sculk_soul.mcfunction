@@ -1,0 +1,1 @@
+summon vex ~ ~ ~ {Silent:1b,PersistenceRequired:1b,Health:0.1f,LifeTicks:2147483647,Tags:["Choco.SotF.Custom","Choco.SotF.SculkSoul","Choco.SotF.Sculks"],CustomName:'{"italic":false,"text":"スカルクソウル"}',attributes:[{id:"minecraft:attack_damage",base:-2147483647},{id:"minecraft:max_health",base:0.1}]}

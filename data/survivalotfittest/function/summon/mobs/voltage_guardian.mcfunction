@@ -1,0 +1,1 @@
+summon guardian ~ ~ ~ {DeathLootTable:"survivalotfittest:entities/voltage_guardian",Tags:["Choco.SotF.VoltageGuardian"],CustomName:'"ボルテージガーディアン"',attributes:[{id:"minecraft:scale",base:2.5}]}

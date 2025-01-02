@@ -1,0 +1,23 @@
+{
+    "values": [
+      "minecraft:deep_frozen_ocean",
+      "minecraft:deep_cold_ocean",
+      "deep_lukewarm_ocean",
+      "deep_ocean",
+      "ocean",
+      "cold_ocean",
+      "warm_ocean",
+      "frozen_ocean",
+      "lukewarm_ocean",
+      "abn:deep_cold_ocean",
+      "abn:deep_fathomless_ocean",
+      "abn:deep_frozen_ocean",
+      "abn:deep_lukewarm_ocean",
+      "abn:deep_ocean",
+      "abn:elder_ocean",
+      "abn:fathomless_ocean",
+      "abn:ocean_of_pale_bones",
+      "abn:serpents_mire",
+      "abn:thanatos_ocean"
+    ]
+  }

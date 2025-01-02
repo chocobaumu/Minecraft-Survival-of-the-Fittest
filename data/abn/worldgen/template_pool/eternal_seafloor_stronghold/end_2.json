@@ -1,0 +1,68 @@
+{
+    "elements": [
+        {
+            "element": {
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "abn:eternal_seafloor_stronghold/room/normal_1",
+              "processors": "minecraft:empty",
+              "projection": "rigid"
+            },
+            "weight": 30
+          },
+          {
+            "element": {
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "abn:eternal_seafloor_stronghold/room/normal_2",
+              "processors": "minecraft:empty",
+              "projection": "rigid"
+            },
+            "weight": 30
+          },
+          {
+            "element": {
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "abn:eternal_seafloor_stronghold/room/normal_3",
+              "processors": "minecraft:empty",
+              "projection": "rigid"
+            },
+            "weight": 30
+          },
+          {
+            "element": {
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "abn:eternal_seafloor_stronghold/room/normal_4",
+              "processors": "minecraft:empty",
+              "projection": "rigid"
+            },
+            "weight": 30
+          },
+          {
+            "element": {
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "abn:eternal_seafloor_stronghold/room/normal_5",
+              "processors": "minecraft:empty",
+              "projection": "rigid"
+            },
+            "weight": 30
+          },
+          {
+            "element": {
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "abn:eternal_seafloor_stronghold/room/normal_6",
+              "processors": "minecraft:empty",
+              "projection": "rigid"
+            },
+            "weight": 30
+          },
+          {
+            "element": {
+              "element_type": "minecraft:legacy_single_pool_element",
+              "location": "abn:eternal_seafloor_stronghold/room/normal_7",
+              "processors": "minecraft:empty",
+              "projection": "rigid"
+            },
+            "weight": 30
+          }
+    ],
+    "fallback": "abn:eternal_seafloor_stronghold/end_2"
+  }

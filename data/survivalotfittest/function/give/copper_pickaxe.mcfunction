@@ -1,0 +1,1 @@
+give @p iron_pickaxe[item_name='"銅のツルハシ"',item_model="survivalotfittest:copper_pickaxe",max_damage=32] 1

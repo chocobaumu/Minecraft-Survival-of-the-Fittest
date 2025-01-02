@@ -1,0 +1,1 @@
+summon item_display ~ ~ ~ {shadow_radius:0f,shadow_strength:0f,teleport_duration:2,Tags:["Choco.SotF.ElderGuardian.Bubble"],brightness:{sky:15,block:15},transformation:[0.7071f,-0.7071f,0.0000f,0.0000f,0.6124f,0.6124f,0.5000f,0.0000f,-0.3536f,-0.3536f,0.8660f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f],item:{id:"minecraft:cyan_stained_glass",count:1}}

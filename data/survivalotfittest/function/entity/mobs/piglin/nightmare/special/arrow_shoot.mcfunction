@@ -1,0 +1,1 @@
+tag @e[type=arrow,nbt={inGround:0b},sort=nearest,limit=1] add Choco.SotF.ExplosiveArrow

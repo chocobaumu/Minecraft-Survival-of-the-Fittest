@@ -1,0 +1,6 @@
+function survivalotfittest:summon/misc/elder_guardian/bubble
+function survivalotfittest:summon/misc/elder_guardian/bubble
+function survivalotfittest:summon/misc/elder_guardian/bubble
+function survivalotfittest:summon/misc/elder_guardian/bubble
+function survivalotfittest:summon/misc/elder_guardian/bubble
+function survivalotfittest:summon/misc/elder_guardian/bubble

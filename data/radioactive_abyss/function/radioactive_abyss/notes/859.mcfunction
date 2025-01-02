@@ -1,0 +1,1 @@
+scoreboard players set @s nbs_Radioactiv_t 859

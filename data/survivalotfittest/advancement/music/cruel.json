@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {
+          "to": "abn:abyssalocean"
+        }
+      }
+    },
+    "rewards": {
+      "function": "survivalotfittest:music/cruel_providence"
+    }
+  }

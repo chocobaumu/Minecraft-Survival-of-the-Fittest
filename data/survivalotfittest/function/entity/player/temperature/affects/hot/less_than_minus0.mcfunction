@@ -1,0 +1,2 @@
+scoreboard players add @s Choco.SotF.Thirst.Timer 2
+execute if score @s Choco.SotF.Temperature.Tick.0 matches 20 run summon area_effect_cloud ~ ~ ~ {Duration:6,Age:4,potion_contents:{custom_effects:[{id:"minecraft:nausea",amplifier:0,duration:95,show_particles:0b,show_icon:0b}]}}

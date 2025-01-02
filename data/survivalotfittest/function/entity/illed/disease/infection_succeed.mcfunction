@@ -1,0 +1,1 @@
+execute as @e[tag=Choco.SotF.Mobs,tag=!Choco.SotF.NoInfection,distance=..4] run function survivalotfittest:entity/illed/disease/infect

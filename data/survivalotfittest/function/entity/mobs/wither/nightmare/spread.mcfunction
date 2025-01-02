@@ -1,0 +1,6 @@
+execute if score @s Choco.SotF.tick.4 matches 75 if score @s Choco.SotF.Health matches 151.. at @s run function survivalotfittest:entity/mobs/wither/nightmare/spreads_skull_phase1
+execute if score @s Choco.SotF.tick.4 matches 80 if score @s Choco.SotF.Health matches 151.. at @s run function survivalotfittest:entity/mobs/wither/nightmare/spreads_skull_phase1
+execute if score @s Choco.SotF.tick.4 matches 90 if score @s Choco.SotF.Health matches 151.. at @s run function survivalotfittest:entity/mobs/wither/nightmare/spreads_skull_phase1
+execute if score @s Choco.SotF.tick.4 matches 75 if score @s Choco.SotF.Health matches ..150 at @s run function survivalotfittest:entity/mobs/wither/nightmare/spreads_skull_phase2
+execute if score @s Choco.SotF.tick.4 matches 80 if score @s Choco.SotF.Health matches ..150 at @s run function survivalotfittest:entity/mobs/wither/nightmare/spreads_skull_phase2
+execute if score @s Choco.SotF.tick.4 matches 90 if score @s Choco.SotF.Health matches ..150 at @s run function survivalotfittest:entity/mobs/wither/nightmare/spreads_skull_phase2

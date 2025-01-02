@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "building",
+    "pattern": [
+      "OCO",
+      "OHO",
+      "OCO"
+    ],
+    "key": {
+      "C": "minecraft:chiseled_deepslate",
+      "H": "minecraft:obsidian",
+      "O": "minecraft:netherite_ingot"
+    },
+    "result": {
+      "id": "minecraft:reinforced_deepslate",
+      "count": 2
+    }
+  }
+  

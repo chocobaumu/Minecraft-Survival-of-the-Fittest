@@ -1,0 +1,101 @@
+{
+    "carvers": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ],
+    "downfall": 0.5,
+    "effects": {
+      "fog_color": 6162,
+      "mood_sound": {
+        "block_search_extent": 8,
+        "offset": 2,
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000
+      },
+      "music": [],
+      "music_volume": 1,
+      "sky_color": 550,
+      "water_color": 2303,
+      "water_fog_color": 1376511
+    },
+    "features": [
+      [],
+      [
+        "minecraft:lake_lava_underground",
+        "minecraft:lake_lava_surface"
+      ],
+      [
+        "minecraft:amethyst_geode"
+      ],
+      [
+        "minecraft:monster_room",
+        "minecraft:monster_room_deep"
+      ],
+      [],
+      [],
+      [
+        "minecraft:ore_granite_upper",
+        "minecraft:ore_granite_lower",
+        "ras:more_granite",
+        "ras:smooth_basalt",
+        "minecraft:ore_tuff",
+        "ras:ore/coal",
+        "ras:ore/copper",
+        "ras:ore/diamond",
+        "ras:ore/emerald",
+        "ras:ore/gold",
+        "ras:ore/iron",
+        "ras:ore/lapis",
+        "ras:ore/redstone",
+        "minecraft:underwater_magma"
+      ],
+      [
+        "ras:more_more_granite"
+      ],
+      [
+        "minecraft:spring_water",
+        "minecraft:spring_lava"
+      ],
+      [],
+      []
+    ],
+    "has_precipitation": true,
+    "spawn_costs": {},
+    "spawners": {
+      "ambient": [],
+      "axolotls": [],
+      "creature": [],
+      "misc": [],
+      "monster": [
+        {
+          "type": "minecraft:bogged",
+          "weight": 100,
+          "minCount": 4,
+          "maxCount": 6
+        },
+        {
+          "type": "minecraft:slime",
+          "weight": 75,
+          "minCount": 2,
+          "maxCount": 4
+        },
+        {
+          "type": "minecraft:creeper",
+          "weight": 75,
+          "minCount": 2,
+          "maxCount": 4
+        },
+        {
+          "type": "minecraft:wither_skeleton",
+          "weight": 100,
+          "minCount": 4,
+          "maxCount": 6
+        }
+      ],
+      "underground_water_creature": [],
+      "water_creature": [],
+      "water_ambient": []
+    },
+    "temperature": 0.5
+  }

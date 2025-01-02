@@ -1,0 +1,1 @@
+scoreboard players set @s Choco.SotF.ArtifactOfDestroyer.CT 300

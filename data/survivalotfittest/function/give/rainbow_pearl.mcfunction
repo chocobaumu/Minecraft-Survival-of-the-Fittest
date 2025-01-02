@@ -1,0 +1,1 @@
+give @p enchanted_book[max_stack_size=64,item_name='"虹色の真珠"',rarity="uncommon",custom_data={SotF:RainbowPearl},enchantment_glint_override=false,item_model="survivalotfittest:rainbow_pearl"] 1

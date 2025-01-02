@@ -1,0 +1,8 @@
+{
+    "message_id": "coldness",
+    "exhaustion": 0.1,
+    "scaling": "never",
+    "effects": "freezing",
+    "death_message_type": "default"
+  }
+  

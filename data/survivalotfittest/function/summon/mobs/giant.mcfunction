@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {Health:50f,IsBaby:0b,CanBreakDoors:0b,Tags:["Choco.SotF.Custom","Choco.SotF.Giant"],CustomName:'"ジャイアント"',attributes:[{id:"minecraft:generic.attack_damage",base:20},{id:"minecraft:generic.max_health",base:50},{id:"minecraft:generic.movement_speed",base:0.3},{id:"minecraft:generic.scale",base:6}]}

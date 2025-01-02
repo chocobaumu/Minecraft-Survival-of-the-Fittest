@@ -1,0 +1,43 @@
+{
+    "pools": [
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:command_block",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{SotF:Dropped_JellyfishGel}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:command_block",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{SotF:Dropped_JellyfishGel}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,1 @@
+execute at @s rotated as @s run rotate @s ~ ~-1

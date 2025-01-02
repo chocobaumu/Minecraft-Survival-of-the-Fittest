@@ -1,0 +1,68 @@
+{
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/mobs/guardian",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/mobs/tank_guardian",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/mobs/focus_guardian",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/mobs/stealth_guardian",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/mobs/charge_guardian",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/mobs/tidal_guardian",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/mobs/annoy_guardian",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      }
+    ],
+    "fallback": "abn:eternal_seafloor_stronghold/mobs/guardian"
+  }

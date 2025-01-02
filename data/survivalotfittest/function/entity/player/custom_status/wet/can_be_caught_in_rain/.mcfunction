@@ -1,0 +1,2 @@
+execute if predicate survivalotfittest:if_rainy positioned over motion_blocking_no_leaves run function survivalotfittest:entity/player/custom_status/wet/can_be_caught_in_rain/rainy
+execute if predicate survivalotfittest:if_thundering positioned over motion_blocking_no_leaves run function survivalotfittest:entity/player/custom_status/wet/can_be_caught_in_rain/thundering

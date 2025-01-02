@@ -1,0 +1,19 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 10387313,
+    "separation": 2,
+    "spacing": 5,
+    "spread_type": "triangular"
+  },
+  "structures": [
+    {
+      "structure": "abn:seafloor_fossil",
+      "weight": 1
+    },
+    {
+      "structure": "abn:mini_seafloor_fossil",
+      "weight": 5
+    }
+  ]
+}

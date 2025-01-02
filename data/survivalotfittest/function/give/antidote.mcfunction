@@ -1,0 +1,1 @@
+give @p warped_fungus_on_a_stick[item_name='"解毒薬"',item_model="survivalotfittest:antidote",custom_data={SotF:Antidote}] 1

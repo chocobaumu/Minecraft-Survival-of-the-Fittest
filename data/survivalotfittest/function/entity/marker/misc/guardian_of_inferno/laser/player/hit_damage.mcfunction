@@ -1,0 +1,3 @@
+$execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=0] unless entity @s[type=ender_dragon,tag=!Choco.SotF.Custom] unless entity @s[type=slime,tag=Choco.SotF.Seaserpent] run damage @s 1 survivalotfittest:projectile by @e[nbt={UUID:$(temp)},limit=1]
+$execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=0] if entity @s[type=ender_dragon,tag=!Choco.SotF.Custom] run damage @s 0.2 survivalotfittest:projectile by @e[nbt={UUID:$(temp)},limit=1]
+$execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=0] if entity @s[type=slime,tag=Seaserpent] run damage @s 0.1 survivalotfittest:projectile by @e[nbt={UUID:$(temp)},limit=1]

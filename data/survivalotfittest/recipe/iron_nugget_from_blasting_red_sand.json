@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "ingredient": "minecraft:red_sand",
+  "result": {
+    "id": "minecraft:iron_nugget"
+  },
+  "experience": 0.2,
+  "cookingtime": 20
+}

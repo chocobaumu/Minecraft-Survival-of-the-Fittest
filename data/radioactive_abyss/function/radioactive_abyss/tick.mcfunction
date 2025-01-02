@@ -1,0 +1,2 @@
+execute as @a[tag=nbs_Radioactiv] run scoreboard players operation @s nbs_Radioactiv += speed nbs_Radioactiv
+execute as @a[tag=nbs_Radioactiv] at @s run function radioactive_abyss:radioactive_abyss/tree/0_2047

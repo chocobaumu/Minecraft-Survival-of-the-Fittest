@@ -1,0 +1,15 @@
+{
+    "placement": {
+      "type": "minecraft:random_spread",
+      "separation": 3,
+      "spread_type": "triangular",
+      "salt": 1792781,
+      "spacing": 10
+    },
+    "structures": [
+      {
+        "structure": "ras:giant_crystal/hot",
+        "weight": 1
+      }
+    ]
+  }

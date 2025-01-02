@@ -1,0 +1,9 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:arrow",
+      "nbt": "{item:{id:\"minecraft:arrow\",count:1,components:{\"minecraft:custom_data\":{SotF:BombArrow}}}}"
+    }
+  }
+  

@@ -1,0 +1,1 @@
+$summon marker ~ ~ ~ {Tags:["Choco.SotF.LavaBall","Choco.SotF.Owning.$(Owner)"]}

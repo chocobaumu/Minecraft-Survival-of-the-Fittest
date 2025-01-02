@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:melon_slice"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "survivalotfittest:melon_juice"
+      ]
+    }
+  }
+  

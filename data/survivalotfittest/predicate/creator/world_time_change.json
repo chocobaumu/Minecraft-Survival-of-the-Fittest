@@ -1,0 +1,9 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:potion",
+      "nbt": "{Item:{id:\"minecraft:lingering_potion\",count:1,components:{\"minecraft:potion_contents\":{custom_color:11272143}}}}"
+    }
+  }
+  

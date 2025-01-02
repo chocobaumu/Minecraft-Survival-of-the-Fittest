@@ -1,0 +1,143 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 20,
+                  "min": 1
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:polished_deepslate",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 20,
+                  "min": 1
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:deepslate_bricks",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 10,
+                  "min": 1
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:chiseled_deepslate",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 10,
+                  "min": 1
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:polished_deepslate_stairs",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 10,
+                  "min": 1
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:deepslate_brick_stairs",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 10,
+                  "min": 1
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:polished_deepslate_slab",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 10,
+                  "min": 1
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:deepslate_brick_slab",
+            "weight": 10
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 2,
+                  "min": 0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:reinforced_deepslate",
+            "weight": 1
+          }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 8,
+          "min": 2
+        }
+      }
+    ]
+  }

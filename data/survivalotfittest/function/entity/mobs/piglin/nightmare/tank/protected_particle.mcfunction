@@ -1,0 +1,2 @@
+$execute rotated $(roll) 90 positioned ^ ^-0.75 ^-1 run function survivalotfittest:particle/piglin_tank_shield
+$execute rotated $(roll) 90 positioned ^ ^0.75 ^-1 run function survivalotfittest:particle/piglin_tank_shield

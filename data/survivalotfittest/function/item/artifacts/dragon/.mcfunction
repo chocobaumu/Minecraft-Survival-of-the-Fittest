@@ -1,0 +1,2 @@
+execute store result score #ArtifactOfDragon Choco.SotF.ScoreStorage.0 run data get entity @s FallFlying
+execute if score @s Choco.SotF.Player.PressJumpTick matches 1 if score #ArtifactOfDragon Choco.SotF.ScoreStorage.0 matches 1.. at @s run function survivalotfittest:item/artifacts/dragon/boost

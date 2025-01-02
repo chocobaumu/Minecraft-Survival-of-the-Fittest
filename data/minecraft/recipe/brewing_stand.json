@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CBC",
+    "HBH",
+    "###"
+  ],
+  "key": {
+    "#": "#minecraft:stone_crafting_materials",
+    "B": "minecraft:blaze_rod",
+    "C": "minecraft:iron_ingot",
+    "H": "minecraft:pointed_dripstone"
+  },
+  "result": {
+    "id": "minecraft:brewing_stand",
+    "count": 1
+  }
+}

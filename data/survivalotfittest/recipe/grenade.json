@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+	"pattern": [
+		" CO",
+        "CHC",
+        " C "
+	],
+	"key": {
+		"C": "minecraft:iron_nugget",
+        "H": "minecraft:gunpowder",
+        "O": "minecraft:tripwire_hook"
+		},
+	"result": {
+		"id": "minecraft:snowball",
+		"count": 1,
+		"components": {
+			"item_name": "グレネード",
+            "max_stack_size": 16,
+            "rarity": "common",
+            "custom_data": {"SotF":"Grenade"},
+            "custom_model_data": 3832001
+		}
+	}
+}

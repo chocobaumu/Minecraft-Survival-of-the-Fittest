@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:heart_of_the_sea"
+      },
+      "title": ".w.",
+      "description": "水聖十字を作る\n説明を読んだ上なら正気とは思えないね",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "abn:going_even_deeper",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "components": {
+                "minecraft:custom_data": {"SotF":"AquaCrux"}
+              }
+            }
+          ]
+        }
+      }
+    }
+  }

@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:player",
+      "slots": {
+        "armor.legs": {
+          "items": "minecraft:leather_leggings",
+          "predicates": {
+            "minecraft:custom_data": {"SotF":"ObsidianLeggings"}
+          }
+        }
+      }
+    }
+  }
+  

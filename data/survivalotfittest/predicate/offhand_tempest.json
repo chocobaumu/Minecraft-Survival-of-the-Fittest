@@ -1,0 +1,9 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:player",
+      "nbt": "{Inventory:[{id:\"minecraft:warped_fungus_on_a_stick\",count:1,Slot:-106b,components:{\"minecraft:custom_data\":{SotF:Tempest}}}]}"
+    }
+  }
+  

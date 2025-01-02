@@ -1,0 +1,13 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {
+          "to": "ras:radioactiveabyss"
+        }
+      }
+    },
+    "rewards": {
+      "function": "survivalotfittest:music/radioactive_abyss"
+    }
+  }

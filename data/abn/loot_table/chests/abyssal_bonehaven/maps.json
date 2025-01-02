@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:map",
+            "weight": 4
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:book",
+            "weight": 10
+          }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 10,
+          "min": 1
+        }
+      }
+    ]
+  }

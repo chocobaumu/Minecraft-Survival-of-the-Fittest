@@ -1,0 +1,8 @@
+{
+    "message_id": "laceration",
+    "exhaustion": 1,
+    "scaling": "always",
+    "effects": "hurt",
+    "death_message_type": "default"
+  }
+  

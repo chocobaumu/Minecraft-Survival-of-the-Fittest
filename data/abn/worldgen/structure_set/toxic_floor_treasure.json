@@ -1,0 +1,15 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "separation": 2,
+    "salt": 47918313,
+    "spacing": 10,
+    "spread_type": "triangular"
+  },
+  "structures": [
+    {
+      "structure": "abn:toxic_floor_treasure",
+      "weight": 1
+    }
+  ]
+}

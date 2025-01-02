@@ -1,0 +1,1 @@
+$summon marker ~ ~ ~ {Tags:["Choco.SotF.GuardianOfInferno.Laser.Player","Choco.SotF.Projectile"],data:{Owner:$(temp)}}

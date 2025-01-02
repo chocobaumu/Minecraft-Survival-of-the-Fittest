@@ -1,0 +1,15 @@
+{
+    "placement": {
+      "type": "minecraft:random_spread",
+      "separation": 2,
+      "spread_type": "triangular",
+      "salt": 1792781,
+      "spacing": 5
+    },
+    "structures": [
+      {
+        "structure": "ras:giant_crystal/crystalized_cave",
+        "weight": 1
+      }
+    ]
+  }

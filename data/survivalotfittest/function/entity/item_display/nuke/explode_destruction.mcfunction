@@ -1,0 +1,7 @@
+summon creeper ~ ~ ~ {Tags:["Choco.SotF.NotDisplayDamages","Choco.SotF.Custom"],Invulnerable:1b,NoAI:1b,powered:1b,ExplosionRadius:7b,Fuse:0,ignited:1b,CustomName:'{"text":"核爆発","color":"white","italic":false}'}
+summon creeper ~5 ~ ~ {Tags:["Choco.SotF.NotDisplayDamages","Choco.SotF.Custom"],Invulnerable:1b,NoAI:1b,powered:1b,ExplosionRadius:7b,Fuse:0,ignited:1b,CustomName:'{"text":"核爆発","color":"white","italic":false}'}
+summon creeper ~-5 ~ ~ {Tags:["Choco.SotF.NotDisplayDamages","Choco.SotF.Custom"],Invulnerable:1b,NoAI:1b,powered:1b,ExplosionRadius:7b,Fuse:0,ignited:1b,CustomName:'{"text":"核爆発","color":"white","italic":false}'}
+summon creeper ~ ~5 ~ {Tags:["Choco.SotF.NotDisplayDamages","Choco.SotF.Custom"],Invulnerable:1b,NoAI:1b,powered:1b,ExplosionRadius:7b,Fuse:0,ignited:1b,CustomName:'{"text":"核爆発","color":"white","italic":false}'}
+summon creeper ~ ~-5 ~ {Tags:["Choco.SotF.NotDisplayDamages","Choco.SotF.Custom"],Invulnerable:1b,NoAI:1b,powered:1b,ExplosionRadius:7b,Fuse:0,ignited:1b,CustomName:'{"text":"核爆発","color":"white","italic":false}'}
+summon creeper ~ ~ ~5 {Tags:["Choco.SotF.NotDisplayDamages","Choco.SotF.Custom"],Invulnerable:1b,NoAI:1b,powered:1b,ExplosionRadius:7b,Fuse:0,ignited:1b,CustomName:'{"text":"核爆発","color":"white","italic":false}'}
+summon creeper ~ ~ ~-5 {Tags:["Choco.SotF.NotDisplayDamages","Choco.SotF.Custom"],Invulnerable:1b,NoAI:1b,powered:1b,ExplosionRadius:7b,Fuse:0,ignited:1b,CustomName:'{"text":"核爆発","color":"white","italic":false}'}

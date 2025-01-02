@@ -1,0 +1,15 @@
+{
+    "placement": {
+      "type": "minecraft:random_spread",
+      "separation": 50,
+      "salt": 14357620,
+      "spacing": 100,
+      "spread_type": "triangular"
+    },
+    "structures": [
+      {
+        "structure": "abn:submerged_tower",
+        "weight": 1
+      }
+    ]
+  }

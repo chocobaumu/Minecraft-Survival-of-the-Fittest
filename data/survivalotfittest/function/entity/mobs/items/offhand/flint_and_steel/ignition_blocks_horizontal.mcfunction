@@ -1,0 +1,28 @@
+execute positioned ~-2 ~ ~-2 if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+execute positioned ~-1 ~ ~-2 if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+execute positioned ~ ~ ~-2 if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+execute positioned ~1 ~ ~-2 if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+execute positioned ~2 ~ ~-2 if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+
+execute positioned ~-2 ~ ~-1 if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+execute positioned ~-1 ~ ~-1 if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+execute positioned ~ ~ ~-1 if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+execute positioned ~1 ~ ~-1 if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+execute positioned ~2 ~ ~-1 if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+
+execute positioned ~-2 ~ ~ if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+execute positioned ~-1 ~ ~ if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+execute positioned ~1 ~ ~ if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+execute positioned ~2 ~ ~ if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+
+execute positioned ~-2 ~ ~1 if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+execute positioned ~-1 ~ ~1 if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+execute positioned ~ ~ ~1 if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+execute positioned ~1 ~ ~1 if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+execute positioned ~2 ~ ~1 if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+
+execute positioned ~-2 ~ ~2 if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+execute positioned ~-1 ~ ~2 if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+execute positioned ~ ~ ~2 if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+execute positioned ~1 ~ ~2 if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks
+execute positioned ~2 ~ ~2 if block ~ ~ ~ #survivalotfittest:can_through if score @s Choco.SotF.Items.Tick matches 0 unless block ~ ~ ~ fire run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks

@@ -1,0 +1,1 @@
+give @p enchanted_book[max_stack_size=1,item_name='"風切りのアーティファクト"',lore=['{"color":"gray","italic":false,"text":"ウォールジャンプ時、2秒間低速落下の効果を得ます。"}'],rarity="uncommon",item_model="survivalotfittest:artifact_of_wind",custom_data={SotF.Category:Artifact,SotF:Artifact_of_Wind}] 1

@@ -1,0 +1,20 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:mossy_cobblestone"
+      },
+      "title": "イベント",
+      "description": "大抵はロクなことになりません...",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:survivalotfittest/survival_of_the_fittest",
+    "criteria": {
+      "": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "sends_telemetry_event": false
+  }
+  

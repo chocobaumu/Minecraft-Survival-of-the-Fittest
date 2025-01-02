@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ICI",
+    "IXI",
+    "#H#"
+  ],
+  "key": {
+    "#": "minecraft:smooth_stone",
+    "I": "minecraft:iron_ingot",
+    "X": "minecraft:furnace",
+    "C": "minecraft:iron_block",
+    "H": [
+      "minecraft:oxidized_copper",
+      "minecraft:weathered_copper",
+      "minecraft:exposed_copper",
+      "minecraft:copper_block"
+    ]
+  },
+  "result": {
+    "id": "minecraft:blast_furnace",
+    "count": 1
+  }
+}

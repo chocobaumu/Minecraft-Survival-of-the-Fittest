@@ -1,0 +1,1 @@
+give @p recovery_compass[item_model="survivalotfittest:aquacrux",item_name='"水聖十字"',rarity="epic",custom_data={"SotF":"AquaCrux"},lore=['{"color":"dark_gray","italic":true,"text":"私（.w.）のお守り。"}'],!max_stack_size] 1

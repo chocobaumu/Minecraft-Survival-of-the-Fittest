@@ -1,0 +1,1 @@
+execute at @s if block ~ ~ ~ #survivalotfittest:water_and_else run function survivalotfittest:entity/mobs/swimming/in_water

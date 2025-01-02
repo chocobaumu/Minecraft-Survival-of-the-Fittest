@@ -1,0 +1,2 @@
+execute positioned ^ ^ ^1 unless block ~ ~ ~ #survivalotfittest:cannot_destroy run function survivalotfittest:summon/misc/destroy_block_marker
+execute positioned ^ ^1 ^1 unless block ~ ~ ~ #survivalotfittest:cannot_destroy run function survivalotfittest:summon/misc/destroy_block_marker

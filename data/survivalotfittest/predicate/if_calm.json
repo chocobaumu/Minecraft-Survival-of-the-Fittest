@@ -1,0 +1,10 @@
+{
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "Choco.SotF.MedicineEffect.Calm": {
+        "min": 1
+      }
+    }
+  }
+  

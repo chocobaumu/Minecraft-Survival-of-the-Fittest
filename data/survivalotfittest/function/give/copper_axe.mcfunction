@@ -1,0 +1,1 @@
+give @p iron_axe[item_name='"銅の斧"',item_model="survivalotfittest:copper_axe",max_damage=32] 1

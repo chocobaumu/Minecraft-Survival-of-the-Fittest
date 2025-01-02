@@ -1,0 +1,16 @@
+scoreboard players add @s Choco.SotF.Tick.0 1
+
+execute if score @s Choco.SotF.Tick.0 matches 1 run spreadplayers ~ ~ 1 64 false @s
+execute at @s if score @s Choco.SotF.Tick.0 matches 1..3 positioned ~ ~ ~ if block ~ ~ ~ #survivalotfittest:can_through unless biome ~ ~ ~ #minecraft:is_badlands unless biome ~ ~ ~ desert unless biome ~ ~ ~ #is_savanna unless biome ~ ~ ~ frozen_peaks unless biome ~ ~ ~ ice_spikes unless biome ~ ~ ~ snowy_beach unless biome ~ ~ ~ snowy_plains unless biome ~ ~ ~ snowy_slopes unless biome ~ ~ ~ snowy_taiga run setblock ~ ~ ~ water[level=9]
+execute at @s if score @s Choco.SotF.Tick.0 matches 1..3 positioned ~1 ~ ~ if block ~ ~ ~ #survivalotfittest:can_through unless biome ~ ~ ~ #minecraft:is_badlands unless biome ~ ~ ~ desert unless biome ~ ~ ~ #is_savanna unless biome ~ ~ ~ frozen_peaks unless biome ~ ~ ~ ice_spikes unless biome ~ ~ ~ snowy_beach unless biome ~ ~ ~ snowy_plains unless biome ~ ~ ~ snowy_slopes unless biome ~ ~ ~ snowy_taiga run setblock ~ ~ ~ water[level=9]
+execute at @s if score @s Choco.SotF.Tick.0 matches 1..3 positioned ~-1 ~ ~ if block ~ ~ ~ #survivalotfittest:can_through unless biome ~ ~ ~ #minecraft:is_badlands unless biome ~ ~ ~ desert unless biome ~ ~ ~ #is_savanna unless biome ~ ~ ~ frozen_peaks unless biome ~ ~ ~ ice_spikes unless biome ~ ~ ~ snowy_beach unless biome ~ ~ ~ snowy_plains unless biome ~ ~ ~ snowy_slopes unless biome ~ ~ ~ snowy_taiga run setblock ~ ~ ~ water[level=9]
+execute at @s if score @s Choco.SotF.Tick.0 matches 1..3 positioned ~ ~ ~1 if block ~ ~ ~ #survivalotfittest:can_through unless biome ~ ~ ~ #minecraft:is_badlands unless biome ~ ~ ~ desert unless biome ~ ~ ~ #is_savanna unless biome ~ ~ ~ frozen_peaks unless biome ~ ~ ~ ice_spikes unless biome ~ ~ ~ snowy_beach unless biome ~ ~ ~ snowy_plains unless biome ~ ~ ~ snowy_slopes unless biome ~ ~ ~ snowy_taiga run setblock ~ ~ ~ water[level=9]
+execute at @s if score @s Choco.SotF.Tick.0 matches 1..3 positioned ~ ~ ~-1 if block ~ ~ ~ #survivalotfittest:can_through unless biome ~ ~ ~ #minecraft:is_badlands unless biome ~ ~ ~ desert unless biome ~ ~ ~ #is_savanna unless biome ~ ~ ~ frozen_peaks unless biome ~ ~ ~ ice_spikes unless biome ~ ~ ~ snowy_beach unless biome ~ ~ ~ snowy_plains unless biome ~ ~ ~ snowy_slopes unless biome ~ ~ ~ snowy_taiga run setblock ~ ~ ~ water[level=9]
+
+execute at @s if score @s Choco.SotF.Tick.0 matches 1 positioned ~ ~ ~ if biome ~ ~ ~ #survivalotfittest:is_snowy run function survivalotfittest:entity/marker/desaster/heavyrain/snowy
+execute at @s if score @s Choco.SotF.Tick.0 matches 1 positioned ~1 ~ ~ if biome ~ ~ ~ #survivalotfittest:is_snowy run function survivalotfittest:entity/marker/desaster/heavyrain/snowy
+execute at @s if score @s Choco.SotF.Tick.0 matches 1 positioned ~-1 ~ ~ if biome ~ ~ ~ #survivalotfittest:is_snowy run function survivalotfittest:entity/marker/desaster/heavyrain/snowy
+execute at @s if score @s Choco.SotF.Tick.0 matches 1 positioned ~ ~ ~1 if biome ~ ~ ~ #survivalotfittest:is_snowy run function survivalotfittest:entity/marker/desaster/heavyrain/snowy
+execute at @s if score @s Choco.SotF.Tick.0 matches 1 positioned ~ ~ ~-1 if biome ~ ~ ~ #survivalotfittest:is_snowy run function survivalotfittest:entity/marker/desaster/heavyrain/snowy
+
+execute if score @s Choco.SotF.Tick.0 matches 1.. run function survivalotfittest:internal/kill

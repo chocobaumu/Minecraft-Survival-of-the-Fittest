@@ -1,0 +1,9 @@
+{
+  "values": [
+    "survivalotfittest:tick",
+    "time_for_prove:time_for_prove/tick",
+    "undead_calamity:undead_calamity/tick",
+    "cruel_providence:cruel_providence/tick",
+    "radioactive_abyss:radioactive_abyss/tick"
+ ]
+}

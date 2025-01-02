@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:netherite_sword"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "survivalotfittest:item/using_netherite_sword"
+    }
+  }
+  

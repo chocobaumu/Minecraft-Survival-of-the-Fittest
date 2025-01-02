@@ -1,0 +1,2 @@
+execute store result score @s Choco.SotF.Health run data get entity @s Health
+execute if score @s Choco.SotF.Health matches ..19 run function survivalotfittest:entity/player/creator_mode/settings/emergency_creative/change

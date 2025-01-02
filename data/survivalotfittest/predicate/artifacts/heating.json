@@ -1,0 +1,11 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type_specific": {
+        "type": "minecraft:player"
+      },
+      "nbt": "{Inventory:[{Slot:9b,components:{\"minecraft:custom_data\":{SotF:Artifact_of_Heating}}}]}"
+    }
+  }
+  

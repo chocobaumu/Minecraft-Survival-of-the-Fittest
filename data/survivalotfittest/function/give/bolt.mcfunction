@@ -1,0 +1,1 @@
+give @p arrow[item_name='{"italic":false,"text":"ボルト"}',lore=['{"color":"gray","italic":false,"text":"コンパウンドボウで使用したとき、威力が1.5倍になります。"}'],item_model="survivalotfittest:bolt",custom_data={SotF:Bolt}] 1

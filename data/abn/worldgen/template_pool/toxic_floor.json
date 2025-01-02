@@ -1,0 +1,68 @@
+{
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_floor/1",
+          "processors": {
+            "processors": [
+              {
+                "processor_type": "minecraft:block_rot",
+                "integrity": 0.9
+              },
+              {
+                "processor_type": "minecraft:gravity",
+                "heightmap": "OCEAN_FLOOR_WG",
+                "offset": -10
+              }
+            ]
+          },
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_floor/2",
+          "processors": {
+            "processors": [
+              {
+                "processor_type": "minecraft:block_rot",
+                "integrity": 0.9
+              },
+              {
+                "processor_type": "minecraft:gravity",
+                "heightmap": "OCEAN_FLOOR_WG",
+                "offset": -10
+              }
+            ]
+          },
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_floor/3",
+          "processors": {
+            "processors": [
+              {
+                "processor_type": "minecraft:block_rot",
+                "integrity": 0.9
+              },
+              {
+                "processor_type": "minecraft:gravity",
+                "heightmap": "OCEAN_FLOOR_WG",
+                "offset": -10
+              }
+            ]
+          },
+          "projection": "rigid"
+        },
+        "weight": 50
+      }
+    ],
+    "fallback": "abn:toxic_pillar/top/5"
+  }

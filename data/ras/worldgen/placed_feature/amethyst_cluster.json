@@ -1,0 +1,31 @@
+{
+    "feature": "ras:amethyst_cluster",
+    "placement": [
+      {
+        "type": "minecraft:count",
+        "count": {
+          "type": "minecraft:uniform",
+          "max_inclusive": 7,
+          "min_inclusive": 3
+        }
+      },
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:height_range",
+        "height": {
+          "type": "minecraft:uniform",
+          "max_inclusive": {
+            "below_top": 6
+          },
+          "min_inclusive": {
+            "above_bottom": 6
+          }
+        }
+      },
+      {
+        "type": "minecraft:biome"
+      }
+    ]
+  }

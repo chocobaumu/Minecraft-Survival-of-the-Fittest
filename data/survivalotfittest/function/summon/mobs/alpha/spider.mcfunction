@@ -1,0 +1,1 @@
+summon spider ~ ~ ~ {DeathLootTable:"survivalotfittest:entities/alpha/grade_1",Health:80f,Tags:["Choco.SotF.Alpha"],attributes:[{id:"minecraft:fall_damage_multiplier",base:0},{id:"minecraft:knockback_resistance",base:1},{id:"minecraft:max_health",base:80},{id:"minecraft:movement_speed",base:0.41},{id:"minecraft:scale",base:1.1},{id:"minecraft:step_height",base:1}]}

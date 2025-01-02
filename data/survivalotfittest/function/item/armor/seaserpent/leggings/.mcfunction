@@ -1,0 +1,1 @@
+execute if block ~ ~ ~ #survivalotfittest:water_and_else run function survivalotfittest:item/armor/seaserpent/leggings/in_water

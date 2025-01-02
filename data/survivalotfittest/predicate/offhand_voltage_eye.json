@@ -1,0 +1,9 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:player",
+      "nbt": "{Inventory:[{Slot:-106b,components:{\"minecraft:custom_data\":{SotF.EyeType:Voltage}}}]}"
+    }
+  }
+  

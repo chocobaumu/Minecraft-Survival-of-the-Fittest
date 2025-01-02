@@ -1,0 +1,1 @@
+give @p iron_sword[item_name='"銅の剣"',item_model="survivalotfittest:copper_sword",max_damage=32] 1

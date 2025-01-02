@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "#survivalotfittest:inedible"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "survivalotfittest:item/food/inedible"
+    }
+  }
+  

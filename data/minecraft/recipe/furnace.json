@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": "#minecraft:stone_crafting_materials",
+    "C": [
+      "minecraft:campfire",
+      "minecraft:soul_campfire"
+    ]
+  },
+  "result": {
+    "id": "minecraft:furnace",
+    "count": 1
+  }
+}

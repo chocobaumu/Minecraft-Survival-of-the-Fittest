@@ -1,0 +1,1 @@
+give @p enchanted_book[item_name='"虚無のアーティファクト"',lore=['{"color":"gray","italic":false,"text":"回避がテレポートに変化し、ブロックを貫通できるようになります。"}','{"color":"gray","italic":false,"text":"また、空中で回避できるようになります。"}'],rarity="uncommon",item_model="survivalotfittest:artifact_of_voidness",custom_data={SotF.Category:Artifact,SotF:Artifact_of_Voidness}] 1

@@ -1,0 +1,1 @@
+summon tnt ~ ~ ~ {fuse:51,Motion:[0.0,0.2,0.0],Tags:["Choco.SotF.FakeTNT","Choco.SotF.Custom"]}

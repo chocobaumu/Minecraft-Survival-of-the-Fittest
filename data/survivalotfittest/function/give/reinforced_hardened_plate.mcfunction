@@ -1,0 +1,1 @@
+give @p recovery_compass[item_name='"超硬質プレート"',item_model="survivalotfittest:reinforced_hardened_plate",custom_data={SotF:ReinforcedHardenedPlate},rarity="uncommon"] 1

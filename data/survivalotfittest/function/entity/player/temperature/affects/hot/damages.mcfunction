@@ -1,0 +1,2 @@
+execute if score @s Choco.SotF.Temperature.HotDamageTick matches 0 run function survivalotfittest:entity/player/temperature/hot_damage_tick_math
+execute if score @s Choco.SotF.Temperature.HotDamageTick matches 1 run damage @s 1 survivalotfittest:heat

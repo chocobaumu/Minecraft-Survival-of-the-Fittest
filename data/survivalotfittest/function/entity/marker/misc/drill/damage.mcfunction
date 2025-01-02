@@ -1,0 +1,1 @@
+$execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=0] run damage @s 1 player_attack by @e[nbt={UUID:$(temp)},limit=1]

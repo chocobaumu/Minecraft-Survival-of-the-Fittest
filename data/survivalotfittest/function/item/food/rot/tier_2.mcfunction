@@ -1,0 +1,15 @@
+function survivalotfittest:item/food/rot/apple
+function survivalotfittest:item/food/rot/melon
+function survivalotfittest:item/food/rot/sweet_berry
+function survivalotfittest:item/food/rot/glow_berry
+function survivalotfittest:item/food/rot/carrot
+function survivalotfittest:item/food/rot/potato
+function survivalotfittest:item/food/rot/baked_potato
+function survivalotfittest:item/food/rot/beetroot
+function survivalotfittest:item/food/rot/bread
+function survivalotfittest:item/food/rot/cookie
+function survivalotfittest:item/food/rot/pumpkin_pie
+function survivalotfittest:item/food/rot/mushroom_stew
+function survivalotfittest:item/food/rot/beetroot_soup
+function survivalotfittest:item/food/rot/rabbit_stew
+function survivalotfittest:item/food/rot/suspicious_stew

@@ -1,0 +1,9 @@
+{
+  "values": [
+    "survivalotfittest:load",
+    "time_for_prove:time_for_prove/load",
+    "undead_calamity:undead_calamity/load",
+    "cruel_providence:cruel_providence/load",
+    "radioactive_abyss:radioactive_abyss/load"
+ ]
+}

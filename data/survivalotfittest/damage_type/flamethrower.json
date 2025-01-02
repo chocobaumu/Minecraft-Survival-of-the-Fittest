@@ -1,0 +1,8 @@
+{
+    "message_id": "flamethrower",
+    "exhaustion": 0.3,
+    "scaling": "never",
+    "effects": "burning",
+    "death_message_type": "default"
+  }
+  

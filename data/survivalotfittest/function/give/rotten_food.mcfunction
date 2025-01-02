@@ -1,0 +1,1 @@
+give @p rotten_flesh[item_name='"腐った食べ物"',item_model="survivalotfittest:rotten_food",food={nutrition:1,saturation:1}] 1

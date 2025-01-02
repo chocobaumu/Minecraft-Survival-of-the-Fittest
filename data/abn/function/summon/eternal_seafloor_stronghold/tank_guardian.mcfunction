@@ -1,0 +1,1 @@
+summon guardian ~ ~ ~ {PersistenceRequired:1b,Health:80f,Tags:["Choco.SotF.TankGuardian"],CustomName:'"タンクガーディアン"',attributes:[{id:"minecraft:armor",base:10},{id:"minecraft:max_health",base:80}]}

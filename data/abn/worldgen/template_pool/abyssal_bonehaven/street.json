@@ -1,0 +1,81 @@
+{
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:abyssal_bonehaven/street_1",
+          "processors": {
+            "processors": [
+              {
+                "processor_type": "minecraft:block_rot",
+                "integrity": 0.9,
+                "rottable_blocks": [
+                  "minecraft:bone_block"
+                ]
+              }
+            ]
+          },
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:abyssal_bonehaven/street_1_2",
+          "processors": {
+            "processors": [
+              {
+                "processor_type": "minecraft:block_rot",
+                "integrity": 0.9,
+                "rottable_blocks": [
+                  "minecraft:bone_block"
+                ]
+              }
+            ]
+          },
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:abyssal_bonehaven/street_2",
+          "processors": {
+            "processors": [
+              {
+                "processor_type": "minecraft:block_rot",
+                "integrity": 0.9,
+                "rottable_blocks": [
+                  "minecraft:bone_block"
+                ]
+              }
+            ]
+          },
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:abyssal_bonehaven/street_2_2",
+          "processors": {
+            "processors": [
+              {
+                "processor_type": "minecraft:block_rot",
+                "integrity": 0.9,
+                "rottable_blocks": [
+                  "minecraft:bone_block"
+                ]
+              }
+            ]
+          },
+          "projection": "rigid"
+        },
+        "weight": 50
+      }
+    ],
+    "fallback": "minecraft:empty"
+  }

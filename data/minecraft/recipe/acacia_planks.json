@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    "#minecraft:acacia_logs"
+  ],
+  "result": {
+    "id": "minecraft:acacia_planks",
+    "count": 1
+  }
+}

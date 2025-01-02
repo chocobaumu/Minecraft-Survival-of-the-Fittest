@@ -1,0 +1,9 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:player",
+      "nbt": "{Inventory:[{id:\"minecraft:ghast_spawn_egg\",components:{\"minecraft:custom_data\":{SotF:Advanced_Crafting_Table}}}]}"
+    }
+  }
+  

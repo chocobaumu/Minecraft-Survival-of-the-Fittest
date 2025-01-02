@@ -1,0 +1,2 @@
+execute if entity @e[tag=Choco.SotF.Target,distance=..5] run scoreboard players set @s Choco.SotF.Items.Tick 1
+execute if entity @e[type=item,tag=!Choco.SotF.Custom,distance=..5,scores={Choco.SotF.Data.OnGround=1}] run scoreboard players set @s Choco.SotF.Items.Tick 90

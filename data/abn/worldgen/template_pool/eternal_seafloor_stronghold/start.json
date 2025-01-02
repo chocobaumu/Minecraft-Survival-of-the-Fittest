@@ -1,0 +1,14 @@
+{
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/start",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      }
+    ],
+    "fallback": "minecraft:empty"
+  }

@@ -1,0 +1,1 @@
+scoreboard players remove @s Choco.SotF.Cold_Resistance 1

@@ -1,0 +1,1 @@
+$execute positioned ~ ~0.9 ~ rotated $(sweeprotx) $(sweeproty) run function survivalotfittest:particle/necromancer/undead_slash_after

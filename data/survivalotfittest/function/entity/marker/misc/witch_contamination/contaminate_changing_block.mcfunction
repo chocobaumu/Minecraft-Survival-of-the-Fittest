@@ -1,0 +1,14 @@
+execute if block ~ ~ ~ dead_bush run setblock ~ ~ ~ small_amethyst_bud
+execute if block ~ ~ ~ coarse_dirt run setblock ~ ~ ~ sand
+execute if block ~ ~ ~ #minecraft:crops run setblock ~ ~ ~ small_amethyst_bud
+execute if block ~ ~ ~ #survivalotfittest:water_and_else run setblock ~ ~ ~ ice
+execute if block ~ ~ ~ #minecraft:flowers run setblock ~ ~ ~ small_amethyst_bud
+execute if block ~ ~ ~ #survivalotfittest:witch_changes_coarse_dirt run setblock ~ ~ ~ coarse_dirt
+execute if block ~ ~ ~ #minecraft:saplings run setblock ~ ~ ~ dead_bush
+execute if block ~ ~ ~ #minecraft:logs run setblock ~ ~ ~ bone_block
+execute if block ~ ~ ~ #minecraft:leaves run setblock ~ ~ ~ mangrove_roots
+execute if block ~ ~ ~ mud run setblock ~ ~ ~ packed_mud
+execute if block ~ ~ ~ cobblestone run setblock ~ ~ ~ blackstone
+execute if block ~ ~ ~ stone run setblock ~ ~ ~ cobblestone
+execute if block ~ ~ ~ cobbled_deepslate run setblock ~ ~ ~ stone
+execute if block ~ ~ ~ deepslate run setblock ~ ~ ~ cobbled_deepslate

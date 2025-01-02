@@ -1,0 +1,1 @@
+give @p enchanted_book[item_name='"放熱のアーティファクト"',lore=['{"color":"gray","italic":false,"text":"高温耐性が20増加します。"}'],rarity="uncommon",item_model="survivalotfittest:artifact_of_heating",custom_data={SotF.Category:Artifact,SotF:Artifact_of_Heating}] 1

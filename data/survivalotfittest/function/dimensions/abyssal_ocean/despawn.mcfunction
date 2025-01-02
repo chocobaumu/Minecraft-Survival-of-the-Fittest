@@ -1,0 +1,1 @@
+execute at @s unless entity @a[distance=..128] run function survivalotfittest:internal/vanish

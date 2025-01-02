@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:water_bucket"
+      },
+      "title": "冗談じゃない大雨",
+      "description": "大雨に遭遇する",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "survivalotfittest:survivalotfittest/events/events",
+    "criteria": {
+      "": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

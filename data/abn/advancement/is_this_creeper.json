@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:gunpowder"
+      },
+      "title": "これはクリーパー？",
+      "description": "アイケースに爆裂の眼を嵌め込む",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "abn:preventing_dryness",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "components": {
+                "minecraft:custom_data": {"SotF.Category":"ActivatedGuardianEye","SotF":"ActivatedBombEye"}
+              }
+            }
+          ]
+        }
+      }
+    }
+  }

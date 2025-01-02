@@ -1,0 +1,28 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:water_bucket"
+      },
+      "title": "乾燥防止",
+      "description": "アイケースを作成する",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "abn:going_even_deeper",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "components": {
+                "minecraft:custom_data": {"SotF":"EyeCase"}
+              }
+            }
+          ]
+        }
+      }
+    }
+  }

@@ -1,0 +1,1 @@
+execute anchored eyes positioned ^ ^ ^ if entity @e[type=arrow,distance=..1.8,scores={Choco.SotF.Tick.0=1}] run function survivalotfittest:entity/mobs/skeletons/legions/sniper/arrow_shoot

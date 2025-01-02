@@ -1,0 +1,15 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "separation": 25,
+    "salt": 8260172,
+    "spacing": 80,
+    "spread_type": "triangular"
+  },
+  "structures": [
+    {
+      "structure": "abn:toxic_cave",
+      "weight": 1
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:recovery_compass"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "survivalotfittest:item/using_recovery_compass"
+    }
+  }
+  

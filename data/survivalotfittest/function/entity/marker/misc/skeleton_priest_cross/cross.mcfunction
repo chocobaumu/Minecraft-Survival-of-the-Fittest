@@ -1,0 +1,12 @@
+$execute rotated ~$(rotation) 0 positioned ^ ^ ^ rotated ~ 90 run function survivalotfittest:particle/priest_cross/cross
+$execute rotated ~$(rotation) 0 positioned ^ ^ ^0.2 rotated ~ 90 run function survivalotfittest:particle/priest_cross/cross
+$execute rotated ~$(rotation) 0 positioned ^ ^ ^-0.2 rotated ~ 90 run function survivalotfittest:particle/priest_cross/cross
+$execute rotated ~$(rotation) 0 positioned ^ ^ ^ rotated ~ 90 run function survivalotfittest:particle/priest_cross/cross
+$execute rotated ~$(rotation) 0 positioned ^ ^ ^0.2 rotated ~ 90 run function survivalotfittest:particle/priest_cross/cross
+$execute rotated ~$(rotation) 0 positioned ^ ^ ^-0.2 rotated ~ 90 run function survivalotfittest:particle/priest_cross/cross
+$execute rotated ~$(rotation) 0 positioned ^ ^ ^ rotated ~ 90 run function survivalotfittest:particle/priest_cross/cross
+$execute rotated ~$(rotation) 0 positioned ^ ^ ^0.2 rotated ~ 90 run function survivalotfittest:particle/priest_cross/cross
+$execute rotated ~$(rotation) 0 positioned ^ ^ ^-0.2 rotated ~ 90 run function survivalotfittest:particle/priest_cross/cross
+$execute rotated ~$(rotation) 0 positioned ^ ^ ^ rotated ~ 90 run function survivalotfittest:particle/priest_cross/cross
+$execute rotated ~$(rotation) 0 positioned ^ ^ ^0.2 rotated ~ 90 run function survivalotfittest:particle/priest_cross/cross
+$execute rotated ~$(rotation) 0 positioned ^ ^ ^-0.2 rotated ~ 90 run function survivalotfittest:particle/priest_cross/cross

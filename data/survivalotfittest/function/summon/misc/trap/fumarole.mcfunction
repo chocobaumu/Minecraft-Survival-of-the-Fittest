@@ -1,0 +1,1 @@
+execute align xyz positioned ~0.5 ~ ~0.5 run summon item_display ~ ~ ~ {Tags:["Choco.SotF.Trap.Fumarole"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,0.2f,1f]},item:{id:"minecraft:deepslate",count:1}}

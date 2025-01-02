@@ -1,0 +1,1 @@
+$execute rotated as @s run tp @s ~ ~ ~ ~$(temporary) 0

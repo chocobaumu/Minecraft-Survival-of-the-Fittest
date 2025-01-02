@@ -1,0 +1,2 @@
+execute if score @s Choco.SotF.Pos.1 matches 1.. unless block ~ ~-0.5 ~ #survivalotfittest:cannot_destroy positioned ~ ~-0.5 ~ run function survivalotfittest:summon/misc/destroy_block_marker
+$execute if score @s Choco.SotF.Pos.1 matches -2..2 facing entity @e[tag=$(target),sort=nearest,limit=1] feet rotated ~ 0 run function survivalotfittest:entity/mobs/destroy_block/make_hole

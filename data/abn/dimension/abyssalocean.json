@@ -1,0 +1,132 @@
+{
+  "type": "abn:abyssaloceantype",
+  "generator": {
+    "settings": "abn:abyssaloceannoise",
+    "type": "minecraft:noise",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [    
+        {
+          "biome": "abn:deep_lukewarm_ocean",
+          "parameters": {
+            "temperature": 0.8,
+            "humidity": 0.1,
+            "continentalness": 0.5,
+            "erosion": 0.4,
+            "weirdness": 0,
+            "depth": 0.2,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abn:deep_ocean",
+          "parameters": {
+            "temperature": 0.7,
+            "humidity": 0.1,
+            "continentalness": 0.5,
+            "erosion": 0.4,
+            "weirdness": 0,
+            "depth": 0.2,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abn:deep_cold_ocean",
+          "parameters": {
+            "temperature": 0.65,
+            "humidity": 0.1,
+            "continentalness": 0.5,
+            "erosion": 0.4,
+            "weirdness": 0,
+            "depth": 0.2,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abn:deep_frozen_ocean",
+          "parameters": {
+            "temperature": 0.6,
+            "humidity": 0.1,
+            "continentalness": 0.5,
+            "erosion": 0.4,
+            "weirdness": 0,
+            "depth": 0.2,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abn:ocean_of_pale_bones",
+          "parameters": {
+            "temperature": 0.5,
+            "humidity": 0.2,
+            "continentalness": 0.7,
+            "erosion": 0.3,
+            "weirdness": 0.3,
+            "depth": 0.2,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abn:thanatos_ocean",
+          "parameters": {
+            "temperature": 0.4,
+            "humidity": 0.2,
+            "continentalness": 0.7,
+            "erosion": 0.3,
+            "weirdness": 0.3,
+            "depth": 0.2,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abn:elder_ocean",
+          "parameters": {
+            "temperature": 0.4,
+            "humidity": 0.4,
+            "continentalness": 0.7,
+            "erosion": 0.1,
+            "weirdness": 0.3,
+            "depth": 0.2,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abn:fathomless_ocean",
+          "parameters": {
+            "temperature": 0.2,
+            "humidity": 0.5,
+            "continentalness": 0.7,
+            "erosion": 0.1,
+            "weirdness": 0.3,
+            "depth": 0.2,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abn:serpents_mire",
+          "parameters": {
+            "temperature": 0.1,
+            "humidity": 0.7,
+            "continentalness": 0.7,
+            "erosion": 0.1,
+            "weirdness": 0.3,
+            "depth": 0.2,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "abn:deep_fathomless_ocean",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0.9,
+            "continentalness": 0.7,
+            "erosion": 0.1,
+            "weirdness": 0.3,
+            "depth": 0.2,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+$summon item_display ~ ~-0.25 ~ {teleport_duration:2,Tags:["Choco.SotF.Smash"],brightness:{sky:15,block:0},item:{id:"$(block)",count:1}}

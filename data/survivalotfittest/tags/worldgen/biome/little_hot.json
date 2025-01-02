@@ -1,0 +1,19 @@
+{
+    "values": [
+      "minecraft:badlands",
+      "minecraft:deep_lukewarm_ocean",
+      "minecraft:eroded_badlands",
+      "minecraft:lukewarm_ocean",
+      "minecraft:lush_caves",
+      "minecraft:mangrove_swamp",
+      "minecraft:mushroom_fields",
+      "minecraft:savanna",
+      "minecraft:savanna_plateau",
+      "minecraft:swamp",
+      "minecraft:warm_ocean",
+      "minecraft:windswept_savanna",
+      "abn:thanatos_ocean",
+      "ras:blackwater_hell",
+      "abn:deep_lukewarm_ocean"
+    ]
+  }

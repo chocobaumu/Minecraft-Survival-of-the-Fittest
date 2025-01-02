@@ -1,0 +1,1 @@
+summon guardian ~ ~ ~ {DeathLootTable:"survivalotfittest:entities/tidal_guardian",Health:30f,Tags:["Choco.SotF.TidalGuardian"],CustomName:'"タイダルガーディアン"',attributes:[{id:"minecraft:max_health",base:30}]}

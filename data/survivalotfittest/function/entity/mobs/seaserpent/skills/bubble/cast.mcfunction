@@ -1,0 +1,13 @@
+summon item_display ~ ~ ~ {shadow_radius:0f,shadow_strength:0f,teleport_duration:2,Tags:["Choco.SotF.ElderGuardian.Bubble","Choco.SotF.Seaserpents"],brightness:{sky:15,block:15},transformation:[0.7071f,-0.7071f,0.0000f,0.0000f,0.6124f,0.6124f,0.5000f,0.0000f,-0.3536f,-0.3536f,0.8660f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f],item:{id:"minecraft:cyan_stained_glass",count:1}}
+summon item_display ~ ~ ~ {shadow_radius:0f,shadow_strength:0f,teleport_duration:2,Tags:["Choco.SotF.ElderGuardian.Bubble","Choco.SotF.Seaserpents"],brightness:{sky:15,block:15},transformation:[0.7071f,-0.7071f,0.0000f,0.0000f,0.6124f,0.6124f,0.5000f,0.0000f,-0.3536f,-0.3536f,0.8660f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f],item:{id:"minecraft:cyan_stained_glass",count:1}}
+summon item_display ~ ~ ~ {shadow_radius:0f,shadow_strength:0f,teleport_duration:2,Tags:["Choco.SotF.ElderGuardian.Bubble","Choco.SotF.Seaserpents"],brightness:{sky:15,block:15},transformation:[0.7071f,-0.7071f,0.0000f,0.0000f,0.6124f,0.6124f,0.5000f,0.0000f,-0.3536f,-0.3536f,0.8660f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f],item:{id:"minecraft:cyan_stained_glass",count:1}}
+summon item_display ~ ~ ~ {shadow_radius:0f,shadow_strength:0f,teleport_duration:2,Tags:["Choco.SotF.ElderGuardian.Bubble","Choco.SotF.Seaserpents"],brightness:{sky:15,block:15},transformation:[0.7071f,-0.7071f,0.0000f,0.0000f,0.6124f,0.6124f,0.5000f,0.0000f,-0.3536f,-0.3536f,0.8660f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f],item:{id:"minecraft:cyan_stained_glass",count:1}}
+summon item_display ~ ~ ~ {shadow_radius:0f,shadow_strength:0f,teleport_duration:2,Tags:["Choco.SotF.ElderGuardian.Bubble","Choco.SotF.Seaserpents"],brightness:{sky:15,block:15},transformation:[0.7071f,-0.7071f,0.0000f,0.0000f,0.6124f,0.6124f,0.5000f,0.0000f,-0.3536f,-0.3536f,0.8660f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f],item:{id:"minecraft:cyan_stained_glass",count:1}}
+summon item_display ~ ~ ~ {shadow_radius:0f,shadow_strength:0f,teleport_duration:2,Tags:["Choco.SotF.ElderGuardian.Bubble","Choco.SotF.Seaserpents"],brightness:{sky:15,block:15},transformation:[0.7071f,-0.7071f,0.0000f,0.0000f,0.6124f,0.6124f,0.5000f,0.0000f,-0.3536f,-0.3536f,0.8660f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f],item:{id:"minecraft:cyan_stained_glass",count:1}}
+
+particle bubble_column_up ~ ~ ~ 0.5 0.5 0.5 1 50 normal
+particle bubble ~ ~ ~ 0.5 0.5 0.5 1 50 normal
+
+playsound minecraft:block.bubble_column.whirlpool_inside hostile @a ~ ~ ~ 1.5 0.5
+playsound minecraft:block.bubble_column.whirlpool_inside hostile @a ~ ~ ~ 1.5 0.7
+playsound minecraft:block.bubble_column.whirlpool_inside hostile @a ~ ~ ~ 1.5 0.9

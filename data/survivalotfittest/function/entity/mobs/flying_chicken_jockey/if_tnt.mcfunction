@@ -1,0 +1,1 @@
+execute at @s positioned ~-2 ~-1 ~-2 if entity @e[tag=Choco.SotF.Target,dx=4,dy=-40,dz=4] at @s positioned ~ ~-0.5 ~ run function survivalotfittest:entity/mobs/items/offhand/tnt/place

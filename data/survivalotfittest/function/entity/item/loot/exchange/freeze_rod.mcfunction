@@ -1,0 +1,1 @@
+data merge entity @s {Item:{id:"minecraft:enchanted_book",components:{"minecraft:max_stack_size":64,"minecraft:item_name":'{"italic":false,"text":"フリーズロッド"}',"minecraft:rarity":"common",item_model:"survivalotfittest:freeze_rod","minecraft:custom_data":{SotF:FreezeRod},enchantment_glint_override:false}}}

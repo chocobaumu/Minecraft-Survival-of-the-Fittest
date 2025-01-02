@@ -1,0 +1,3 @@
+execute positioned ~ ~0.85 ~ run kill @e[type=snowball,sort=nearest,limit=1]
+#playsound entity.snow_golem.shoot 
+summon item_display ~ ~1.6 ~ {teleport_duration:2,Tags:["Choco.SotF.PillagerBomb","Choco.SotF.Player"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.5f,0.5f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWUzMmJkYzU2NzVlOGVlMDViNjc3ZTlhZGM2MDRmNDQ1MTcxZGM5NGUzZTRlZDRjN2ZhNDNiNTY5MGZhMzMyYiJ9fX0="}]}}}}

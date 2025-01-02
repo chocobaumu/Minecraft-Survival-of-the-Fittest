@@ -1,0 +1,7 @@
+execute if score @s Choco.SotF.Tick.0 matches 300.. if score @s Choco.SotF.tick.2 matches 40.. at @s run summon marker ~ ~ ~ {Tags:["Choco.SotF.HurricaneDestroying","Choco.SotF.Lv1"]}
+execute if score @s Choco.SotF.Tick.0 matches 300.. if score @s Choco.SotF.tick.2 matches 40.. at @s run summon marker ~ ~ ~ {Tags:["Choco.SotF.HurricaneLightning","Choco.SotF.Lv1"]}
+execute if score @s Choco.SotF.Tick.0 matches 600.. if score @s Choco.SotF.tick.3 matches 30 as @e[tag=!Choco.SotF.HurricaneVaumPlayers,type=!player,type=!area_effect_cloud,type=!item_display,type=!text_display,type=!block_display,type=!item_frame,type=!glow_item_frame,distance=..12] at @s run function survivalotfittest:entity/marker/desaster/hurricane/vacum_entities
+execute if score @s Choco.SotF.Tick.0 matches 600.. as @a[scores={Choco.SotF.CannotWhirlHurricane=0},gamemode=!spectator,gamemode=!creative,distance=..12] at @s run function survivalotfittest:entity/marker/desaster/hurricane/vacum_players
+execute if score @s Choco.SotF.Tick.0 matches 600.. if biome ~ ~ ~ desert as @a[gamemode=!spectator,distance=..16] at @s positioned over ocean_floor if entity @s[dy=100] at @s run summon area_effect_cloud ~ ~ ~ {Duration:6,Age:4,potion_contents:{custom_effects:[{id:"minecraft:darkness",amplifier:0,duration:26,show_particles:0b,show_icon:1b,ambient:1b},{id:"minecraft:blindness",amplifier:0,duration:26,show_particles:0b,show_icon:1b,ambient:1b}]}}
+
+execute if score @s Choco.SotF.ScoreStorage.0 matches 2.. run function survivalotfittest:entity/marker/desaster/hurricane/levels/2

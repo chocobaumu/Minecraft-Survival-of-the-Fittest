@@ -1,0 +1,86 @@
+{
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_cave/street/1",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 10
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_cave/street/2",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 10
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_cave/street/3",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 10
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_cave/street/stopper",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight":80
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_cave/street/4",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 20
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_cave/street/5",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 20
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_cave/street/1_crystal",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 30
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_cave/street/2_crystal",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 30
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_cave/street/3_crystal",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 30
+      }
+    ],
+    "fallback": "minecraft:empty"
+  }

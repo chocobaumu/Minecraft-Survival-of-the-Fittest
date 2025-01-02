@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:enchanted_book",
+            "components": {
+              "minecraft:custom_data": "{SotF:JellyfishGel}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "survivalotfittest:item/food/jellyfish_gel"
+    }
+  }
+  

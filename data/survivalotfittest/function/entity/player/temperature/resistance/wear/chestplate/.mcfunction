@@ -1,0 +1,6 @@
+execute if predicate survivalotfittest:wear_leather_chestplate run function survivalotfittest:entity/player/temperature/resistance/wear/chestplate/leather
+execute if predicate survivalotfittest:wear_chainmail_chestplate run function survivalotfittest:entity/player/temperature/resistance/wear/chestplate/chainmail
+execute if predicate survivalotfittest:wear_iron_chestplate run function survivalotfittest:entity/player/temperature/resistance/wear/chestplate/iron
+execute if predicate survivalotfittest:wear_gold_chestplate run function survivalotfittest:entity/player/temperature/resistance/wear/chestplate/golden
+execute if predicate survivalotfittest:wear_diamond_chestplate run function survivalotfittest:entity/player/temperature/resistance/wear/chestplate/diamond
+execute if predicate survivalotfittest:wear_netherite_chestplate run function survivalotfittest:entity/player/temperature/resistance/wear/chestplate/netherite

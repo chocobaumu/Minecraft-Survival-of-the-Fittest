@@ -1,0 +1,3 @@
+$summon item_display ~ ~ ~ {view_range:64f,teleport_duration:1,Tags:["Choco.SotF.Certificator_Summoning_Head","Choco.SotF.$(name)"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0f,0f,0f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{properties:[{name:"textures",value:"$(textures)"}]}}}}
+
+#macroを使用しています。texturesとnameの2つの要素が必要です。

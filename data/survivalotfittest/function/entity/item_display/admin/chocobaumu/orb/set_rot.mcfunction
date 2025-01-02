@@ -1,0 +1,1 @@
+$rotate @s ~$(orb_rotationx) $(orb_rotationy)

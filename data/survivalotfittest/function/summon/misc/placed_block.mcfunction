@@ -1,0 +1,3 @@
+#execute align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ #survivalotfittest:can_through run summon marker ~ ~ ~ {Tags:["Choco.SotF.Mob_Place_Block"]}
+execute align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ #survivalotfittest:can_through run playsound block.stone.place hostile @a ~ ~ ~ 1 1
+$execute align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ #survivalotfittest:can_through run setblock ~ ~ ~ $(block)

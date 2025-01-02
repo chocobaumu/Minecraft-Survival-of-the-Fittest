@@ -1,0 +1,8 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "nbt": "{Item:{id:\"minecraft:command_block\",components:{\"minecraft:custom_data\":{Choco.SotF:\"Destroyed_Spawner\"}}}}"
+    }
+  }
+  

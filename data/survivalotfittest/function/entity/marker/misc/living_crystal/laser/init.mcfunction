@@ -1,0 +1,2 @@
+rotate @s facing entity @n[tag=!Choco.SotF.Contaminating,tag=!Choco.SotF.CorruptionCrystal,tag=!Choco.SotF.LivingCrystal,tag=Choco.SotF.Mobs,distance=..48] eyes
+rotate @s facing entity @p[gamemode=!spectator,gamemode=!creative,distance=..48]

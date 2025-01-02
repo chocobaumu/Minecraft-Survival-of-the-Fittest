@@ -1,0 +1,1 @@
+summon squid ~ ~ ~ {Silent:1b,DeathLootTable:"survivalotfittest:entities/kraken",Health:150f,Tags:["Choco.SotF.Custom","Choco.SotF.Kraken"],CustomName:'"クラーケン"',attributes:[{id:"minecraft:max_health",base:150},{id:"minecraft:scale",base:5}]}

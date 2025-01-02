@@ -1,0 +1,8 @@
+execute as @a[distance=..128,gamemode=!creative,gamemode=!spectator,sort=random,limit=5] at @s run summon marker ~ ~ ~ {Tags:["Choco.SotF.AnesthesiaBullet.Reticle","Choco.SotF.EnderDrag"]}
+execute as @r[distance=..128,gamemode=!creative,gamemode=!spectator] at @s run summon marker ~ ~ ~ {Tags:["Choco.SotF.AnesthesiaBullet.Reticle","Choco.SotF.EnderDrag","Choco.SotF.Random"]}
+execute as @r[distance=..128,gamemode=!creative,gamemode=!spectator] at @s run summon marker ~ ~ ~ {Tags:["Choco.SotF.AnesthesiaBullet.Reticle","Choco.SotF.EnderDrag","Choco.SotF.Random"]}
+execute as @r[distance=..128,gamemode=!creative,gamemode=!spectator] at @s run summon marker ~ ~ ~ {Tags:["Choco.SotF.AnesthesiaBullet.Reticle","Choco.SotF.EnderDrag","Choco.SotF.Random"]}
+execute as @r[distance=..128,gamemode=!creative,gamemode=!spectator] at @s run summon marker ~ ~ ~ {Tags:["Choco.SotF.AnesthesiaBullet.Reticle","Choco.SotF.EnderDrag","Choco.SotF.Random"]}
+execute as @r[distance=..128,gamemode=!creative,gamemode=!spectator] at @s run summon marker ~ ~ ~ {Tags:["Choco.SotF.AnesthesiaBullet.Reticle","Choco.SotF.EnderDrag","Choco.SotF.Random"]}
+execute as @r[distance=..128,gamemode=!creative,gamemode=!spectator] at @s run summon marker ~ ~ ~ {Tags:["Choco.SotF.AnesthesiaBullet.Reticle","Choco.SotF.EnderDrag","Choco.SotF.Random"]}
+execute as @r[distance=..128,gamemode=!creative,gamemode=!spectator] at @s run summon marker ~ ~ ~ {Tags:["Choco.SotF.AnesthesiaBullet.Reticle","Choco.SotF.EnderDrag","Choco.SotF.Random"]}

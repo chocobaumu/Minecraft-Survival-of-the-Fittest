@@ -1,0 +1,2 @@
+execute if score @s Choco.SotF.CreatorMode.Settings.DoKillEntitiesWhenTooMany matches 1 run function survivalotfittest:entity/player/creator_mode/settings/do_kill_entities_too_many/auto
+execute if score @s Choco.SotF.CreatorMode.Settings.DoKillEntitiesWhenTooMany matches 2 run function survivalotfittest:entity/player/creator_mode/settings/do_kill_entities_too_many/manual

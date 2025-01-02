@@ -1,0 +1,2 @@
+execute if score @s Choco.SotF.FoodPoisoned matches 1.. at @s run function survivalotfittest:item/artifacts/mysterious_object/medic
+execute if score @s Choco.SotF.Disease matches 1.. at @s run function survivalotfittest:item/artifacts/mysterious_object/medic

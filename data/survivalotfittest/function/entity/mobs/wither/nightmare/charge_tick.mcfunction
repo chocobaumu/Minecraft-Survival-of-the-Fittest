@@ -1,0 +1,2 @@
+execute if entity @s[tag=Choco.SotF.Phase2] run scoreboard players add @s Choco.SotF.tick.5 1
+execute if score @s Choco.SotF.tick.5 matches 5..15 at @s run function survivalotfittest:entity/mobs/wither/nightmare/charge

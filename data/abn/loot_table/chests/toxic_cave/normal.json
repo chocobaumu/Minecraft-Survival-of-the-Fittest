@@ -1,0 +1,108 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:slime_ball",
+            "weight": 100,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 20,
+                  "max": 64
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:recovery_compass",
+            "weight": 100,
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:item_model": "survivalotfittest:seaserpent_venom",
+                  "minecraft:rarity": "uncommon"
+                }
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "実は素手で触れるのも危険。信者が集めたようだ。",
+                    "type": "text",
+                    "color": "gray",
+                    "italic": false
+                  }
+                ],
+                "mode": "append"
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": "シーサーペントの毒液"
+              },
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": {
+                  "SotF": "Seaserpent_Venom"
+                }
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 5,
+                  "max": 10
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald_block",
+            "weight": 100,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 5,
+                  "max": 8
+                },
+                "add": false
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_block",
+            "weight": 100,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 7,
+                  "max": 10
+                },
+                "add": false
+              }
+            ]
+          }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 10,
+          "min": 7
+        },
+        "conditions": []
+      }
+    ]
+  }

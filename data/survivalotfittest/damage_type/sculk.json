@@ -1,0 +1,8 @@
+{
+    "message_id": "sculk",
+    "exhaustion": 1,
+    "scaling": "never",
+    "effects": "hurt",
+    "death_message_type": "default"
+  }
+  

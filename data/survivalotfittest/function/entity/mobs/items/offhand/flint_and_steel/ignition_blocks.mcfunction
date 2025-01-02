@@ -1,0 +1,5 @@
+execute if score @s Choco.SotF.Items.Tick matches 0 if block ~1 ~ ~ #survivalotfittest:littable run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks_lit
+execute if score @s Choco.SotF.Items.Tick matches 0 if block ~-1 ~ ~ #survivalotfittest:littable run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks_lit
+execute if score @s Choco.SotF.Items.Tick matches 0 if block ~ ~1 ~ #survivalotfittest:littable run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks_lit
+execute if score @s Choco.SotF.Items.Tick matches 0 if block ~ ~ ~1 #survivalotfittest:littable run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks_lit
+execute if score @s Choco.SotF.Items.Tick matches 0 if block ~ ~ ~-1 #survivalotfittest:littable run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/ignition_blocks_lit

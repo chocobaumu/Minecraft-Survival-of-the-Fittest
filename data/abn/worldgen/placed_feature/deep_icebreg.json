@@ -1,0 +1,15 @@
+{
+    "feature": "abn:deep_icebreg",
+    "placement": [
+      {
+        "type": "minecraft:in_square"
+      },
+      {
+        "type": "minecraft:biome"
+      },
+      {
+        "type": "minecraft:rarity_filter",
+        "chance": 2
+      }
+    ]
+  }

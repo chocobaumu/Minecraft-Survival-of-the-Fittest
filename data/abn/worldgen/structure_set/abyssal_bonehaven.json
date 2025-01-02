@@ -1,0 +1,15 @@
+{
+    "placement": {
+      "type": "minecraft:random_spread",
+      "separation": 50,
+      "salt": 7122008,
+      "spacing": 100,
+      "spread_type": "triangular"
+    },
+    "structures": [
+      {
+        "structure": "abn:abyssal_bonehaven",
+        "weight": 1
+      }
+    ]
+  }

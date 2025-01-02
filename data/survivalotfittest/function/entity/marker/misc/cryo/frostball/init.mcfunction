@@ -1,0 +1,1 @@
+execute rotated as @n[type=stray,tag=Choco.SotF.Cryo] run rotate @s ~ -60

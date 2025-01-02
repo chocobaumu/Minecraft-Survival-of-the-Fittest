@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "tide_armor_trim_smithing_template"
+      },
+      "title": "楽園の破壊者",
+      "description": "シーサーペントを討伐する",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:survivalotfittest/bosses/bosses",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:slime",
+                "nbt": "{Tags:[\"Choco.SotF.Seaserpent\"]}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }

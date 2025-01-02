@@ -1,0 +1,41 @@
+{
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:abyssal_bonehaven/room/5x5/1",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:abyssal_bonehaven/room/5x5/2",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:abyssal_bonehaven/room/5x5/3",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:abyssal_bonehaven/room/5x5/4",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      }
+    ],
+    "fallback": "abn:abyssal_bonehaven/room/5x5"
+  }

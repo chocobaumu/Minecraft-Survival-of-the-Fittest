@@ -1,0 +1,2 @@
+execute as @a[tag=nbs_TimeforPro] run scoreboard players operation @s nbs_TimeforPro += speed nbs_TimeforPro
+execute as @a[tag=nbs_TimeforPro] at @s run function time_for_prove:time_for_prove/tree/0_2047

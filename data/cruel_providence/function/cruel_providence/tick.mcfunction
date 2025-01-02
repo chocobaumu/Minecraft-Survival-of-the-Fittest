@@ -1,0 +1,2 @@
+execute as @a[tag=nbs_CruelProvi] run scoreboard players operation @s nbs_CruelProvi += speed nbs_CruelProvi
+execute as @a[tag=nbs_CruelProvi] at @s run function cruel_providence:cruel_providence/tree/0_4095

@@ -1,0 +1,1 @@
+execute at @s facing entity @n[tag=Choco.SotF.SkeletonLegion,tag=!Choco.SotF.SkeletonPriest,tag=!Choco.SotF.SkeletonHealer,distance=..24] feet run tp ^ ^ ^

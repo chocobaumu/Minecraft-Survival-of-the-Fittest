@@ -1,0 +1,8 @@
+{
+    "message_id": "saw_blade",
+    "exhaustion": 0.1,
+    "scaling": "never",
+    "effects": "hurt",
+    "death_message_type": "default"
+  }
+  

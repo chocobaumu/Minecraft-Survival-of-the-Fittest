@@ -1,0 +1,32 @@
+{
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_cave/core/chest/1",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_cave/core/chest/2",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_cave/core/spawner/1",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 150
+      }
+    ],
+    "fallback": "minecraft:empty"
+  }

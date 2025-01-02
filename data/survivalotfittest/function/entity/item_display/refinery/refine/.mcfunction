@@ -1,0 +1,1 @@
+execute if score @s Choco.SotF.ScoreStorage.3 matches 15.. run function survivalotfittest:entity/item_display/refinery/refine/progressing

@@ -1,0 +1,1 @@
+summon block_display ~ ~ ~ {Tags:["Choco.SotF.Crystalizer.Crystal"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0f,0f,0f]},block_state:{Name:"minecraft:amethyst_cluster"}}

@@ -1,0 +1,1 @@
+execute align xyz positioned ~0.5 ~ ~0.5 run summon item_display ~ ~ ~ {Tags:["Choco.SotF.Trap.Arrow"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.05f,0.5f]},item:{id:"minecraft:stone",count:1}}

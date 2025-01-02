@@ -1,0 +1,2 @@
+execute if entity @s[tag=!Choco.SotF.OnBoat] at @s if block ~ ~0.2 ~ #survivalotfittest:water_and_else if score @s Choco.SotF.Wet matches ..149 run scoreboard players add @s Choco.SotF.Wet 6
+execute at @s unless block ~ ~0.2 ~ #survivalotfittest:water_and_else if dimension overworld positioned over motion_blocking_no_leaves if entity @s[dy=320] unless biome ~ ~ ~ #minecraft:is_badlands unless biome ~ ~ ~ desert unless biome ~ ~ ~ #is_savanna unless biome ~ ~ ~ #survivalotfittest:is_snowy run function survivalotfittest:entity/player/custom_status/wet/can_be_caught_in_rain/

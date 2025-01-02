@@ -1,0 +1,217 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:leather_helmet",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:chainmail_helmet",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_helmet",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:diamond_helmet",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:netherite_helmet",
+                "weight": 1
+              }
+            ],
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1,
+                  "min": 0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "conditions": []
+          }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 2,
+          "min": 1
+        },
+        "functions": []
+      },
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:leather_chestplate",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:chainmail_chestplate",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_chestplate",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:diamond_chestplate",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:netherite_chestplate",
+                "weight": 1
+              }
+            ],
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1,
+                  "min": 0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "conditions": []
+          }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 2,
+          "min": 1
+        },
+        "functions": []
+      },
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:leather_leggings",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:chainmail_leggings",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_leggings",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:diamond_leggings",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:netherite_leggings",
+                "weight": 1
+              }
+            ],
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1,
+                  "min": 0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "conditions": []
+          }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 2,
+          "min": 1
+        },
+        "functions": []
+      },
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:group",
+            "children": [
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:leather_boots",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:chainmail_boots",
+                "weight": 8
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:iron_boots",
+                "weight": 4
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:diamond_boots",
+                "weight": 2
+              },
+              {
+                "type": "minecraft:item",
+                "name": "minecraft:netherite_boots",
+                "weight": 1
+              }
+            ],
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 1,
+                  "min": 0
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "conditions": []
+          }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 2,
+          "min": 1
+        },
+        "functions": []
+      }
+    ]
+  }

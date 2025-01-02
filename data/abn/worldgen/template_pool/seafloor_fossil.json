@@ -1,0 +1,28 @@
+{
+    "name": "seafloor_fossil",
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "abn:fossil/giant_head_fossil",
+          "processors": {
+            "processors": []
+          }
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "abn:fossil/giant_spine_fossil",
+          "processors": {
+            "processors": []
+          }
+        },
+        "weight": 1
+      }
+    ],
+    "fallback": "minecraft:empty"
+  }

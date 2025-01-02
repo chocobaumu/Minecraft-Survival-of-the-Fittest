@@ -1,0 +1,3 @@
+execute positioned ^ ^ ^0.75 unless block ~ ~ ~ #survivalotfittest:cannot_destroy run function survivalotfittest:entity/mobs/ravager/charge/destroying_once
+execute positioned ^1 ^ ^0.75 unless block ~ ~ ~ #survivalotfittest:cannot_destroy run function survivalotfittest:entity/mobs/ravager/charge/destroying_once
+execute positioned ^-1 ^ ^0.75 unless block ~ ~ ~ #survivalotfittest:cannot_destroy run function survivalotfittest:entity/mobs/ravager/charge/destroying_once

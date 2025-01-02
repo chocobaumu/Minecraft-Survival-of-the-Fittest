@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:iron_nugget"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "survivalotfittest:chainmail_helmet",
+        "survivalotfittest:chainmail_chestplate",
+        "survivalotfittest:chainmail_leggings",
+        "survivalotfittest:chainmail_boots"
+      ]
+    }
+  }
+  

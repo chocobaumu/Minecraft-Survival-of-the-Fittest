@@ -1,0 +1,1 @@
+give @p arrow[item_name='{"italic":false,"text":"爆弾の矢"}',lore=['{"color":"gray","italic":false,"text":"着弾時に爆発します。"}'],item_model="survivalotfittest:bomb_arrow",custom_data={SotF:BombArrow}] 1

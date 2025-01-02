@@ -1,0 +1,19 @@
+{
+    "values": [
+      "minecraft:beach",
+      "minecraft:birch_forest",
+      "minecraft:cherry_grove",
+      "minecraft:dark_forest",
+      "minecraft:deep_dark",
+      "minecraft:deep_ocean",
+      "minecraft:flower_forest",
+      "minecraft:forest",
+      "minecraft:ocean",
+      "minecraft:old_growth_birch_forest",
+      "minecraft:plains",
+      "minecraft:river",
+      "minecraft:sunflower_plains",
+      "minecraft:wooded_badlands",
+      "abn:deep_ocean"
+    ]
+  }

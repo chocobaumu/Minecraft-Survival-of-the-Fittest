@@ -1,0 +1,1 @@
+give @p recovery_compass[custom_data={SotF:Corrupt_Crystal},item_model="survivalotfittest:corrupt_crystal",rarity="uncommon",item_name='"汚染晶"'] 1

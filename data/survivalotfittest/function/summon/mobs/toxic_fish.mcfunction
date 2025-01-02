@@ -1,0 +1,1 @@
+summon tropical_fish ~ ~ ~ {DeathLootTable:"survivalotfittest:entities/toxic_fish",Health:10f,Tags:["Choco.SotF.ToxicFish","Choco.SotF.Custom"],CustomName:'"トキシックフィッシュ"',attributes:[{id:"minecraft:max_health",base:10},{id:"minecraft:scale",base:1.5}],Variant:218957057}

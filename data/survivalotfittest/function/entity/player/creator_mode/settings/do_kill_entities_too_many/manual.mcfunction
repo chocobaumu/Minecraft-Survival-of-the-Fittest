@@ -1,0 +1,5 @@
+scoreboard players add @s Choco.SotF.CreatorMode.DoKillEntitiesWhenTooMany.Tick 1
+
+execute if score @s Choco.SotF.CreatorMode.DoKillEntitiesWhenTooMany.Tick matches 1 run tellraw @s [{"color":"red","italic":false,"text":"エンティティ数が"},{"color":"red","italic":false,"score":{"name":"#CreatorMode.EntityCount","objective":"Choco.SotF.ScoreStorage.0"}},{"color":"red","italic":false,"text":"体に達しています。"},{"bold":true,"clickEvent":{"action":"run_command","value":"/function survivalotfittest:entity/player/creator_mode/settings/do_kill_entities_too_many/auto"},"color":"red","hoverEvent":{"action":"show_text","value":[{"text":"クリックで実行","color":"white","italic":false}]},"italic":false,"text":"[消去用function]"},{"bold":false,"color":"red","italic":false,"text":"を実行することを推奨します。"}]
+
+execute if score @s Choco.SotF.CreatorMode.DoKillEntitiesWhenTooMany.Tick matches 600.. run scoreboard players set @s Choco.SotF.CreatorMode.DoKillEntitiesWhenTooMany.Tick 0

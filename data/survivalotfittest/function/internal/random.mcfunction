@@ -1,0 +1,1 @@
+$execute store result score @s Choco.SotF.Random run random value $(min)..$(max)

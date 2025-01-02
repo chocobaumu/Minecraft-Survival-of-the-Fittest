@@ -1,0 +1,2 @@
+summon text_display ~ ~ ~ {Tags:["Choco.SotF.DamageIndicator"]}
+scoreboard players operation @e[type=text_display,tag=Choco.SotF.DamageIndicator,sort=nearest,limit=1] Choco.SotF.DamageIndicator.Health_Before = @s Choco.SotF.DamageIndicator.Health_Before

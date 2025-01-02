@@ -1,0 +1,11 @@
+tellraw @s {"text":" "}
+tellraw @s {"text":"設定:","color":"gray"}
+tellraw @s {"clickEvent":{"action":"run_command","value":"/function survivalotfittest:internal/settings/creator_mode/keep_thirst_and_saturation"},"color":"yellow","hoverEvent":{"action":"show_text","value":[{"text":"水分値と満腹度を常に最大に保ちます。"}]},"italic":false,"text":"Keep Thirst and Saturation"}
+tellraw @s {"clickEvent":{"action":"run_command","value":"/function survivalotfittest:internal/settings/creator_mode/do_invincible"},"color":"yellow","hoverEvent":{"action":"show_text","value":[{"text":"ほとんどのダメージと炎を無効化し、HPを常に最大に保ちます。"}]},"italic":false,"text":"Do Invincible"}
+tellraw @s {"clickEvent":{"action":"run_command","value":"/function survivalotfittest:internal/settings/creator_mode/emergency_creative"},"color":"yellow","hoverEvent":{"action":"show_text","value":[{"text":"衝撃吸収のハートを10個取得し、通常のHPが19以下になった際に全回復と同時にクリエイティブモードに変更します。条件によっては死んでしまうことに注意してください。"}]},"italic":false,"text":"Emergency Creative"}
+tellraw @s {"clickEvent":{"action":"run_command","value":"/function survivalotfittest:internal/settings/creator_mode/visible_all_entities"},"color":"yellow","hoverEvent":{"action":"show_text","value":[{"text":"全てのエンティティをパーティクルと発光エフェクトによって可視化します。"}]},"italic":false,"text":"Visible All Entities"}
+tellraw @s {"clickEvent":{"action":"run_command","value":"/function survivalotfittest:internal/settings/creator_mode/auto_setting_spawnpoint"},"color":"yellow","hoverEvent":{"action":"show_text","value":[{"text":"30秒ごとにスポーン地点を現在地へ自動設定します。"}]},"italic":false,"text":"Auto Setting Spawnpoint"}
+tellraw @s {"clickEvent":{"action":"run_command","value":"/function survivalotfittest:internal/settings/creator_mode/do_kill_entities_when_too_many"},"color":"yellow","hoverEvent":{"action":"show_text","value":[{"text":"エンティティが500体を超えた際に消去用functionを実行します。自動で実行される設定と、コマンドが埋め込まれた自動メッセージを送信する2つの設定があります。"}]},"italic":false,"text":"Do Kill Entities When Too Many"}
+
+playsound ui.button.click master @s ~ ~ ~ 1 1
+particle instant_effect ~ ~0.85 ~ 0.25 0.55 0.25 0 3 force

@@ -1,0 +1,44 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:command_block",
+            "weight": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{SotF:Dropped_Shellfish}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 2,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:command_block",
+            "weight": 1,
+            "quality": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{SotF:Dropped_Whitepearl}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

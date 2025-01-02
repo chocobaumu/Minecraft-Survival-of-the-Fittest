@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "ingredients": [
+    "#minecraft:warped_stems"
+  ],
+  "result": {
+    "id": "minecraft:warped_planks",
+    "count": 1
+  }
+}

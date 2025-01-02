@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "   ",
+    " XY",
+    " # "
+  ],
+  "key": {
+    "#": "minecraft:stick",
+    "X": [
+      "minecraft:coal",
+      "minecraft:charcoal"
+    ],
+    "Y": [
+      "minecraft:honeycomb",
+      "minecraft:paper"
+    ]
+  },
+  "result": {
+    "id": "minecraft:torch",
+    "count": 2
+  }
+}

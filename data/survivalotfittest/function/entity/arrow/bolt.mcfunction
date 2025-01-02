@@ -1,0 +1,2 @@
+execute if score @s Choco.SotF.Tick.0 matches 1 store result entity @s damage double 0.1 run data get entity @s damage 15
+execute if score @s Choco.SotF.ScoreStorage.0 matches 0 run particle enchanted_hit ~ ~ ~ 0.0 0.05 0.05 0.05 5 normal

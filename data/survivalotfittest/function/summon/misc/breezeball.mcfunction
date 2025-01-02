@@ -1,0 +1,1 @@
+summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:["Choco.SotF.BreezeBall"],active_effects:[{id:"minecraft:wind_charged",amplifier:0,duration:-1,show_particles:0b}]}

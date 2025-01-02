@@ -1,0 +1,16 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type": "minecraft:player",
+      "slots": {
+        "armor.feet": {
+          "items": "minecraft:leather_boots",
+          "predicates": {
+            "minecraft:custom_data": {"SotF":"Seaserpent_Boots"}
+          }
+        }
+      }
+    }
+  }
+  

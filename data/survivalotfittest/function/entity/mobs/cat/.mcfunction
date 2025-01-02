@@ -1,0 +1,1 @@
+execute if score @s Choco.SotF.Data.HurtTime matches 9 at @s run function survivalotfittest:entity/mobs/cat/damaging

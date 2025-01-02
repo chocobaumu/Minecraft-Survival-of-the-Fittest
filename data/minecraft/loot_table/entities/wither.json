@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:command_block"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_custom_data",
+            "tag": "{SotF:Dropped_Wither_Artifact}"
+          }
+        ]
+      }
+    ],
+    "random_sequence": "minecraft:entities/wither"
+  }
+  

@@ -1,0 +1,3 @@
+execute at @s facing entity @e[tag=Choco.SotF.Explosive,sort=nearest,limit=1,distance=..8] feet rotated ~ 0 unless block ~ ~-0.1 ~ #survivalotfittest:can_through if block ^ ^ ^-0.25 #survivalotfittest:can_through in overworld positioned 0.0 0.0 0.0 run summon marker ^ ^ ^-0.25 {Tags:["Choco.SotF.PgilinPotion_Direction"]}
+execute as @s at @s run function survivalotfittest:entity/mobs/piglin/potion_set_motion
+execute as @e[type=marker,tag=Choco.SotF.PgilinPotion_Direction] run function survivalotfittest:internal/kill

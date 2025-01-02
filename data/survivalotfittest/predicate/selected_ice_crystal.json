@@ -1,0 +1,8 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "nbt": "{SelectedItem:{id:\"minecraft:warped_fungus_on_a_stick\",components:{\"minecraft:custom_data\":{SotF:IceCrystal}}}}"
+    }
+  }
+  

@@ -1,0 +1,2 @@
+execute if score @s Choco.SotF.Thirst matches 16..18 run function survivalotfittest:entity/player/hud/11to20/16to20/16to18/
+execute if score @s Choco.SotF.Thirst matches 19.. run function survivalotfittest:entity/player/hud/11to20/16to20/19to20/

@@ -1,0 +1,15 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "separation": 1,
+    "spread_type": "triangular",
+    "salt": 617219,
+    "spacing": 15
+  },
+  "structures": [
+    {
+      "structure": "ras:cluster/normal",
+      "weight": 1
+    }
+  ]
+}

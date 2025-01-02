@@ -1,0 +1,1 @@
+summon chicken ~ ~ ~ {Age:0,IsChickenJockey:1b,Tags:["Choco.SotF.FlyingJockey","Choco.SotF.Custom"],Passengers:[{id:"minecraft:zombie",IsBaby:1b,Tags:["Choco.SotF.FlyingJockey","Choco.SotF.Custom"],HandItems:[{id:"minecraft:egg",count:1},{}]}]}

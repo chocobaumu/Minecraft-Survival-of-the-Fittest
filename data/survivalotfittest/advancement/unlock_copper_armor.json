@@ -1,0 +1,25 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "minecraft:copper_ingot"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "recipes": [
+        "survivalotfittest:copper_helmet",
+        "survivalotfittest:copper_chestplate",
+        "survivalotfittest:copper_leggings",
+        "survivalotfittest:copper_boots"
+      ]
+    }
+  }
+  

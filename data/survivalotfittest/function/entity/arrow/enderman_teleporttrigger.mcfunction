@@ -1,0 +1,1 @@
+execute if score @s Choco.SotF.Tick.0 matches 2.. run function survivalotfittest:internal/kill

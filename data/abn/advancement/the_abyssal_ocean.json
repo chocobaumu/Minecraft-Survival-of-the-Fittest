@@ -1,0 +1,23 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:prismarine"
+      },
+      "title": "淵海",
+      "description": "世界の果てに現れるのは、地獄か？　楽園か？",
+      "background": "minecraft:textures/block/blackstone.png",
+      "frame": "task",
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {
+          "to": "abn:abyssalocean"
+        }
+      }
+    },
+    "sends_telemetry_event": false
+  }

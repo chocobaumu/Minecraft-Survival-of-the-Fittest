@@ -1,0 +1,1 @@
+give @p snowball[max_stack_size=16,item_name='{"italic":false,"text":"グレネード"}',rarity="common",item_model="survivalotfittest:grenade",custom_data={SotF:Grenade},hide_additional_tooltip={}] 1

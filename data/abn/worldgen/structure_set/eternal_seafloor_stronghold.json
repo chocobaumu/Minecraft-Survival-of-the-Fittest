@@ -1,0 +1,15 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "separation": 50,
+    "salt": 10387313,
+    "spacing": 100,
+    "spread_type": "triangular"
+  },
+  "structures": [
+    {
+      "structure": "abn:eternal_seafloor_stronghold",
+      "weight": 1
+    }
+  ]
+}

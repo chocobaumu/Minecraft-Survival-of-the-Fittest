@@ -1,0 +1,19 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "slots": {
+        "weapon.mainhand": {
+          "items": "minecraft:crossbow",
+          "components": {
+            "minecraft:charged_projectiles": [
+              {
+                "id": "minecraft:arrow"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+  

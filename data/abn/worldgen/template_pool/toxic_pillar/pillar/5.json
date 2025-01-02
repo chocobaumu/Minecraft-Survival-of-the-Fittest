@@ -1,0 +1,86 @@
+{
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_pillar/pillar/5/1",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_pillar/pillar/5/2",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_pillar/pillar/5/3",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_pillar/pillar/5/4",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_pillar/top/5/1",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 25
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_pillar/top/5/2",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 25
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_pillar/top/5/3",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 25
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_pillar/top/5/4",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 25
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_pillar/pillar/5/4_spawner",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 75
+      }
+    ],
+    "fallback": "abn:toxic_pillar/top/5"
+  }

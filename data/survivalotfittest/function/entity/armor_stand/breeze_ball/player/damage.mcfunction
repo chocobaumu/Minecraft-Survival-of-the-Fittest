@@ -1,0 +1,2 @@
+$execute at @s as @e[distance=..3.5] run damage @s 1 survivalotfittest:projectile by @e[nbt={UUID:$(temp)},limit=1]
+$execute at @s positioned ~-0.5 ~-0.5 ~-0.5 as @e[dx=0] run damage @s 1 survivalotfittest:projectile by @e[nbt={UUID:$(temp)},limit=1]

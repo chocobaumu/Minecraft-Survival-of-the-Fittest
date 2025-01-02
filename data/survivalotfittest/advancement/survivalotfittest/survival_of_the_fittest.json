@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:netherite_upgrade_smithing_template"
+      },
+      "title": "Minecraft | Survival of the Fittest",
+      "description": "進歩を続け、適応せよ。",
+      "background": "minecraft:textures/block/reinforced_deepslate_side.png",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

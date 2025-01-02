@@ -1,0 +1,1 @@
+$execute anchored eyes run particle minecraft:trail{target:[$(TargetX)d, $(TargetY)d, $(TargetZ)d],color:16711680} ^ ^ ^ 0 0 0 0 1000 normal

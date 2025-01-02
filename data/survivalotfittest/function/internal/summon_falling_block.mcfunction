@@ -1,0 +1,1 @@
+$summon falling_block ~ ~ ~ {BlockState:{Name:"$(block)"},Time:1,Tags:["Choco.SotF.Temp"]}

@@ -1,0 +1,1 @@
+data merge entity @s {Item:{id:"minecraft:enchanted_book",components:{"minecraft:max_stack_size":64,"minecraft:item_name":'"虹色の真珠"',"minecraft:rarity":"uncommon","minecraft:custom_data":{SotF:RainbowPearl},"minecraft:enchantment_glint_override":false,"minecraft:item_model":"survivalotfittest:rainbow_pearl"}}}

@@ -1,0 +1,8 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "nbt": "{SelectedItem:{id:\"minecraft:netherite_sword\",count:1,components:{\"minecraft:custom_data\":{SotF:Crimson_Mech_Saber}}}}"
+  }
+}

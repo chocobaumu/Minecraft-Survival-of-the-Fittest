@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "amethyst_cluster"
+      },
+      "title": "線源X",
+      "description": "生ける汚染晶体を討伐する",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:survivalotfittest/bosses/bosses",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:slime",
+                "nbt": "{Tags:[\"Choco.SotF.LivingCrystal\"]}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }

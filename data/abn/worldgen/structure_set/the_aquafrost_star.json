@@ -1,0 +1,17 @@
+{
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "distance": 5,
+    "spread": 20,
+    "count": 20,
+    "preferred_biomes": "#abn:abn_all",
+    "salt": 180821,
+    "frequency_reduction_method": "legacy_type_1"
+  },
+  "structures": [
+    {
+      "structure": "abn:the_aquafrost_star",
+      "weight": 1
+    }
+  ]
+}

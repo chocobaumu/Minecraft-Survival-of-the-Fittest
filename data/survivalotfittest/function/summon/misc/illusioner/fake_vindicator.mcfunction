@@ -1,0 +1,1 @@
+summon vindicator ~ ~ ~ {Silent:1b,DeathTime:19,DeathLootTable:"empty",PersistenceRequired:1b,Health:1024f,CanJoinRaid:1b,Tags:["Choco.SotF.FakeVindicator","Choco.SotF.Custom"],HandItems:[{id:"minecraft:iron_axe",count:1},{}],HandDropChances:[0.000F,0.085F],attributes:[{id:"minecraft:generic.attack_damage",base:-1024},{id:"minecraft:generic.max_health",base:1024}]}

@@ -1,0 +1,31 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      "minecraft:melon_slice",
+      "minecraft:sugar",
+      "minecraft:potion"
+    ],
+    "result": {
+      "id": "minecraft:potion",
+      "count": 1,
+      "components": {
+        "minecraft:custom_name": "スイカジュース",
+        "minecraft:max_stack_size": 6,
+        "minecraft:potion_contents": {
+          "custom_color": 16722217,
+          "custom_effects": [
+            {
+              "id": "minecraft:saturation",
+              "amplifier": 0,
+              "duration": 2,
+              "ambient": false,
+              "show_particles": false,
+              "show_icon": false
+            }
+          ]
+        },
+        "minecraft:hide_additional_tooltip": {}
+      }
+    }
+  }
+  

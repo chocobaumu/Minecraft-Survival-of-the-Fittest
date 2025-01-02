@@ -1,0 +1,2 @@
+execute if score @s Choco.SotF.Temperature.Tick.0 matches 1..20 run scoreboard players add @s Choco.SotF.Thirst.Timer 2
+execute if score @s Choco.SotF.Hot_Resistance matches ..-10 run function survivalotfittest:entity/player/temperature/affects/hot/less_than_minus0

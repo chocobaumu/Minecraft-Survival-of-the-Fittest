@@ -1,0 +1,1 @@
+give @p warped_fungus_on_a_stick[custom_data={SotF:StickyLight},item_model="survivalotfittest:sticky_light",item_name='"スティッキーライト"',rarity="common",!max_damage,max_stack_size=24] 1

@@ -1,0 +1,96 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:command_block",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{SotF:Dropped_LivingCrystal_Artifact}"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 20,
+          "max": 80
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:amethyst_shard",
+            "functions": []
+          }
+        ],
+        "functions": [],
+        "conditions": []
+      },
+      {
+        "rolls": {
+          "min": 10,
+          "max": 40
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:command_block",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{SotF:Dropped_Corrupt_Crystal}"
+              }
+            ]
+          }
+        ],
+        "functions": [],
+        "conditions": []
+      },
+      {
+        "rolls": {
+          "min": 10,
+          "max": 35
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lapis_lazuli",
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "rolls": {
+          "min": 10,
+          "max": 35
+        },
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:redstone",
+            "conditions": []
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

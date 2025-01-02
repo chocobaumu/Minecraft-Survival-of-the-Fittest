@@ -1,0 +1,1 @@
+data merge entity @s {Item:{id:"minecraft:enchanted_book",count:1,components:{"minecraft:max_stack_size":64,"minecraft:item_name":'"黒い真珠"',"minecraft:rarity":"rare",item_model:"survivalotfittest:black_pearl","minecraft:custom_data":{SotF:BlackPearl},"minecraft:enchantment_glint_override":false,"minecraft:enchantment_glint_override":false}}}

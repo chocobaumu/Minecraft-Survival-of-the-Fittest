@@ -1,0 +1,1 @@
+summon marker ~ ~ ~ {Tags:["Choco.SotF.Necromancer.Summon.ZombieSwarm"]}

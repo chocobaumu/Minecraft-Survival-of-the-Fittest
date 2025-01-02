@@ -1,0 +1,116 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+      {
+        "bonus_rolls": 0,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ],
+            "name": "minecraft:coal",
+            "weight": 8
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ],
+            "name": "minecraft:gold_ingot",
+            "weight": 8
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ],
+            "name": "minecraft:diamond",
+            "weight": 4
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 5,
+                  "min": 1
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:bone",
+            "weight": 20
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [],
+            "name": "minecraft:netherite_ingot",
+            "weight": 1
+          },
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "add": false,
+                "count": {
+                  "type": "minecraft:uniform",
+                  "max": 4,
+                  "min": 1
+                },
+                "function": "minecraft:set_count"
+              }
+            ],
+            "name": "minecraft:iron_ingot",
+            "weight": 14,
+            "conditions": []
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:quartz",
+            "weight": 4,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:uniform",
+                  "min": 1,
+                  "max": 3
+                },
+                "add": false
+              }
+            ],
+            "conditions": []
+          }
+        ],
+        "rolls": {
+          "type": "minecraft:uniform",
+          "max": 6,
+          "min": 3
+        }
+      }
+    ]
+  }

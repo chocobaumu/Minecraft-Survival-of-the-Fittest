@@ -1,0 +1,41 @@
+{
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_floor/treasure/1",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 25
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_floor/treasure/2",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 25
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_floor/treasure/3",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 25
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:toxic_floor/treasure/4",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 25
+      }
+    ],
+    "fallback": "minecraft:empty"
+  }

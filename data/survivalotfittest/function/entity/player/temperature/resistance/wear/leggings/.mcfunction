@@ -1,0 +1,6 @@
+execute if predicate survivalotfittest:wear_leather_leggings run function survivalotfittest:entity/player/temperature/resistance/wear/leggings/leather
+execute if predicate survivalotfittest:wear_chainmail_leggings run function survivalotfittest:entity/player/temperature/resistance/wear/leggings/chainmail
+execute if predicate survivalotfittest:wear_iron_leggings run function survivalotfittest:entity/player/temperature/resistance/wear/leggings/iron
+execute if predicate survivalotfittest:wear_gold_leggings run function survivalotfittest:entity/player/temperature/resistance/wear/leggings/golden
+execute if predicate survivalotfittest:wear_diamond_leggings run function survivalotfittest:entity/player/temperature/resistance/wear/leggings/diamond
+execute if predicate survivalotfittest:wear_netherite_leggings run function survivalotfittest:entity/player/temperature/resistance/wear/leggings/netherite

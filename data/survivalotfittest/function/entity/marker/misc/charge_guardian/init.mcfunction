@@ -1,0 +1,1 @@
+execute unless entity @s[tag=Choco.SotF.Player] rotated as @n[type=guardian,tag=Choco.SotF.ChargeGuardian] run rotate @s ~ ~

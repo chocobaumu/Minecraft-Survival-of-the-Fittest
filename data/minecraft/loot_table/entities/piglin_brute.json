@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:command_block"
+          }
+        ],
+        "functions": [
+          {
+            "function": "minecraft:set_custom_data",
+            "tag": "{SotF:Dropped_Piglin_Artifact}"
+          }
+        ],
+        "conditions": []
+      }
+    ],
+    "functions": [],
+    "random_sequence": "minecraft:entities/piglin_brute"
+  }

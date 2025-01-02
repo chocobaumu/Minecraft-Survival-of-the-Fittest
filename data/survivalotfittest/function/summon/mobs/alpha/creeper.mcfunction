@@ -1,0 +1,1 @@
+summon creeper ~ ~ ~ {DeathLootTable:"survivalotfittest:entities/alpha/grade_2",Health:100f,Tags:["Choco.SotF.Alpha"],attributes:[{id:"minecraft:fall_damage_multiplier",base:0},{id:"minecraft:knockback_resistance",base:10},{id:"minecraft:max_health",base:100},{id:"minecraft:scale",base:1.1}]}

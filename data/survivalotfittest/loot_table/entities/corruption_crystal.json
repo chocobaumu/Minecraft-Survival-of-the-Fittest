@@ -1,0 +1,84 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:amethyst_shard",
+            "functions": []
+          }
+        ],
+        "functions": [],
+        "conditions": []
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:command_block",
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{SotF:Dropped_Corrupt_Crystal}"
+              }
+            ]
+          }
+        ],
+        "functions": [],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.5
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:lapis_lazuli",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.75
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:redstone",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.75
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:emerald",
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.25
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

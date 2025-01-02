@@ -1,0 +1,74 @@
+{
+    "pools": [
+      {
+        "rolls": 4,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:command_block",
+            "weight": 1,
+            "quality": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{SotF:Dropped_Blackpearl}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.25
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 4,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:command_block",
+            "weight": 1,
+            "quality": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{SotF:Dropped_Whitepearl}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "rolls": 4,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:command_block",
+            "weight": 1,
+            "quality": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_custom_data",
+                "tag": "{SotF:Dropped_Rainbowpearl}"
+              }
+            ],
+            "conditions": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.375
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

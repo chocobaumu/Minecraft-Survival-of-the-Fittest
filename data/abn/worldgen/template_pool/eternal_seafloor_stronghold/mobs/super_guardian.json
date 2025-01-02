@@ -1,0 +1,23 @@
+{
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/mobs/voltage_guardian",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      },
+      {
+        "element": {
+          "element_type": "minecraft:legacy_single_pool_element",
+          "location": "abn:eternal_seafloor_stronghold/mobs/super_focus_guardian",
+          "processors": "minecraft:empty",
+          "projection": "rigid"
+        },
+        "weight": 50
+      }
+    ],
+    "fallback": "abn:eternal_seafloor_stronghold/mobs/super_guardian"
+  }

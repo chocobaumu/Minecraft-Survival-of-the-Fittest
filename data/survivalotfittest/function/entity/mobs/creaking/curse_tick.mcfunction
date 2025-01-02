@@ -1,0 +1,1 @@
+scoreboard players remove @s Choco.SotF.tick.1 1

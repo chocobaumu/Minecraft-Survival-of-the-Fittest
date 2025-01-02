@@ -1,0 +1,1 @@
+summon guardian ~ ~ ~ {Health:10f,Tags:["Choco.SotF.AnnoyGuardian"],CustomName:'"アノイガーディアン"',attributes:[{id:"minecraft:max_health",base:10},{id:"minecraft:scale",base:0.5}]}

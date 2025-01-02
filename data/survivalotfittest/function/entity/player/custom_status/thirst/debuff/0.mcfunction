@@ -1,0 +1,1 @@
+damage @s 3 dry_out

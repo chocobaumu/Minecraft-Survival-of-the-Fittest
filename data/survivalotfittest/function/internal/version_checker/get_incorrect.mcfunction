@@ -1,0 +1,3 @@
+execute if score #Versions.IncorrectCount Choco.SotF.ScoreStorage.0 matches 1.. run tellraw @a [{"color":"red","italic":false,"text":"不正なバージョンのアドオンが"},{"score":{"name":"#Versions.IncorrectCount","objective":"Choco.SotF.ScoreStorage.0"}},"件発見されました。"]
+execute if score #Versions.IncorrectCount Choco.SotF.ScoreStorage.0 matches 2.. run tellraw @a [{"score":{"name":"#Versions.IncorrectCount","objective":"Choco.SotF.ScoreStorage.0"},"color": "red"}," incorrectly version of addons were found."]
+execute if score #Versions.IncorrectCount Choco.SotF.ScoreStorage.0 matches 1 run tellraw @a [{"score":{"name":"#Versions.IncorrectCount","objective":"Choco.SotF.ScoreStorage.0"},"color": "red"}," incorrectly version of addon is found."]

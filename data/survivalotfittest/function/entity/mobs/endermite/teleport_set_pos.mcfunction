@@ -1,0 +1,1 @@
+$tp @s ~$(temporary0) ~$(temporary1) ~$(temporary2)

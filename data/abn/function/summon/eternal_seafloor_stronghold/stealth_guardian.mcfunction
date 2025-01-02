@@ -1,0 +1,1 @@
+summon guardian ~ ~ ~ {PersistenceRequired:1b,Health:30f,Tags:["Choco.SotF.StealthGuardian"],CustomName:'"ステルスガーディアン"',active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1}],attributes:[{id:"minecraft:max_health",base:30}]}

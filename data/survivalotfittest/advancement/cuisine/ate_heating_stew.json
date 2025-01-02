@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:consume_item",
+        "conditions": {
+          "item": {
+            "items": "minecraft:mushroom_stew",
+            "components": {
+              "minecraft:custom_data": "{SotF:HeatingStew}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "survivalotfittest:item/food/heating_stew"
+    }
+  }
+  
