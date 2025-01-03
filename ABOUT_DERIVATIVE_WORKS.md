@@ -95,6 +95,8 @@ AIの制御等に共通して使用されるタグや関数などです。アド
 `Choco.SotF.TeleportwithEnderman`: エンダーマンやカラプト等のテレポートの対象になります。<br>
 `Choco.SotF.Illigers`: イリジャーの仲間に与えられます。ヴィンディケーターによるバフの対象などに使われます。<br>
 `Choco.SotF.Kraken_Eats`: クラーケンの捕食対象になります。<br>
+`Choco.SotF.Seaserpent_Eats`: シーサーペントの攻撃対象になります。<br>
+`Choco.SotF.Contaminating`: 瘴窟で一定数スポーンする汚染能力持ちと同様の能力が付与されます。この状態では、生ける汚染晶体の攻撃対象から除外されます。<br>
 <br>
 
 ## 関数
@@ -103,6 +105,8 @@ AIの制御等に共通して使用されるタグや関数などです。アド
 `function survivalotfittest:entity/mobs/destroy_block/ {"target":"<Target>"}`: 実行中は、`<Target>`で指定されたタグを持つ対象を追跡するように、ブロックを破壊するようになります。敵対しているかどうかは問わないので注意してください。<br>
 <br>
 `function survivalotfittest:entity/mobs/destroy_block/priority`: 実行中は、自身の5x5x2の範囲内にある`survivalotfittest:priority_destruction_block`に指定されたブロックを破壊するようになります。これには主に機能的ブロックや作物等が含まれます。<br>
+<br>
+`function survivalotfittest:entity/mobs/swimming/`: 実行中は、水の中で泳ぐような行動をとるようになります。敵対している場合はその対象の方向に、していない場合は自身の向いている方向に泳ぎます。また、水の端(ブロック)に到達した場合、水から出ようとします。<br>
 <br>
 `function survivalotfittest:internal/set_items/potion_effect`: 実行時、ゲーム内で7日目以降であれば対象にランダムなポーションのバフを与えます。与えられるバフは、Minecraftにあるポーションをもとにしています。<br>
 <br>
@@ -119,6 +123,12 @@ AIの制御等に共通して使用されるタグや関数などです。アド
 <br>
 `function survivalotfittest:internal/set_items/boots`: 実行時、ランダムな防具アイテムを対象の足に与えます。アイテムの強さの上限はゲーム内での経過日数に比例します。<br>
 <br>
+`function survivalotfittest:internal/version_checker/ {"VersionMin":"<最小バージョン値>","VersionMax":"<最大バージョン値>","Name":"<アドオン名>","Producer":"<作者>"}`: こちらは試験的に実装された機能です。Minecraft | Survival of the Fittestのバージョンがアドオンに対応しているかを確認します。ただし、単にload function(つまり、ワールドが作成 / 読み込みされた瞬間に実行される関数)に組み込むと、不具合が起きる可能性が高いです。バージョン値は以下の通りです:<br>
+```
+Minecraft | Survival of the Fittestのバージョン: バージョン値<br>
+1.1.0 ~ 1.1.1: 1<br>
+```
+<br>
 
 ## スコアボード
 `Choco.SotF.Temperature.Bonus`: 温度の補正値です。<br>
@@ -134,9 +144,18 @@ AIの制御等に共通して使用されるタグや関数などです。アド
 `Choco.SotF.Cold_Resistance`: 低温に対する耐性です。低いほど耐性が高くなります。<br>
 <br>
 
-`Choco.SotF.Coma`: 昏睡値です。Ver 1.0.2時点では試験的な内容「トラップ」でのみ使用されます。これは結果の値であり、通常、操作されるものではありません。プレイヤーにのみ有効です。<br>
+`Choco.SotF.Coma`: 昏睡値です。プレイヤーにのみ有効です。**読み取り専用スコアです。**<br>
 `Choco.SotF.Coma_Gain`: 外部から受けた昏睡値です。時間経過とともに`Choco.SotF.Coma`に変換されます。変換量は`Choco.SotF.Stats.Perseverance`によって制御されます。通常、プレイヤーに昏睡値を与える場合この値が操作されます。プレイヤーにのみ有効です。<br>
-`Choco.SotF.Stats.Perseverance`: 忍耐力のステータスです。数値が高いと昏睡値が上昇しにくくなります。Ver 1.0.2時点でこのステータスは未完成であり、ボーナス値についてのスコアボードが存在しません。プレイヤーにのみ有効です。<br>
+`Choco.SotF.Stats.Perseverance.Bonus`: 忍耐力のボーナス値です。数値が高いと昏睡値が上昇しにくくなります(正確には、この値はChoco.SotF.Stats.Perseveranceに加算されます)。プレイヤーにのみ有効です。<br>
+`Choco.SotF.Stats.Perseverance`: 忍耐力のステータスです。数値が高いと昏睡値が上昇しにくくなります。プレイヤーにのみ有効です。**読み取り専用スコアです。**<br>
+`Choco.SotF.Player.InAirTick`: 空中にいる時間です。<br>
+`Choco.SotF.Player.PressBackwardTick`後ろ方向キーを押している時間です。<br>
+`Choco.SotF.Player.PressFowardTick`前方向キーを押している時間です。<br>
+`Choco.SotF.Player.PressJumpTick`ジャンプキーを押している時間です。<br>
+`Choco.SotF.Player.PressLeftTick`左方向キーを押している時間です。<br>
+`Choco.SotF.Player.PressRightTick`右方向キーを押している時間です。<br>
+`Choco.SotF.Player.PressSprintTick`スプリントキーを押している時間です。<br>
+`Choco.SotF.Player.DodgeStack`: 回避の使用可能回数です。<br>
 <br>
 
 `#HardeModeの持つChoco.SotF.ScoreStorage.0`: ナイトメアモードであるかどうかを表します。0が通常モード、1がナイトメアモードです。	<sub>私のタイプミスで#Hard"e"Modeになってしまっています。</sub>  <br>
