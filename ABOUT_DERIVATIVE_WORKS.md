@@ -125,8 +125,8 @@ AIの制御等に共通して使用されるタグや関数などです。アド
 <br>
 `function survivalotfittest:internal/version_checker/ {"VersionMin":"<最小バージョン値>","VersionMax":"<最大バージョン値>","Name":"<アドオン名>","Producer":"<作者>"}`: こちらは試験的に実装された機能です。Minecraft | Survival of the Fittestのバージョンがアドオンに対応しているかを確認します。ただし、単にload function(つまり、ワールドが作成 / 読み込みされた瞬間に実行される関数)に組み込むと、不具合が起きる可能性が高いです。バージョン値は以下の通りです:<br>
 ```
-Minecraft | Survival of the Fittestのバージョン: バージョン値<br>
-1.1.0 ~ 1.1.1: 1<br>
+Minecraft | Survival of the Fittestのバージョン: バージョン値
+1.1.0 ~ 1.1.1: 1
 ```
 <br>
 
