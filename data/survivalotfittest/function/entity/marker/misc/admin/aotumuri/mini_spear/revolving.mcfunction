@@ -1,0 +1,1 @@
+$execute positioned as @n[type=skeleton,tag=Choco.SotF.Aotumuri] rotated ~$(spear_revolving) 0 run tp @s ^ ^1.2 ^1.5

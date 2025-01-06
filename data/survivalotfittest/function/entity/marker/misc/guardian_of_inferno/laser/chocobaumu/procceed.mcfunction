@@ -4,7 +4,7 @@ execute at @s if block ~ ~ ~ #survivalotfittest:burnable unless block ~ ~ ~ air 
 execute at @s if block ~ ~ ~ #survivalotfittest:water_and_else run setblock ~ ~ ~ air destroy
 execute at @s unless block ^ ^ ^0.2 #survivalotfittest:can_through run function survivalotfittest:entity/marker/misc/guardian_of_inferno/laser/chocobaumu/hit
 execute at @s positioned ~-0.5 ~-0.5 ~-0.5 if entity @a[gamemode=!spectator,dx=0] at @s run function survivalotfittest:entity/marker/misc/guardian_of_inferno/laser/chocobaumu/hit
-execute at @s positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[tag=Choco.SotF.Mobs,tag=!Choco.SotF.Chocobaumu,tag=!,dx=0] at @s run function survivalotfittest:entity/marker/misc/guardian_of_inferno/laser/chocobaumu/hit
+execute at @s positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[tag=Choco.SotF.Mobs,tag=!Choco.SotF.Chocobaumu,tag=!Choco.SotF.Chocobaumu.Crystal,dx=0] at @s run function survivalotfittest:entity/marker/misc/guardian_of_inferno/laser/chocobaumu/hit
 execute at @s positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[type=end_crystal,tag=!Choco.SotF.Random,dx=0] at @s run function survivalotfittest:entity/marker/misc/guardian_of_inferno/laser/chocobaumu/hit
 
 execute at @s run tp @s ^ ^ ^0.2

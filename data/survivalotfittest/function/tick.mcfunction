@@ -31,6 +31,7 @@ execute unless entity @e[type=evoker,tag=Choco.SotF.Necromancer] run bossbar rem
 execute unless entity @e[type=slime,tag=Choco.SotF.Seaserpent] run bossbar remove sotf:seaserpent
 execute unless entity @e[type=skeleton,tag=Choco.SotF.Chocobaumu] run bossbar remove sotf:chocobaumu
 execute unless entity @e[type=slime,tag=Choco.SotF.LivingCrystal] run bossbar remove sotf:living_crystal
+execute unless entity @e[type=skeleton,tag=Choco.SotF.Aotumuri] run bossbar remove sotf:aotumuri
 
 #ワールド全体の時間
 scoreboard players add #World Choco.SotF.Tick.0 1

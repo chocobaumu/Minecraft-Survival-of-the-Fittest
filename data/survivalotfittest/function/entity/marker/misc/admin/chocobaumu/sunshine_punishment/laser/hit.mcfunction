@@ -1,0 +1,19 @@
+execute positioned ^ ^ ^0.5 unless block ~ ~ ~ #survivalotfittest:can_through run function survivalotfittest:entity/marker/misc/admin/chocobaumu/sunshine_punishment/laser/block
+execute positioned ^1 ^ ^0.5 unless block ~ ~ ~ #survivalotfittest:can_through run function survivalotfittest:entity/marker/misc/admin/chocobaumu/sunshine_punishment/laser/block
+execute positioned ^-1 ^ ^0.5 unless block ~ ~ ~ #survivalotfittest:can_through run function survivalotfittest:entity/marker/misc/admin/chocobaumu/sunshine_punishment/laser/block
+execute positioned ^ ^1 ^0.5 unless block ~ ~ ~ #survivalotfittest:can_through run function survivalotfittest:entity/marker/misc/admin/chocobaumu/sunshine_punishment/laser/block
+execute positioned ^ ^-1 ^0.5 unless block ~ ~ ~ #survivalotfittest:can_through run function survivalotfittest:entity/marker/misc/admin/chocobaumu/sunshine_punishment/laser/block
+execute positioned ^1 ^1 ^0.5 unless block ~ ~ ~ #survivalotfittest:can_through run function survivalotfittest:entity/marker/misc/admin/chocobaumu/sunshine_punishment/laser/block
+execute positioned ^1 ^-1 ^0.5 unless block ~ ~ ~ #survivalotfittest:can_through run function survivalotfittest:entity/marker/misc/admin/chocobaumu/sunshine_punishment/laser/block
+execute positioned ^-1 ^1 ^0.5 unless block ~ ~ ~ #survivalotfittest:can_through run function survivalotfittest:entity/marker/misc/admin/chocobaumu/sunshine_punishment/laser/block
+execute positioned ^-1 ^-1 ^0.5 unless block ~ ~ ~ #survivalotfittest:can_through run function survivalotfittest:entity/marker/misc/admin/chocobaumu/sunshine_punishment/laser/block
+
+execute positioned ^ ^ ^0.5 positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=Choco.SotF.Enemies_Target,dx=0] run function survivalotfittest:entity/marker/misc/admin/chocobaumu/sunshine_punishment/laser/player
+execute positioned ^1 ^ ^0.5 positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=Choco.SotF.Enemies_Target,dx=0] run function survivalotfittest:entity/marker/misc/admin/chocobaumu/sunshine_punishment/laser/player
+execute positioned ^-1 ^ ^0.5 positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=Choco.SotF.Enemies_Target,dx=0] run function survivalotfittest:entity/marker/misc/admin/chocobaumu/sunshine_punishment/laser/player
+execute positioned ^ ^1 ^0.5 positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=Choco.SotF.Enemies_Target,dx=0] run function survivalotfittest:entity/marker/misc/admin/chocobaumu/sunshine_punishment/laser/player
+execute positioned ^ ^-1 ^0.5 positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=Choco.SotF.Enemies_Target,dx=0] run function survivalotfittest:entity/marker/misc/admin/chocobaumu/sunshine_punishment/laser/player
+execute positioned ^1 ^1 ^0.5 positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=Choco.SotF.Enemies_Target,dx=0] run function survivalotfittest:entity/marker/misc/admin/chocobaumu/sunshine_punishment/laser/player
+execute positioned ^1 ^-1 ^0.5 positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=Choco.SotF.Enemies_Target,dx=0] run function survivalotfittest:entity/marker/misc/admin/chocobaumu/sunshine_punishment/laser/player
+execute positioned ^-1 ^1 ^0.5 positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=Choco.SotF.Enemies_Target,dx=0] run function survivalotfittest:entity/marker/misc/admin/chocobaumu/sunshine_punishment/laser/player
+execute positioned ^-1 ^-1 ^0.5 positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=Choco.SotF.Enemies_Target,dx=0] run function survivalotfittest:entity/marker/misc/admin/chocobaumu/sunshine_punishment/laser/player

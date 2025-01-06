@@ -13,7 +13,10 @@
     "parent": "abn:going_even_deeper",
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:tick"
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {
+          "to": "abn:abyssalocean"
+        }
       }
     }
   }

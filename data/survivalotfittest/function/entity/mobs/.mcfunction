@@ -260,6 +260,9 @@ execute if entity @s[type=slime,tag=Choco.SotF.LivingCrystal] at @s run function
 # Chocobaumu_JPN
 execute if entity @s[type=skeleton,tag=Choco.SotF.Chocobaumu] at @s run function survivalotfittest:entity/mobs/admin/chocobaumu/
 
+# Aotumuri
+execute if entity @s[type=skeleton,tag=Choco.SotF.Aotumuri] at @s run function survivalotfittest:entity/mobs/admin/aotumuri/
+
 #ウォールラン(諸事情でここに置いています。)
 execute if entity @s[type=shulker,tag=Choco.SotF.WallRunning] at @s run function survivalotfittest:entity/player/wall_running/footing
 execute if entity @s[type=slime,tag=Choco.SotF.WallRunning] at @s run function survivalotfittest:entity/player/wall_running/footing

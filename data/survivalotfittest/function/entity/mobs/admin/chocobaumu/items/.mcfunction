@@ -10,3 +10,6 @@ execute if score @s Choco.SotF.ScoreStorage.0 matches 2 run function survivalotf
 
 # レイピア
 execute if score @s Choco.SotF.ScoreStorage.0 matches 3 run function survivalotfittest:entity/mobs/admin/chocobaumu/items/rapier/
+
+# 魔導書
+execute if score @s Choco.SotF.ScoreStorage.0 matches 4 run function survivalotfittest:entity/mobs/admin/chocobaumu/items/grimoire/

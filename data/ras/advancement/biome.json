@@ -13,7 +13,10 @@
     "parent": "ras:the_adventurer",
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:tick"
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {
+          "to": "ras:radioactiveabyss"
+        }
       }
     }
   }
