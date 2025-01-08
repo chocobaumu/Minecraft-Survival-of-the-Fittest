@@ -176,3 +176,4 @@ execute if entity @s[tag=Choco.SotF.Chocobaumu.FireSpear] at @s run function sur
 execute if entity @s[tag=Choco.SotF.Aotumuri.WaterSpear] at @s run function survivalotfittest:entity/marker/misc/admin/aotumuri/water_spear/
 execute if entity @s[tag=Choco.SotF.Aotumuri.WaterSpear.Magic] at @s run function survivalotfittest:entity/marker/misc/admin/aotumuri/spear_magic/
 execute if entity @s[tag=Choco.SotF.Aotumuri.WaterSpear.Mini] at @s run function survivalotfittest:entity/marker/misc/admin/aotumuri/mini_spear/
+execute if entity @s[tag=Choco.SotF.Aotumuri.IceSpear.Mini] at @s run function survivalotfittest:entity/marker/misc/admin/aotumuri/mini_spear/ice/

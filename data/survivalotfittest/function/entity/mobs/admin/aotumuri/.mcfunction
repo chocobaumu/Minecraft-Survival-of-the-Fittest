@@ -27,3 +27,7 @@ execute if score @s Choco.SotF.Tick.0 matches 100.. at @s run rotate @s facing e
 execute if score @s Choco.SotF.Tick.0 matches 350.. rotated as @s at @s positioned ~ ~0.7 ~ rotated ~ 90 positioned ^ ^-0.2 ^ run function survivalotfittest:particle/aotumuri/wing
 
 execute if score @s Choco.SotF.Tick.0 matches 350.. run function survivalotfittest:entity/mobs/admin/aotumuri/fight/
+
+
+# hoge
+tag @s add Choco.SotF.InsaneAI.Target
