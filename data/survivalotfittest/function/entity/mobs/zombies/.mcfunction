@@ -5,7 +5,10 @@ execute if score @s Choco.SotF.Tick.0 matches 1 if entity @s[tag=Choco.SotF.Fros
 execute if score @s Choco.SotF.Tick.0 matches 1 if entity @s[tag=Choco.SotF.Disturber] at @s run function survivalotfittest:init/disturber
 
 #ブロック設置
-execute if entity @s[type=!drowned,tag=!Choco.SotF.Corrupt,tag=!Choco.SotF.NonVident] at @s if entity @e[tag=Choco.SotF.Zombie_Target,distance=..24] run function survivalotfittest:entity/mobs/place_block/ {"block":"cobblestone","target":"Choco.SotF.Zombie_Target"}
+execute unless score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 if entity @s[type=!drowned,tag=!Choco.SotF.Corrupt,tag=!Choco.SotF.NonVident] at @s if entity @e[tag=Choco.SotF.Zombie_Target,distance=..24] run function survivalotfittest:entity/mobs/place_block/ {"block":"cobblestone","target":"Choco.SotF.Zombie_Target"}
+
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 at @s run function survivalotfittest:entity/mobs/zombies/nightmare/
+
 #ブロック破壊
 execute if entity @s at @s if entity @e[tag=Choco.SotF.Zombie_Target,distance=..24,tag=!Choco.SotF.NonVident] run function survivalotfittest:entity/mobs/destroy_block/ {"target":"Choco.SotF.Zombie_Target"}
 execute at @s if entity @e[tag=Choco.SotF.Zombie_Target,distance=..24] run function survivalotfittest:entity/mobs/destroy_block/priority

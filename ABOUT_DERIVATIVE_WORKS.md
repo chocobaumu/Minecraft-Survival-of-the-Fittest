@@ -167,7 +167,7 @@ Minecraft | Survival of the Fittestのバージョン: バージョン値
 4 = マジシャン(腐敗の魔術師が使用するファングを出す) <br>
 5 = タクティシャン(クールタイムはあるが無限にTNTを設置できる 同時に複数設置する) <br>
 6 = クリスタライザー(アメジストをはやして攻撃する 多分認識さえしていれば壁越しとかでも使う) <br>
-SotFでは、`execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 store result score @s Choco.SotF.HardMode.Attributes run random value 0..6`というコマンドを初期設定用関数によって実行し設定しています。<br>
+SotFでは、`execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 store result score @s Choco.SotF.HardMode.Attributes run random value 0..9`というコマンドを初期設定用関数によって実行し設定しています。<br>
 また、これらは通常モードでも機能します。追加されるモブの能力として持たせてもいいかもしれません。<br>
 <br>
 

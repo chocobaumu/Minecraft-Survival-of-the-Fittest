@@ -21,4 +21,4 @@ execute if entity @s[type=piglin,tag=Choco.SotF.Type_Range] if score #HardeMode 
 execute if entity @s[type=piglin,tag=Choco.SotF.Type_Range] if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 if score @s Choco.SotF.ScoreStorage.2 matches 1 run effect clear @s slow_falling
 
 #ナイトメアのAttribute
-execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 store result score @s Choco.SotF.HardMode.Attributes run random value 0..6
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 store result score @s Choco.SotF.HardMode.Attributes run random value 0..9

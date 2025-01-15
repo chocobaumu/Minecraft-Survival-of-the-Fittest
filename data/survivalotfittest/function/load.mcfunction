@@ -49,6 +49,7 @@ scoreboard players set #24000 Choco.SotF.Math 24000
 scoreboard objectives add Choco.SotF.Random dummy
 scoreboard objectives add Choco.SotF.Health dummy
 scoreboard objectives add Choco.SotF.Trigger trigger
+scoreboard objectives add Choco.SotF.Invaders.Legion dummy
 
 # アイテム持たせるやつ用
 scoreboard objectives add Choco.SotF.Items.Random dummy

@@ -163,6 +163,9 @@ execute if entity @s[tag=Choco.SotF.ChargeGuardian.Energy] at @s run function su
 execute if entity @s[tag=Choco.SotF.Radiation] at @s run function survivalotfittest:entity/marker/misc/radiation/
 execute if entity @s[tag=Choco.SotF.SculkKill] at @s run function survivalotfittest:entity/marker/misc/sculk_kill/
 
+#アトリビュート
+execute if entity @s[tag=Choco.SotF.PhantomStep.Shadow] at @s run function survivalotfittest:entity/marker/misc/phantom_step/
+
 #ADMIN FIGHT!!!!
 execute if entity @s[tag=Choco.SotF.Admin.Chocobaumu.GunReticle] at @s run function survivalotfittest:entity/marker/misc/admin/chocobaumu/shot/
 execute if entity @s[tag=Choco.SotF.Admin.Chocobaumu.Flame] at @s run function survivalotfittest:entity/marker/misc/admin/chocobaumu/flame/

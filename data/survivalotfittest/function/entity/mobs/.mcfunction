@@ -229,6 +229,9 @@ execute if entity @s[type=zombie,tag=Choco.SotF.CorruptionCrystal] at @s run fun
 # 汚染効果持ち
 execute if entity @s[tag=Choco.SotF.Contaminating] at @s run function survivalotfittest:entity/mobs/contaminating_type/
 
+# 侵略系
+execute if entity @s[tag=Choco.SotF.Invaders] at @s run function survivalotfittest:entity/mobs/invaders/
+
 ## ボス
 
 #サーティフィケーター

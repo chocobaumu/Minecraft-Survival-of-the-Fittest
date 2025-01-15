@@ -1,9 +1,11 @@
-execute if entity @s[tag=!Choco.SotF.Substantiator] on target run tag @s add Choco.SotF.Target
+execute as @s if entity @s[tag=!Choco.SotF.Substantiator] on target as @s run tag @s add Choco.SotF.Target
 #ブロック設置
-execute if entity @s[type=!wither_skeleton,tag=!Choco.SotF.Blind] at @s if entity @e[tag=Choco.SotF.Enemies_Target,distance=..16,tag=!Choco.SotF.NonVident] run function survivalotfittest:entity/mobs/place_block/ {"block":"cobblestone","target":"Choco.SotF.Enemies_Target"}
+execute unless score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 if entity @s[type=!wither_skeleton,tag=!Choco.SotF.Blind,tag=!Choco.SotF.NonVident] at @s if entity @e[tag=Choco.SotF.Enemies_Target,distance=..16] run function survivalotfittest:entity/mobs/place_block/ {"block":"cobblestone","target":"Choco.SotF.Enemies_Target"}
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 if entity @s[type=!wither_skeleton,tag=!Choco.SotF.Blind] if entity @e[tag=Choco.SotF.Target] at @s run function survivalotfittest:entity/mobs/place_block/ {"block":"cobblestone","target":"Choco.SotF.Target"}
 
 #破壊
 execute at @s if entity @a[gamemode=!spectator,gamemode=!creative,distance=..16] run function survivalotfittest:entity/mobs/destroy_block/priority
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 if entity @e[tag=Choco.SotF.Target] at @s run function survivalotfittest:entity/mobs/destroy_block/ {"target":"Choco.SotF.Target"}
 
 #持ち替え
 execute if entity @s[tag=!Choco.SotF.Substantiator] unless score @s Choco.SotF.Items.Mainhand matches 7 if entity @s at @s if entity @e[tag=Choco.SotF.Target,distance=..5] run function survivalotfittest:entity/mobs/skeletons/melee

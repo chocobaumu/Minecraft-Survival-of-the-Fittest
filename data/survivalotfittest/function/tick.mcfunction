@@ -58,6 +58,17 @@ execute if entity @a[scores={Choco.SotF.CreatorMode=1}] run function survivalotf
 scoreboard players add #Portal Choco.SotF.ScoreStorage.0 1
 execute if score #Portal Choco.SotF.ScoreStorage.0 matches 360.. run scoreboard players set #Portal Choco.SotF.ScoreStorage.0 0
 
+#侵略旗
+scoreboard players set #Invasion.FlagCount Choco.SotF.ScoreStorage.0 0
+execute store result score #Invasion.FlagCount Choco.SotF.ScoreStorage.0 run execute if entity @e[type=item_display,tag=Choco.SotF.InvasionFlag]
+
+scoreboard players set #Invasion.SpawnLimit Choco.SotF.ScoreStorage.0 0
+scoreboard players operation #Invasion.SpawnLimit Choco.SotF.ScoreStorage.0 = #Invasion.FlagCount Choco.SotF.ScoreStorage.0
+scoreboard players operation #Invasion.SpawnLimit Choco.SotF.ScoreStorage.0 *= #20 Choco.SotF.Math
+
+scoreboard players add #Invasion.FlagPlaceTick Choco.SotF.ScoreStorage.0 0
+execute if score #Invasion.FlagPlaceTick Choco.SotF.ScoreStorage.0 matches 1.. run scoreboard players remove #Invasion.FlagPlaceTick Choco.SotF.ScoreStorage.0 1
+execute if score #Invasion.FlagPlaceTick Choco.SotF.ScoreStorage.0 matches 0 if entity @e[type=item_display,tag=Choco.SotF.InvasionFlag] as @e[tag=Choco.SotF.Mobs,tag=Choco.SotF.Invaders,scores={Choco.SotF.Invaders.Legion=3..},sort=random,limit=1] at @s unless entity @e[type=item_display,tag=Choco.SotF.InvasionFlag,distance=..30] unless entity @e[tag=Choco.SotF.Zombie_Target,distance=..30] run function survivalotfittest:entity/mobs/invaders/place_flags
 
 # #World Choco.SotF.Tick.0と経過時間(ゲーム内)
 # 24000 = 1 day

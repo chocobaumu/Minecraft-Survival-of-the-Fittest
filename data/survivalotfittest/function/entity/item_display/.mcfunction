@@ -64,6 +64,9 @@ execute if entity @s[tag=Choco.SotF.ConnectionCore] at @s run function survivalo
 # 汚染晶入りの瓶
 execute if entity @s[tag=Choco.SotF.SkulkKiller] at @s run function survivalotfittest:entity/item_display/skulk_killer/
 
+# 侵略旗
+execute if entity @s[tag=Choco.SotF.InvasionFlag] at @s run function survivalotfittest:entity/item_display/invasion_flag/
+
 #ADMIN
 
 # > Chocobaumu

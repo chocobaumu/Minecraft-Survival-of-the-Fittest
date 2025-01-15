@@ -1,0 +1,1 @@
+$rotate @s $(rotation) 0

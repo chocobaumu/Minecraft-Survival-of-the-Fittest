@@ -7,13 +7,15 @@ execute if score @s Choco.SotF.Tick.0 matches 1 if entity @s[tag=Choco.SotF.Summ
 tag @s[tag=!Choco.SotF.Corrupt] add Choco.SotF.TeleportwithEnderman
 
 #敵対
-execute at @s if entity @e[tag=Choco.SotF.Zombie_Target,distance=..16] run data modify entity @s AngryAt set from entity @e[tag=Choco.SotF.Zombie_Target,sort=nearest,limit=1,distance=..16] UUID
+execute unless score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 at @s if entity @e[tag=Choco.SotF.Zombie_Target,distance=..16] run data modify entity @s AngryAt set from entity @e[tag=Choco.SotF.Zombie_Target,sort=nearest,limit=1,distance=..16] UUID
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 at @s if entity @e[tag=Choco.SotF.Zombie_Target,distance=..64] run data modify entity @s AngryAt set from entity @e[tag=Choco.SotF.Zombie_Target,sort=nearest,limit=1,distance=..64] UUID
 
 #ターゲット存在検知
 execute on target as @s run tag @s add Choco.SotF.Targeted
 
 #ブロック設置/破壊
-execute at @s if entity @e[tag=Choco.SotF.Targeted,distance=..24] run function survivalotfittest:entity/mobs/zombified_piglin/if_targeting
+execute unless score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 at @s if entity @e[tag=Choco.SotF.Targeted,distance=..24] run function survivalotfittest:entity/mobs/zombified_piglin/if_targeting
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 at @s if entity @e[tag=Choco.SotF.Targeted] run function survivalotfittest:entity/mobs/zombified_piglin/if_targeting
 tag @e[tag=Choco.SotF.Targeted] remove Choco.SotF.Targeted
 
 #群れバフ

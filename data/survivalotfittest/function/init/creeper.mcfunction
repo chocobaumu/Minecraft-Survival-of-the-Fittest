@@ -30,7 +30,7 @@ execute if score @s Choco.SotF.Random matches 11..30 positioned over motion_bloc
 execute if score @s Choco.SotF.Random matches 11..30 positioned over motion_blocking_no_leaves unless entity @s[distance=..1] at @s if biome ~ ~ ~ #survivalotfittest:hot run function survivalotfittest:summon/mobs/aquatic_bug
 
 #ナイトメアのAttribute
-execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 store result score @s Choco.SotF.HardMode.Attributes run random value 0..6
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 store result score @s Choco.SotF.HardMode.Attributes run random value 0..9
 
 #execute positioned over motion_blocking_no_leaves unless entity @s[dy=100] at @s if score @s Choco.SotF.Pos.1 matches ..-1 if score @s Choco.SotF.Random matches 31..70 run function survivalotfittest:summon/misc/trap/fumarole
 

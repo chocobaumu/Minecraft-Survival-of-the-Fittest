@@ -4,3 +4,6 @@ execute if score @s Choco.SotF.HardMode.Attributes matches 3 run function surviv
 execute if score @s Choco.SotF.HardMode.Attributes matches 4 run function survivalotfittest:entity/mobs/attributes/magician/
 execute if score @s Choco.SotF.HardMode.Attributes matches 5 run function survivalotfittest:entity/mobs/attributes/tactician/
 execute if score @s Choco.SotF.HardMode.Attributes matches 6 run function survivalotfittest:entity/mobs/attributes/crystalizer/
+execute if score @s Choco.SotF.HardMode.Attributes matches 7 run function survivalotfittest:entity/mobs/attributes/vampirism/
+execute if score @s Choco.SotF.HardMode.Attributes matches 8 run function survivalotfittest:entity/mobs/attributes/invulnerble/
+execute if score @s Choco.SotF.HardMode.Attributes matches 9 run function survivalotfittest:entity/mobs/attributes/phantom_step/
