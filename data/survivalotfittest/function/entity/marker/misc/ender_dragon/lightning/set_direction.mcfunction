@@ -1,0 +1,1 @@
+$rotate @s ~$(lightning) 0

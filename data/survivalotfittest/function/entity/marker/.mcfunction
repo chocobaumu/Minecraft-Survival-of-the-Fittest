@@ -80,6 +80,11 @@ execute if entity @s[tag=Choco.SotF.Wither.CoalErosion] at @s run function survi
 execute if entity @s[tag=Choco.sotF.DragonMagic] at @s run function survivalotfittest:entity/marker/misc/ender_dragon/magic/
 execute if entity @s[tag=Choco.SotF.DragonMagic_Homing] at @s run function survivalotfittest:entity/marker/misc/ender_dragon/homing_magic/
 execute if entity @s[tag=Choco.SotF.CrystalWhip] at @s run function survivalotfittest:entity/marker/misc/ender_dragon/crystal_whip/
+execute if entity @s[tag=Choco.SotF.EnderLightning] at @s run function survivalotfittest:entity/marker/misc/ender_dragon/lightning/
+execute if entity @s[tag=Choco.SotF.Crystal.Protection] at @s run function survivalotfittest:entity/marker/misc/ender_dragon/crystal_protection/
+execute if entity @s[tag=Choco.SotF.EnderServant.Crystal] at @s run function survivalotfittest:entity/marker/misc/ender_servant/crystal/
+execute if entity @s[tag=Choco.SotF.EnderServant.CrystalCharge] at @s run function survivalotfittest:entity/marker/misc/ender_servant/charge/
+execute if entity @s[tag=Choco.SotF.EnderServant.CrystalSummon] at @s run function survivalotfittest:entity/marker/misc/ender_servant/summon/
 
 #ウォーデン
 execute if entity @s[tag=Choco.SotF.Warden_Contamination] at @s run function survivalotfittest:entity/marker/misc/warden_contamination/
@@ -180,3 +185,6 @@ execute if entity @s[tag=Choco.SotF.Aotumuri.WaterSpear] at @s run function surv
 execute if entity @s[tag=Choco.SotF.Aotumuri.WaterSpear.Magic] at @s run function survivalotfittest:entity/marker/misc/admin/aotumuri/spear_magic/
 execute if entity @s[tag=Choco.SotF.Aotumuri.WaterSpear.Mini] at @s run function survivalotfittest:entity/marker/misc/admin/aotumuri/mini_spear/
 execute if entity @s[tag=Choco.SotF.Aotumuri.IceSpear.Mini] at @s run function survivalotfittest:entity/marker/misc/admin/aotumuri/mini_spear/ice/
+
+# バグ対策
+execute if entity @s[tag=Choco.SotF.UndeadConjurer.Fang.ChangingDirection] run function survivalotfittest:internal/kill

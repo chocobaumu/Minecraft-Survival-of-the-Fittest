@@ -1,0 +1,1 @@
+summon item_display ~ ~ ~ {teleport_duration:2,Tags:["Choco.SotF.GroundShatteringAirStrike"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.75f,0.75f,0.75f]},item:{id:"minecraft:crying_obsidian",count:1}}

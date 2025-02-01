@@ -1,0 +1,5 @@
+
+execute unless entity @s[type=breeze] unless entity @s[type=blaze] unless entity @e[tag=Choco.SotF.Target] unless entity @e[tag=Choco.SotF.Invaders,tag=Choco.SotF.InvasionLeader,distance=..8] if entity @e[tag=Choco.SotF.Invaders,tag=Choco.SotF.InvasionLeader,distance=..64] unless block ~ ~-0.1 ~ #survivalotfittest:can_through run function survivalotfittest:entity/mobs/invaders/normal/gathering
+
+execute if entity @s[type=blaze] unless entity @e[tag=Choco.SotF.Target] unless entity @e[tag=Choco.SotF.Invaders,tag=Choco.SotF.InvasionLeader,distance=..8] if entity @e[tag=Choco.SotF.Invaders,tag=Choco.SotF.InvasionLeader,distance=..64] run function survivalotfittest:entity/mobs/invaders/normal/gathering
+execute if entity @s[type=breeze] unless entity @e[tag=Choco.SotF.Target] unless entity @e[tag=Choco.SotF.Invaders,tag=Choco.SotF.InvasionLeader,distance=..8] if entity @e[tag=Choco.SotF.Invaders,tag=Choco.SotF.InvasionLeader,distance=..64] run function survivalotfittest:entity/mobs/invaders/normal/gathering

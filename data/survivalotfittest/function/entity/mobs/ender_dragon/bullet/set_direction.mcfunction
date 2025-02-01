@@ -1,0 +1,1 @@
+$execute at @s facing entity @e[tag=Choco.SotF.Enemies_Target,sort=nearest,limit=1] eyes rotated ~$(bullet_x) ~$(bullet_y) positioned 0.0 0.0 0.0 run summon marker ^ ^0.375 ^3 {Tags:["Choco.SotF.PgilinPotion_Direction"]}

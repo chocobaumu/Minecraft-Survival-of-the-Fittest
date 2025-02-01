@@ -10,8 +10,11 @@ execute if score @s Choco.SotF.Tick.0 matches 601.. run function survivalotfitte
 
 execute as @e[tag=Choco.SotF.Zombie_Target,distance=..30] run function survivalotfittest:entity/item_display/invasion_flag/debuff
 execute as @e[tag=Choco.SotF.Invaders,distance=..30] run function survivalotfittest:entity/item_display/invasion_flag/buff
+execute as @e[tag=Choco.SotF.Invasion.Defenders,distance=..30] run function survivalotfittest:entity/item_display/invasion_flag/buff
 
 scoreboard players add @s Choco.SotF.ScoreStorage.1 275
 execute if score @s Choco.SotF.ScoreStorage.1 matches 360.. run scoreboard players remove @s Choco.SotF.ScoreStorage.1 360
 execute store result storage sotf:invasion_flag rotation_circle int 1 run scoreboard players get @s Choco.SotF.ScoreStorage.1
 function survivalotfittest:entity/item_display/invasion_flag/circle with storage sotf:invasion_flag
+
+execute store result score @s Choco.SotF.Pos.1 run data get entity @s Pos[1]

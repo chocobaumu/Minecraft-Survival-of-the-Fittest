@@ -1,0 +1,1 @@
+summon phantom ~ ~ ~ {Tags:["Choco.SotF.Invasion.Defenders","Choco.SotF.Invasion.SkyPatrol"]}

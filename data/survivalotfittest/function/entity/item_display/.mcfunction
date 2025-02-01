@@ -9,6 +9,9 @@ execute if entity @s[tag=Choco.SotF.Guardian_Thorn] at @s run function survivalo
 execute if entity @s[tag=Choco.SotF.ElderGuardianCrystal] at @s run function survivalotfittest:entity/item_display/guardian_crystal/
 execute if entity @s[tag=Choco.SotF.ElderGuardian.Bubble] at @s run function survivalotfittest:entity/item_display/guardian_bubble/
 
+## エンダードラゴン
+execute if entity @s[tag=Choco.SotF.GroundShatteringAirStrike] at @s run function survivalotfittest:entity/item_display/ender_dragon/ground_shattering_airstrike/
+
 ## ピリジャー
 execute if entity @s[tag=Choco.SotF.PillagerBomb] at @s run function survivalotfittest:entity/item_display/pillager_bomb/
 

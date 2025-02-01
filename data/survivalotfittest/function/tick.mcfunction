@@ -66,6 +66,9 @@ scoreboard players set #Invasion.SpawnLimit Choco.SotF.ScoreStorage.0 0
 scoreboard players operation #Invasion.SpawnLimit Choco.SotF.ScoreStorage.0 = #Invasion.FlagCount Choco.SotF.ScoreStorage.0
 scoreboard players operation #Invasion.SpawnLimit Choco.SotF.ScoreStorage.0 *= #20 Choco.SotF.Math
 
+scoreboard players operation #Invasion.Defender.SpawnLimit Choco.SotF.ScoreStorage.0 = #Invasion.SpawnLimit Choco.SotF.ScoreStorage.0
+scoreboard players operation #Invasion.Defender.SpawnLimit Choco.SotF.ScoreStorage.0 /= #2 Choco.SotF.Math
+
 scoreboard players add #Invasion.FlagPlaceTick Choco.SotF.ScoreStorage.0 0
 execute if score #Invasion.FlagPlaceTick Choco.SotF.ScoreStorage.0 matches 1.. run scoreboard players remove #Invasion.FlagPlaceTick Choco.SotF.ScoreStorage.0 1
 execute if score #Invasion.FlagPlaceTick Choco.SotF.ScoreStorage.0 matches 0 if entity @e[type=item_display,tag=Choco.SotF.InvasionFlag] as @e[tag=Choco.SotF.Mobs,tag=Choco.SotF.Invaders,scores={Choco.SotF.Invaders.Legion=3..},sort=random,limit=1] at @s unless entity @e[type=item_display,tag=Choco.SotF.InvasionFlag,distance=..30] unless entity @e[tag=Choco.SotF.Zombie_Target,distance=..30] run function survivalotfittest:entity/mobs/invaders/place_flags
@@ -85,3 +88,6 @@ execute if score #Invasion.FlagPlaceTick Choco.SotF.ScoreStorage.0 matches 0 if 
 # 4 = マジシャン(腐敗の魔術師が使用するファングを出す)
 # 5 = タクティシャン(クールタイムはあるが無限にTNTを設置できる 同時に複数設置する)
 # 6 = クリスタライザー(アメジストをはやして攻撃する 多分認識さえしていれば壁越しとかでも使う)
+# 7 = ヴァンピリズム(暗いところで移動速度上昇X、攻撃力上昇X、耐性III)
+# 8 = 無敵(被ダメージ時永続の衝撃吸収V、ダメージごとに再付与)
+# 9 = ファントムステップ(敵対状態でダメージを受けるか動きを止めたとき、壁貫通の移動を行う)

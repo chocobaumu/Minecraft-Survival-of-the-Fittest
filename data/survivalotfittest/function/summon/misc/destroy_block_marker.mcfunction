@@ -1,1 +1,1 @@
-execute align xyz positioned ~0.5 ~ ~0.5 unless block ~ ~ ~ #survivalotfittest:cannot_destroy run summon marker ~ ~ ~ {Tags:["Choco.SotF.Mob_Destroy_Block"]}
+execute align xyz positioned ~0.5 ~ ~0.5 unless block ^ ^ ^ #survivalotfittest:cannot_destroy run summon marker ^ ^ ^ {Tags:["Choco.SotF.Mob_Destroy_Block"]}

@@ -231,6 +231,13 @@ execute if entity @s[tag=Choco.SotF.Contaminating] at @s run function survivalot
 
 # 侵略系
 execute if entity @s[tag=Choco.SotF.Invaders] at @s run function survivalotfittest:entity/mobs/invaders/
+execute if entity @s[tag=Choco.SotF.Invasion.Defenders] at @s run function survivalotfittest:entity/mobs/invasion_defenders/
+execute if entity @s[tag=Choco.SotF.Invasion.Suppressor] at @s run function survivalotfittest:entity/mobs/invaders/suppressor/
+execute if entity @s[tag=Choco.SotF.Invasion.SuppressorLeader] at @s run function survivalotfittest:entity/mobs/invaders/suppressor/
+execute if entity @s[tag=Choco.SotF.Invasion.ConstructionTeam] at @s run function survivalotfittest:entity/mobs/invaders/construction_team/
+
+# エンダーサーヴァント
+execute if entity @s[tag=Choco.SotF.EnderServant] at @s run function survivalotfittest:entity/mobs/ender_servant/
 
 ## ボス
 
@@ -272,7 +279,7 @@ execute if entity @s[type=slime,tag=Choco.SotF.WallRunning] at @s run function s
 
 #アイテム系処理
 execute if score @s Choco.SotF.Items.Offhand matches 1 at @s run function survivalotfittest:entity/mobs/items/offhand/flint_and_steel/
-execute if score @s Choco.SotF.Items.Offhand matches 2 at @s run function survivalotfittest:entity/mobs/items/offhand/shield
+execute if score @s Choco.SotF.Items.Offhand matches 2 at @s run function survivalotfittest:entity/mobs/items/offhand/shield/
 execute if score @s Choco.SotF.Items.Offhand matches 3 at @s run function survivalotfittest:entity/mobs/items/offhand/tnt/
 execute if score @s Choco.SotF.Items.Offhand matches 4 at @s run function survivalotfittest:entity/mobs/items/offhand/lava_bucket/
 execute if score @s Choco.SotF.Items.Offhand matches 5..9 at @s run function survivalotfittest:entity/mobs/items/offhand/potion/

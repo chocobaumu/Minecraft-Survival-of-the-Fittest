@@ -1,0 +1,21 @@
+execute if entity @a[gamemode=!spectator,gamemode=!creative,distance=..128] at @r[gamemode=!spectator,gamemode=!creative,distance=..128] run function survivalotfittest:summon/misc/ender_lightning
+execute if entity @a[gamemode=!spectator,gamemode=!creative,distance=..128] at @r[gamemode=!spectator,gamemode=!creative,distance=..128] run function survivalotfittest:summon/misc/ender_lightning
+execute if entity @a[gamemode=!spectator,gamemode=!creative,distance=..128] at @r[gamemode=!spectator,gamemode=!creative,distance=..128] run function survivalotfittest:summon/misc/ender_lightning
+execute if entity @a[gamemode=!spectator,gamemode=!creative,distance=..128] at @r[gamemode=!spectator,gamemode=!creative,distance=..128] run function survivalotfittest:summon/misc/ender_lightning
+execute if entity @a[gamemode=!spectator,gamemode=!creative,distance=..128] at @r[gamemode=!spectator,gamemode=!creative,distance=..128] run function survivalotfittest:summon/misc/ender_lightning
+execute if entity @a[gamemode=!spectator,gamemode=!creative,distance=..128] at @r[gamemode=!spectator,gamemode=!creative,distance=..128] run function survivalotfittest:summon/misc/ender_lightning
+execute if entity @a[gamemode=!spectator,gamemode=!creative,distance=..128] at @r[gamemode=!spectator,gamemode=!creative,distance=..128] run function survivalotfittest:summon/misc/ender_lightning
+execute if entity @a[gamemode=!spectator,gamemode=!creative,distance=..128] at @r[gamemode=!spectator,gamemode=!creative,distance=..128] run function survivalotfittest:summon/misc/ender_lightning
+execute if entity @a[gamemode=!spectator,gamemode=!creative,distance=..128] at @r[gamemode=!spectator,gamemode=!creative,distance=..128] run function survivalotfittest:summon/misc/ender_lightning
+execute if entity @a[gamemode=!spectator,gamemode=!creative,distance=..128] at @r[gamemode=!spectator,gamemode=!creative,distance=..128] run function survivalotfittest:summon/misc/ender_lightning
+
+execute unless entity @a[gamemode=!spectator,gamemode=!creative,distance=..128] at @s run function survivalotfittest:summon/misc/ender_lightning
+execute unless entity @a[gamemode=!spectator,gamemode=!creative,distance=..128] at @s run function survivalotfittest:summon/misc/ender_lightning
+execute unless entity @a[gamemode=!spectator,gamemode=!creative,distance=..128] at @s run function survivalotfittest:summon/misc/ender_lightning
+execute unless entity @a[gamemode=!spectator,gamemode=!creative,distance=..128] at @s run function survivalotfittest:summon/misc/ender_lightning
+execute unless entity @a[gamemode=!spectator,gamemode=!creative,distance=..128] at @s run function survivalotfittest:summon/misc/ender_lightning
+execute unless entity @a[gamemode=!spectator,gamemode=!creative,distance=..128] at @s run function survivalotfittest:summon/misc/ender_lightning
+execute unless entity @a[gamemode=!spectator,gamemode=!creative,distance=..128] at @s run function survivalotfittest:summon/misc/ender_lightning
+execute unless entity @a[gamemode=!spectator,gamemode=!creative,distance=..128] at @s run function survivalotfittest:summon/misc/ender_lightning
+execute unless entity @a[gamemode=!spectator,gamemode=!creative,distance=..128] at @s run function survivalotfittest:summon/misc/ender_lightning
+execute unless entity @a[gamemode=!spectator,gamemode=!creative,distance=..128] at @s run function survivalotfittest:summon/misc/ender_lightning

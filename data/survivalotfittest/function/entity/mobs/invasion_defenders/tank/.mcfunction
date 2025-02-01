@@ -1,0 +1,1 @@
+execute at @s run function survivalotfittest:entity/mobs/items/offhand/shield/

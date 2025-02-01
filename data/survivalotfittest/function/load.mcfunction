@@ -30,12 +30,17 @@ scoreboard objectives add Choco.SotF.tick.5 dummy
 scoreboard objectives add Choco.SotF.tick.6 dummy
 scoreboard objectives add Choco.SotF.tick.7 dummy
 scoreboard objectives add Choco.SotF.tick.8 dummy
+scoreboard objectives add Choco.SotF.tick.9 dummy
+scoreboard objectives add Choco.SotF.tick.10 dummy
+scoreboard objectives add Choco.SotF.tick.11 dummy
+scoreboard objectives add Choco.SotF.tick.12 dummy
 scoreboard objectives add Choco.SotF.Math dummy
 scoreboard players set #-1 Choco.SotF.Math -1
 scoreboard players set #2 Choco.SotF.Math 2
 scoreboard players set #3 Choco.SotF.Math 3
 scoreboard players set #4 Choco.SotF.Math 4
 scoreboard players set #5 Choco.SotF.Math 5
+scoreboard players set #6 Choco.SotF.Math 6
 scoreboard players set #8 Choco.SotF.Math 8
 scoreboard players set #10 Choco.SotF.Math 10
 scoreboard players set #15 Choco.SotF.Math 15
@@ -50,6 +55,7 @@ scoreboard objectives add Choco.SotF.Random dummy
 scoreboard objectives add Choco.SotF.Health dummy
 scoreboard objectives add Choco.SotF.Trigger trigger
 scoreboard objectives add Choco.SotF.Invaders.Legion dummy
+scoreboard objectives add Choco.SotF.Invaders.Tick.0 dummy
 
 # アイテム持たせるやつ用
 scoreboard objectives add Choco.SotF.Items.Random dummy
@@ -57,6 +63,7 @@ scoreboard objectives add Choco.SotF.Items.Offhand dummy
 scoreboard objectives add Choco.SotF.Items.Mainhand dummy
 scoreboard objectives add Choco.SotF.Items.Tick dummy
 scoreboard objectives add Choco.SotF.Items.Tick.1 dummy
+scoreboard objectives add Choco.SotF.Items.Tick.2 dummy
 
 # イベント専用
 scoreboard objectives add Choco.SotF.EventTick dummy
