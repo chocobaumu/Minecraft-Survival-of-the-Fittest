@@ -11,6 +11,7 @@ execute if score @s Choco.SotF.tick.3 matches 4800.. run function survivalotfitt
 
 execute if score @s Choco.SotF.ScoreStorage.5 matches 0 run function survivalotfittest:entity/mobs/invaders/construction_team/building/phases/1/
 execute if score @s Choco.SotF.ScoreStorage.5 matches 1 run function survivalotfittest:entity/mobs/invaders/construction_team/building/phases/2/
+execute if entity @s[tag=Choco.SotF.Invasion.ConstructorLeader] if score @s Choco.SotF.ScoreStorage.5 matches 2 run function survivalotfittest:entity/mobs/invaders/construction_team/building/phases/3/
 
 
 # 近づく

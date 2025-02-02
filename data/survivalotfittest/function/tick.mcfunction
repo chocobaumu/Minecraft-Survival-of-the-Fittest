@@ -69,6 +69,9 @@ scoreboard players operation #Invasion.SpawnLimit Choco.SotF.ScoreStorage.0 *= #
 scoreboard players operation #Invasion.Defender.SpawnLimit Choco.SotF.ScoreStorage.0 = #Invasion.SpawnLimit Choco.SotF.ScoreStorage.0
 scoreboard players operation #Invasion.Defender.SpawnLimit Choco.SotF.ScoreStorage.0 /= #2 Choco.SotF.Math
 
+scoreboard players operation #Invasion.SuppressorAndBuilder.SpawnLimit Choco.SotF.ScoreStorage.0 = #Invasion.FlagCount Choco.SotF.ScoreStorage.0
+scoreboard players operation #Invasion.SuppressorAndBuilder.SpawnLimit Choco.SotF.ScoreStorage.0 /= #4 Choco.SotF.Math
+
 scoreboard players add #Invasion.FlagPlaceTick Choco.SotF.ScoreStorage.0 0
 execute if score #Invasion.FlagPlaceTick Choco.SotF.ScoreStorage.0 matches 1.. run scoreboard players remove #Invasion.FlagPlaceTick Choco.SotF.ScoreStorage.0 1
 execute if score #Invasion.FlagPlaceTick Choco.SotF.ScoreStorage.0 matches 0 if entity @e[type=item_display,tag=Choco.SotF.InvasionFlag] as @e[tag=Choco.SotF.Mobs,tag=Choco.SotF.Invaders,scores={Choco.SotF.Invaders.Legion=3..},sort=random,limit=1] at @s unless entity @e[type=item_display,tag=Choco.SotF.InvasionFlag,distance=..30] unless entity @e[tag=Choco.SotF.Zombie_Target,distance=..30] run function survivalotfittest:entity/mobs/invaders/place_flags

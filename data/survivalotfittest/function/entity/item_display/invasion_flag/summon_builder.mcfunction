@@ -1,0 +1,10 @@
+function survivalotfittest:summon/mobs/invasion/early_construction/leader
+function survivalotfittest:summon/mobs/invasion/early_construction/constructor
+function survivalotfittest:summon/mobs/invasion/early_construction/constructor
+function survivalotfittest:summon/mobs/invasion/early_construction/constructor
+function survivalotfittest:summon/mobs/invasion/early_construction/range_guard
+function survivalotfittest:summon/mobs/invasion/early_construction/range_guard
+function survivalotfittest:summon/mobs/invasion/early_construction/range_guard
+function survivalotfittest:summon/mobs/invasion/early_construction/melee_guard
+function survivalotfittest:summon/mobs/invasion/early_construction/melee_guard
+function survivalotfittest:summon/mobs/invasion/early_construction/melee_guard

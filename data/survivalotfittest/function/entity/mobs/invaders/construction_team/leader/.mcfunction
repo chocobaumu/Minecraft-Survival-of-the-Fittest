@@ -18,7 +18,7 @@ execute store result score @s Choco.SotF.Pos.1 run data get entity @s Pos[1]
 
 execute unless predicate survivalotfittest:stand_still run scoreboard players set @s Choco.SotF.tick.1 0
 
-execute as @s at @s if entity @e[type=marker,tag=Choco.SotF.Invasion.FrontLine,tag=Choco.SotF.Conquered,distance=..8] run tag @n[type=zombie,tag=Choco.SotF.Invasion.SuppressorLeader,distance=..20] add Choco.SotF.Invasion.Protecting
+execute as @s at @s if entity @e[type=marker,tag=Choco.SotF.Invasion.FrontLine,tag=Choco.SotF.Conquered,distance=..8] run function survivalotfittest:entity/mobs/invaders/construction_team/leader/reached
 execute as @s at @s as @n[type=marker,tag=Choco.SotF.Invasion.FrontLine,tag=Choco.SotF.Conquered,distance=..8] run tag @s add Choco.SotF.Invasion.Building
 execute as @s at @s as @n[type=marker,tag=Choco.SotF.Invasion.FrontLine,tag=Choco.SotF.Conquered,distance=..8] run scoreboard players set @s Choco.SotF.Data.OnGround 1
 execute as @s at @s as @n[type=marker,tag=Choco.SotF.Invasion.FrontLine,tag=Choco.SotF.Conquered,distance=..8] run tag @s remove Choco.SotF.Invasion.Protected

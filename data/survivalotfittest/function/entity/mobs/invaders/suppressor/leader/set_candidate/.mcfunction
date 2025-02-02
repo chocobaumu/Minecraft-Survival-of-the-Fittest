@@ -51,6 +51,58 @@ summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
 summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
 summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
 
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+summon marker ~ ~100 ~ {Tags:["Choco.SotF.Invasion.FrontLineCandidate"]}
+
 # 決定用スコアのリセット
 scoreboard players set #Invasion.Suppressor.FrontLineScores Choco.SotF.ScoreStorage.0 0
 

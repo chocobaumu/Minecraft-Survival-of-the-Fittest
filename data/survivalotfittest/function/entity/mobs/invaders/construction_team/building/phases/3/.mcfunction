@@ -1,0 +1,3 @@
+execute unless block ~ ~-0.1 ~ #survivalotfittest:can_through unless entity @e[type=marker,tag=Choco.SotF.Invasion.FrontLine,tag=Choco.SotF.Invasion.Building,distance=..2] run function survivalotfittest:entity/mobs/invaders/construction_team/building/distance_too_far
+
+execute at @s positioned ~-2 ~-10 ~-2 if entity @e[type=marker,tag=Choco.SotF.Invasion.FrontLine,tag=Choco.SotF.Invasion.Building,dx=4,dy=20,dz=4] at @s run function survivalotfittest:entity/mobs/invaders/construction_team/building/phases/3/set_flag

@@ -1,11 +1,15 @@
 # 移動
-spreadplayers ~ ~ 1 64 false @s
+spreadplayers ~ ~ 1 128 false @s
+execute at @s positioned over motion_blocking_no_leaves run tp @s ~ ~ ~
 
 # 下が空気なら移動できなかった = kill
 execute at @s if block ~ ~-1 ~ air run function survivalotfittest:internal/kill
 
 # 既存の旗に近すぎてもkill
-execute at @s if entity @e[type=item_display,tag=Choco.SotF.InvasionFlag,distance=..30] run function survivalotfittest:internal/kill
+execute at @s if entity @e[type=item_display,tag=Choco.SotF.InvasionFlag,distance=..60] run function survivalotfittest:internal/kill
+
+# 既に決定した地点から近くてもkill
+execute at @s if entity @e[type=marker,tag=Choco.SotF.Invasion.FrontLine,distance=..60] run function survivalotfittest:internal/kill
 
 # 比較のための情報を取得
 
