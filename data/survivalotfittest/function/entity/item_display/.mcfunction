@@ -70,6 +70,10 @@ execute if entity @s[tag=Choco.SotF.SkulkKiller] at @s run function survivalotfi
 # 侵略旗
 execute if entity @s[tag=Choco.SotF.InvasionFlag] at @s run function survivalotfittest:entity/item_display/invasion_flag/
 
+# 飛行機
+
+execute if entity @s[tag=Choco.SotF.AirCraft] at @s run function survivalotfittest:entity/item_display/aircraft/
+
 #ADMIN
 
 # > Chocobaumu

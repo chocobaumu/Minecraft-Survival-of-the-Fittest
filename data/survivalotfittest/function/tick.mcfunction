@@ -58,6 +58,11 @@ execute if entity @a[scores={Choco.SotF.CreatorMode=1}] run function survivalotf
 scoreboard players add #Portal Choco.SotF.ScoreStorage.0 1
 execute if score #Portal Choco.SotF.ScoreStorage.0 matches 360.. run scoreboard players set #Portal Choco.SotF.ScoreStorage.0 0
 
+# 日数経過用
+execute store result score #InternalDayAfter Choco.SotF.ScoreStorage.0 run time query day
+execute unless score #InternalDayAfter Choco.SotF.ScoreStorage.0 = #InternalDayBefore Choco.SotF.ScoreStorage.0 run function survivalotfittest:internal/seasons/day_change
+execute store result score #InternalDayBefore Choco.SotF.ScoreStorage.0 run time query day
+
 #侵略旗
 scoreboard players set #Invasion.FlagCount Choco.SotF.ScoreStorage.0 0
 execute store result score #Invasion.FlagCount Choco.SotF.ScoreStorage.0 run execute if entity @e[type=item_display,tag=Choco.SotF.InvasionFlag]

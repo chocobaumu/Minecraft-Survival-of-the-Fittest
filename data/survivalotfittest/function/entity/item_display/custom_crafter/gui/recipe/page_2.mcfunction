@@ -21,6 +21,8 @@ execute if score @s Choco.SotF.tick.3 matches 2.. unless items block ~ ~ ~ conta
 execute if score @s Choco.SotF.tick.3 matches 2.. unless items block ~ ~ ~ container.22 * run scoreboard players set @s Choco.SotF.ScoreStorage.2 44
 execute if score @s Choco.SotF.tick.3 matches 2.. unless items block ~ ~ ~ container.23 * run scoreboard players set @s Choco.SotF.ScoreStorage.2 45
 execute if score @s Choco.SotF.tick.3 matches 2.. unless items block ~ ~ ~ container.24 * run scoreboard players set @s Choco.SotF.ScoreStorage.2 46
+execute if score @s Choco.SotF.tick.3 matches 2.. unless items block ~ ~ ~ container.25 * run scoreboard players set @s Choco.SotF.ScoreStorage.2 47
+execute if score @s Choco.SotF.tick.3 matches 2.. unless items block ~ ~ ~ container.26 * run scoreboard players set @s Choco.SotF.ScoreStorage.2 48
 
 #表示
 item replace block ~ ~ ~ container.1 with leather_helmet[item_name='"シーサーペントのヘルメット"',rarity="uncommon",custom_data={SotF:GUIItem},!attribute_modifiers,dyed_color={rgb:2831931,show_in_tooltip:false},trim={material:"minecraft:diamond",pattern:"minecraft:sentry",show_in_tooltip:false}] 1
@@ -45,5 +47,5 @@ item replace block ~ ~ ~ container.21 with recovery_compass[item_model="survival
 item replace block ~ ~ ~ container.22 with warped_fungus_on_a_stick[item_model="survivalotfittest:eye_case",item_name='["アイケース",{"color":"dark_gray","italic":false,"text":" [中身なし]"}]',rarity="epic",custom_data={SotF:GUIItem}] 1
 item replace block ~ ~ ~ container.23 with recovery_compass[item_model="survivalotfittest:connection_core",item_name='{"italic":false,"text":"コネクションコア"}',custom_data={SotF:GUIItem},rarity="uncommon"] 1
 item replace block ~ ~ ~ container.24 with warped_fungus_on_a_stick[item_name='"汚染晶入り瓶"',item_model="survivalotfittest:sculk_killer",custom_data={SotF:GUIItem},rarity="uncommon"] 1
-item replace block ~ ~ ~ container.25 with white_stained_glass_pane[hide_tooltip={},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_default"] 1
-item replace block ~ ~ ~ container.26 with white_stained_glass_pane[hide_tooltip={},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_default"] 1
+item replace block ~ ~ ~ container.25 with recovery_compass[item_name='"航空機用プレート"',item_model="survivalotfittest:aircraft_plate",custom_data={SotF:GUIItem},rarity="uncommon"] 1
+item replace block ~ ~ ~ container.26 with ghast_spawn_egg[item_model="survivalotfittest:frecciascura",custom_name='{"italic":false,"text":"Frecciascura"}',custom_data={SotF:GUIItem},rarity="rare"] 1

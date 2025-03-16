@@ -14,5 +14,6 @@ execute if entity @s[tag=Choco.SotF.Bolt] at @s run function survivalotfittest:e
 
 #火矢
 execute if entity @s[tag=Choco.SotF.FlameArrow] at @s run function survivalotfittest:entity/arrow/flame/
+execute if predicate survivalotfittest:detect_flame_arrow at @s run function survivalotfittest:entity/arrow/flame/
 
 #execute if score @s Choco.SotF.Tick.0 matches 1 run tellraw @a {"entity":"@s","nbt":"damage"}

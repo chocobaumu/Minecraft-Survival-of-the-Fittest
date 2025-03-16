@@ -1,0 +1,1 @@
+$execute at @s positioned ~ ~$(vector_y) ~ if block ~ ~ ~ #survivalotfittest:can_through run tp @s ^ ^ ^

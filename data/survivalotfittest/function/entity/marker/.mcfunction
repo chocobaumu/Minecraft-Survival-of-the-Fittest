@@ -168,6 +168,12 @@ execute if entity @s[tag=Choco.SotF.ChargeGuardian.Energy] at @s run function su
 execute if entity @s[tag=Choco.SotF.Radiation] at @s run function survivalotfittest:entity/marker/misc/radiation/
 execute if entity @s[tag=Choco.SotF.SculkKill] at @s run function survivalotfittest:entity/marker/misc/sculk_kill/
 
+# 航空機
+execute if entity @s[tag=Choco.SotF.Aircraft.Machinegun_Bullet] at @s run function survivalotfittest:entity/marker/misc/aircraft/machinegun/
+execute if entity @s[tag=Choco.SotF.Aircraft.Rocket] at @s run function survivalotfittest:entity/marker/misc/aircraft/rocket/
+
+execute if entity @s[tag=Choco.SotF.Frecciascura] at @s run function survivalotfittest:entity/marker/misc/aircraft/summon/frecciascura
+
 #アトリビュート
 execute if entity @s[tag=Choco.SotF.PhantomStep.Shadow] at @s run function survivalotfittest:entity/marker/misc/phantom_step/
 

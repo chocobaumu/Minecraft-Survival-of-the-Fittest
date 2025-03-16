@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:feather"
+      },
+      "title": "離着陸に気を付けて",
+      "description": "Frecciascuraを作成する\nTNT、鉄塊、ガソリンを充填することができます。",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:survivalotfittest/second_industrial_revolution",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:ghast_spawn_egg",
+              "components": {
+                "minecraft:custom_data": {"SotF":"Frecciascura"}
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }

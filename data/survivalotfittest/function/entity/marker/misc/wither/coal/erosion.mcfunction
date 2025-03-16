@@ -7,6 +7,6 @@ execute if score @s Choco.SotF.Tick.0 matches 1 if score @s Choco.SotF.Random ma
 execute if block ~ ~ ~ air run function survivalotfittest:internal/kill
 
 execute unless score @s Choco.SotF.Random matches 1..10 run function survivalotfittest:internal/kill
-execute if score @s Choco.SotF.Random matches 1..10 if score @s Choco.SotF.Tick.0 matches 300.. run setblock ~ ~ ~ air
-execute if score @s Choco.SotF.Random matches 1..10 if score @s Choco.SotF.Tick.0 matches 300.. run particle large_smoke ~ ~0.25 ~ 0.25 0.25 0.25 0.05 25 force
-execute if score @s Choco.SotF.Random matches 1..10 if score @s Choco.SotF.Tick.0 matches 300.. run function survivalotfittest:internal/kill
+execute if score @s Choco.SotF.Random matches 1..10 if score @s Choco.SotF.Tick.0 matches 100.. run setblock ~ ~ ~ air
+execute if score @s Choco.SotF.Random matches 1..10 if score @s Choco.SotF.Tick.0 matches 100.. run particle large_smoke ~ ~0.25 ~ 0.25 0.25 0.25 0.05 25 force
+execute if score @s Choco.SotF.Tick.0 matches 100.. run function survivalotfittest:internal/kill

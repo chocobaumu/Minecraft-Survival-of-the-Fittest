@@ -24,4 +24,4 @@ execute at @s if entity @s[tag=Choco.SotF.BombGuardian] run function survivalotf
 execute at @s if entity @s[tag=Choco.SotF.ChargeGuardian] run function survivalotfittest:entity/mobs/guardian/charge/
 
 scoreboard players add @s Choco.SotF.tick.8 1
-execute if score @s Choco.SotF.tick.8 matches 1 at @s if entity @s[tag=!Choco.SotF.StealthGuardian,tag=!Choco.SotF.FocusGuardian,tag=!Choco.SotF.TankGuardian,tag=!Choco.SotF.VoltageGuardian,tag=!Choco.SotF.TidalGuardian,tag=!Choco.SotF.ChargeGuardian,tag=!Choco.SotF.BombGuardian] run function survivalotfittest:dimensions/abyssal_ocean/guardian_replace
+execute if score @s Choco.SotF.tick.8 matches 1 at @s if dimension abn:abyssal_ocean if entity @s[tag=!Choco.SotF.StealthGuardian,tag=!Choco.SotF.FocusGuardian,tag=!Choco.SotF.TankGuardian,tag=!Choco.SotF.VoltageGuardian,tag=!Choco.SotF.TidalGuardian,tag=!Choco.SotF.ChargeGuardian,tag=!Choco.SotF.BombGuardian] run function survivalotfittest:dimensions/abyssal_ocean/guardian_replace

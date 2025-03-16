@@ -1,5 +1,5 @@
 #tag
-tag @e[type=!wind_charge,type=!breeze_wind_charge,type=!ominous_item_spawner,type=!arrow,type=!armor_stand,type=!area_effect_cloud,type=!#survivalotfittest:boats,type=!command_block_minecart,type=!dragon_fireball,type=!egg,type=!end_crystal,type=!ender_pearl,type=!evoker_fangs,type=!experience_bottle,type=!experience_orb,type=!eye_of_ender,type=!falling_block,type=!fireball,type=!firework_rocket,type=!fishing_bobber,type=!furnace_minecart,type=!glow_item_frame,type=!hopper_minecart,type=!item,type=!minecraft:item_frame,type=!leash_knot,type=!lightning_bolt,type=!llama_spit,type=!marker,type=!minecart,type=!painting,type=!potion,type=!player,type=!shulker_bullet,type=!small_fireball,type=!snowball,type=!spawner_minecart,type=!spectral_arrow,type=!tnt,type=!tnt_minecart,type=!trident,type=!wither_skull,type=!text_display,type=!block_display,type=!item_display] add Choco.SotF.Mobs
+tag @e[type=!interaction,type=!wind_charge,type=!breeze_wind_charge,type=!ominous_item_spawner,type=!arrow,type=!armor_stand,type=!area_effect_cloud,type=!#survivalotfittest:boats,type=!command_block_minecart,type=!dragon_fireball,type=!egg,type=!end_crystal,type=!ender_pearl,type=!evoker_fangs,type=!experience_bottle,type=!experience_orb,type=!eye_of_ender,type=!falling_block,type=!fireball,type=!firework_rocket,type=!fishing_bobber,type=!furnace_minecart,type=!glow_item_frame,type=!hopper_minecart,type=!item,type=!minecraft:item_frame,type=!leash_knot,type=!lightning_bolt,type=!llama_spit,type=!marker,type=!minecart,type=!painting,type=!potion,type=!player,type=!shulker_bullet,type=!small_fireball,type=!snowball,type=!spawner_minecart,type=!spectral_arrow,type=!tnt,type=!tnt_minecart,type=!trident,type=!wither_skull,type=!text_display,type=!block_display,type=!item_display] add Choco.SotF.Mobs
 
 #nbt取得
 execute store result score @s Choco.SotF.Data.OnGround run data get entity @s OnGround
@@ -76,6 +76,9 @@ execute if entity @s[type=interaction,tag=!Choco.SotF.Custom] at @s run function
 
 #クリスタル(私のミスでここにいます、そういうことです。)
 execute if entity @s[type=block_display,tag=Choco.SotF.Crystalizer.Crystal] at @s run function survivalotfittest:entity/item_display/crystalizer_crystal/
+
+# 実験のヤツ
+execute if entity @s[tag=Choco.SotF.Experimental] at @s run function survivalotfittest:entity/experiment/
 
 ## 特殊なエフェクト系
 

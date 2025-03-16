@@ -1,0 +1,4 @@
+$execute unless score @s Choco.SotF.ScoreStorage.7 matches -19999..19999 at @s positioned ~ ~$(vector_y) ~ unless function survivalotfittest:entity/item_display/aircraft/checking_object/frecciascura run function survivalotfittest:entity/item_display/aircraft/all_damage/ {damage:40}
+$execute unless score @s Choco.SotF.ScoreStorage.7 matches -19999..19999 at @s positioned ~ ~$(vector_y) ~ unless function survivalotfittest:entity/item_display/aircraft/checking_object/frecciascura run scoreboard players remove @s Choco.SotF.ScoreStorage.5 1000
+
+$execute at @s positioned ~ ~$(vector_y) ~ if block ~ ~-1.2 ~ #survivalotfittest:can_through if function survivalotfittest:entity/item_display/aircraft/checking_object/frecciascura run tp @s ^ ^ ^

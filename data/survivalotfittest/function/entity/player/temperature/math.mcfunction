@@ -1,5 +1,5 @@
-#基礎値(主にバイオームによって変化)
-scoreboard players set @s Choco.SotF.Temperature.Base 15
+#基礎値
+scoreboard players set @s Choco.SotF.Temperature.Base 7
 
 #Bonus値
 scoreboard players operation @s Choco.SotF.Temperature.Bonus += #World Choco.SotF.Temperature.Bonus
@@ -45,6 +45,11 @@ execute if entity @e[type=#survivalotfittest:hot,tag=!Choco.SotF.Custom,distance
 
 execute if entity @e[scores={Choco.SotF.HardMode.Attributes=2},distance=..6] run function survivalotfittest:entity/player/temperature/near_cold_mobs
 execute if entity @e[type=stray,tag=Choco.SotF.Cryo,distance=..6] run function survivalotfittest:entity/player/temperature/near_cryo
+
+# 季節による変化
+scoreboard players operation #Temperature.SeasonChanges Choco.SotF.ScoreStorage.0 = #Seasons.Temperature Choco.SotF.ScoreStorage.0
+scoreboard players operation #Temperature.SeasonChanges Choco.SotF.ScoreStorage.0 /= #8 Choco.SotF.Math
+scoreboard players operation @s Choco.SotF.Temperature.Bonus += #Temperature.SeasonChanges Choco.SotF.ScoreStorage.0
 
 #統合
 scoreboard players set @s Choco.SotF.Temperature 0

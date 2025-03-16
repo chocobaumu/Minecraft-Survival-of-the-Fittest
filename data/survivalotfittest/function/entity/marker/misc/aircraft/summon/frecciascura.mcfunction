@@ -1,0 +1,2 @@
+function survivalotfittest:summon/misc/aircraft/frecciascura
+function survivalotfittest:internal/kill

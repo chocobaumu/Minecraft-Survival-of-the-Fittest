@@ -1,0 +1,1 @@
+give @p arrow[item_name='{"italic":false,"text":"燃焼の矢"}',lore=['{"color":"gray","italic":false,"text":"炎上した状態で発射されます。"}','{"color":"gray","italic":false,"text":"また、着弾時に火を点けます。"}'],item_model="survivalotfittest:flame_arrow",custom_data={SotF:FlameArrow}] 1

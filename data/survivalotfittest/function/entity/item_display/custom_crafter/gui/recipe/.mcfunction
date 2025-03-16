@@ -7,8 +7,8 @@
 execute if score @s Choco.SotF.ScoreStorage.0 matches 2..2 unless items block ~ ~ ~ container.18 * run function survivalotfittest:entity/item_display/custom_crafter/gui/recipe/page_up
 execute if score @s Choco.SotF.ScoreStorage.0 matches 3.. unless items block ~ ~ ~ container.0 * run function survivalotfittest:entity/item_display/custom_crafter/gui/recipe/page_down
 
-# ページ移動 (アイテム別) ScoreStorage2変更箇所ここ↓
-execute if score @s Choco.SotF.ScoreStorage.2 matches ..45 if score @s Choco.SotF.ScoreStorage.0 matches 1 unless items block ~ ~ ~ container.18 * run function survivalotfittest:entity/item_display/custom_crafter/gui/recipe/items/page_up
+# ページ移動 (アイテム別) ScoreStorage2変更箇所ここ↓ 1/2
+execute if score @s Choco.SotF.ScoreStorage.2 matches ..47 if score @s Choco.SotF.ScoreStorage.0 matches 1 unless items block ~ ~ ~ container.18 * run function survivalotfittest:entity/item_display/custom_crafter/gui/recipe/items/page_up
 execute if score @s Choco.SotF.ScoreStorage.2 matches 2.. if score @s Choco.SotF.ScoreStorage.0 matches 1 unless items block ~ ~ ~ container.0 * run function survivalotfittest:entity/item_display/custom_crafter/gui/recipe/items/page_down
 
 # クラフト画面に移行
@@ -23,8 +23,8 @@ item replace block ~ ~ ~ container.9 with anvil[item_name='{"color":"gray","ital
 
 execute if score @s Choco.SotF.ScoreStorage.0 matches 1 run item replace block ~ ~ ~ container.0 with white_stained_glass_pane[hide_tooltip={},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_default"] 1
 execute if score @s Choco.SotF.ScoreStorage.0 matches 1 run item replace block ~ ~ ~ container.18 with white_stained_glass_pane[hide_tooltip={},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_default"] 1
-#ScoreStorage2変更箇所ここ↓
-execute if score @s Choco.SotF.ScoreStorage.0 matches 1 if score @s Choco.SotF.ScoreStorage.2 matches ..45 run item replace block ~ ~ ~ container.18 with arrow[item_name='{"color":"gray","italic":false,"text":"ページを進む"}',custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_arrow_down"] 1
+#ScoreStorage2変更箇所ここ↓ 2/2
+execute if score @s Choco.SotF.ScoreStorage.0 matches 1 if score @s Choco.SotF.ScoreStorage.2 matches ..47 run item replace block ~ ~ ~ container.18 with arrow[item_name='{"color":"gray","italic":false,"text":"ページを進む"}',custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_arrow_down"] 1
 execute if score @s Choco.SotF.ScoreStorage.0 matches 1 if score @s Choco.SotF.ScoreStorage.2 matches 2.. run item replace block ~ ~ ~ container.0 with arrow[item_name='{"color":"gray","italic":false,"text":"ページを戻る"}',custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_arrow_up"] 1
 
 execute if score @s Choco.SotF.ScoreStorage.2 matches 1.. run scoreboard players set @s Choco.SotF.ScoreStorage.0 1
@@ -82,3 +82,5 @@ execute if score @s Choco.SotF.ScoreStorage.2 matches 43 run function survivalot
 execute if score @s Choco.SotF.ScoreStorage.2 matches 44 run function survivalotfittest:entity/item_display/custom_crafter/gui/recipe/items/eye_case
 execute if score @s Choco.SotF.ScoreStorage.2 matches 45 run function survivalotfittest:entity/item_display/custom_crafter/gui/recipe/items/connection_core
 execute if score @s Choco.SotF.ScoreStorage.2 matches 46 run function survivalotfittest:entity/item_display/custom_crafter/gui/recipe/items/sculk_killer
+execute if score @s Choco.SotF.ScoreStorage.2 matches 47 run function survivalotfittest:entity/item_display/custom_crafter/gui/recipe/items/aircraft_plate
+execute if score @s Choco.SotF.ScoreStorage.2 matches 48 run function survivalotfittest:entity/item_display/custom_crafter/gui/recipe/items/frecciascura

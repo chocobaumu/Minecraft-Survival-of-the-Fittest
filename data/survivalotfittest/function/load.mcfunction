@@ -4,7 +4,7 @@ scoreboard players set #Versions.IncorrectCount Choco.SotF.ScoreStorage.0 0
 
 # バージョン情報
 
-scoreboard players set #Versions.Now Choco.SotF.ScoreStorage.0 1
+scoreboard players set #Versions.Now Choco.SotF.ScoreStorage.0 2
 
 schedule function survivalotfittest:internal/version_checker/get_incorrect 10 append
 
@@ -21,6 +21,18 @@ scoreboard objectives add Choco.SotF.ScoreStorage.3 dummy
 scoreboard objectives add Choco.SotF.ScoreStorage.4 dummy
 scoreboard objectives add Choco.SotF.ScoreStorage.5 dummy
 scoreboard objectives add Choco.SotF.ScoreStorage.6 dummy
+scoreboard objectives add Choco.SotF.ScoreStorage.7 dummy
+scoreboard objectives add Choco.SotF.ScoreStorage.8 dummy
+scoreboard objectives add Choco.SotF.ScoreStorage.9 dummy
+scoreboard objectives add Choco.SotF.ScoreStorage.10 dummy
+scoreboard objectives add Choco.SotF.ScoreStorage.11 dummy
+scoreboard objectives add Choco.SotF.ScoreStorage.12 dummy
+scoreboard objectives add Choco.SotF.ScoreStorage.13 dummy
+scoreboard objectives add Choco.SotF.ScoreStorage.14 dummy
+scoreboard objectives add Choco.SotF.ScoreStorage.15 dummy
+scoreboard objectives add Choco.SotF.ScoreStorage.16 dummy
+scoreboard objectives add Choco.SotF.ScoreStorage.17 dummy
+scoreboard objectives add Choco.SotF.ScoreStorage.18 dummy
 scoreboard objectives add Choco.SotF.Tick.0 dummy
 scoreboard objectives add Choco.SotF.tick.1 dummy
 scoreboard objectives add Choco.SotF.tick.2 dummy
@@ -34,6 +46,7 @@ scoreboard objectives add Choco.SotF.tick.9 dummy
 scoreboard objectives add Choco.SotF.tick.10 dummy
 scoreboard objectives add Choco.SotF.tick.11 dummy
 scoreboard objectives add Choco.SotF.tick.12 dummy
+scoreboard objectives add Choco.SotF.tick.13 dummy
 scoreboard objectives add Choco.SotF.Math dummy
 scoreboard players set #-1 Choco.SotF.Math -1
 scoreboard players set #2 Choco.SotF.Math 2
@@ -43,12 +56,19 @@ scoreboard players set #5 Choco.SotF.Math 5
 scoreboard players set #6 Choco.SotF.Math 6
 scoreboard players set #8 Choco.SotF.Math 8
 scoreboard players set #10 Choco.SotF.Math 10
+scoreboard players set #12 Choco.SotF.Math 12
 scoreboard players set #15 Choco.SotF.Math 15
 scoreboard players set #20 Choco.SotF.Math 20
 scoreboard players set #25 Choco.SotF.Math 25
 scoreboard players set #30 Choco.SotF.Math 30
+scoreboard players set #50 Choco.SotF.Math 50
 scoreboard players set #100 Choco.SotF.Math 100
 scoreboard players set #125 Choco.SotF.Math 125
+scoreboard players set #167 Choco.SotF.Math 167
+scoreboard players set #200 Choco.SotF.Math 200
+scoreboard players set #250 Choco.SotF.Math 250
+scoreboard players set #375 Choco.SotF.Math 375
+scoreboard players set #500 Choco.SotF.Math 500
 scoreboard players set #1000 Choco.SotF.Math 1000
 scoreboard players set #24000 Choco.SotF.Math 24000
 scoreboard objectives add Choco.SotF.Random dummy
@@ -182,8 +202,18 @@ scoreboard objectives add Choco.SotF.Chainsaw.Gasoline dummy
 scoreboard objectives add Choco.SotF.ArtifactOfWarrior.CT dummy
 scoreboard objectives add Choco.SotF.ArtifactOfHeartbeat.CT dummy
 scoreboard objectives add Choco.SotF.GuardianEye.CT dummy
-
+scoreboard objectives add Choco.SotF.drink used:potion
 scoreboard objectives add Choco.SotF.InsaneAIOperator.Clicking dummy
+
+# 航空機兵装
+scoreboard objectives add Choco.SotF.Aircraft.Left.WeaponType dummy
+scoreboard objectives add Choco.SotF.Aircraft.Right.WeaponType dummy
+scoreboard objectives add Choco.SotF.Aircraft.Left.Tick dummy
+scoreboard objectives add Choco.SotF.Aircraft.Right.Tick dummy
+scoreboard objectives add Choco.SotF.Aircraft.MachineGun.Ammo dummy
+scoreboard objectives add Choco.SotF.Aircraft.MachineGun.Shootcount dummy
+scoreboard objectives add Choco.SotF.Aircraft.Rocket.Remain dummy
+scoreboard objectives add Choco.SotF.Aircraft.Rocket.Shootcount dummy
 
 # アルファ
 scoreboard objectives add Choco.SotF.AlphaAttribute dummy
@@ -234,9 +264,6 @@ scoreboard objectives add Choco.SotF.Swimming dummy
 
 scoreboard objectives remove Choco.SotF.Player_Score
 
-# アイテム
-scoreboard objectives add Choco.SotF.drink used:potion
-
 # ダメ表示用
 scoreboard objectives add Choco.SotF.DamageIndicator.Health_Before dummy
 scoreboard objectives add Choco.SotF.DamageIndicator.Health_After dummy
@@ -267,6 +294,10 @@ scoreboard objectives add Choco.SotF.Disease dummy
 scoreboard objectives add Choco.SotF.Disease.DamageTick dummy
 scoreboard objectives add Choco.SotF.Disease.InfectionTick dummy
 scoreboard objectives add Choco.SotF.Disease.BreathTick dummy
+
+# 日数経過用
+scoreboard players add #InternalDayAfter Choco.SotF.ScoreStorage.0 0
+scoreboard players add #InternalDayBefore Choco.SotF.ScoreStorage.0 0
 
 #状態異常
 
