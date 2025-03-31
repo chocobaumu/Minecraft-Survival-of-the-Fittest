@@ -1,0 +1,1 @@
+function survivalotfittest:summon/misc/warden/soul_funnel_long

@@ -3,6 +3,9 @@ execute if score @s Choco.SotF.Data.HurtTime matches 9 run playsound entity.ende
 
 execute on target as @s run tag @s add Choco.SotF.Target
 
+# ナイトメア
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 at @s run function survivalotfittest:entity/mobs/raider_of_voidness/nightmare/
+
 # 斬撃
 scoreboard players add @s Choco.SotF.tick.1 0
 execute if entity @e[tag=Choco.SotF.Target] unless entity @e[tag=Choco.SotF.Target,distance=..5] if score @s Choco.SotF.tick.1 matches 0 run scoreboard players set @s Choco.SotF.tick.1 31

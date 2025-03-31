@@ -23,3 +23,5 @@ execute if score @s Choco.SotF.ScoreStorage.0 matches ..5 at @s run function sur
 execute if score @s Choco.SotF.ScoreStorage.0 matches ..5 at @s run function survivalotfittest:entity/mobs/raider_of_voidness/sound/make_hole
 
 execute at @s facing entity @n[tag=Choco.SotF.Enemies_Target] eyes run rotate @s ~ ~
+
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 at @s run function survivalotfittest:entity/marker/misc/raider_of_voidness/magic/nightmare

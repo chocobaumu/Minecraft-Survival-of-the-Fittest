@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:shield"
+      },
+      "title": "シールド・バッシュ",
+      "description": "盾を構えた状態でCtrlキー(デフォルト)を押すと、前方にジャンプします\nジャンプ中、モブに衝突すると対象に10ダメージを与え、ノックバックを与えたうえで短時間移動を阻害します\n回避のスタックを消費します。",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:skills/knight/resistant",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

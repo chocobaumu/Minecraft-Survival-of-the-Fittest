@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:iron_chestplate"
+      },
+      "title": "鉄壁",
+      "description": "20秒以上ダメージを受け無かったとき、耐性の効果を得ます\n最大でIVになります\nダメージを受けた場合、効果レベルが低下します。",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:skills/knight/just_guard",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

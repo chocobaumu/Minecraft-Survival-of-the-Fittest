@@ -20,5 +20,6 @@ execute if block ^ ^ ^0.2 blue_ice run setblock ^ ^ ^0.2 packed_ice
 execute if block ^ ^ ^0.2 wet_sponge run setblock ^ ^ ^0.2 sponge
 
 execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!Choco.SotF.Substantiator,dx=0] run damage @s 1 survivalotfittest:projectile by @n[type=wither_skeleton,tag=Choco.SotF.Substantiator]
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1.. at @s positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=!Choco.SotF.Substantiator,dx=0] run damage @s 1024 survivalotfittest:projectile by @n[type=wither_skeleton,tag=Choco.SotF.Substantiator]
 
 function survivalotfittest:internal/kill

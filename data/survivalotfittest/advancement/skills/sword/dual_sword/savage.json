@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:redstone"
+      },
+      "title": "サベージ",
+      "description": "攻撃時、対象に確率で裂傷Iを1秒付与します\n既に裂傷が付与されている場合、レベルを1上昇させ、1秒未満の場合は効果時間を更新します。",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:skills/sword/dual_sword/quick_fighter",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

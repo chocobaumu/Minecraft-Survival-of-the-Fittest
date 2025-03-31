@@ -1,0 +1,2 @@
+execute rotated ~ 0 if block ^ ^ ^1 #survivalotfittest:can_through if block ^ ^1 ^1 #survivalotfittest:can_through if block ^ ^2 ^1 #survivalotfittest:can_through run tp @s ^ ^ ^1
+effect give @s speed 2 4

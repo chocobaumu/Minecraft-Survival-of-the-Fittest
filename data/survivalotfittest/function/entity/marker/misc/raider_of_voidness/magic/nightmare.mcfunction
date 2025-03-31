@@ -1,0 +1,1 @@
+execute store result score @s Choco.SotF.ScoreStorage.5 run random value 1..5

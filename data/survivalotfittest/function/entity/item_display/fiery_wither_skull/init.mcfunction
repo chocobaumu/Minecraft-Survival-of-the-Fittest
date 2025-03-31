@@ -10,3 +10,6 @@ execute if entity @s[tag=Choco.SotF.SubstantiatorSkull] run tp @s ~ ~1.9 ~
 #item_displayなので反転させます。注意。
 execute store result entity @s Rotation[1] float 1 run data get entity @s Rotation[1] -1
 execute at @s rotated as @s run tp @s ~ ~ ~ ~180 ~
+
+# ナイトメア
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 at @s run function survivalotfittest:entity/item_display/fiery_wither_skull/nightmare/init

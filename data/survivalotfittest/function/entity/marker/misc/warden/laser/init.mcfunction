@@ -1,0 +1,1 @@
+execute at @s rotated as @n[type=marker,tag=Choco.SotF.SoulFunnel] run rotate @s ~ ~

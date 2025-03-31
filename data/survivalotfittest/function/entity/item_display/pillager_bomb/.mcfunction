@@ -25,3 +25,6 @@ execute if score @s Choco.SotF.Tick.0 matches 80 at @s run playsound minecraft:b
 execute if score @s Choco.SotF.Tick.0 matches 85 at @s run playsound minecraft:block.note_block.hat hostile @a ~ ~ ~ 1 1.5
 execute if score @s Choco.SotF.Tick.0 matches 90 at @s run playsound minecraft:block.note_block.hat hostile @a ~ ~ ~ 1 1.5
 execute if score @s Choco.SotF.Tick.0 matches 95 at @s run playsound minecraft:block.note_block.hat hostile @a ~ ~ ~ 1 1.5
+
+#爆発物tag
+tag @s add Choco.SotF.Explosive

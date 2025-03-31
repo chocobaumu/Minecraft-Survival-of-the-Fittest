@@ -7,13 +7,13 @@
       "description": "様々な技能\n本とスクロールで追加できます。",
       "background": "minecraft:textures/block/bookshelf.png",
       "frame": "task",
-      "show_toast": true,
-      "announce_to_chat": true,
+      "show_toast": false,
+      "announce_to_chat": false,
       "hidden": false
     },
     "criteria": {
       "requirement": {
-        "trigger": "minecraft:impossible"
+        "trigger": "minecraft:tick"
       }
     },
     "sends_telemetry_event": true

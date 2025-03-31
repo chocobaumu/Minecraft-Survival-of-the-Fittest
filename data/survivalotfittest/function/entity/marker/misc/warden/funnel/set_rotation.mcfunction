@@ -1,0 +1,1 @@
+$rotate @s ~$(funnel) -60

@@ -8,3 +8,5 @@ kill @e[type=marker,tag=Choco.SotF.PgilinPotion_Direction]
 tag @s remove Choco.SotF.AlreadyThrow
 
 scoreboard players set @s Choco.SotF.tick.1 20
+
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1.. run scoreboard players set @s Choco.SotF.tick.4 70

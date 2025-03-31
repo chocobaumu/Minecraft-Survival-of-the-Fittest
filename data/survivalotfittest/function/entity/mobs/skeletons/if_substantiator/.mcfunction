@@ -3,23 +3,26 @@
 scoreboard players add @s Choco.SotF.tick.1 0
 execute if score @s Choco.SotF.tick.1 matches 1.. run scoreboard players remove @s Choco.SotF.tick.1 1
 
+# ナイトメア
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1.. at @s run function survivalotfittest:entity/mobs/skeletons/if_substantiator/nightmare/
+
 # 対象指定
-execute as @e[type=arrow,scores={Choco.SotF.ScoreStorage.0=0},distance=..5] run tag @s add Choco.SotF.AvoidTarget
-execute as @e[type=spectral_arrow,scores={Choco.SotF.ScoreStorage.0=0},distance=..5] run tag @s add Choco.SotF.AvoidTarget
-execute as @e[type=trident,scores={Choco.SotF.ScoreStorage.0=0},distance=..5] run tag @s add Choco.SotF.AvoidTarget
-execute as @e[type=snowball,distance=..5] run tag @s add Choco.SotF.AvoidTarget
-execute as @e[type=egg,distance=..5] run tag @s add Choco.SotF.AvoidTarget
-execute as @e[type=ender_pearl,distance=..5] run tag @s add Choco.SotF.AvoidTarget
-execute as @e[type=shulker_bullet,distance=..5] run tag @s add Choco.SotF.AvoidTarget
-execute as @e[type=fireball,distance=..5] run tag @s add Choco.SotF.AvoidTarget
-execute as @e[type=small_fireball,distance=..5] run tag @s add Choco.SotF.AvoidTarget
-execute as @e[type=dragon_fireball,distance=..5] run tag @s add Choco.SotF.AvoidTarget
-execute as @e[type=wind_charge,distance=..5] run tag @s add Choco.SotF.AvoidTarget
-execute as @e[type=breeze_wind_charge,distance=..5] run tag @s add Choco.SotF.AvoidTarget
-execute as @e[type=potion,distance=..5] run tag @s add Choco.SotF.AvoidTarget
-execute as @e[type=wither_skull,distance=..5] run tag @s add Choco.SotF.AvoidTarget
-execute as @e[type=evoker_fangs,distance=..5] run tag @s add Choco.SotF.AvoidTarget
-execute as @e[tag=Choco.SotF.Projectile,distance=..5] run tag @s add Choco.SotF.AvoidTarget
+execute as @e[type=arrow,scores={Choco.SotF.ScoreStorage.0=0},distance=..6] run tag @s add Choco.SotF.AvoidTarget
+execute as @e[type=spectral_arrow,scores={Choco.SotF.ScoreStorage.0=0},distance=..6] run tag @s add Choco.SotF.AvoidTarget
+execute as @e[type=trident,scores={Choco.SotF.ScoreStorage.0=0},distance=..6] run tag @s add Choco.SotF.AvoidTarget
+execute as @e[type=snowball,distance=..6] run tag @s add Choco.SotF.AvoidTarget
+execute as @e[type=egg,distance=..6] run tag @s add Choco.SotF.AvoidTarget
+execute as @e[type=ender_pearl,distance=..6] run tag @s add Choco.SotF.AvoidTarget
+execute as @e[type=shulker_bullet,distance=..6] run tag @s add Choco.SotF.AvoidTarget
+execute as @e[type=fireball,distance=..6] run tag @s add Choco.SotF.AvoidTarget
+execute as @e[type=small_fireball,distance=..6] run tag @s add Choco.SotF.AvoidTarget
+execute as @e[type=dragon_fireball,distance=..6] run tag @s add Choco.SotF.AvoidTarget
+execute as @e[type=wind_charge,distance=..6] run tag @s add Choco.SotF.AvoidTarget
+execute as @e[type=breeze_wind_charge,distance=..6] run tag @s add Choco.SotF.AvoidTarget
+execute as @e[type=potion,distance=..6] run tag @s add Choco.SotF.AvoidTarget
+execute as @e[type=wither_skull,distance=..6] run tag @s add Choco.SotF.AvoidTarget
+execute as @e[type=evoker_fangs,distance=..6] run tag @s add Choco.SotF.AvoidTarget
+execute as @e[tag=Choco.SotF.Projectile,distance=..6] run tag @s add Choco.SotF.AvoidTarget
 
 # 実行
 execute unless score @s Choco.SotF.tick.2 matches 400..540 if score @s Choco.SotF.tick.1 matches 0 if entity @e[tag=Choco.SotF.AvoidTarget] run function survivalotfittest:entity/mobs/skeletons/if_substantiator/avoid_projectile/

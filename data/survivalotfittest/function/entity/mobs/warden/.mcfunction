@@ -19,10 +19,11 @@ execute if score @s Choco.SotF.Tick.0 matches 24000 run data merge entity @s {Br
 
 execute on target as @s run tag @s add Choco.SotF.Target
 execute if entity @e[tag=Choco.SotF.Target] run tag @s add Choco.SotF.Targeting
-tag @e[tag=Choco.SotF.Target] remove Choco.SotF.Target
 
 #ナイトメア用
-execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 if entity @s[tag=Choco.SotF.Targeting] at @s run function survivalotfittest:entity/mobs/warden/nightmare/
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 at @s run function survivalotfittest:entity/mobs/warden/nightmare/
 
 #tag
 #tag @s add Choco.SotF.Enemies_Target
+tag @s remove Choco.SotF.Targeting
+tag @e[tag=Choco.SotF.Target] remove Choco.SotF.Target

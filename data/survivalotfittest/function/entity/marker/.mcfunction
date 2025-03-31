@@ -88,6 +88,11 @@ execute if entity @s[tag=Choco.SotF.EnderServant.CrystalSummon] at @s run functi
 
 #ウォーデン
 execute if entity @s[tag=Choco.SotF.Warden_Contamination] at @s run function survivalotfittest:entity/marker/misc/warden_contamination/
+execute if entity @s[tag=Choco.SotF.SoulFunnel] at @s run function survivalotfittest:entity/marker/misc/warden/funnel/
+execute if entity @s[tag=Choco.SotF.SonicLaser] at @s run function survivalotfittest:entity/marker/misc/warden/laser/
+execute if entity @s[tag=Choco.SotF.SoulArc] at @s run function survivalotfittest:entity/marker/misc/warden/soul_arc/
+execute if entity @s[tag=Choco.SotF.EchoBoom] at @s run function survivalotfittest:entity/marker/misc/warden/echo_boom/
+execute if entity @s[tag=Choco.SotF.Echoing] at @s run function survivalotfittest:entity/marker/misc/warden/echoing/
 
 #サーティフィケーター
 execute if entity @s[tag=Choco.SotF.Terracotta_Golem.Beam] at @s run function survivalotfittest:entity/marker/misc/certificator/terracotta_golem/beam/
