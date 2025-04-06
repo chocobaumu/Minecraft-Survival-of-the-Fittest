@@ -1,1 +1,1 @@
-summon guardian ~ ~ ~ {DeathLootTable:"survivalotfittest:entities/bomb_guardian",Health:40f,Tags:["Choco.SotF.BombGuardian"],CustomName:'"ボムガーディアン"',attributes:[{id:"minecraft:max_health",base:40},{id:"minecraft:scale",base:1.1}]}
+summon guardian ~ ~ ~ {DeathLootTable:"survivalotfittest:entities/bomb_guardian",Health:40f,Tags:["Choco.SotF.BombGuardian"],CustomName:"ボムガーディアン",attributes:[{id:"minecraft:max_health",base:40},{id:"minecraft:scale",base:1.1}]}

@@ -2,7 +2,7 @@ scoreboard players set @s Choco.SotF.ScoreStorage.0 0
 
 data merge entity @s {brightness:{sky:15,block:0}}
 
-setblock ~ ~ ~ barrel{CustomName:'{"italic":false,"text":"精油装置"}'}
+setblock ~ ~ ~ barrel{CustomName:{"italic":false,"text":"精油装置"}}
 
 playsound block.stone.place player @a ~ ~ ~ 1 1
 

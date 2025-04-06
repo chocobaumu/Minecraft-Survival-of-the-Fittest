@@ -34,3 +34,4 @@ scoreboard players reset @s Choco.SotF.Inferno.Tick
 scoreboard players reset @s Choco.SotF.Inferno.Tick.Max
 scoreboard players reset @s Choco.SotF.CuisineEffect.CoolingCurry
 scoreboard players reset @s Choco.SotF.CuisineEffect.HeatingStew
+scoreboard players reset @s Choco.SotF.CurseOfSword

@@ -16,7 +16,7 @@ execute if score @s Choco.SotF.tick.5 matches 10 run playsound block.beacon.powe
 execute if score @s Choco.SotF.tick.5 matches 10 run playsound block.beacon.power_select hostile @a ~ ~ ~ 3 1.3
 
 execute if score @s Choco.SotF.tick.5 matches 97 run fill ~-2 ~-2 ~-2 ~2 ~2 ~2 air destroy
-execute if score @s Choco.SotF.tick.5 matches 98 run summon creeper ~ ~ ~ {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,powered:0b,ExplosionRadius:5b,Fuse:0,ignited:1b,Tags:["Choco.SotF.Custom"],CustomName:'[{"bold":true,"color":"red","italic":false,"text":"[BOSS] "},{"color":"dark_purple","italic":false,"text":"生ける汚染晶体"}]'}
+execute if score @s Choco.SotF.tick.5 matches 98 run summon creeper ~ ~ ~ {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,powered:0b,ExplosionRadius:5b,Fuse:0,ignited:1b,Tags:["Choco.SotF.Custom"],CustomName:[{"bold":true,"color":"red","italic":false,"text":"[BOSS] "},{"color":"dark_purple","italic":false,"text":"生ける汚染晶体"}]}
 execute if score @s Choco.SotF.tick.5 matches 98 run particle flash ~ ~ ~ 1 1 1 0 100 force
 execute if score @s Choco.SotF.tick.5 matches 98 run particle reverse_portal ~ ~ ~ 0 0 0 10 1000 force
 execute if score @s Choco.SotF.tick.5 matches 98 run playsound block.beacon.deactivate hostile @a ~ ~ ~ 3 2

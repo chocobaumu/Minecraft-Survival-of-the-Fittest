@@ -10,4 +10,4 @@ item replace block ~ ~ ~ container.21 with air
 
 tag @s add Choco.SotF.Temp
 
-item replace block ~ ~ ~ container.16 with recovery_compass[item_name='"超硬質プレート"',item_model="survivalotfittest:reinforced_hardened_plate",custom_data={SotF:ReinforcedHardenedPlate},rarity="uncommon"] 5
+item replace block ~ ~ ~ container.16 with recovery_compass[item_name="超硬質プレート",item_model="survivalotfittest:reinforced_hardened_plate",custom_data={SotF:ReinforcedHardenedPlate},rarity="uncommon"] 5

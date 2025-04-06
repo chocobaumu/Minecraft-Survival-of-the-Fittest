@@ -1,1 +1,1 @@
-summon guardian ~ ~ ~ {CustomName:'"フォーカスガーディアン"',attributes:[{id:"minecraft:attack_damage",base:12}],Tags:["Choco.SotF.FocusGuardian"]}
+summon guardian ~ ~ ~ {Tags:["Choco.SotF.FocusGuardian"],CustomName:"フォーカスガーディアン",attributes:[{id:"minecraft:attack_damage",base:12}]}

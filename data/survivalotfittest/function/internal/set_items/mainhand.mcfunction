@@ -20,7 +20,7 @@ execute if score @s Choco.SotF.Items.Random matches 1..10 if score #World Choco.
 execute if score @s Choco.SotF.Items.Random matches 11..20 if score #World Choco.SotF.Tick.0 matches 48000.. run item replace entity @s weapon.mainhand with stone_sword
 execute if score @s Choco.SotF.Items.Random matches 21..25 if score #World Choco.SotF.Tick.0 matches 120000.. run item replace entity @s weapon.mainhand with iron_sword
 execute if score @s Choco.SotF.Items.Random matches 26..30 if score #World Choco.SotF.Tick.0 matches 144000.. run item replace entity @s weapon.mainhand with iron_sword
-execute if score @s Choco.SotF.Items.Random matches 31..40 if score #World Choco.SotF.Tick.0 matches 192000.. run item replace entity @s weapon.mainhand with golden_sword[enchantments={levels:{"minecraft:fire_aspect":2,"minecraft:knockback":2,"minecraft:sharpness":5,"minecraft:unbreaking":3}}]
+execute if score @s Choco.SotF.Items.Random matches 31..40 if score #World Choco.SotF.Tick.0 matches 192000.. run item replace entity @s weapon.mainhand with golden_sword[enchantments={"minecraft:fire_aspect":2,"minecraft:knockback":2,"minecraft:sharpness":5,"minecraft:unbreaking":3}] 1
 execute if score @s Choco.SotF.Items.Random matches 41..45 if score #World Choco.SotF.Tick.0 matches 240000.. run item replace entity @s weapon.mainhand with diamond_sword
 execute if score @s Choco.SotF.Items.Random matches 46..50 if score #World Choco.SotF.Tick.0 matches 264000.. run item replace entity @s weapon.mainhand with diamond_sword
 execute if score @s Choco.SotF.Items.Random matches 51..55 if score #World Choco.SotF.Tick.0 matches 720000.. run item replace entity @s weapon.mainhand with netherite_sword

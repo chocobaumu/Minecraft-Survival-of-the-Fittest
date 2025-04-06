@@ -1,1 +1,1 @@
-give @p enchanted_book[item_name='"夜光雲のアーティファクト"',lore=['{"color":"gray","italic":false,"text":"一度だけ空中でジャンプができるようになります。"}'],rarity="uncommon",item_model="survivalotfittest:artifact_of_cloud",custom_data={"SotF.Category":"Artifact","SotF":"Artifact_of_Cloud"}] 1
+give @p enchanted_book[item_name="夜光雲のアーティファクト",lore=[{"color":"gray","italic":false,"text":"一度だけ空中でジャンプができるようになります。"}],rarity="uncommon",item_model="survivalotfittest:artifact_of_cloud",custom_data={SotF.Category:"Artifact",SotF:"Artifact_of_Cloud"}] 1

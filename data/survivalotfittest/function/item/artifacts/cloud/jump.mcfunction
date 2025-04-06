@@ -1,6 +1,6 @@
 scoreboard players remove @s Choco.SotF.ArtifactOfCloud.JumpStack 1
 
-summon area_effect_cloud ~ ~ ~ {Duration:6,Age:4,potion_contents:{custom_effects:[{id:"minecraft:slow_falling",amplifier:0,duration:2,show_particles:0b}]}}
+summon area_effect_cloud ~ ~ ~ {ReapplicationDelay:0,Radius:0f,WaitTime:0,Duration:6,Age:4,potion_contents:{custom_effects:[{id:"minecraft:slow_falling",amplifier:0,duration:2,show_particles:0b}]}}
 
 particle cloud ~ ~ ~ 0 0 0 0.1 5 normal
 playsound entity.player.attack.sweep player @a ~ ~ ~ 1 0.65

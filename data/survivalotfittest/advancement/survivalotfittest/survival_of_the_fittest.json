@@ -5,7 +5,7 @@
       },
       "title": "Minecraft | Survival of the Fittest",
       "description": "進歩を続け、適応せよ。",
-      "background": "minecraft:textures/block/reinforced_deepslate_side.png",
+      "background": "minecraft:block/reinforced_deepslate_side",
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,

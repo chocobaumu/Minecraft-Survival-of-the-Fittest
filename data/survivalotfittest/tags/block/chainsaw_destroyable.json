@@ -27,6 +27,14 @@
       "grass_block",
       "vine",
       "cave_vines",
-      "glow_lichen"
+      "glow_lichen",
+      "minecraft:cactus_flower",
+      "minecraft:pink_petals",
+      "minecraft:wildflowers",
+      "minecraft:leaf_litter",
+      "minecraft:firefly_bush",
+      "minecraft:tall_dry_grass",
+      "minecraft:short_dry_grass",
+      "minecraft:bush"
     ]
   }

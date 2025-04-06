@@ -1,0 +1,1 @@
+$execute rotated ~$(chocobaumu_imagine_x) ~$(chocobaumu_imagine_y) run function survivalotfittest:particle/chocobaumu/imagine_slash

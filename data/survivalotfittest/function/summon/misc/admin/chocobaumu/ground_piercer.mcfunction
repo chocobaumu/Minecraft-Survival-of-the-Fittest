@@ -1,0 +1,1 @@
+summon item_display ^ ^ ^ {teleport_duration:0,Tags:["Choco.SotF.Admin.Chocobaumu.GroundPiercer"],transformation:[-0.0000f,0.0000f,1.0000f,0.0000f,0.7071f,0.7071f,0.0000f,0.0000f,-0.7071f,0.7071f,-0.0000f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f],item:{id:"minecraft:stone_sword",count:1}}

@@ -1,1 +1,1 @@
-give @p recovery_compass[item_model="survivalotfittest:seaserpent_venom",item_name='"シーサーペントの毒液"',rarity="uncommon",lore=['{"color":"gray","italic":false,"text":"実は素手で触れるのも危険。"}'],custom_data={SotF:Seaserpent_Venom}] 1
+give @p recovery_compass[item_model="survivalotfittest:seaserpent_venom",item_name="シーサーペントの毒液",rarity="uncommon",lore=[{"color":"gray","italic":false,"text":"実は素手で触れるのも危険。"}],custom_data={SotF:Seaserpent_Venom}] 1

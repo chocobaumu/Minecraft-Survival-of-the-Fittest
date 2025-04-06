@@ -33,4 +33,15 @@ execute if score #Day Choco.SotF.ScoreStorage.0 matches 335..345 run gamerule ra
 execute if score #Day Choco.SotF.ScoreStorage.0 matches 346..355 run gamerule randomTickSpeed 2
 
 execute if score #Day Choco.SotF.ScoreStorage.0 matches 356.. run gamerule randomTickSpeed 1
-execute if score #Day Choco.SotF.ScoreStorage.0 matches ..87 run gamerule randomTickSpeed 1
+execute if score #Day Choco.SotF.ScoreStorage.0 matches ..10 run gamerule randomTickSpeed 1
+
+execute if score #Day Choco.SotF.ScoreStorage.0 matches 11..29 run gamerule randomTickSpeed 2
+execute if score #Day Choco.SotF.ScoreStorage.0 matches 30..49 run gamerule randomTickSpeed 3
+execute if score #Day Choco.SotF.ScoreStorage.0 matches 50..68 run gamerule randomTickSpeed 4
+execute if score #Day Choco.SotF.ScoreStorage.0 matches 69..87 run gamerule randomTickSpeed 5
+
+# タイトル表示
+#execute if score #Day Choco.SotF.ScoreStorage.0 matches 63 as @a run function survivalotfittest:internal/seasons/title
+#execute if score #Day Choco.SotF.ScoreStorage.0 matches 164 as @a run function survivalotfittest:internal/seasons/title
+#execute if score #Day Choco.SotF.ScoreStorage.0 matches 284 as @a run function survivalotfittest:internal/seasons/title
+#execute if score #Day Choco.SotF.ScoreStorage.0 matches 336 as @a run function survivalotfittest:internal/seasons/title

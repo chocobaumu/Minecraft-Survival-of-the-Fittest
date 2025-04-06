@@ -1,1 +1,1 @@
-data merge entity @s {Item:{id:"minecraft:cooked_salmon",count:1,components:{"minecraft:item_name":'"貝"',item_model:"survivalotfittest:shellfish","minecraft:custom_data":{SotF:Shellfish},"minecraft:food":{nutrition:2,saturation:0,eat_seconds:1.6}}}}
+data merge entity @s {Item:{id:"minecraft:cooked_salmon",count:1,components:{"minecraft:item_name":"貝","minecraft:item_model":"survivalotfittest:shellfish","minecraft:custom_data":{SotF:Shellfish},"minecraft:food":{nutrition:2,saturation:0}}}}

@@ -10,4 +10,4 @@ item replace block ~ ~ ~ container.21 with air
 
 tag @s add Choco.SotF.Temp
 
-item replace block ~ ~ ~ container.16 with bow[max_damage=576,item_name='{"italic":false,"text":"コンパウンドボウ"}',item_model="survivalotfittest:compound_bow",custom_data={SotF:CompoundBow}] 1
+item replace block ~ ~ ~ container.16 with bow[max_damage=576,item_name={"italic":false,"text":"コンパウンドボウ"},item_model="survivalotfittest:compound_bow",custom_data={SotF:CompoundBow}] 1

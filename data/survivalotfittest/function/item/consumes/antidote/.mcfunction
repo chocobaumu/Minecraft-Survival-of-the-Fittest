@@ -24,4 +24,4 @@ scoreboard players set @s Choco.SotF.Disease 0
 playsound minecraft:block.pointed_dripstone.drip_lava player @a ~ ~ ~ 1 0.5
 playsound minecraft:block.pointed_dripstone.drip_water player @a ~ ~ ~ 1 0.5
 
-execute if entity @s[gamemode=!survival,gamemode=!adventure] run summon area_effect_cloud ~ ~ ~ {Duration:6,Age:4,potion_contents:{custom_effects:[{id:"minecraft:mining_fatigue",amplifier:9,duration:5,show_particles:0b,show_icon:0b}]}}
+execute if entity @s[gamemode=!survival,gamemode=!adventure] run summon area_effect_cloud ~ ~ ~ {Duration:6,Age:4,ReapplicationDelay:0,Radius:0f,WaitTime:0,potion_contents:{custom_effects:[{id:"minecraft:mining_fatigue",amplifier:9,duration:5,show_particles:0b,show_icon:0b}]}}

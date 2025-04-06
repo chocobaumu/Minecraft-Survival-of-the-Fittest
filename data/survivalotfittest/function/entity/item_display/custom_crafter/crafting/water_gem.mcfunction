@@ -10,4 +10,4 @@ item replace block ~ ~ ~ container.21 with air
 
 tag @s add Choco.SotF.Temp
 
-item replace block ~ ~ ~ container.16 with recovery_compass[item_model="survivalotfittest:water_gem",item_name='"アクアチウムジェム"',rarity="rare",custom_data={SotF:WaterGem}] 1
+item replace block ~ ~ ~ container.16 with recovery_compass[item_model="survivalotfittest:water_gem",item_name="アクアチウムジェム",rarity="rare",custom_data={SotF:WaterGem}] 1

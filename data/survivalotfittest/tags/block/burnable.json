@@ -43,6 +43,14 @@
       "#minecraft:pale_oak_logs",
       "pale_moss_block",
       "pale_moss_carpet",
-      "pale_hanging_moss"
+      "pale_hanging_moss",
+      "minecraft:cactus_flower",
+      "minecraft:pink_petals",
+      "minecraft:wildflowers",
+      "minecraft:leaf_litter",
+      "minecraft:firefly_bush",
+      "minecraft:tall_dry_grass",
+      "minecraft:short_dry_grass",
+      "minecraft:bush"
     ]
   }

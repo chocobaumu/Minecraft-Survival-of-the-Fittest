@@ -1,1 +1,1 @@
-give @p recovery_compass[item_model="survivalotfittest:water_ingot",item_name='"アクアチウムインゴット"',rarity="rare",custom_data={SotF:WaterIngot}] 1
+give @p recovery_compass[item_model="survivalotfittest:water_ingot",item_name="アクアチウムインゴット",rarity="rare",custom_data={SotF:WaterIngot}] 1

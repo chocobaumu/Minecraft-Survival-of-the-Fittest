@@ -1,1 +1,1 @@
-give @p recovery_compass[item_model="survivalotfittest:water_dust",item_name='"アクアチウムダスト"',rarity="common",custom_data={SotF:WaterDust}] 1
+give @p recovery_compass[item_model="survivalotfittest:water_dust",item_name="アクアチウムダスト",rarity="common",custom_data={SotF:WaterDust}] 1

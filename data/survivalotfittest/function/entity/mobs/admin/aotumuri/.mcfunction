@@ -30,4 +30,4 @@ execute if score @s Choco.SotF.Tick.0 matches 350.. run function survivalotfitte
 
 
 # hoge
-tag @s add Choco.SotF.InsaneAI.Target
+#tag @s add Choco.SotF.InsaneAI.Target

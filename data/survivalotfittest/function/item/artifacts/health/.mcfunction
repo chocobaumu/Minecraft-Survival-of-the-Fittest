@@ -1,1 +1,1 @@
-summon area_effect_cloud ~ ~ ~ {Duration:6,Age:4,potion_contents:{custom_effects:[{id:"minecraft:health_boost",amplifier:1,duration:6,show_particles:0b,show_icon:1b,ambient:1b}]}}
+summon area_effect_cloud ~ ~ ~ {ReapplicationDelay:0,Radius:0f,WaitTime:0,Duration:6,Age:4,potion_contents:{custom_effects:[{id:"minecraft:health_boost",amplifier:1,duration:6,show_particles:0b,show_icon:1b,ambient:1b}]}}

@@ -163,7 +163,7 @@ execute if score @s Choco.SotF.IceCrystalEffect matches 1.. at @s run function s
 
 # > テンペスト
 execute if predicate survivalotfittest:selected_tempest at @s run function survivalotfittest:item/weapon/tempest/
-execute if predicate survivalotfittest:offhand_tempest at @s run function survivalotfittest:item/weapon/tempest/put_in_offhand
+execute if items entity @s weapon.offhand *[custom_data={SotF:Tempest}] at @s run function survivalotfittest:item/weapon/tempest/put_in_offhand
 execute unless predicate survivalotfittest:selected_tempest run scoreboard players set @s Choco.SotF.Tempest.Charge 0
 execute if score @s Choco.SotF.Tempest.ReloadTick matches 1.. run scoreboard players remove @s Choco.SotF.Tempest.ReloadTick 1
 execute if score @s Choco.SotF.Tempest.ShootTick matches 1.. run scoreboard players remove @s Choco.SotF.Tempest.ShootTick 1
@@ -213,17 +213,17 @@ execute if predicate survivalotfittest:armor/seaserpent_leggings at @s run funct
 
 # 火炎放射器
 execute if predicate survivalotfittest:selected_flamethrower at @s run function survivalotfittest:item/flamethrower/
-execute if predicate survivalotfittest:offhand_flamethrower at @s run function survivalotfittest:item/flamethrower/put_offhand
+execute if items entity @s weapon.offhand *[custom_data={SotF:Flamethrower}] at @s run function survivalotfittest:item/flamethrower/put_offhand
 execute if score @s Choco.SotF.Flamethrower.Click matches 1.. run scoreboard players remove @s Choco.SotF.Flamethrower.Click 1
 
 # ドリル
 execute if predicate survivalotfittest:selected_drill at @s run function survivalotfittest:item/drill/
-execute if predicate survivalotfittest:offhand_drill at @s run function survivalotfittest:item/drill/put_offhand
+execute if items entity @s weapon.offhand *[custom_data={SotF:Drill}] at @s run function survivalotfittest:item/drill/put_offhand
 execute if score @s Choco.SotF.Drill.Click matches 1.. run scoreboard players remove @s Choco.SotF.Drill.Click 1
 
 # チェーンソー
 execute if predicate survivalotfittest:selected_chainsaw at @s run function survivalotfittest:item/chainsaw/
-execute if predicate survivalotfittest:offhand_chainsaw at @s run function survivalotfittest:item/chainsaw/put_offhand
+execute if items entity @s weapon.offhand *[custom_data={SotF:Chainsaw}] at @s run function survivalotfittest:item/chainsaw/put_offhand
 execute if score @s Choco.SotF.Chainsaw.Click matches 1.. run scoreboard players remove @s Choco.SotF.Chainsaw.Click 1
 
 # 水聖十字
@@ -258,6 +258,9 @@ execute if score @s Choco.SotF.MedicineEffect.Calm matches 1.. at @s run functio
 # > 獄炎
 execute if score @s Choco.SotF.Inferno.Tick matches 1.. at @s run function survivalotfittest:effects/inferno/
 
+# > 剣の呪い
+execute if score @s Choco.SotF.CurseOfSword matches 1.. at @s run function survivalotfittest:effects/curse_of_sword/
+
 ## バイオーム
 
 # 気温
@@ -266,6 +269,9 @@ execute at @s run function survivalotfittest:entity/player/temperature/
 
 #汚染
 #execute at @s if biome ~ ~ ~ survivalotfittest:contaminated run function survivalotfittest:biome/contaminated/
+
+# 季節周り
+execute at @s if dimension overworld run function survivalotfittest:internal/seasons/nature
 
 ## ブロック系
 

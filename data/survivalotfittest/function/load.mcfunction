@@ -311,6 +311,9 @@ scoreboard objectives add Choco.SotF.Inferno.Tick dummy
 scoreboard objectives add Choco.SotF.Inferno.Tick.Max dummy
 scoreboard objectives add Choco.SotF.Inferno.Level dummy
 
+# > 剣の呪い
+scoreboard objectives add Choco.SotF.CurseOfSword dummy
+
 #ディメンション
 
 # > 淵海
@@ -320,6 +323,7 @@ scoreboard objectives add Choco.SotF.AbyssalOcean.Preasure dummy
 gamerule naturalRegeneration false
 gamerule commandModificationBlockLimit 100000
 gamerule maxCommandChainLength 2147483647
+gamerule allowFireTicksAwayFromPlayer true
 
 ## forceload(重くなるけど致し方なし)
 function survivalotfittest:internal/set_forceload

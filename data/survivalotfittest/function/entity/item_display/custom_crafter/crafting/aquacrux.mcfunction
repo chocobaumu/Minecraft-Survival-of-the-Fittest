@@ -10,7 +10,7 @@ item replace block ~ ~ ~ container.21 with air
 
 tag @s add Choco.SotF.Temp
 
-item replace block ~ ~ ~ container.16 with recovery_compass[item_model="survivalotfittest:aquacrux",item_name='"水聖十字"',rarity="epic",custom_data={"SotF":"AquaCrux"},lore=['{"color":"dark_gray","italic":true,"text":"私（.w.）のお守り。"}'],!max_stack_size] 1
+item replace block ~ ~ ~ container.16 with recovery_compass[item_model="survivalotfittest:aquacrux",item_name="水聖十字",rarity="epic",custom_data={SotF:"AquaCrux"},lore=[{"color":"dark_gray","italic":true,"text":"私（.w.）のお守り。"}],!max_stack_size] 1
 
 particle trial_spawner_detection_ominous ~ ~0.5 ~ 0.3 0.3 0.3 0.1 10 normal
 particle end_rod ~ ~0.5 ~ 0.3 0.3 0.3 0.1 10 normal

@@ -19,7 +19,7 @@ execute as @e[type=small_fireball,distance=..6] run tag @s add Choco.SotF.AvoidT
 execute as @e[type=dragon_fireball,distance=..6] run tag @s add Choco.SotF.AvoidTarget
 execute as @e[type=wind_charge,distance=..6] run tag @s add Choco.SotF.AvoidTarget
 execute as @e[type=breeze_wind_charge,distance=..6] run tag @s add Choco.SotF.AvoidTarget
-execute as @e[type=potion,distance=..6] run tag @s add Choco.SotF.AvoidTarget
+execute as @e[type=splash_potion,distance=..6] run tag @s add Choco.SotF.AvoidTarget
 execute as @e[type=wither_skull,distance=..6] run tag @s add Choco.SotF.AvoidTarget
 execute as @e[type=evoker_fangs,distance=..6] run tag @s add Choco.SotF.AvoidTarget
 execute as @e[tag=Choco.SotF.Projectile,distance=..6] run tag @s add Choco.SotF.AvoidTarget

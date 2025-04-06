@@ -1,0 +1,1 @@
+$tp @s ~$(chocobaumu_imagine_pos_x) ~$(chocobaumu_imagine_pos_y) ~$(chocobaumu_imagine_pos_z)

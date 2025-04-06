@@ -1,1 +1,1 @@
-data merge entity @s {Item:{id:"minecraft:recovery_compass",components:{"minecraft:custom_data":{SotF:Corrupt_Crystal},"minecraft:item_model":"survivalotfittest:corrupt_crystal","minecraft:rarity":"uncommon","minecraft:item_name":'"汚染晶"'}}}
+data merge entity @s {Item:{id:"minecraft:recovery_compass",count:1,components:{"minecraft:custom_data":{SotF:Corrupt_Crystal},"minecraft:item_model":"survivalotfittest:corrupt_crystal","minecraft:rarity":"uncommon","minecraft:item_name":"汚染晶"}}}

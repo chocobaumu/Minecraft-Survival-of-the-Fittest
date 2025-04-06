@@ -10,7 +10,7 @@ item replace block ~ ~ ~ container.21 with air
 
 tag @s add Choco.SotF.Temp
 
-item replace block ~ ~ ~ container.16 with enchanted_book[item_name='"単眼のアーティファクト"',lore=['[{"color":"gray","italic":false,"text":"常に"},{"color":"green","italic":false,"text":"水中呼吸"},{"color":"gray","italic":false,"text":"の効果を得ます。また、"}]','{"color":"gray","italic":false,"text":"身体が水に濡れなくなります。"}'],rarity="rare",item_model="survivalotfittest:artifact_of_eye",custom_data={SotF.Category:Artifact,SotF:Artifact_of_Eye}] 1
+item replace block ~ ~ ~ container.16 with enchanted_book[item_name="単眼のアーティファクト",lore=[[{"color":"gray","italic":false,"text":"常に"},{"color":"green","italic":false,"text":"水中呼吸"},{"color":"gray","italic":false,"text":"の効果を得ます。また、"}],{"color":"gray","italic":false,"text":"身体が水に濡れなくなります。"}],rarity="rare",item_model="survivalotfittest:artifact_of_eye",custom_data={SotF.Category:Artifact,SotF:Artifact_of_Eye}] 1
 
 particle trial_spawner_detection_ominous ~ ~0.5 ~ 0.3 0.3 0.3 0.1 10 normal
 particle dripping_water ~ ~0.5 ~ 0.3 0.3 0.3 0 10 normal

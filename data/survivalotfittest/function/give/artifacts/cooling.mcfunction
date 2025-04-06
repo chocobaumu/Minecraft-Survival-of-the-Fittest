@@ -1,1 +1,1 @@
-give @p enchanted_book[item_name='"蓄熱のアーティファクト"',lore=['{"color":"gray","italic":false,"text":"低温耐性が20増加します。"}'],rarity="uncommon",item_model="survivalotfittest:artifact_of_cooling",custom_data={SotF.Category:Artifact,SotF:Artifact_of_Cooling}] 1
+give @p enchanted_book[item_name="蓄熱のアーティファクト",lore=[{"color":"gray","italic":false,"text":"低温耐性が20増加します。"}],rarity="uncommon",item_model="survivalotfittest:artifact_of_cooling",custom_data={SotF.Category:Artifact,SotF:Artifact_of_Cooling}] 1

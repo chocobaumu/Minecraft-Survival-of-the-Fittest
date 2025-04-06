@@ -9,3 +9,6 @@ execute if entity @s[tag=Choco.SotF.PoisonEgg] at @s run function survivalotfitt
 
 #テストダミー
 execute if entity @s[tag=Choco.SotF.Target_Dummy] at @s run function survivalotfittest:entity/armor_stand/test_dummy/
+
+# ADMIN
+execute if entity @s[tag=Choco.SotF.Admin.Chocobaumu.Imagine] at @s run function survivalotfittest:entity/armor_stand/admin/chocobaumu/imagine/

@@ -1,7 +1,7 @@
 #clone ~ ~-1 ~ ~ ~-1 ~ ~ ~ ~
 #setblock ~ ~ ~ air destroy
 
-execute unless block ~ ~-1 ~ #survivalotfittest:can_through run loot spawn ~ ~ ~ mine ~ ~-1 ~ netherite_pickaxe[enchantments={levels:{"minecraft:silk_touch":1}}]
+execute unless block ~ ~-1 ~ #survivalotfittest:can_through run loot spawn ~ ~ ~ mine ~ ~-1 ~ netherite_pickaxe[enchantments={"minecraft:silk_touch":1}]
 
 #execute unless block ~ ~-1 ~ #survivalotfittest:can_through as @n[type=item] at @s run data modify storage sotf:falling_block block set string entity @s Item.id
 #execute unless block ~ ~-1 ~ #survivalotfittest:can_through if entity @n[type=item,distance=..1] align xyz positioned ~0.5 ~0.05 ~0.5 run function survivalotfittest:internal/smash/summon_display with storage sotf:falling_block

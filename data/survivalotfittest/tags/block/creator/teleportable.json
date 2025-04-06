@@ -57,6 +57,14 @@
       "minecraft:kelp",
       "minecraft:kelp_plant",
       "minecraft:warped_roots",
-      "minecraft:nether_sprouts"
+      "minecraft:nether_sprouts",
+      "minecraft:cactus_flower",
+      "minecraft:pink_petals",
+      "minecraft:wildflowers",
+      "minecraft:leaf_litter",
+      "minecraft:firefly_bush",
+      "minecraft:tall_dry_grass",
+      "minecraft:short_dry_grass",
+      "minecraft:bush"
     ]
   }

@@ -10,4 +10,4 @@ item replace block ~ ~ ~ container.21 with air
 
 tag @s add Choco.SotF.Temp
 
-item replace block ~ ~ ~ container.16 with iron_axe[item_name='"銅の斧"',item_model="survivalotfittest:copper_axe",max_damage=32] 1
+item replace block ~ ~ ~ container.16 with iron_axe[item_name="銅の斧",item_model="survivalotfittest:copper_axe",max_damage=32] 1

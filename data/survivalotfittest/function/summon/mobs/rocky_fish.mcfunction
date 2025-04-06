@@ -1,1 +1,1 @@
-summon cod ~ ~ ~ {DeathLootTable:"survivalotfittest:entities/rocky_fish",Health:30f,Tags:["Choco.SotF.Custom","Choco.SotF.RockyFish"],CustomName:'{"italic":false,"text":"ロッキーフィッシュ"}',attributes:[{id:"minecraft:max_health",base:30},{id:"minecraft:scale",base:5}]}
+summon cod ~ ~ ~ {DeathLootTable:"survivalotfittest:entities/rocky_fish",Health:30f,Tags:["Choco.SotF.Custom","Choco.SotF.RockyFish"],CustomName:{"italic":false,"text":"ロッキーフィッシュ"},attributes:[{id:"minecraft:max_health",base:30},{id:"minecraft:scale",base:5}]}

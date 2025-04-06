@@ -1,1 +1,1 @@
-give @p cooked_salmon[item_name='"貝"',item_model="survivalotfittest:shellfish",custom_data={SotF:Shellfish},food={nutrition:2,saturation:0,eat_seconds:1.6}] 1
+give @p cooked_salmon[item_name="貝",item_model="survivalotfittest:shellfish",custom_data={SotF:Shellfish},food={nutrition:2,saturation:0}] 1

@@ -24,6 +24,8 @@
       "minecraft:spawner",
       "minecraft:trial_spawner",
       "minecraft:vault",
-      "minecraft:creaking_heart"
+      "minecraft:creaking_heart",
+      "test_instance_block",
+      "minecraft:test_block"
     ]
   }

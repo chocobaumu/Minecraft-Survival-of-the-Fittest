@@ -325,3 +325,6 @@ execute if score @s Choco.SotF.Laceration.Tick matches 1.. at @s run function su
 
 # > 獄炎
 execute if score @s Choco.SotF.Inferno.Tick matches 1.. at @s run function survivalotfittest:effects/inferno/
+
+# > 剣の呪い
+execute if score @s Choco.SotF.CurseOfSword matches 1.. at @s run function survivalotfittest:effects/curse_of_sword/

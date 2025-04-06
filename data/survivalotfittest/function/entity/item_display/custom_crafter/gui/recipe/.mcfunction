@@ -1,7 +1,7 @@
 # 空白部分を埋める
-#item replace block ~ ~ ~ container.9 with white_stained_glass_pane[hide_tooltip={},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_default"] 1
-#item replace block ~ ~ ~ container.17 with white_stained_glass_pane[hide_tooltip={},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_default"] 1
-#item replace block ~ ~ ~ container.26 with white_stained_glass_pane[hide_tooltip={},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_default"] 1
+#item replace block ~ ~ ~ container.9 with white_stained_glass_pane[tooltip_display={hide_tooltip:true},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_default"] 1
+#item replace block ~ ~ ~ container.17 with white_stained_glass_pane[tooltip_display={hide_tooltip:true},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_default"] 1
+#item replace block ~ ~ ~ container.26 with white_stained_glass_pane[tooltip_display={hide_tooltip:true},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_default"] 1
 
 # ページ移動 (一覧)
 execute if score @s Choco.SotF.ScoreStorage.0 matches 2..2 unless items block ~ ~ ~ container.18 * run function survivalotfittest:entity/item_display/custom_crafter/gui/recipe/page_up
@@ -15,17 +15,17 @@ execute if score @s Choco.SotF.ScoreStorage.2 matches 2.. if score @s Choco.SotF
 execute unless items block ~ ~ ~ container.9 * run function survivalotfittest:entity/item_display/custom_crafter/gui/craft_changed
 
 # 共通部分
-item replace block ~ ~ ~ container.0 with white_stained_glass_pane[hide_tooltip={},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_default"] 1
-item replace block ~ ~ ~ container.18 with white_stained_glass_pane[hide_tooltip={},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_default"] 1
-execute if score @s Choco.SotF.ScoreStorage.0 matches 2..2 run item replace block ~ ~ ~ container.18 with arrow[item_name='{"color":"gray","italic":false,"text":"ページを進む"}',custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_arrow_down"] 1
-execute if score @s Choco.SotF.ScoreStorage.0 matches 3.. run item replace block ~ ~ ~ container.0 with arrow[item_name='{"color":"gray","italic":false,"text":"ページを戻る"}',custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_arrow_up"] 1
-item replace block ~ ~ ~ container.9 with anvil[item_name='{"color":"gray","italic":false,"text":"クラフト"}',custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_crafting"] 1
+item replace block ~ ~ ~ container.0 with white_stained_glass_pane[tooltip_display={hide_tooltip:true},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_default"] 1
+item replace block ~ ~ ~ container.18 with white_stained_glass_pane[tooltip_display={hide_tooltip:true},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_default"] 1
+execute if score @s Choco.SotF.ScoreStorage.0 matches 2..2 run item replace block ~ ~ ~ container.18 with arrow[item_name={"color":"gray","italic":false,"text":"ページを進む"},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_arrow_down"] 1
+execute if score @s Choco.SotF.ScoreStorage.0 matches 3.. run item replace block ~ ~ ~ container.0 with arrow[item_name={"color":"gray","italic":false,"text":"ページを戻る"},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_arrow_up"] 1
+item replace block ~ ~ ~ container.9 with anvil[item_name={"color":"gray","italic":false,"text":"クラフト"},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_crafting"] 1
 
-execute if score @s Choco.SotF.ScoreStorage.0 matches 1 run item replace block ~ ~ ~ container.0 with white_stained_glass_pane[hide_tooltip={},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_default"] 1
-execute if score @s Choco.SotF.ScoreStorage.0 matches 1 run item replace block ~ ~ ~ container.18 with white_stained_glass_pane[hide_tooltip={},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_default"] 1
+execute if score @s Choco.SotF.ScoreStorage.0 matches 1 run item replace block ~ ~ ~ container.0 with white_stained_glass_pane[tooltip_display={hide_tooltip:true},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_default"] 1
+execute if score @s Choco.SotF.ScoreStorage.0 matches 1 run item replace block ~ ~ ~ container.18 with white_stained_glass_pane[tooltip_display={hide_tooltip:true},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_default"] 1
 #ScoreStorage2変更箇所ここ↓ 2/2
-execute if score @s Choco.SotF.ScoreStorage.0 matches 1 if score @s Choco.SotF.ScoreStorage.2 matches ..47 run item replace block ~ ~ ~ container.18 with arrow[item_name='{"color":"gray","italic":false,"text":"ページを進む"}',custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_arrow_down"] 1
-execute if score @s Choco.SotF.ScoreStorage.0 matches 1 if score @s Choco.SotF.ScoreStorage.2 matches 2.. run item replace block ~ ~ ~ container.0 with arrow[item_name='{"color":"gray","italic":false,"text":"ページを戻る"}',custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_arrow_up"] 1
+execute if score @s Choco.SotF.ScoreStorage.0 matches 1 if score @s Choco.SotF.ScoreStorage.2 matches ..47 run item replace block ~ ~ ~ container.18 with arrow[item_name={"color":"gray","italic":false,"text":"ページを進む"},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_arrow_down"] 1
+execute if score @s Choco.SotF.ScoreStorage.0 matches 1 if score @s Choco.SotF.ScoreStorage.2 matches 2.. run item replace block ~ ~ ~ container.0 with arrow[item_name={"color":"gray","italic":false,"text":"ページを戻る"},custom_data={SotF:GUIItem},item_model="survivalotfittest:gui_arrow_up"] 1
 
 execute if score @s Choco.SotF.ScoreStorage.2 matches 1.. run scoreboard players set @s Choco.SotF.ScoreStorage.0 1
 

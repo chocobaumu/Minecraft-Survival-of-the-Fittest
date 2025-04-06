@@ -83,6 +83,8 @@ execute if entity @s[tag=Choco.SotF.Admin.Chocobaumu.GreatSword] at @s run funct
 execute if entity @s[tag=Choco.SotF.Chocobaumu.ExplosiveOrb] at @s run function survivalotfittest:entity/item_display/admin/chocobaumu/orb/
 execute if entity @s[tag=Choco.SotF.Chocobaumu.BlackHole] at @s run function survivalotfittest:entity/item_display/admin/chocobaumu/black_hole/
 execute if entity @s[tag=Choco.SotF.Chocobaumu.Crystal] at @s run function survivalotfittest:entity/item_display/admin/chocobaumu/crystal/
+execute if entity @s[tag=Choco.SotF.Admin.Chocobaumu.GroundPiercer] at @s run function survivalotfittest:entity/item_display/admin/chocobaumu/ground_piercer/
+execute if entity @s[tag=Choco.SotF.Admin.Chocobaumu.GroundPiercing] at @s run function survivalotfittest:entity/item_display/admin/chocobaumu/ground_piercer/piercing/
 
 # > Aotumuri
 execute if entity @s[tag=Choco.SotF.Aotumuri.IceImpact] at @s run function survivalotfittest:entity/item_display/admin/aotumuri/ice_impact/

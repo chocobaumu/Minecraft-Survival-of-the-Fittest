@@ -24,6 +24,9 @@ execute if entity @s[tag=Choco.SotF.HurricaneLightning] at @s run function survi
 #大雨
 execute if entity @s[tag=Choco.SotF.HeavyRain] at @s run function survivalotfittest:entity/marker/desaster/heavyrain/water
 
+#季節
+execute if entity @s[tag=Choco.SotF.NatureChanges] at @s run function survivalotfittest:entity/marker/misc/seasons/
+
 #アルマゲドン
 execute if entity @s[tag=Choco.SotF.Nightmare.Armageddon_Spawn] at @s run function survivalotfittest:event/nightmare/the_armageddon/summon/
 
@@ -192,6 +195,8 @@ execute if entity @s[tag=Choco.SotF.Chocobaumu.Crystal.Heal] at @s run function 
 execute if entity @s[tag=Choco.SotF.Chocobaumu.Sunshine_Punishment] at @s run function survivalotfittest:entity/marker/misc/admin/chocobaumu/sunshine_punishment/
 execute if entity @s[tag=Choco.SotF.Chocobaumu.Sunshine_Punishment.Laser] at @s run function survivalotfittest:entity/marker/misc/admin/chocobaumu/sunshine_punishment/laser/
 execute if entity @s[tag=Choco.SotF.Chocobaumu.FireSpear] at @s run function survivalotfittest:entity/marker/misc/admin/chocobaumu/fire_spear/
+execute if entity @s[tag=Choco.SotF.Admin.Chocobaumu.GroundPiercing.Origin] at @s run function survivalotfittest:entity/marker/misc/admin/chocobaumu/ground_piercing/origin/
+execute if entity @s[tag=Choco.SotF.Admin.Chocobaumu.GroundPiercing] at @s run function survivalotfittest:entity/marker/misc/admin/chocobaumu/ground_piercing/line/
 execute if entity @s[tag=Choco.SotF.Aotumuri.WaterSpear] at @s run function survivalotfittest:entity/marker/misc/admin/aotumuri/water_spear/
 execute if entity @s[tag=Choco.SotF.Aotumuri.WaterSpear.Magic] at @s run function survivalotfittest:entity/marker/misc/admin/aotumuri/spear_magic/
 execute if entity @s[tag=Choco.SotF.Aotumuri.WaterSpear.Mini] at @s run function survivalotfittest:entity/marker/misc/admin/aotumuri/mini_spear/

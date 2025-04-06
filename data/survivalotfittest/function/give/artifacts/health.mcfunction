@@ -1,1 +1,1 @@
-give @p enchanted_book[item_name='"強靭のアーティファクト"',lore=['{"color":"gray","italic":false,"text":"最大体力が8(❤x4)増加します。"}'],rarity="uncommon",item_model="survivalotfittest:artifact_of_health",custom_data={SotF.Category:Artifact,SotF:Artifact_of_Health}] 1
+give @p enchanted_book[item_name="強靭のアーティファクト",lore=[{"color":"gray","italic":false,"text":"最大体力が8(❤x4)増加します。"}],rarity="uncommon",item_model="survivalotfittest:artifact_of_health",custom_data={SotF.Category:Artifact,SotF:Artifact_of_Health}] 1

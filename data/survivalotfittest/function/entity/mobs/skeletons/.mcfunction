@@ -8,10 +8,10 @@ execute at @s if entity @a[gamemode=!spectator,gamemode=!creative,distance=..16]
 execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 if entity @e[tag=Choco.SotF.Target] at @s run function survivalotfittest:entity/mobs/destroy_block/ {"target":"Choco.SotF.Target"}
 
 #持ち替え
-execute if entity @s[tag=!Choco.SotF.Substantiator] unless score @s Choco.SotF.Items.Mainhand matches 7 if entity @s at @s if entity @e[tag=Choco.SotF.Target,distance=..5] run function survivalotfittest:entity/mobs/skeletons/melee
-execute if entity @s[tag=!Choco.SotF.Substantiator] unless score @s Choco.SotF.Items.Mainhand matches 7 if entity @s at @s unless entity @e[tag=Choco.SotF.Target,distance=..5] run function survivalotfittest:entity/mobs/skeletons/ranged
-execute if entity @s[tag=!Choco.SotF.Substantiator] if entity @s if score @s Choco.SotF.Skeleton.MeleeTick matches 1 run function survivalotfittest:entity/mobs/skeletons/changing_melee
-execute if entity @s[tag=!Choco.SotF.Substantiator] unless score @s Choco.SotF.Items.Mainhand matches 7 if entity @s if score @s Choco.SotF.Skeleton.RangedTick matches 2 run item replace entity @s weapon.mainhand with bow
+execute if entity @s[tag=!Choco.SotF.Substantiator] unless score @s Choco.SotF.Items.Mainhand matches 7 at @s if entity @e[tag=Choco.SotF.Target,distance=..5] run function survivalotfittest:entity/mobs/skeletons/melee
+execute if entity @s[tag=!Choco.SotF.Substantiator] unless score @s Choco.SotF.Items.Mainhand matches 7 at @s unless entity @e[tag=Choco.SotF.Target,distance=..5] run function survivalotfittest:entity/mobs/skeletons/ranged
+execute if entity @s[tag=!Choco.SotF.Substantiator] if score @s Choco.SotF.Skeleton.MeleeTick matches 1 run function survivalotfittest:entity/mobs/skeletons/changing_melee
+execute if entity @s[tag=!Choco.SotF.Substantiator] unless score @s Choco.SotF.Items.Mainhand matches 7 if score @s Choco.SotF.Skeleton.RangedTick matches 2 run item replace entity @s weapon.mainhand with bow
 
 #スパイダージョッキ―
 execute if entity @s[type=!wither_skeleton] on vehicle as @s if entity @s[type=spider] on passengers as @s at @s run function survivalotfittest:entity/mobs/skeletons/if_spiderjocky/ {"block":"cobblestone","target":"Choco.SotF.Enemies_Target"}
@@ -32,6 +32,8 @@ tag @s add Choco.SotF.TeleportwithEnderman
 scoreboard players add @s Choco.SotF.Tick.0 1
 
 execute if score @s Choco.SotF.Tick.0 matches 1 run function survivalotfittest:init/skeleton
+
+#execute if entity @e[tag=Choco.SotF.Target] run say hoge
 
 tag @e[tag=Choco.SotF.Target] remove Choco.SotF.Target
 

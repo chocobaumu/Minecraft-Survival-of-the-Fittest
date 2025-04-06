@@ -6,6 +6,37 @@ playsound entity.warden.sonic_boom hostile @a ~ ~ ~ 1 1
 playsound entity.warden.sonic_boom hostile @a ~ ~ ~ 1 0.8
 playsound entity.warden.sonic_boom hostile @a ~ ~ ~ 1 0.6
 
-function survivalotfittest:summon/misc/warden/echo_boom_large
+execute at @s run function survivalotfittest:summon/misc/warden/echo_boom_large
+
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
+execute at @s run function survivalotfittest:entity/marker/misc/warden/echoing/large_explosion
 
 function survivalotfittest:internal/kill

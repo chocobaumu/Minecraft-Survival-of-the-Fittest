@@ -1,1 +1,1 @@
-give @p recovery_compass[item_name='"タンク"',item_model="survivalotfittest:tank",custom_data={SotF:Tank},rarity="common"] 1
+give @p recovery_compass[item_name="タンク",item_model="survivalotfittest:tank",custom_data={SotF:Tank},rarity="common"] 1

@@ -10,4 +10,4 @@ item replace block ~ ~ ~ container.21 with air
 
 tag @s add Choco.SotF.Temp
 
-item replace block ~ ~ ~ container.16 with snowball[max_stack_size=16,item_name='{"italic":false,"text":"グレネード"}',rarity="common",item_model="survivalotfittest:grenade",custom_data={SotF:Grenade},hide_additional_tooltip={}] 1
+item replace block ~ ~ ~ container.16 with snowball[max_stack_size=16,item_name={"italic":false,"text":"グレネード"},rarity="common",item_model="survivalotfittest:grenade",custom_data={SotF:Grenade}] 1

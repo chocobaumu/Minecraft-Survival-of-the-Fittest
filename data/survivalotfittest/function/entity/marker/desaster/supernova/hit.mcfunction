@@ -13,6 +13,6 @@ particle explosion ~ ~ ~ 5 5 5 10 100 force
 particle explosion_emitter ~ ~ ~ 5 5 5 0 50 force
 summon marker ~ ~ ~ {Tags:["Choco.SotF.SuperNova.Explosion","Choco.SotF.Origin"]}
 scoreboard players operation @e[type=marker,tag=Choco.SotF.SuperNova.Explosion,tag=Choco.SotF.Origin,sort=nearest,limit=1] Choco.SotF.ScoreStorage.0 = @s Choco.SotF.ScoreStorage.0
-summon creeper ~ ~ ~ {Tags:["Choco.SotF.NotDisplayDamages","Choco.SotF.Custom"],Invulnerable:1b,NoAI:1b,powered:1b,ExplosionRadius:15b,Fuse:0,ignited:1b,CustomName:'{"text":"超新星","color":"dark_aqua","italic":false}'}
+summon creeper ~ ~ ~ {Invulnerable:1b,NoAI:1b,powered:1b,ExplosionRadius:15b,Fuse:0,ignited:1b,Tags:["Choco.SotF.NotDisplayDamages","Choco.SotF.Custom"],CustomName:{"color":"dark_aqua","italic":false,"text":"超新星"}}
 
 function survivalotfittest:internal/kill

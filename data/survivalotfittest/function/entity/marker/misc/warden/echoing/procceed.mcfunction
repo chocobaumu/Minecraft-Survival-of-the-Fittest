@@ -6,5 +6,6 @@ execute at @s positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[type=!warden,tag=!Choco.
 execute at @s positioned ~-0.5 ~-0.5 ~-0.5 if entity @a[gamemode=!spectator,dx=0] at @s run scoreboard players set @s Choco.SotF.Tick.0 11
 
 scoreboard players add @s Choco.SotF.tick.1 1
-execute if score @s Choco.SotF.tick.1 matches 3.. run scoreboard players set @s Choco.SotF.tick.1 0
-execute if score @s Choco.SotF.tick.1 matches 1 at @s run function survivalotfittest:summon/misc/warden/echo_boom_small
+execute if score @s Choco.SotF.tick.1 matches 4.. run scoreboard players set @s Choco.SotF.tick.1 0
+execute if score @s Choco.SotF.tick.1 matches 1 at @s run function survivalotfittest:entity/marker/misc/warden/echoing/small_echo
+execute if score @s Choco.SotF.tick.1 matches 1 at @s run function survivalotfittest:entity/marker/misc/warden/echoing/small_echo

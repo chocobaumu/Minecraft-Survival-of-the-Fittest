@@ -1,0 +1,1 @@
+$rotate @s ~$(choco_sword) -70

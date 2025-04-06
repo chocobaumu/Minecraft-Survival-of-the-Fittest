@@ -1,1 +1,1 @@
-give @p enchanted_book[item_name='"邪悪のアーティファクト"',lore=['{"color":"gray","italic":false,"text":"水中にいるとき、水分が自動で回復し、自然回復速度が上昇します。"}'],rarity="rare",item_model="survivalotfittest:artifact_of_evil",custom_data={SotF.Category:Artifact,SotF:Artifact_of_Evil}] 1
+give @p enchanted_book[item_name="邪悪のアーティファクト",lore=[{"color":"gray","italic":false,"text":"水中にいるとき、水分が自動で回復し、自然回復速度が上昇します。"}],rarity="rare",item_model="survivalotfittest:artifact_of_evil",custom_data={SotF.Category:Artifact,SotF:Artifact_of_Evil}] 1
