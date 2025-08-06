@@ -10,6 +10,13 @@ tag @s add Choco.SotF.Seaserpent_Eats
 execute unless entity @s[gamemode=!spectator,gamemode=!creative] run function survivalotfittest:entity/player/tag_remove
 tag @s remove Choco.SotF.NearSpawnerDestroyed
 
+# HP取得
+execute store result score @s Choco.SotF.Health run data get entity @s Health
+
+# HurtTime
+execute store result score @s Choco.SotF.Data.HurtTime run data get entity @s HurtTime
+execute if score @s Choco.SotF.Data.HurtTime matches 9 at @s run function survivalotfittest:entity/player/hurt with entity @s
+
 #スニーク時間
 execute if score @s Choco.SotF.Internal.Sneak matches 1.. run scoreboard players add @s Choco.SotF.SneakTick 1
 execute if score @s Choco.SotF.Internal.Sneak matches 0 run scoreboard players set @s Choco.SotF.SneakTick 0
@@ -18,6 +25,13 @@ scoreboard players set @s Choco.SotF.Internal.Sneak 0
 #Ctrl時間
 execute if predicate survivalotfittest:input/sprint run scoreboard players add @s Choco.SotF.Player.PressSprintTick 1
 execute unless predicate survivalotfittest:input/sprint run scoreboard players set @s Choco.SotF.Player.PressSprintTick 0
+
+# 魔術モード
+execute if entity @s[advancements={survivalotfittest:skills/sorcery/unlock=true}] if score @s Choco.SotF.LastCtrl matches 1..5 if score @s Choco.SotF.Player.PressSprintTick matches 1 at @s run scoreboard players add @s Choco.SotF.SorceryMode 1
+execute if score @s Choco.SotF.SorceryMode matches 2.. run scoreboard players set @s Choco.SotF.SorceryMode 0
+
+scoreboard players add @s Choco.SotF.LastCtrl 1
+execute if score @s Choco.SotF.Player.PressSprintTick matches 1 run scoreboard players set @s Choco.SotF.LastCtrl 0
 
 #ジャンプ時間
 execute if predicate survivalotfittest:input/jump run scoreboard players add @s Choco.SotF.Player.PressJumpTick 1
@@ -41,6 +55,9 @@ execute store result score @s Choco.SotF.Rot.1 run data get entity @s Rotation[1
 
 #PlayTime
 scoreboard players add @s Choco.SotF.Tick.0 1
+
+# 最後に攻撃してからのTick
+execute if score @s Choco.SotF.LastAttacking matches 0.. run scoreboard players add @s Choco.SotF.LastAttacking 1
 
 #TickAfterRespawned
 scoreboard players add @s Choco.SotF.TickAfterRespawned 1
@@ -75,6 +92,8 @@ execute unless entity @s[gamemode=!spectator,gamemode=!creative] run scoreboard 
 
 #回復
 scoreboard players add @s Choco.SotF.Regeneration 1
+execute if entity @s[advancements={survivalotfittest:skills/survival/instinct=true}] if score @s Choco.SotF.Health matches ..10 run scoreboard players add @s Choco.SotF.Regeneration 1
+execute if entity @s[advancements={survivalotfittest:skills/survival/vitality=true}] run scoreboard players add @s Choco.SotF.Regeneration 1
 execute if score @s Choco.SotF.Food matches 19.. if score @s Choco.SotF.Thirst matches 19.. run scoreboard players add @s Choco.SotF.Regeneration 1
 execute if score @s Choco.SotF.Regeneration matches 1200.. run function survivalotfittest:entity/player/custom_status/regeneration/
 
@@ -108,7 +127,7 @@ execute unless entity @s[gamemode=spectator] at @s run function survivalotfittes
 #execute at @s run function survivalotfittest:entity/damageindicator/
 
 #壁キック系のアクション
-execute if entity @s[gamemode=!spectator] if score @s Choco.SotF.Data.OnGround matches 0 at @s if block ~ ~-0.75 ~ #survivalotfittest:can_through unless block ~ ~ ~ #survivalotfittest:water_and_else rotated ~ 0 run function survivalotfittest:entity/player/wall_running/can_use
+execute if entity @s[gamemode=!spectator] if score @s Choco.SotF.Player.DodgeStack matches 1.. if score @s Choco.SotF.Data.OnGround matches 0 at @s if block ~ ~-0.75 ~ #survivalotfittest:can_through unless block ~ ~ ~ #survivalotfittest:water_and_else rotated ~ 0 run function survivalotfittest:entity/player/wall_running/can_use
 execute if score @s Choco.SotF.WallGrab matches 1.. run scoreboard players remove @s Choco.SotF.WallGrab 1
 
 #ほふく
@@ -118,14 +137,49 @@ execute if score @s Choco.SotF.Rot.1 matches 61.. if score @s Choco.SotF.Data.On
 scoreboard players add @s Choco.SotF.Player.DodgeStack 0
 scoreboard players add @s Choco.SotF.Player.Dodged 0
 execute if score @s Choco.SotF.Player.Dodged matches 1.. run scoreboard players remove @s Choco.SotF.Player.Dodged 1
-execute if score @s Choco.SotF.Player.DodgeStack matches ..2 run function survivalotfittest:entity/player/dodge/ct
 execute unless entity @s[gamemode=spectator] if score @s Choco.SotF.Player.Dodged matches 0 if score @s Choco.SotF.Player.DodgeStack matches 1.. unless score @s Choco.SotF.Player.PressFowardTick matches 2.. unless score @s Choco.SotF.Player.PressBackwardTick matches 2.. unless score @s Choco.SotF.Player.PressRightTick matches 2.. unless score @s Choco.SotF.Player.PressLeftTick matches 2.. if score @s Choco.SotF.Player.PressSprintTick matches 1.. if score @s Choco.SotF.SneakTick matches 0 at @s unless block ~ ~ ~ #survivalotfittest:water_and_else unless items entity @s weapon.offhand * run function survivalotfittest:entity/player/dodge/ready
+
+# アクション回復
+execute if score @s Choco.SotF.Player.DodgeStack matches ..4 run function survivalotfittest:entity/player/dodge/ct
+
+# スキル(別処理)
+# > 逃走
+execute if entity @s[advancements={survivalotfittest:skills/survival/run=true}] if score @s Choco.SotF.Data.HurtTime matches 9 run effect give @s speed 4 1
+# > 節水
+execute if entity @s[advancements={survivalotfittest:skills/survival/water_saving=true}] run function survivalotfittest:entity/player/skills/water_saving/
+# > 緊急補給
+execute if entity @s[advancements={survivalotfittest:skills/survival/utmost_drinker=true}] run function survivalotfittest:entity/player/skills/utmost_drinker/
+# > デュアル・ソード系
+execute if entity @s[advancements={survivalotfittest:skills/sword/dual_sword/unlock=true}] if predicate survivalotfittest:selected_sword if items entity @s weapon.offhand #survivalotfittest:swords run function survivalotfittest:entity/player/skills/dual_swords/
+# > 高速装填
+execute if score @s Choco.SotF.Skills.FastLoader.Tick matches 1.. at @s run function survivalotfittest:entity/player/skills/fast_loader/charge
+# > 強靭
+execute if entity @s[advancements={survivalotfittest:skills/knight/resistant=true}] run function survivalotfittest:entity/player/skills/resistant/
+# > シールド・バッシュ
+execute if entity @s[advancements={survivalotfittest:skills/knight/shield_bash=true}] run function survivalotfittest:entity/player/skills/shield_bash/
+# > ジャスト・ガード
+execute if entity @s[advancements={survivalotfittest:skills/knight/just_guard=true}] run function survivalotfittest:entity/player/skills/just_guard/
+# > 鉄壁
+execute if entity @s[advancements={survivalotfittest:skills/knight/ironclad=true}] run function survivalotfittest:entity/player/skills/ironclad/
+# > 騎兵の心得
+execute if entity @s[advancements={survivalotfittest:skills/knight/knowledge_of_cavalry=true}] run function survivalotfittest:entity/player/skills/knowledge_of_cavalry/
+
+# > 魔術
+execute if score @s Choco.SotF.SorceryMode matches 1 at @s run function survivalotfittest:entity/player/sorcery/
+execute if score @s Choco.SotF.SorceryCool matches 1.. at @s run function survivalotfittest:entity/player/sorcery/cool/
+
+execute if score @s Choco.SotF.Sorcery.Void.Disapperance matches 1.. at @s run function survivalotfittest:entity/player/sorcery/cast/disapperance/
 
 #アイテム系
 
 # > ハルバード
 execute unless predicate survivalotfittest:selected_halberd run function survivalotfittest:item/weapon/halberd/reset
 execute if predicate survivalotfittest:selected_halberd at @s run function survivalotfittest:item/weapon/halberd/
+
+# マレディション
+execute at @s if score @s Choco.SotF.Malediction.Reload matches 0 if score @s Choco.SotF.Malediction.Ammo matches ..3 if predicate survivalotfittest:offhand_malediction run scoreboard players set @s Choco.SotF.Malediction.Reload 1
+execute at @s if predicate survivalotfittest:offhand_malediction run function survivalotfittest:item/malediction/return_mainhand
+execute if predicate survivalotfittest:selected_malediction at @s run function survivalotfittest:item/malediction/
 
 # > 歪んだキノコ付きの棒系統
 execute if score @s Choco.SotF.WarpedFungs_Stick.Click matches 1.. at @s run function survivalotfittest:item/using_warped_fungus_on_a_stick
@@ -134,14 +188,16 @@ execute if score @s Choco.SotF.WarpedFungs_Stick.Click matches 1.. at @s run fun
 execute if predicate survivalotfittest:selected_grenade run scoreboard players set @s Choco.SotF.Grenade.Held 2
 execute if score @s Choco.SotF.Grenade.Held matches 1.. run function survivalotfittest:item/consumes/grenade/selected
 
-# > ネザライトの剣/エンチャ本系統
+# > クリック時間
 execute if score @s Choco.SotF.NetherieSword_Click matches 1 run scoreboard players add @s Choco.SotF.NetherieSword_ClickingTick 1
 execute if score @s Choco.SotF.NetherieSword_Click matches 0 run scoreboard players set @s Choco.SotF.NetherieSword_ClickingTick 0
 execute if score @s Choco.SotF.EnchantedBook_Click matches 1 run scoreboard players add @s Choco.SotF.EnchantedBook_ClickingTick 1
 execute if score @s Choco.SotF.EnchantedBook_Click matches 0 run scoreboard players set @s Choco.SotF.EnchantedBook_ClickingTick 0
 scoreboard players set @s Choco.SotF.NetherieSword_Click 0
 scoreboard players set @s Choco.SotF.EnchantedBook_Click 0
-
+execute if score @s Choco.SotF.Shield_Click matches 1 run scoreboard players add @s Choco.SotF.Shield_ClickingTick 1
+execute if score @s Choco.SotF.Shield_Click matches 0 run scoreboard players set @s Choco.SotF.Shield_ClickingTick 0
+scoreboard players set @s Choco.SotF.Shield_Click 0
 # > 穿つ光のブロードソード
 execute if score @s Choco.SotF.NetherieSword_ClickingTick matches 1.. if predicate survivalotfittest:selected_crimson_mech_saber at @s run function survivalotfittest:item/weapon/crimson_mech_saber/
 
@@ -154,6 +210,9 @@ execute if score @s Choco.SotF.DimensionalSlash.Tick matches 1.. at @s run funct
 
 # > 弓系統
 execute if score @s Choco.SotF.Used.Bow matches 1.. at @s run function survivalotfittest:item/shot_bow
+
+# トライデント
+execute if score @s Choco.SotF.Throw_Trident matches 1.. at @s run function survivalotfittest:item/throw_trident
 
 # > 雪玉リセット
 scoreboard players reset @s Choco.SotF.Snowball.Click
@@ -177,6 +236,8 @@ execute if score @s Choco.SotF.HealWand.Clicking matches 1.. run function surviv
 execute if score @s Choco.SotF.HealWand.Cool matches 1.. run function survivalotfittest:item/wand/heal_wand/cool
 execute if score @s Choco.SotF.PriestWand.Clicking matches 1.. run function survivalotfittest:item/wand/priest_wand/
 execute if score @s Choco.SotF.PriestWand.Cool matches 1.. run function survivalotfittest:item/wand/priest_wand/cool
+execute if score @s Choco.SotF.LevitationWand.Clicking matches 1.. run function survivalotfittest:item/wand/levitation_wand/
+execute if score @s Choco.SotF.LevitationWand.Cool matches 1.. run function survivalotfittest:item/wand/levitation_wand/cool
 
 # > アーティファクト
 execute if predicate survivalotfittest:artifacts/equipped at @s run function survivalotfittest:item/artifacts/
@@ -233,6 +294,9 @@ execute if predicate survivalotfittest:inventory_aquacrux at @s run function sur
 scoreboard players add @s Choco.SotF.GuardianEye.CT 0
 execute if score @s Choco.SotF.GuardianEye.CT matches 1.. at @s run function survivalotfittest:item/guardian_eye/ct
 
+# ベグリフ・オブ・デス
+execute if score @s Choco.SotF.BegriffOfDeath.Tick matches 1.. at @s run function survivalotfittest:item/begriff_of_death/tick
+
 ## 病気
 
 # 食中毒
@@ -260,6 +324,14 @@ execute if score @s Choco.SotF.Inferno.Tick matches 1.. at @s run function survi
 
 # > 剣の呪い
 execute if score @s Choco.SotF.CurseOfSword matches 1.. at @s run function survivalotfittest:effects/curse_of_sword/
+
+# > 追撃
+execute if score @s Choco.SotF.Skills.Pursuit.Tick matches 1.. at @s run function survivalotfittest:entity/player/skills/pursuit/tick
+
+# > スカルク汚染
+execute if score @s SculkAssimilated matches 1.. at @s run function survivalotfittest:effects/sculk_assimilated/
+
+execute if score @s Choco.SotF.Malediction.Curse matches 1.. run scoreboard players remove @s Choco.SotF.Malediction.Curse 1
 
 ## バイオーム
 
@@ -293,6 +365,9 @@ execute if entity @s[gamemode=!adventure,gamemode=!survival] run scoreboard play
 # ヒトミソウ
 execute if entity @s[gamemode=!creative,gamemode=!spectator] at @s if block ~ ~ ~ open_eyeblossom run effect give @s blindness 6 0
 
+# 真紅のキノコ
+execute if entity @s[gamemode=!spectator] at @s align xyz positioned ~0.5 ~ ~0.5 if block ~ ~ ~ crimson_fungus unless entity @e[type=marker,tag=Choco.SotF.CrimsonFungusSpore,distance=..0.5] run summon marker ~ ~ ~ {Tags:["Choco.SotF.CrimsonFungusSpore"]}
+
 # 深海
 execute if entity @s[gamemode=!spectator] at @s unless dimension abn:abyssalocean if block ~ ~ ~ #survivalotfittest:water_and_else if biome ~ ~ ~ #survivalotfittest:deep_coeans if score @s Choco.SotF.Pos.1 matches 30..44 run effect give @s darkness 2 0 true
 
@@ -316,6 +391,9 @@ execute if score @s Choco.SotF.CreatorMode matches 1 at @s run function survival
 
 # GUI用アイテムをclear
 clear @s *[custom_data={SotF:GUIItem}]
+
+# アーティファクトスロットを表示
+#execute unless items entity @s container.9 * run item replace entity @s container.9 with recovery_compass[item_model="survivalotfittest:gui_artifact_slot",item_name={"color":"dark_gray","italic":false,"text":"アーティファクトスロット"},custom_data={SotF:GUIItem},lore=[{"color":"dark_gray","italic":false,"text":"アーティファクトはここに装備したもののみ"},{"color":"dark_gray","italic":false,"text":"効果を発揮します。"}]] 1
 
 # アイテム交換(レシピの都合上こうするしかないのだ)
 execute if predicate survivalotfittest:has_advanced_crafting_table run function survivalotfittest:entity/player/item_exchanging/advanced_crafting_table
@@ -345,7 +423,7 @@ execute at @s unless dimension abn:abyssalocean run function cruel_providence:cr
 #Advices and Supports: By Team Survival of the Fittest(Disocrd Admins and Supporters)
 #Game Design: By Chocobaumu
 #Arts and Models: By Chocobaumu
-#Musics: By Chocobaumu
+#Musics: By Chocobaumu, Aotumuri
 #Game Systems: By Chocobaumu
 #Generation Systems - The Abyssal Ocean: By Aotumuri
 #Biome - Elder Ocean: By Aotumuri
@@ -372,7 +450,7 @@ execute at @s unless dimension abn:abyssalocean run function cruel_providence:cr
 #助言と支援:  Survival of the Fittestチーム(DiscordサーバーにおけるADMINとサポーター)
 #ゲームデザイン: ちょこばうむ
 #作画及びモデリング: ちょこばうむ
-#楽曲: ちょこばうむ
+#楽曲: ちょこばうむ, Aotumuri
 #ゲームシステム: ちょこばうむ
 #生成システム - 淵海: Aotumuri
 #バイオーム - 長年の海: Aotumuri

@@ -11,4 +11,4 @@ execute if entity @e[tag=Choco.SotF.Enemies_Target,distance=..32] unless entity 
 execute if score @s Choco.SotF.tick.2 matches 1.. run function survivalotfittest:entity/mobs/phantom/nightmare/arrow_tick
 
 scoreboard players add @s Choco.SotF.HardMode.Attributes.SpawnTick 1
-execute if score @s Choco.SotF.HardMode.Attributes.SpawnTick matches 1 store result score @s Choco.SotF.HardMode.Attributes run random value 0..6
+execute if score @s Choco.SotF.HardMode.Attributes.SpawnTick matches 1 store result score @s Choco.SotF.HardMode.Attributes run random value 0..14

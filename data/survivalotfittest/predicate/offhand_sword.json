@@ -1,0 +1,53 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "player",
+          "nbt": "{Inventory:[{id:\"minecraft:wooden_sword\",Slot:-106b}]}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "player",
+          "nbt": "{Inventory:[{id:\"minecraft:stone_sword\",Slot:-106b}]}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "player",
+          "nbt": "{Inventory:[{id:\"minecraft:iron_sword\",Slot:-106b}]}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "player",
+          "nbt": "{Inventory:[{id:\"minecraft:golden_sword\",Slot:-106b}]}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "player",
+          "nbt": "{Inventory:[{id:\"minecraft:diamond_sword\",Slot:-106b}]}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "type": "player",
+          "nbt": "{Inventory:[{id:\"minecraft:netherite_sword\",Slot:-106b}]}"
+        }
+      }
+    ]
+  }

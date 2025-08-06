@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:black_concrete"
+      },
+      "title": "空質属性",
+      "description": "空質属性はしばしば”無属性„とも呼ばれる特異な魔法属性であり、そもそもこれらは『魔法学』に分類されない。恐らくこれについて最もよく知る生物種はエンダーマンであろう。",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "survivalotfittest:skills/sorcery/unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

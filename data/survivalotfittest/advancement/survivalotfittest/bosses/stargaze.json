@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:spyglass"
+      },
+      "title": "天体観測",
+      "description": "スカルクの星を呼ぶ",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:survivalotfittest/bosses/bosses",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

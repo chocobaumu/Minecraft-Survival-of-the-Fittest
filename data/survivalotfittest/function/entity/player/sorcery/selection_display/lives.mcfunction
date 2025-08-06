@@ -1,0 +1,6 @@
+execute if score @s Choco.SotF.SorcerySelect matches 0 if entity @s[advancements={survivalotfittest:skills/sorcery/lives/reproduction=true}] run title @s subtitle {"text":"リプロダクション","color":"#2da31f"}
+execute if score @s Choco.SotF.SorcerySelect matches 1 if entity @s[advancements={survivalotfittest:skills/sorcery/lives/harvest=true}] run title @s subtitle {"text":"ハーベスト","color":"#2da31f"}
+execute if score @s Choco.SotF.SorcerySelect matches 2 if entity @s[advancements={survivalotfittest:skills/sorcery/lives/summon_aquatic_bug=true}] run title @s subtitle {"text":"サモン・アクアティックバグ","color":"#2da31f"}
+execute if score @s Choco.SotF.SorcerySelect matches 3 if entity @s[advancements={survivalotfittest:skills/sorcery/lives/summon_heating_bug=true}] run title @s subtitle {"text":"サモン・ヒーティングバグ","color":"#2da31f"}
+execute if score @s Choco.SotF.SorcerySelect matches 4 if entity @s[advancements={survivalotfittest:skills/sorcery/lives/pale_manacle=true}] run title @s subtitle {"text":"ペイル・メナクル","color":"#2da31f"}
+execute if score @s Choco.SotF.SorcerySelect matches 5 if entity @s[advancements={survivalotfittest:skills/sorcery/lives/summon_vex=true}] run title @s subtitle {"text":"サモン・ヴェックス","color":"#2da31f"}

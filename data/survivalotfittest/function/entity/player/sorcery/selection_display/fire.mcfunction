@@ -1,0 +1,4 @@
+execute if score @s Choco.SotF.SorcerySelect matches 0 if entity @s[advancements={survivalotfittest:skills/sorcery/fire/lit=true}] run title @s subtitle {"text":"リット","color":"#971b17"}
+execute if score @s Choco.SotF.SorcerySelect matches 1 if entity @s[advancements={survivalotfittest:skills/sorcery/fire/fireball=true}] run title @s subtitle {"text":"ファイアボール","color":"#971b17"}
+execute if score @s Choco.SotF.SorcerySelect matches 2 if entity @s[advancements={survivalotfittest:skills/sorcery/fire/lava_splatter=true}] run title @s subtitle {"text":"ラヴァ・スプラッタ","color":"#971b17"}
+execute if score @s Choco.SotF.SorcerySelect matches 3 if entity @s[advancements={survivalotfittest:skills/sorcery/fire/blaze_impact=true}] run title @s subtitle {"text":"ブレイズ・インパクト","color":"#971b17"}

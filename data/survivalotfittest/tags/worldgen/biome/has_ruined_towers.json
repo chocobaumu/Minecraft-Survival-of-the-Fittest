@@ -1,0 +1,16 @@
+{
+    "values": [
+      "minecraft:plains",
+      "minecraft:snowy_plains",
+      "minecraft:desert",
+      "minecraft:badlands",
+      "minecraft:swamp",
+      "minecraft:ocean",
+      "minecraft:cold_ocean",
+      "minecraft:frozen_ocean",
+      "minecraft:warm_ocean",
+      "minecraft:lukewarm_ocean",
+      "savanna",
+      "sparse_jungle"
+    ]
+  }

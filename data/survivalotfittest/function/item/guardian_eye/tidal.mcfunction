@@ -1,7 +1,2 @@
-summon marker ^ ^ ^ {Tags:["Choco.SotF.Tidal.Tide","Choco.SotF.Temp","Choco.SotF.Player"]}
-
-rotate @n[type=marker,tag=Choco.SotF.Tidal.Tide,tag=Choco.SotF.Temp] ~ ~
-
-tag @n[type=marker,tag=Choco.SotF.Tidal.Tide,tag=Choco.SotF.Temp] remove Choco.SotF.Temp
-
-scoreboard players set @s Choco.SotF.GuardianEye.CT 60
+execute if score @s Choco.SotF.SneakTick matches 0 run function survivalotfittest:item/guardian_eye/tidal/no_sneak
+execute if score @s Choco.SotF.SneakTick matches 1.. run function survivalotfittest:item/guardian_eye/tidal/sneak

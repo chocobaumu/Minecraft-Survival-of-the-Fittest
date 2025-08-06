@@ -1,0 +1,1 @@
+$execute if entity @p[gamemode=!creative,gamemode=!spectator,dx=0,nbt=!{UUID:$(Owner)}] run function survivalotfittest:entity/interaction/magic/cast/earth/cursed_fang/targeting_player_succeed

@@ -1,0 +1,2 @@
+# 盾破壊
+$execute if entity @e[type=item_display,nbt={data:{Owner:$(UUID)}},tag=Choco.SotF.Magic.StoneShield] run function survivalotfittest:entity/item_display/magic/stone_shield/player_destroy with entity @s

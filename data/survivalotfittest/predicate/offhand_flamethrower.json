@@ -1,9 +1,17 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "type": "minecraft:player",
-      "nbt": "{Inventory:[{Slot:-106b,components:{\"minecraft:custom_data\":{SotF:Flamethrower}}}]}"
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "player",
+        "equipment": {
+          "offhand": {
+            "items": "#survivalotfittest:swords"
+          }
+        }
+      }
     }
-  }
-  
+  ]
+}

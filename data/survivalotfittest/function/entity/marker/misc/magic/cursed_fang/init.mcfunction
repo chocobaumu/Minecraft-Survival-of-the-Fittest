@@ -1,0 +1,1 @@
+$execute facing entity @e[nbt={UUID:$(Target),sort=nearest,limit=1] feet rotated ~ 0 run tp @s ~ ~ ~ ~ ~

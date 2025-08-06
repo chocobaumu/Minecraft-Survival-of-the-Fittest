@@ -3,8 +3,7 @@ scoreboard players set #Versions.IncorrectCount Choco.SotF.ScoreStorage.0 0
 #schedule function survivalotfittest:internal/version_checker/ 2 append {"VersionMin":"0","VersionMax":"0","Name":"Test","Producer":"Chocobaumu"}
 
 # バージョン情報
-
-scoreboard players set #Versions.Now Choco.SotF.ScoreStorage.0 2
+function survivalotfittest:internal/version_changing_checker/
 
 schedule function survivalotfittest:internal/version_checker/get_incorrect 10 append
 
@@ -129,6 +128,9 @@ scoreboard objectives add Choco.SotF.NetherieSword_Click dummy
 scoreboard objectives add Choco.SotF.NetherieSword_ClickingTick dummy
 scoreboard objectives add Choco.SotF.EnchantedBook_Click dummy
 scoreboard objectives add Choco.SotF.EnchantedBook_ClickingTick dummy
+scoreboard objectives add Choco.SotF.Shield_Click dummy
+scoreboard objectives add Choco.SotF.Shield_ClickingTick dummy
+scoreboard objectives add Choco.SotF.Throw_Trident used:trident
 scoreboard objectives add Choco.SotF.Coma dummy
 scoreboard objectives add Choco.SotF.Coma_Gain dummy
 scoreboard objectives add Choco.SotF.Coma_Heal dummy
@@ -155,6 +157,8 @@ scoreboard objectives add Choco.SotF.Player.PressJumpTick dummy
 scoreboard objectives add Choco.SotF.Player.DodgeStack dummy
 scoreboard objectives add Choco.SotF.Player.DodgeCoolTime dummy
 scoreboard objectives add Choco.SotF.Player.Dodged dummy
+scoreboard objectives add Choco.SotF.LastAttacking dummy
+scoreboard objectives add Choco.SotF.LastCtrl dummy
 
 # アイテム
 scoreboard objectives add Choco.SotF.Halberd.SwingDamageBase dummy
@@ -204,6 +208,26 @@ scoreboard objectives add Choco.SotF.ArtifactOfHeartbeat.CT dummy
 scoreboard objectives add Choco.SotF.GuardianEye.CT dummy
 scoreboard objectives add Choco.SotF.drink used:potion
 scoreboard objectives add Choco.SotF.InsaneAIOperator.Clicking dummy
+scoreboard objectives add Choco.SotF.LevitationWand.Clicking dummy
+scoreboard objectives add Choco.SotF.LevitationWand.Cool dummy
+scoreboard objectives add Choco.SotF.LevitationWand.UseTime dummy
+scoreboard objectives add Choco.SotF.Malediction.Ammo dummy
+scoreboard objectives add Choco.SotF.Malediction.Reload dummy
+scoreboard objectives add Choco.SotF.Malediction.Curse dummy
+scoreboard objectives add Choco.SotF.Malediction.Shoot dummy
+scoreboard objectives add Choco.SotF.BegriffOfDeath.Count dummy
+scoreboard objectives add Choco.SotF.BegriffOfDeath.Tick dummy
+
+# スキル
+scoreboard objectives add Choco.SotF.Skills.WaterSaving.Tick dummy
+scoreboard objectives add Choco.SotF.Skills.UtmostDrinker.Tick dummy
+scoreboard objectives add Choco.SotF.Skills.Pursuit.Tick dummy
+scoreboard objectives add Choco.SotF.Skills.FastLoader.Tick dummy
+scoreboard objectives add Choco.SotF.Skills.MoreFastLoader.Tick dummy
+scoreboard objectives add Choco.SotF.Skills.Resistant.Tick dummy
+scoreboard objectives add Choco.SotF.Skills.ShieldBash.Tick dummy
+scoreboard objectives add Choco.SotF.Skills.JustGuard.Tick dummy
+scoreboard objectives add Choco.SotF.Skills.IronClad.Tick dummy
 
 # 航空機兵装
 scoreboard objectives add Choco.SotF.Aircraft.Left.WeaponType dummy
@@ -274,6 +298,7 @@ scoreboard objectives add Choco.SotF.HardMode.Attributes dummy
 scoreboard objectives add Choco.SotF.HardMode.Attributes.Tick.0 dummy
 scoreboard objectives add Choco.SotF.HardMode.Attributes.Tick.1 dummy
 scoreboard objectives add Choco.SotF.HardMode.Attributes.ScoreStorage.0 dummy
+scoreboard objectives add Choco.SotF.HardMode.Attributes.ScoreStorage.1 dummy
 scoreboard objectives add Choco.SotF.HardMode.Attributes.SpawnTick dummy
 
 # 気温用
@@ -299,6 +324,24 @@ scoreboard objectives add Choco.SotF.Disease.BreathTick dummy
 scoreboard players add #InternalDayAfter Choco.SotF.ScoreStorage.0 0
 scoreboard players add #InternalDayBefore Choco.SotF.ScoreStorage.0 0
 
+# 魔術
+scoreboard objectives add Choco.SotF.SorceryMode dummy
+scoreboard objectives add Choco.SotF.SorceryElement dummy
+scoreboard objectives add Choco.SotF.SorcerySelect dummy
+scoreboard objectives add Choco.SotF.SorceryCool dummy
+scoreboard objectives add Choco.SotF.Particle.Fire dummy
+scoreboard objectives add Choco.SotF.Particle.Liquid dummy
+scoreboard objectives add Choco.SotF.Particle.Movement dummy
+scoreboard objectives add Choco.SotF.Particle.Electron dummy
+scoreboard objectives add Choco.SotF.Particle.Lives dummy
+scoreboard objectives add Choco.SotF.Particle.Earth dummy
+scoreboard objectives add Choco.SotF.Particle.Status.Strength dummy
+scoreboard objectives add Choco.SotF.Particle.Status.Strength_PositiveAndNegative dummy
+scoreboard objectives add Choco.SotF.Particle.Status.Strength_Temper dummy
+scoreboard objectives add Choco.SotF.Particle.Status.Strength_Flow dummy
+scoreboard objectives add Choco.SotF.Particle.Status.Strength_Exist dummy
+scoreboard objectives add Choco.SotF.Sorcery.Void.Disapperance dummy
+
 #状態異常
 
 # > 裂傷
@@ -313,6 +356,10 @@ scoreboard objectives add Choco.SotF.Inferno.Level dummy
 
 # > 剣の呪い
 scoreboard objectives add Choco.SotF.CurseOfSword dummy
+
+# > スカルク汚染
+scoreboard objectives add SculkAssimilated dummy
+scoreboard objectives add SculkAssimilatedDamage dummy
 
 #ディメンション
 

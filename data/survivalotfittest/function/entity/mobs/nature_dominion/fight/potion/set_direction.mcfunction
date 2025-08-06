@@ -1,0 +1,1 @@
+$execute anchored eyes facing entity @n[tag=Choco.SotF.Target,distance=..128] eyes run rotate @s ~$(rotx) ~$(roty)

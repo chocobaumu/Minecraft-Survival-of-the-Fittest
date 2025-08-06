@@ -65,5 +65,22 @@ execute if predicate survivalotfittest:loot/warden_artifact run function surviva
 # > エルダーガーディアン
 execute if predicate survivalotfittest:loot/elderguardian_artifact run function survivalotfittest:entity/item/loot/exchange/elderguardian_artifact
 
-# > 汚染結晶
+# > 汚染晶体
 execute if predicate survivalotfittest:loot/living_crystal_artifact run function survivalotfittest:entity/item/loot/exchange/livingcrystal_artifact
+
+# > エヴォーカーのスクロール
+execute if predicate survivalotfittest:loot/evoker_scroll run function survivalotfittest:entity/item/loot/exchange/evoker_scroll
+
+# > エクストリームクリーパーのスクロール
+execute if predicate survivalotfittest:loot/extreme_creeper_scroll run function survivalotfittest:entity/item/loot/exchange/extreme_creeper_scroll
+
+# > 雪原の魔術師
+execute if predicate survivalotfittest:loot/sorcerer_of_snowfield_artifact run function survivalotfittest:entity/item/loot/exchange/sorcerer_of_snowfield_artifact
+execute if predicate survivalotfittest:loot/sorcerer_of_snowfield_scroll run function survivalotfittest:entity/item/loot/exchange/sorcerer_of_snowfield_scroll
+
+# > ネイチャードミニオン
+execute if predicate survivalotfittest:loot/nature_dominion_artifact run function survivalotfittest:entity/item/loot/exchange/nature_dominion_artifact
+execute if predicate survivalotfittest:loot/nature_dominion_scroll run function survivalotfittest:entity/item/loot/exchange/nature_dominion_scroll
+
+# > ランダムなスクロール
+execute if predicate survivalotfittest:loot/random_scroll run function survivalotfittest:entity/item/loot/exchange/random_scroll

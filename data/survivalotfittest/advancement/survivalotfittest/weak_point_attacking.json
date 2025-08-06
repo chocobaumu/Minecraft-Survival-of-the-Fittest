@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:ender_eye"
+      },
+      "title": "弱点攻撃",
+      "description": "レイピアを手に入れる\n実は攻撃速度もちょっとはやいです。",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:survivalotfittest/industrial_revolution",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:iron_sword",
+              "components": {
+                "minecraft:custom_data": {"SotF":"Rapier"}
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }

@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:pale_hanging_moss"
+      },
+      "title": "[4] ペイル・メナクル",
+      "description": "色褪せた植物群で対象を拘束する。",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:skills/sorcery/lives/summon_aquatic_bug",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

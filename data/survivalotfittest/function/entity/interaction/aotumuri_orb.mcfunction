@@ -1,0 +1,1 @@
+ride @s mount @n[type=item_display,tag=Choco.SotF.Aotumuri.Meteor]

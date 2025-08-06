@@ -1,0 +1,1 @@
+execute at @s if entity @e[tag=Choco.SotF.Zombie_Target,distance=..12] positioned over motion_blocking if entity @s[dy=100] at @s run function survivalotfittest:entity/mobs/items/offhand/airborne_flare/request

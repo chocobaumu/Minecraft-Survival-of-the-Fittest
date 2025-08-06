@@ -71,6 +71,7 @@ execute if entity @s[tag=!Choco.SotF.Custom,type=wither] at @s run function surv
 
 #ヴェックス
 execute if entity @s[tag=!Choco.SotF.Custom,type=vex] at @s run function survivalotfittest:entity/mobs/vex/
+execute if entity @s[tag=Choco.SotF.SummonedVex,type=vex] at @s run function survivalotfittest:entity/mobs/vex/summoned/
 
 #ファントム
 execute if entity @s[tag=!Choco.SotF.Custom,type=phantom] at @s run function survivalotfittest:entity/mobs/phantom/
@@ -226,6 +227,9 @@ execute if entity @s[type=skeleton,tag=Choco.SotF.InsaneAI] at @s run function s
 # カラプションクリスタル
 execute if entity @s[type=zombie,tag=Choco.SotF.CorruptionCrystal] at @s run function survivalotfittest:entity/mobs/corruption_crystal/
 
+# エクストリームクリーパー
+execute if entity @s[tag=Choco.SotF.ExtremeCreeper,type=creeper] run function survivalotfittest:entity/mobs/creeper/extreme/
+
 # 汚染効果持ち
 execute if entity @s[tag=Choco.SotF.Contaminating] at @s run function survivalotfittest:entity/mobs/contaminating_type/
 
@@ -267,11 +271,31 @@ execute if entity @s[type=slime,tag=Choco.SotF.Seaserpent] at @s run function su
 # 生ける汚染晶体
 execute if entity @s[type=slime,tag=Choco.SotF.LivingCrystal] at @s run function survivalotfittest:entity/mobs/living_crystal/
 
+# スカルクの星
+execute if entity @s[type=slime,tag=Choco.SotF.SculkStar] at @s run function survivalotfittest:entity/mobs/sculk_star/
+
+# 雪原の魔術師
+execute if entity @s[type=stray,tag=Choco.SotF.Sorcerer_of_SnowField] at @s run function survivalotfittest:entity/mobs/sorcerer_of_snowfield/
+
+# ネイチャードミニオン
+execute if entity @s[type=evoker,tag=Choco.SotF.NatureDominion] at @s run function survivalotfittest:entity/mobs/nature_dominion/
+
 # Chocobaumu_JPN
 execute if entity @s[type=skeleton,tag=Choco.SotF.Chocobaumu] at @s run function survivalotfittest:entity/mobs/admin/chocobaumu/
 
 # Aotumuri
 execute if entity @s[type=skeleton,tag=Choco.SotF.Aotumuri] at @s run function survivalotfittest:entity/mobs/admin/aotumuri/
+
+# みるくれーぷ
+execute if entity @s[type=skeleton,tag=Choco.SotF.Milckrepe] at @s run function survivalotfittest:entity/mobs/admin/milckrepe/
+
+# Akatumuri
+execute if entity @s[type=skeleton,tag=Choco.SotF.Akatumuri] at @s run function survivalotfittest:entity/mobs/admin/akatumuri/
+execute if entity @s[type=wolf,tag=Choco.SotF.AkatumuriWolf] at @s run function survivalotfittest:entity/mobs/wolf/akatumuri/
+
+# Yukiikuma
+execute if entity @s[type=skeleton,tag=Choco.SotF.Yukiikuma] at @s run function survivalotfittest:entity/mobs/admin/yukiikuma/
+execute if entity @s[type=polar_bear,tag=Choco.SotF.YukiikumaGuardian] at @s run function survivalotfittest:entity/mobs/admin/yukiikuma/guardian/
 
 #ウォールラン(諸事情でここに置いています。)
 execute if entity @s[type=shulker,tag=Choco.SotF.WallRunning] at @s run function survivalotfittest:entity/player/wall_running/footing
@@ -284,6 +308,7 @@ execute if score @s Choco.SotF.Items.Offhand matches 3 at @s run function surviv
 execute if score @s Choco.SotF.Items.Offhand matches 4 at @s run function survivalotfittest:entity/mobs/items/offhand/lava_bucket/
 execute if score @s Choco.SotF.Items.Offhand matches 5..9 at @s run function survivalotfittest:entity/mobs/items/offhand/potion/
 execute if score @s Choco.SotF.Items.Offhand matches 11 at @s run function survivalotfittest:entity/mobs/items/offhand/ender_pearl/
+execute if score @s Choco.SotF.Items.Offhand matches 12 at @s run function survivalotfittest:entity/mobs/items/offhand/airborne_flare/
 execute if score @s Choco.SotF.Items.Mainhand matches 7 at @s run function survivalotfittest:entity/mobs/items/mainhand/trident/
 
 #アトリビュート系処理
@@ -328,3 +353,11 @@ execute if score @s Choco.SotF.Inferno.Tick matches 1.. at @s run function survi
 
 # > 剣の呪い
 execute if score @s Choco.SotF.CurseOfSword matches 1.. at @s run function survivalotfittest:effects/curse_of_sword/
+
+# > 追撃
+execute if score @s Choco.SotF.Skills.Pursuit.Tick matches 1.. at @s run function survivalotfittest:entity/player/skills/pursuit/tick
+
+# > スカルク汚染
+execute if score @s SculkAssimilated matches 1.. at @s run function survivalotfittest:effects/sculk_assimilated/
+
+execute if score @s Choco.SotF.Malediction.Curse matches 1.. run scoreboard players remove @s Choco.SotF.Malediction.Curse 1

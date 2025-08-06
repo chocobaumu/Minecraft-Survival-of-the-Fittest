@@ -1,0 +1,1 @@
+$execute at @s rotated $(impaling_impactX) $(impaling_impactY) run function survivalotfittest:particle/impaling_impact

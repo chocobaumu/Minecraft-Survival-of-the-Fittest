@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:blaze_powder"
+      },
+      "title": "[4] ブレイズ・インパクト",
+      "description": "炎の衝撃波を発生させる。炎15ダメージを与え、吹き飛ばす。",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:skills/sorcery/fire/lava_splatter",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

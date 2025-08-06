@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:flint"
+      },
+      "title": "[1] リット",
+      "description": "目線先に火を点ける。",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:skills/sorcery/fire/unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

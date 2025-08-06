@@ -4,13 +4,13 @@
         "id": "minecraft:bone"
       },
       "title": "超・死に過ぎ",
-      "description": "連続死亡回数が20回を超える\nちょっと落ち着いた方がいいかもしれません...",
+      "description": "連続して死ぬ。何度も何度も...\nちょっと落ち着いた方がいいかもしれません...",
       "frame": "task",
       "show_toast": true,
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "survivalotfittest:survivalotfittest/survival_of_the_fittest",
+    "parent": "survivalotfittest:survivalotfittest/dry_out",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"

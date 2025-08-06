@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:tube_coral_fan"
+      },
+      "title": "水属性",
+      "description": "水属性は液体を扱う魔法属性であるが、常温で簡単に扱える液体として水が代表される。単体では主に生活に使われる属性であるが、地属性を織り交ぜて”氷„となったとき、武器としての能力が発揮される。",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "survivalotfittest:skills/sorcery/unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

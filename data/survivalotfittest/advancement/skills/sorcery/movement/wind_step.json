@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:chainmail_boots"
+      },
+      "title": "[4] ウィンド・ステップ",
+      "description": "空気を圧縮・解放し、前方に飛び出す。",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:skills/sorcery/movement/inhale",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

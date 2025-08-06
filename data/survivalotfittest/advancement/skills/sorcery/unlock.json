@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:enchanted_book"
+      },
+      "title": "魔術",
+      "description": "この世界では魔法とは定義が違う\n魔術モードを解放します(Ctrl2回押し)。\n魔術モード中、右クリックとホイール操作で魔術を選択し左クリックで発動できます",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "survivalotfittest:skills/skills",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

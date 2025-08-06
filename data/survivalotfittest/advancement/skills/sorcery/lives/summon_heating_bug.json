@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:soul_lantern"
+      },
+      "title": "[3] サモン・ヒーティングバグ",
+      "description": "ヒーティングバグを召喚する。",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:skills/sorcery/lives/harvest",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

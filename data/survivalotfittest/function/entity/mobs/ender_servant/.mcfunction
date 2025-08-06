@@ -17,7 +17,7 @@ tag @e[tag=Choco.SotF.Target] remove Choco.SotF.Target
 
 scoreboard players add @s Choco.SotF.tick.2 1
 execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 run scoreboard players add @s Choco.SotF.tick.2 1
-execute if score @s Choco.SotF.tick.2 matches 1200 at @s run function survivalotfittest:entity/mobs/ender_servant/summon_crystal
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 if score @s Choco.SotF.tick.2 matches 1200 at @s run function survivalotfittest:entity/mobs/ender_servant/summon_crystal
 
 scoreboard players add @s Choco.SotF.Tick.0 1
 

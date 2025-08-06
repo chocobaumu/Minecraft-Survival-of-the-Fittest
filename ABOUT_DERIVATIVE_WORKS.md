@@ -1,10 +1,10 @@
 # はじめに
-このデータパックでは、アドオン等の二次創作物が許可されています。また、[公式Discordサーバー](https://discord.gg/a4RjZe2Bpu)にて、アドオン宣伝用のフォーラム等が用意されています。<br>
+このデータパックでは、アドオン等非公式の創作物が許可されています。また、[公式Discordサーバー](https://discord.gg/a4RjZe2Bpu)にて、アドオン宣伝用のフォーラム等が用意されています。<br>
 ここでは、主にアドオン製作者向けの情報を記載しておきます。<br>
 <br>
 
 ## アドオンを導入して遊びたい人へ
-アドオンはあくまで「二次創作」です。その内容が安全かどうかは**保証できません**。<br>
+アドオンはあくまで「非公式」です。その内容が安全かどうかは**保証できません**。<br>
 アップロードされているものがウイルスである可能性もあります。自己責任で、注意してダウンロードしてください。<br>
 <br>
 
@@ -167,7 +167,7 @@ Minecraft | Survival of the Fittestのバージョン: バージョン値
 4 = マジシャン(腐敗の魔術師が使用するファングを出す) <br>
 5 = タクティシャン(クールタイムはあるが無限にTNTを設置できる 同時に複数設置する) <br>
 6 = クリスタライザー(アメジストをはやして攻撃する 多分認識さえしていれば壁越しとかでも使う) <br>
-SotFでは、`execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 store result score @s Choco.SotF.HardMode.Attributes run random value 0..9`というコマンドを初期設定用関数によって実行し設定しています。<br>
+SotFでは、`execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 store result score @s Choco.SotF.HardMode.Attributes run random value 0..14`というコマンドを初期設定用関数によって実行し設定しています。<br>
 また、これらは通常モードでも機能します。追加されるモブの能力として持たせてもいいかもしれません。<br>
 <br>
 

@@ -13,7 +13,7 @@ execute store result score @s Choco.SotF.Health run data get entity @s Health
 
 # エフェクト
 effect give @s fire_resistance infinite 0 true
-effect give @s resistance infinite 3 true
+effect give @s resistance infinite 2 true
 
 # 被ダメージ時
 execute if score @s Choco.SotF.Data.HurtTime matches 9 run function survivalotfittest:entity/mobs/admin/chocobaumu/damage
@@ -38,10 +38,10 @@ execute unless entity @s[tag=Choco.SotF.Phase2] at @s run function survivalotfit
 # 獄炎
 particle lava ~ ~0.85 ~ 2 2 2 0 5 normal
 particle trial_spawner_detection ~ ~0.85 ~ 2 2 2 0 2 normal
-scoreboard players add @e[tag=!Choco.SotF.Aotumuri,tag=Choco.SotF.Mobs,tag=!Choco.SotF.Chocobaumu,distance=..5] Choco.SotF.Inferno.Level 0
+scoreboard players add @e[tag=!Choco.SotF.Admin,tag=Choco.SotF.Mobs,tag=!Choco.SotF.Chocobaumu,distance=..5] Choco.SotF.Inferno.Level 0
 scoreboard players add @a[gamemode=!spectator,gamemode=!creative,tag=!Choco.SotF.Chocobaumu,distance=..5] Choco.SotF.Inferno.Level 0
-execute as @e[tag=!Choco.SotF.Aotumuri,tag=Choco.SotF.Mobs,tag=!Choco.SotF.Chocobaumu,distance=..5] if score @s Choco.SotF.Inferno.Level matches ..9 run scoreboard players add @s Choco.SotF.Inferno.Level 1
-scoreboard players set @e[tag=!Choco.SotF.Aotumuri,tag=Choco.SotF.Mobs,tag=!Choco.SotF.Chocobaumu,distance=..5] Choco.SotF.Inferno.Tick 100
+execute as @e[tag=!Choco.SotF.Admin,tag=Choco.SotF.Mobs,tag=!Choco.SotF.Chocobaumu,distance=..5] if score @s Choco.SotF.Inferno.Level matches ..9 run scoreboard players add @s Choco.SotF.Inferno.Level 1
+scoreboard players set @e[tag=!Choco.SotF.Admin,tag=Choco.SotF.Mobs,tag=!Choco.SotF.Chocobaumu,distance=..5] Choco.SotF.Inferno.Tick 100
 execute as @a[gamemode=!spectator,gamemode=!creative,tag=!Choco.SotF.Chocobaumu,distance=..5] if score @s Choco.SotF.Inferno.Level matches ..9 run scoreboard players add @s Choco.SotF.Inferno.Level 1
 scoreboard players set @a[gamemode=!spectator,gamemode=!creative,tag=!Choco.SotF.Chocobaumu,distance=..5] Choco.SotF.Inferno.Tick 100
 

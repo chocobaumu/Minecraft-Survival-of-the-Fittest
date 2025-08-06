@@ -1,0 +1,1 @@
+execute at @s if block ~ ~-2 ~ sculk_catalyst if block ~ ~-1 ~ sculk_shrieker positioned over world_surface if entity @s[distance=..1] at @s run function survivalotfittest:entity/item_frame/stargazer_altar/

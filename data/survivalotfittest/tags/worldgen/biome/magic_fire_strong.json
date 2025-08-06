@@ -1,0 +1,8 @@
+{
+    "values": [
+      "#minecraft:is_savanna",
+      "#minecraft:is_badlands",
+      "minecraft:desert",
+      "ras:molten_caverns"
+    ]
+  }

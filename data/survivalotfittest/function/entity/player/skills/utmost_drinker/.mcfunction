@@ -1,0 +1,6 @@
+execute store result score #Player.RotY Choco.SotF.ScoreStorage.0 run data get entity @s Rotation[1]
+
+execute if score #Player.RotY Choco.SotF.ScoreStorage.0 matches ..-80 at @s if dimension minecraft:overworld positioned over motion_blocking_no_leaves if entity @s[dy=500] unless biome ~ ~ ~ #survivalotfittest:is_snowy unless biome ~ ~ ~ #survivalotfittest:is_sand unless biome ~ ~ ~ savanna unless biome ~ ~ ~ savanna_plateau unless biome ~ ~ ~ eroded_badlands if predicate survivalotfittest:if_rainy run scoreboard players add @s Choco.SotF.Skills.UtmostDrinker.Tick 1
+execute if score #Player.RotY Choco.SotF.ScoreStorage.0 matches ..-80 at @s if dimension minecraft:overworld positioned over motion_blocking_no_leaves if entity @s[dy=500] unless biome ~ ~ ~ #survivalotfittest:is_snowy unless biome ~ ~ ~ #survivalotfittest:is_sand unless biome ~ ~ ~ savanna unless biome ~ ~ ~ savanna_plateau unless biome ~ ~ ~ eroded_badlands if predicate survivalotfittest:if_thundering run scoreboard players add @s Choco.SotF.Skills.UtmostDrinker.Tick 3
+
+execute if score @s Choco.SotF.Skills.UtmostDrinker.Tick matches 200.. run function survivalotfittest:entity/player/skills/utmost_drinker/drink

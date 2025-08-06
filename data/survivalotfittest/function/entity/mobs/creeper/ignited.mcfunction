@@ -3,6 +3,7 @@ scoreboard players add @s Choco.SotF.tick.1 1
 
 #爆発(通常)
 execute store result score @s Choco.SotF.ScoreStorage.5 run data get entity @s powered
+execute if score @s Choco.SotF.tick.1 matches 30.. run function survivalotfittest:entity/mobs/creeper/effects
 execute if score @s Choco.SotF.ScoreStorage.5 matches 0 if score @s Choco.SotF.tick.1 matches 30.. run function survivalotfittest:entity/mobs/creeper/explosion_normal
 execute if score @s Choco.SotF.ScoreStorage.5 matches 1 if score @s Choco.SotF.tick.1 matches 30.. run function survivalotfittest:entity/mobs/creeper/explosion_powered
 

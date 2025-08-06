@@ -1,0 +1,1 @@
+execute if predicate survivalotfittest:selected_elementary_sorcery_scroll run function survivalotfittest:item/unidentified_books_and_scrolls/sorcery/scroll_elementary

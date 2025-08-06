@@ -1,0 +1,7 @@
+execute if score @s Choco.SotF.SorcerySelect matches 0 if entity @s[advancements={survivalotfittest:skills/sorcery/earth/evocation_fang=true}] run title @s subtitle {"text":"エヴォケーション・ファング","color":"#6d4d31"}
+execute if score @s Choco.SotF.SorcerySelect matches 1 if entity @s[advancements={survivalotfittest:skills/sorcery/earth/block_out=true}] run title @s subtitle {"text":"ブロックアウト","color":"#6d4d31"}
+execute if score @s Choco.SotF.SorcerySelect matches 2 if entity @s[advancements={survivalotfittest:skills/sorcery/earth/hardened_skin=true}] run title @s subtitle {"text":"ハーデンドスキン","color":"#6d4d31"}
+execute if score @s Choco.SotF.SorcerySelect matches 3 if entity @s[advancements={survivalotfittest:skills/sorcery/earth/cursed_fang=true}] run title @s subtitle {"text":"カースド・ファング","color":"#6d4d31"}
+execute if score @s Choco.SotF.SorcerySelect matches 4 if entity @s[advancements={survivalotfittest:skills/sorcery/earth/stone_scatter=true}] run title @s subtitle {"text":"ストーン・スキャター","color":"#6d4d31"}
+execute if score @s Choco.SotF.SorcerySelect matches 5 if entity @s[advancements={survivalotfittest:skills/sorcery/earth/sabotage=true}] run title @s subtitle {"text":"サボタージュ","color":"#6d4d31"}
+execute if score @s Choco.SotF.SorcerySelect matches 6 if entity @s[advancements={survivalotfittest:skills/sorcery/earth/stone_shield=true}] run title @s subtitle {"text":"ストーン・シールド","color":"#6d4d31"}

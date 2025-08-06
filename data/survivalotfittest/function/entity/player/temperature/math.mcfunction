@@ -39,6 +39,12 @@ execute at @s if predicate survivalotfittest:light_9to11 run scoreboard players 
 execute at @s if predicate survivalotfittest:light_12to14 run scoreboard players add @s Choco.SotF.Temperature.Bonus 8
 execute at @s if predicate survivalotfittest:light_15 run scoreboard players add @s Choco.SotF.Temperature.Bonus 10
 
+execute store result score #Player.FireTick Choco.SotF.Tick.0 run data get entity @s Fire
+execute if score #Player.FireTick Choco.SotF.Tick.0 matches 1.. run scoreboard players add @s Choco.SotF.Temperature.Bonus 100
+
+execute store result score #Player.FrozenTick Choco.SotF.Tick.0 run data get entity @s TicksFrozen
+execute if score #Player.FrozenTick Choco.SotF.Tick.0 matches 1.. run scoreboard players remove @s Choco.SotF.Temperature.Bonus 50
+
 execute if biome ~ ~ ~ desert run function survivalotfittest:entity/player/temperature/in_desert
 
 execute if entity @e[type=#survivalotfittest:hot,tag=!Choco.SotF.Custom,distance=..6] run function survivalotfittest:entity/player/temperature/near_hot_mobs

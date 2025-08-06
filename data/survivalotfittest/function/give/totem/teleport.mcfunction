@@ -1,0 +1,1 @@
+give @p totem_of_undying[death_protection={death_effects:[{type:"minecraft:teleport_randomly",diameter:64},{type:"minecraft:play_sound",sound:"entity.enderman.teleport"}]},enchantment_glint_override=true,item_name="不死のトーテム",lore=[{"color":"gray","italic":false,"text":"発動時、周囲のどこかにテレポートします。"}]] 1

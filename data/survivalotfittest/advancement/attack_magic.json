@@ -1,0 +1,16 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_hurt_entity",
+        "conditions": {
+          "entity": {
+            "type": "minecraft:interaction",
+            "nbt": "{Tags:[\"Choco.SotF.Magic\"]}"
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "survivalotfittest:entity/interaction/magic/left"
+    }
+  }

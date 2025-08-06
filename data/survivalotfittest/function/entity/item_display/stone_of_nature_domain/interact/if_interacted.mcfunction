@@ -1,0 +1,1 @@
+$execute as @p[nbt={UUID:$(player)}] at @s run function survivalotfittest:entity/item_display/stone_of_nature_domain/interact/player

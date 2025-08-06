@@ -1,0 +1,1 @@
+$execute rotated as @s run rotate @s ~$(stonescatter0) ~$(stonescatter1)

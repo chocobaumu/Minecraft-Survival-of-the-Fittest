@@ -1,0 +1,4 @@
+execute if score @s Choco.SotF.SorcerySelect matches 0 if entity @s[advancements={survivalotfittest:skills/sorcery/movement/wind_stake=true}] run title @s subtitle {"text":"ウィンドステイク","color":"#c1f1c4"}
+execute if score @s Choco.SotF.SorcerySelect matches 1 if entity @s[advancements={survivalotfittest:skills/sorcery/movement/earthquake=true}] run title @s subtitle {"text":"アースクエイク","color":"#c1f1c4"}
+execute if score @s Choco.SotF.SorcerySelect matches 2 if entity @s[advancements={survivalotfittest:skills/sorcery/movement/inhale=true}] run title @s subtitle {"text":"インホール","color":"#c1f1c4"}
+execute if score @s Choco.SotF.SorcerySelect matches 3 if entity @s[advancements={survivalotfittest:skills/sorcery/movement/wind_step=true}] run title @s subtitle {"text":"ウィンド・ステップ","color":"#c1f1c4"}

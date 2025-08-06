@@ -1,0 +1,2 @@
+$execute if entity @s[gamemode=!creative,gamemode=!spectator,nbt=!{UUID:$(Owner)},dx=0] at @s run function survivalotfittest:entity/marker/misc/magic/stalk_ice_impact/explosion/hit_succeed with entity @n[type=marker,tag=Choco.SotF.Magic.StalkIceImpact,tag=Choco.SotF.Temp] data
+$execute if entity @s[tag=Choco.SotF.Mobs,nbt=!{UUID:$(Owner)},dx=0] at @s run function survivalotfittest:entity/marker/misc/magic/stalk_ice_impact/explosion/hit_succeed with entity @n[type=marker,tag=Choco.SotF.Magic.StalkIceImpact,tag=Choco.SotF.Temp] data

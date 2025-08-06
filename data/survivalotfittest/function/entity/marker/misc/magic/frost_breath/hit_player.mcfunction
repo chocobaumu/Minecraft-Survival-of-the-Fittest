@@ -1,0 +1,1 @@
+$execute positioned ~-0.5 ~-0.5 ~-0.5 if entity @a[gamemode=!creative,gamemode=!spectator,nbt=!{UUID:$(Owner)},dx=0] run function survivalotfittest:entity/marker/misc/magic/frost_breath/hit_player_succeed with entity @s data

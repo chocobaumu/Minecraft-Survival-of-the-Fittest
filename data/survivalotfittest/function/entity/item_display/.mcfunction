@@ -58,6 +58,10 @@ execute if entity @s[tag=Choco.SotF.Necromancer.Skull] at @s run function surviv
 execute if entity @s[tag=Choco.SotF.Seaserpent] at @s run function survivalotfittest:entity/item_display/seaserpent/
 execute if entity @s[tag=Choco.SotF.SeaserpentBody] at @s run function survivalotfittest:entity/item_display/seaserpent/body
 
+# > スカルクの星
+execute if entity @s[tag=Choco.SotF.SculkStar] at @s run function survivalotfittest:entity/item_display/sculk_star/
+execute if entity @s[tag=Choco.SotF.SculkStarSpawn] at @s run function survivalotfittest:entity/item_display/sculk_star/spawn/
+
 # 衝撃
 execute if entity @s[tag=Choco.SotF.Smash] at @s run function survivalotfittest:entity/item_display/smash/
 
@@ -71,8 +75,25 @@ execute if entity @s[tag=Choco.SotF.SkulkKiller] at @s run function survivalotfi
 execute if entity @s[tag=Choco.SotF.InvasionFlag] at @s run function survivalotfittest:entity/item_display/invasion_flag/
 
 # 飛行機
-
 execute if entity @s[tag=Choco.SotF.AirCraft] at @s run function survivalotfittest:entity/item_display/aircraft/
+
+# 魔術
+execute if entity @s[tag=Choco.SotF.Magic] at @s run function survivalotfittest:entity/item_display/magic/
+
+# マレディション
+execute if entity @s[tag=Choco.SotF.Malediction.CurseMark] at @s run function survivalotfittest:entity/item_display/malediction/
+
+# 自然支配の封印石
+execute if entity @s[tag=Choco.SotF.StoneOfNatureDomain] at @s run function survivalotfittest:entity/item_display/stone_of_nature_domain/
+
+# ネイチャードミニオン
+execute if entity @s[tag=Choco.SotF.LivingCrossbow] at @s run function survivalotfittest:entity/item_display/nature_dominion/crossbow/
+
+# 強化ブレイズ
+execute if entity @s[tag=Choco.SotF.ExplosiveRod] at @s run function survivalotfittest:entity/item_display/explosive_rod/
+
+# 強化エンダーマン
+execute if entity @s[tag=Choco.SotF.AlphaEnderman.Laser] at @s run function survivalotfittest:entity/item_display/enderman_alpha/laser/
 
 #ADMIN
 
@@ -88,6 +109,8 @@ execute if entity @s[tag=Choco.SotF.Admin.Chocobaumu.GroundPiercing] at @s run f
 
 # > Aotumuri
 execute if entity @s[tag=Choco.SotF.Aotumuri.IceImpact] at @s run function survivalotfittest:entity/item_display/admin/aotumuri/ice_impact/
+execute if entity @s[tag=Choco.SotF.Aotumuri.Meteor] at @s run function survivalotfittest:entity/item_display/admin/aotumuri/meteor/
+execute if entity @s[tag=Choco.SotF.Aotumuri.WaterImpact] at @s run function survivalotfittest:entity/item_display/admin/aotumuri/water_impact/
 
 ## トラップ
 

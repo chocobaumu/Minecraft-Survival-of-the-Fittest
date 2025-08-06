@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:golden_apple"
+      },
+      "title": "生属性",
+      "description": "生の魔素はその独特すぎる振舞いからこれを扱う分野は『生質魔素学』として独自の下位分類に割り当てられている。ドルガメンシェン達はその生物的特性からこれに精通していたが、彼ら彼女らはもういないためどのようにこれを理解していたかはわからない。",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "survivalotfittest:skills/sorcery/unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

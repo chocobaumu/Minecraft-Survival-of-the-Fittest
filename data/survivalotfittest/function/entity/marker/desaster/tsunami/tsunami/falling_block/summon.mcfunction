@@ -1,0 +1,4 @@
+$execute if score @s Choco.SotF.ScoreStorage.1 matches 1 at @s run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:water"},Time:1,DropItem:0b,HurtEntities:1b,Motion:[$(MotionX),$(MotionY),$(MotionX)],Tags:["Choco.SotF.Tsunami"]}
+$execute if score @s Choco.SotF.ScoreStorage.1 matches 2 at @s run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:water"},Time:1,DropItem:0b,HurtEntities:1b,Motion:[-$(MotionX),$(MotionY),-$(MotionX)],Tags:["Choco.SotF.Tsunami"]}
+$execute if score @s Choco.SotF.ScoreStorage.1 matches 3 at @s run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:water"},Time:1,DropItem:0b,HurtEntities:1b,Motion:[-$(MotionX),$(MotionY),$(MotionX)],Tags:["Choco.SotF.Tsunami"]}
+$execute if score @s Choco.SotF.ScoreStorage.1 matches 4 at @s run summon falling_block ~ ~ ~ {BlockState:{Name:"minecraft:water"},Time:1,DropItem:0b,HurtEntities:1b,Motion:[$(MotionX),$(MotionY),-$(MotionX)],Tags:["Choco.SotF.Tsunami"]}

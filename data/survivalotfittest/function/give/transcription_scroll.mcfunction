@@ -1,0 +1,1 @@
+give @p warped_fungus_on_a_stick[item_name="転写スクロール",item_model="survivalotfittest:transcription_scroll",rarity="uncommon",lore=[{"color":"gray","italic":false,"text":"オフハンドのアイテムを転写します。"},[{"color":"gray","italic":false,"text":"転写可能: "},{"color":"green","italic":false,"text":"スキルスクロール、魔術のスクロール"}]],custom_data={SotF:Transcriptions,CanTranscription:Scroll},max_stack_size=1] 1

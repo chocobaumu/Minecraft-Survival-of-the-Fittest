@@ -1,0 +1,4 @@
+execute if score @s Choco.SotF.SorcerySelect matches 0 if entity @s[advancements={survivalotfittest:skills/sorcery/void/teleport=true}] run title @s subtitle {"text":"テレポート","color":"#5d5062"}
+execute if score @s Choco.SotF.SorcerySelect matches 1 if entity @s[advancements={survivalotfittest:skills/sorcery/void/infirmity=true}] run title @s subtitle {"text":"インフリミティ","color":"#5d5062"}
+execute if score @s Choco.SotF.SorcerySelect matches 2 if entity @s[advancements={survivalotfittest:skills/sorcery/void/disappearance=true}] run title @s subtitle {"text":"ディサピランス","color":"#5d5062"}
+execute if score @s Choco.SotF.SorcerySelect matches 3 if entity @s[advancements={survivalotfittest:skills/sorcery/void/null_projection=true}] run title @s subtitle {"text":"ヌル・プロジェクション","color":"#5d5062"}

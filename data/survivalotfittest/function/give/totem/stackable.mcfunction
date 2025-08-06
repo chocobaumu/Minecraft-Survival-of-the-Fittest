@@ -1,0 +1,1 @@
+give @p totem_of_undying[death_protection={death_effects:[{type:"minecraft:play_sound",sound:"block.respawn_anchor.deplete"}]},enchantment_glint_override=true,item_name="不死のトーテム",lore=[{"color":"gray","italic":false,"text":"最大8個までスタックできますが、"},{"color":"gray","italic":false,"text":"一切のエフェクト及び特殊効果を持ちません。"}],max_stack_size=8] 1

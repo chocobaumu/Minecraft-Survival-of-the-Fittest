@@ -1,0 +1,1 @@
+$rotate @s ~$(evocation_fang) 0

@@ -3,7 +3,7 @@ item replace block ~ ~ ~ container.1 with air
 item replace block ~ ~ ~ container.2 with air
 item replace block ~ ~ ~ container.3 with air
 item replace block ~ ~ ~ container.10 with brown_mushroom[custom_data={SotF:GUIItem}]
-item replace block ~ ~ ~ container.11 with enchanted_book[item_name="クラゲのジェル",rarity="common",item_model="survivalotfittest:jellyfish_gel",custom_data={SotF:GUIItem}] 1
+item replace block ~ ~ ~ container.11 with enchanted_book[item_name="クラゲのジェル",rarity="common",item_model="survivalotfittest:jellyfish_gel",custom_data={SotF:GUIItem},enchantment_glint_override=false] 1
 item replace block ~ ~ ~ container.12 with red_mushroom[custom_data={SotF:GUIItem}]
 item replace block ~ ~ ~ container.19 with air
 item replace block ~ ~ ~ container.20 with bowl[custom_data={SotF:GUIItem}]

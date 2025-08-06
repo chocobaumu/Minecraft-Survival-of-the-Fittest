@@ -1,0 +1,117 @@
+# [ImportKey]: NobwRALgngDgpmAXGAxgSwE4oDYIDRgCuhaAJkmAOwAsAbHJQKxwCMAtAEYDMAZnG9QCcPRmwCGpFACY2NOD1IcADCMqUAHGAIA7MQFsEyQGGKAAhZawMMRn0BnJOBQB7QtohIWSpQRRw3cDAcwADcxbEJDcAAPJG8wKFiAX0SCG1I0QntERgA6RgJbCGt3RDi4bGw0GFtDTziMJyKIQzi0WwBRCqqa9oBHQjDsKABlK19yRB4wmuSAXSA_3
+# 円 1
+execute positioned ^0 ^ ^-5.5 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^0.34535 ^ ^-5.48915 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^0.68933 ^ ^-5.45663 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^1.0306 ^ ^-5.40258 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^1.36779 ^ ^-5.32721 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^1.69959 ^ ^-5.23081 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^2.02469 ^ ^-5.11377 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^2.34179 ^ ^-4.97655 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^2.64965 ^ ^-4.81969 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^2.94705 ^ ^-4.6438 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^3.23282 ^ ^-4.44959 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^3.50583 ^ ^-4.23782 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^3.76501 ^ ^-4.00933 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^4.00933 ^ ^-3.76501 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^4.23782 ^ ^-3.50583 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^4.44959 ^ ^-3.23282 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^4.6438 ^ ^-2.94705 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^4.81969 ^ ^-2.64965 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^4.97655 ^ ^-2.34179 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^5.11377 ^ ^-2.02469 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^5.23081 ^ ^-1.69959 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^5.32721 ^ ^-1.36779 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^5.40258 ^ ^-1.0306 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^5.45663 ^ ^-0.68933 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^5.48915 ^ ^-0.34535 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^5.5 ^ ^0 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^5.48915 ^ ^0.34535 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^5.45663 ^ ^0.68933 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^5.40258 ^ ^1.0306 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^5.32721 ^ ^1.36779 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^5.23081 ^ ^1.69959 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^5.11377 ^ ^2.02469 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^4.97655 ^ ^2.34179 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^4.81969 ^ ^2.64965 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^4.6438 ^ ^2.94705 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^4.44959 ^ ^3.23282 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^4.23782 ^ ^3.50583 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^4.00933 ^ ^3.76501 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^3.76501 ^ ^4.00933 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^3.50583 ^ ^4.23782 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^3.23282 ^ ^4.44959 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^2.94705 ^ ^4.6438 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^2.64965 ^ ^4.81969 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^2.34179 ^ ^4.97655 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^2.02469 ^ ^5.11377 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^1.69959 ^ ^5.23081 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^1.36779 ^ ^5.32721 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^1.0306 ^ ^5.40258 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^0.68933 ^ ^5.45663 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^0.34535 ^ ^5.48915 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^0 ^ ^5.5 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-0.34535 ^ ^5.48915 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-0.68933 ^ ^5.45663 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-1.0306 ^ ^5.40258 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-1.36779 ^ ^5.32721 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-1.69959 ^ ^5.23081 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-2.02469 ^ ^5.11377 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-2.34179 ^ ^4.97655 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-2.64965 ^ ^4.81969 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-2.94705 ^ ^4.6438 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-3.23282 ^ ^4.44959 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-3.50583 ^ ^4.23782 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-3.76501 ^ ^4.00933 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-4.00933 ^ ^3.76501 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-4.23782 ^ ^3.50583 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-4.44959 ^ ^3.23282 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-4.6438 ^ ^2.94705 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-4.81969 ^ ^2.64965 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-4.97655 ^ ^2.34179 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-5.11377 ^ ^2.02469 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-5.23081 ^ ^1.69959 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-5.32721 ^ ^1.36779 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-5.40258 ^ ^1.0306 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-5.45663 ^ ^0.68933 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-5.48915 ^ ^0.34535 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-5.5 ^ ^0 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-5.48915 ^ ^-0.34535 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-5.45663 ^ ^-0.68933 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-5.40258 ^ ^-1.0306 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-5.32721 ^ ^-1.36779 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-5.23081 ^ ^-1.69959 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-5.11377 ^ ^-2.02469 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-4.97655 ^ ^-2.34179 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-4.81969 ^ ^-2.64965 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-4.6438 ^ ^-2.94705 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-4.44959 ^ ^-3.23282 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-4.23782 ^ ^-3.50583 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-4.00933 ^ ^-3.76501 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-3.76501 ^ ^-4.00933 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-3.50583 ^ ^-4.23782 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-3.23282 ^ ^-4.44959 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-2.94705 ^ ^-4.6438 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-2.64965 ^ ^-4.81969 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-2.34179 ^ ^-4.97655 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-2.02469 ^ ^-5.11377 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-1.69959 ^ ^-5.23081 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-1.36779 ^ ^-5.32721 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-1.0306 ^ ^-5.40258 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-0.68933 ^ ^-5.45663 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+execute positioned ^-0.34535 ^ ^-5.48915 run summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Particle"]}
+
+summon marker ~ ~ ~ {Tags:["Choco.SotF.Temp","Choco.SotF.Origin"]}
+execute as @e[type=marker,tag=Choco.SotF.Particle,tag=Choco.SotF.Temp] at @s facing entity @n[type=marker,tag=Choco.SotF.Origin,tag=Choco.SotF.Temp] feet run tp @s ^ ^ ^5
+
+execute as @e[type=marker,tag=Choco.SotF.Particle,tag=Choco.SotF.Temp] at @s facing entity @n[type=marker,tag=Choco.SotF.Origin,tag=Choco.SotF.Temp] feet run particle poof ^ ^ ^17 ^ ^ ^-100000000 0.000000005 0 force
+execute as @e[type=marker,tag=Choco.SotF.Particle,tag=Choco.SotF.Temp] at @s facing entity @n[type=marker,tag=Choco.SotF.Origin,tag=Choco.SotF.Temp] feet run particle poof ^ ^ ^17 ^ ^ ^-100000000 0.000000010 0 force
+execute as @e[type=marker,tag=Choco.SotF.Particle,tag=Choco.SotF.Temp] at @s facing entity @n[type=marker,tag=Choco.SotF.Origin,tag=Choco.SotF.Temp] feet run particle poof ^ ^ ^17 ^ ^ ^-100000000 0.000000015 0 force
+execute as @e[type=marker,tag=Choco.SotF.Particle,tag=Choco.SotF.Temp] at @s facing entity @n[type=marker,tag=Choco.SotF.Origin,tag=Choco.SotF.Temp] feet run particle poof ^ ^ ^17 ^ ^ ^-100000000 0.000000020 0 force
+execute as @e[type=marker,tag=Choco.SotF.Particle,tag=Choco.SotF.Temp] at @s facing entity @n[type=marker,tag=Choco.SotF.Origin,tag=Choco.SotF.Temp] feet run particle poof ^ ^ ^17 ^ ^ ^-100000000 0.000000025 0 force
+#execute as @e[type=marker,tag=Choco.SotF.Particle,tag=Choco.SotF.Temp] at @s facing entity @n[type=marker,tag=Choco.SotF.Origin,tag=Choco.SotF.Temp] feet run particle poof ^ ^ ^17 ^ ^ ^-100000000 0.000000030 0 force
+#execute as @e[type=marker,tag=Choco.SotF.Particle,tag=Choco.SotF.Temp] at @s facing entity @n[type=marker,tag=Choco.SotF.Origin,tag=Choco.SotF.Temp] feet run particle poof ^ ^ ^17 ^ ^ ^-100000000 0.000000035 0 force
+#execute as @e[type=marker,tag=Choco.SotF.Particle,tag=Choco.SotF.Temp] at @s facing entity @n[type=marker,tag=Choco.SotF.Origin,tag=Choco.SotF.Temp] feet run particle poof ^ ^ ^17 ^ ^ ^-100000000 0.000000040 0 force
+#execute as @e[type=marker,tag=Choco.SotF.Particle,tag=Choco.SotF.Temp] at @s facing entity @n[type=marker,tag=Choco.SotF.Origin,tag=Choco.SotF.Temp] feet run particle poof ^ ^ ^17 ^ ^ ^-100000000 0.000000045 0 force
+#execute as @e[type=marker,tag=Choco.SotF.Particle,tag=Choco.SotF.Temp] at @s facing entity @n[type=marker,tag=Choco.SotF.Origin,tag=Choco.SotF.Temp] feet run particle poof ^ ^ ^17 ^ ^ ^-100000000 0.000000050 0 force
+execute as @e[tag=Choco.SotF.Temp] run function survivalotfittest:internal/kill

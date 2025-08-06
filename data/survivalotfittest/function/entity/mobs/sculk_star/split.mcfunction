@@ -1,0 +1,8 @@
+$summon slime ~ ~ ~ {Silent:1b,DeathLootTable:"survivalotfittest:entities/sculk_star",PersistenceRequired:1b,NoAI:1b,Health:$(health)f,Size:0,Tags:["Choco.SotF.SculkStar","Choco.SotF.Custom"],Passengers:[{id:"minecraft:item_display",Tags:["Choco.SotF.SculkStar"],teleport_duration:2,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.5f,0f],scale:[2f,2f,2f]},item:{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTYxOGFkMWIzNDc5Yjc2Njg1ZDBlYzMxM2JiMzMwMmQyN2Q4ODRhODExODdkMDZmNjNjZmFjNzU2NTk0Y2EwOSJ9fX0="}]}}}}],CustomName:[{"bold":true,"color":"red","italic":false,"text":"[BOSS] "},{"bold":true,"color":"#0F4034","italic":false,"text":"スカルクの星"}],active_effects:[{id:"minecraft:invisibility",amplifier:0,duration:-1,show_particles:0b}],attributes:[{id:"minecraft:max_health",base:500},{id:"minecraft:scale",base:2}]}
+
+scoreboard players set @s Choco.SotF.ScoreStorage.0 0
+
+playsound block.honey_block.break hostile @a ~ ~ ~ 3 0.5
+playsound block.honey_block.break hostile @a ~ ~ ~ 3 0.8
+playsound block.honey_block.break hostile @a ~ ~ ~ 3 1.1
+playsound entity.warden.attack_impact hostile @a ~ ~ ~ 3 0.8

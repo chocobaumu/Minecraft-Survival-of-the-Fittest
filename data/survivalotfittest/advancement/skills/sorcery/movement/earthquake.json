@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:coarse_dirt"
+      },
+      "title": "[2] アースクエイク",
+      "description": "小規模の地震を起こし攻撃する。落下15ダメージを与え上方向に吹き飛ばす。",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:skills/sorcery/movement/wind_stake",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

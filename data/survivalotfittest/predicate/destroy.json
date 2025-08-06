@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:match_tool",
+  "predicate": {
+    "items": "#minecraft:pickaxes",
+    "count": 1
+  }
+}

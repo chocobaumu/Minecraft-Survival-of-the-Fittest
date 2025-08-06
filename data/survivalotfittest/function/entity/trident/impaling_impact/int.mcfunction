@@ -1,0 +1,1 @@
+playsound block.conduit.deactivate player @a ~ ~ ~ 1 2

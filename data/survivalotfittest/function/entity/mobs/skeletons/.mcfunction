@@ -13,6 +13,10 @@ execute if entity @s[tag=!Choco.SotF.Substantiator] unless score @s Choco.SotF.I
 execute if entity @s[tag=!Choco.SotF.Substantiator] if score @s Choco.SotF.Skeleton.MeleeTick matches 1 run function survivalotfittest:entity/mobs/skeletons/changing_melee
 execute if entity @s[tag=!Choco.SotF.Substantiator] unless score @s Choco.SotF.Items.Mainhand matches 7 if score @s Choco.SotF.Skeleton.RangedTick matches 2 run item replace entity @s weapon.mainhand with bow
 
+# 遠距離モードのフォーメーション
+execute if entity @s[tag=!Choco.SotF.Substantiator] at @s if entity @e[tag=Choco.SotF.Target,distance=..24] if score @s Choco.SotF.Skeleton.RangedTick matches 1.. run function survivalotfittest:entity/mobs/skeletons/spreading
+execute if score @s Choco.SotF.Skeleton.RangedTick matches 1.. if score @s Choco.SotF.tick.13 matches 1.. at @s run function survivalotfittest:entity/mobs/pillager/spreading/moving
+
 #スパイダージョッキ―
 execute if entity @s[type=!wither_skeleton] on vehicle as @s if entity @s[type=spider] on passengers as @s at @s run function survivalotfittest:entity/mobs/skeletons/if_spiderjocky/ {"block":"cobblestone","target":"Choco.SotF.Enemies_Target"}
 execute if entity @s[type=!wither_skeleton] on vehicle as @s if entity @s[type=cave_spider] on passengers as @s at @s run function survivalotfittest:entity/mobs/skeletons/if_spiderjocky/ {"block":"cobblestone","target":"Choco.SotF.Enemies_Target"}

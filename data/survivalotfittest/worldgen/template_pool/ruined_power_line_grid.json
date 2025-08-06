@@ -1,0 +1,61 @@
+{
+    "name": "ruined_tower_0",
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "survivalotfittest:sotf/ruined_power_line_grid_0",
+          "processors": {
+            "processors": []
+          }
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "survivalotfittest:sotf/ruined_power_line_grid_1",
+          "processors": {
+            "processors": []
+          }
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "survivalotfittest:sotf/ruined_power_line_grid_2",
+          "processors": {
+            "processors": []
+          }
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "survivalotfittest:sotf/ruined_power_line_grid_3",
+          "processors": {
+            "processors": []
+          }
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "survivalotfittest:sotf/ruined_power_line_grid_4",
+          "processors": {
+            "processors": []
+          }
+        },
+        "weight": 1
+      }
+    ],
+    "fallback": "minecraft:empty"
+  }

@@ -31,3 +31,5 @@ execute if entity @s[tag=Choco.SotF.MagmaCubeLavaBall] at @s rotated as @s run t
 playsound minecraft:entity.blaze.shoot hostile @a ~ ~ ~ 2 1.5
 playsound minecraft:entity.breeze.shoot hostile @a ~ ~ ~ 2 1
 playsound minecraft:block.basalt.break hostile @a ~ ~ ~ 2 0.5
+
+execute if entity @s[tag=Choco.SotF.AlphaShot] at @s rotated as @s run function survivalotfittest:entity/marker/misc/lavaball/alpha_shot

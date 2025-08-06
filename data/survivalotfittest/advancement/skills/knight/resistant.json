@@ -4,7 +4,7 @@
         "id": "minecraft:diamond_chestplate"
       },
       "title": "強靭",
-      "description": "10秒以上ダメージを受けていないとき、衝撃吸収IIの効果を得ます\n効果は衝撃吸収による追加HPがなくなった時に解除され、解除時に6ダメージを受けます。",
+      "description": "10秒以上ダメージを受けていないとき、衝撃吸収Iの効果を得ます\n効果は衝撃吸収による追加HPがなくなった時に解除され、解除時に10ダメージを受けます。",
       "frame": "goal",
       "show_toast": true,
       "announce_to_chat": false,

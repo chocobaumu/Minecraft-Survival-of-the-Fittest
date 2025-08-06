@@ -22,3 +22,7 @@ execute if score @s Choco.SotF.tick.4 matches 50.. run scoreboard players set @s
 scoreboard players add @s Choco.SotF.tick.5 1
 execute if score @s Choco.SotF.tick.5 matches 701..720 at @s if entity @e[tag=Choco.SotF.Enemies_Target,distance=..64] run function survivalotfittest:entity/mobs/admin/aotumuri/fight/super_spear_summon
 execute if score @s Choco.SotF.tick.5 matches 1238.. run scoreboard players set @s Choco.SotF.tick.5 0
+
+# メテオ
+scoreboard players add @s Choco.SotF.tick.6 1
+execute if score @s Choco.SotF.tick.6 matches 60.. at @s if entity @e[tag=Choco.SotF.Enemies_Target,distance=..64] run function survivalotfittest:entity/mobs/admin/aotumuri/fight/meteor

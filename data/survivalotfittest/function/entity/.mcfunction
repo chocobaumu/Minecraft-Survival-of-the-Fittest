@@ -74,6 +74,12 @@ execute if entity @s[tag=Choco.SotF.Explosive] at @s run function survivalotfitt
 #インタラクション
 execute if entity @s[type=interaction,tag=!Choco.SotF.Custom] at @s run function survivalotfittest:entity/interaction/
 
+# 花火
+execute if entity @s[type=firework_rocket,tag=!Choco.SotF.Custom] at @s run function survivalotfittest:entity/firework/
+
+# 額縁
+execute if entity @s[type=item_frame,tag=!Choco.SotF.Custom] at @s run function survivalotfittest:entity/item_frame/
+
 #クリスタル(私のミスでここにいます、そういうことです。)
 execute if entity @s[type=block_display,tag=Choco.SotF.Crystalizer.Crystal] at @s run function survivalotfittest:entity/item_display/crystalizer_crystal/
 

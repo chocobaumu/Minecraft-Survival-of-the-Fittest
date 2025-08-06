@@ -2,5 +2,7 @@ execute on target as @s run tag @s add Choco.SotF.Target
 
 tp @s
 execute positioned ~ ~1.6 ~ facing entity @n[tag=Choco.SotF.Target] feet positioned ^ ^ ^-0.1 run function survivalotfittest:summon/misc/lavaball {"Owner":"Blaze"}
+execute if entity @s[tag=Choco.SotF.Alpha] positioned ~ ~1.6 ~ facing entity @n[tag=Choco.SotF.Target] feet positioned ^ ^ ^-0.1 run summon marker ~ ~ ~ {Tags:["Choco.SotF.LavaBall","Choco.SotF.Owning.Blaze","Choco.SotF.AlphaShot"]}
+execute if entity @s[tag=Choco.SotF.Alpha] positioned ~ ~1.6 ~ facing entity @n[tag=Choco.SotF.Target] feet positioned ^ ^ ^-0.1 run summon marker ~ ~ ~ {Tags:["Choco.SotF.LavaBall","Choco.SotF.Owning.Blaze","Choco.SotF.AlphaShot"]}
 
 tag @e[tag=Choco.SotF.Target] remove Choco.SotF.Target

@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:shaper_armor_trim_smithing_template"
+      },
+      "title": "[4] エレクトリック・エクスターミネイト",
+      "description": "広域に雷を落とし攻撃する。雷20ダメージを与える。",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:skills/sorcery/electron/spark",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

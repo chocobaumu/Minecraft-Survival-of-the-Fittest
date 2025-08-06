@@ -1,0 +1,1 @@
+summon phantom ^ ^ ^ {Tags:["Choco.SotF.AirbornePhantom","Choco.SotF.Bombing"],attributes:[{id:"minecraft:burning_time",base:0},{id:"minecraft:scale",base:1.5}]}

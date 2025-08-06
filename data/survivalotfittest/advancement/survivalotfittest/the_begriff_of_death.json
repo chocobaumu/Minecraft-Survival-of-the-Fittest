@@ -1,0 +1,30 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:wither_skeleton_skull"
+      },
+      "title": "呪ひて其の命灰に帰す...",
+      "description": "ベグリフ・オブ・デスを手に入れる\n『死の概念』です。",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:survivalotfittest/weak_point_attacking",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:golden_sword",
+              "components": {
+                "minecraft:custom_data": {"SotF":"BegriffOfDeath"}
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }

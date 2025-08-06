@@ -1,5 +1,6 @@
-execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 0 if entity @s[tag=!Choco.SotF.Alpha,tag=!Choco.SotF.Blind,tag=!Choco.SotF.Substantiator,tag=!Choco.SotF.NonVident] run data merge entity @s {attributes:[{id:"minecraft:follow_range",base:128}]}
 execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 if entity @s[tag=!Choco.SotF.Alpha,tag=!Choco.SotF.Blind,tag=!Choco.SotF.Substantiator,tag=!Choco.SotF.NonVident] run data merge entity @s {attributes:[{id:"minecraft:follow_range",base:128},{id:"minecraft:movement_speed",base:0.33}]}
+
+attribute @s follow_range base set 128
 
 #置き換え
 execute if entity @s[tag=!Choco.SotF.DoNotExchange,tag=!Choco.SotF.Spawners,tag=!Choco.SotF.Substantiator,tag=!Choco.SotF.NonVident] store result score @s Choco.SotF.Random run random value 1..100
@@ -33,4 +34,4 @@ execute if entity @s[tag=!Choco.SotF.DoNotExchange,tag=!Choco.SotF.Spawners,tag=
 execute if entity @s[tag=!Choco.SotF.DoNotExchange,tag=!Choco.SotF.Spawners,tag=!Choco.SotF.Alpha] if score @s Choco.SotF.ScoreStorage.0 matches 100 at @s run function survivalotfittest:internal/vanish
 
 #ナイトメアのAttribute
-execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 store result score @s Choco.SotF.HardMode.Attributes run random value 0..9
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 store result score @s Choco.SotF.HardMode.Attributes run random value 0..14

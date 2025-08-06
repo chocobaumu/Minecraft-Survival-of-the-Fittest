@@ -1,0 +1,1 @@
+execute as @s on vehicle as @s if entity @s[type=horse] on passengers as @s run effect give @s strength 1 3

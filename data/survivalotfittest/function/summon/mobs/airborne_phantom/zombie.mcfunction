@@ -1,0 +1,1 @@
+summon phantom ^ ^ ^ {Tags:["Choco.SotF.AirbornePhantom"],Passengers:[{id:"minecraft:zombie",IsBaby:0b,Tags:["Choco.SotF.Airbone"]}],attributes:[{id:"minecraft:burning_time",base:0},{id:"minecraft:scale",base:1.2}]}

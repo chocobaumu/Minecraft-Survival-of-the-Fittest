@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "survivalotfittest:abandoned_combat_vehicle",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 6,
+    "separation": 1,
+    "spread_type": "triangular",
+    "salt": 6519397,
+    "frequency": 0.1,
+    "frequency_reduction_method": "legacy_type_1"
+  }
+}

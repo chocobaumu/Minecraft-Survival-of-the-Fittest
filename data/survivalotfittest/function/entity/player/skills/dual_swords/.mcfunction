@@ -1,0 +1,5 @@
+# ツインズ
+execute if entity @s[advancements={survivalotfittest:skills/sword/dual_sword/twins=true}] run function survivalotfittest:entity/player/skills/dual_swords/twins/
+
+# 敏捷
+execute if entity @s[advancements={survivalotfittest:skills/sword/dual_sword/quick_fighter=true}] unless entity @s[gamemode=spectator] if score @s Choco.SotF.Player.Dodged matches 0 if score @s Choco.SotF.Player.DodgeStack matches 1.. unless score @s Choco.SotF.Player.PressFowardTick matches 2.. unless score @s Choco.SotF.Player.PressBackwardTick matches 2.. unless score @s Choco.SotF.Player.PressRightTick matches 2.. unless score @s Choco.SotF.Player.PressLeftTick matches 2.. if score @s Choco.SotF.Player.PressSprintTick matches 1.. if score @s Choco.SotF.SneakTick matches 0 at @s unless block ~ ~ ~ #survivalotfittest:water_and_else if items entity @s weapon.offhand #survivalotfittest:swords run function survivalotfittest:entity/player/dodge/ready

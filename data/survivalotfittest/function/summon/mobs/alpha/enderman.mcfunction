@@ -1,0 +1,1 @@
+summon enderman ~ ~ ~ {DeathLootTable:"survivalotfittest:entities/alpha/grade_3",Health:200f,Tags:["Choco.SotF.Alpha"],attributes:[{id:"minecraft:attack_damage",base:16},{id:"minecraft:knockback_resistance",base:0.5},{id:"minecraft:max_health",base:200},{id:"minecraft:movement_speed",base:0.36},{id:"minecraft:scale",base:1.1}]}

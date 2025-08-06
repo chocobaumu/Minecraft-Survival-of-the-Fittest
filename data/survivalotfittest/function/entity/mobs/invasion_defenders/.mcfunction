@@ -1,6 +1,6 @@
 scoreboard players add @s Choco.SotF.Tick.0 1
 
-execute if score @s Choco.SotF.Tick.0 matches 1 if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 store result score @s Choco.SotF.HardMode.Attributes run random value 0..9
+execute if score @s Choco.SotF.Tick.0 matches 1 if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 store result score @s Choco.SotF.HardMode.Attributes run random value 0..14
 
 execute store result score #Invasion.Leader.AroundFlags Choco.SotF.ScoreStorage.0 run execute if entity @e[type=item_display,tag=Choco.SotF.InvasionFlag,distance=0.1..45]
 

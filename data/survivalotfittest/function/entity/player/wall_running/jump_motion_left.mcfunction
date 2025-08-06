@@ -13,3 +13,5 @@ playsound entity.player.big_fall player @a ~ ~ ~ 1 1
 #アーティファクト
 execute if predicate survivalotfittest:artifacts/wind run effect give @s slow_falling 2 0
 execute if predicate survivalotfittest:artifacts/cloud if score @s Choco.SotF.ArtifactOfCloud.JumpStack matches 0 run scoreboard players set @s Choco.SotF.ArtifactOfCloud.JumpStack 1
+
+scoreboard players remove @s Choco.SotF.Player.DodgeStack 1

@@ -4,7 +4,7 @@
         "id": "minecraft:shield"
       },
       "title": "ジャスト・ガード",
-      "description": "盾を構えてから0.25秒以内に攻撃されたとき、周囲の敵に6ダメージを与え、吹き飛ばします。",
+      "description": "盾を構えてから0.25秒以内のあらゆるダメージを0にします\nまた、盾を構えてから0.25秒以内に攻撃されたとき、周囲の敵に15ダメージを与え、吹き飛ばします。",
       "frame": "goal",
       "show_toast": true,
       "announce_to_chat": false,

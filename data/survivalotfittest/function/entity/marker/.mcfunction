@@ -24,6 +24,9 @@ execute if entity @s[tag=Choco.SotF.HurricaneLightning] at @s run function survi
 #大雨
 execute if entity @s[tag=Choco.SotF.HeavyRain] at @s run function survivalotfittest:entity/marker/desaster/heavyrain/water
 
+# 津波
+execute if entity @s[tag=Choco.SotF.Tsunami] at @s run function survivalotfittest:entity/marker/desaster/tsunami/
+
 #季節
 execute if entity @s[tag=Choco.SotF.NatureChanges] at @s run function survivalotfittest:entity/marker/misc/seasons/
 
@@ -32,6 +35,9 @@ execute if entity @s[tag=Choco.SotF.Nightmare.Armageddon_Spawn] at @s run functi
 
 #雨系のやつ
 execute if entity @s[tag=Choco.SotF.Storm] at @s run function survivalotfittest:entity/marker/desaster/rains/
+
+# 真紅のキノコの胞子
+execute if entity @s[tag=Choco.SotF.CrimsonFungusSpore] at @s run function survivalotfittest:entity/marker/misc/crimson_fungus_spore/
 
 #溶岩弾
 execute if entity @s[tag=Choco.SotF.LavaBall] at @s run function survivalotfittest:entity/marker/misc/lavaball/
@@ -68,8 +74,9 @@ execute if entity @s[tag=Choco.SotF.DimensionalMagic] at @s run function surviva
 execute if entity @s[tag=Choco.SotF.DimensionalSlash.Player] at @s run function survivalotfittest:entity/marker/misc/raider_of_voidness/slash/player/
 execute if entity @s[tag=Choco.SotF.DimensionalHole.Player] at @s run function survivalotfittest:entity/marker/misc/raider_of_voidness/slash/player/hole/
 
-#帯電クリーパー
+#クリーパー
 execute if entity @s[tag=Choco.SotF.Explosive_Lightning] at @s run function survivalotfittest:entity/marker/misc/creeper/explosive_lightning/
+execute if entity @s[tag=Choco.SotF.CreeperEffectArea] at @s run function survivalotfittest:entity/marker/misc/creeper/effects/
 
 #コウモリ
 execute if entity @s[tag=Choco.SotF.BatDung] at @s run function survivalotfittest:entity/marker/misc/bat_dung/
@@ -120,6 +127,18 @@ execute if entity @s[tag=Choco.SotF.Seaserpent.Venom] at @s run function surviva
 execute if entity @s[tag=Choco.SotF.LivingCrystal.Laser] at @s run function survivalotfittest:entity/marker/misc/living_crystal/laser/
 execute if entity @s[tag=Choco.SotF.LivingCrystal.Laser.Mini.Central] at @s run function survivalotfittest:entity/marker/misc/living_crystal/mini_laser/central/
 execute if entity @s[tag=Choco.SotF.LivingCrystal.Laser.Mini] at @s run function survivalotfittest:entity/marker/misc/living_crystal/mini_laser/
+
+# スカルクの星
+execute if entity @s[tag=Choco.SotF.Sculk_Wave] at @s run function survivalotfittest:entity/marker/misc/sculk_star/shockwave/
+execute if entity @s[tag=Choco.SotF.SculkStarLaser] at @s run function survivalotfittest:entity/marker/misc/sculk_star/laser/
+execute if entity @s[tag=Choco.SotF.SculkStarShard] at @s run function survivalotfittest:entity/marker/misc/sculk_star/star_shard/
+#execute if entity @s[tag=Choco.SotF.SculkStarSpawn] at @s run function survivalotfittest:entity/marker/misc/sculk_star/spawn/
+
+# 雪原の魔術師
+#execute if entity @s[tag=Choco.SotF.Sorcerer_of_SnowField] at @s run function survivalotfittest:entity/marker/misc/sorcerer_of_snowfield/
+
+# ネイチャードミニオン
+execute if entity @s[tag=Choco.SotF.SoulExplosion] at @s run function survivalotfittest:entity/marker/misc/nature_dominion/soul_explosion/
 
 #核
 execute if entity @s[tag=Choco.SotF.NukeBurst] at @s run function survivalotfittest:entity/item_display/nuke/explosion
@@ -182,6 +201,15 @@ execute if entity @s[tag=Choco.SotF.Aircraft.Rocket] at @s run function survival
 
 execute if entity @s[tag=Choco.SotF.Frecciascura] at @s run function survivalotfittest:entity/marker/misc/aircraft/summon/frecciascura
 
+# フレア
+execute if entity @s[tag=Choco.SotF.AirborneFlare] at @s run function survivalotfittest:entity/marker/misc/airborne_flare/
+
+# 魔術
+execute if entity @s[tag=Choco.SotF.Magic] at @s run function survivalotfittest:entity/marker/misc/magic/
+
+# マレディション
+execute if entity @s[tag=Choco.SotF.Malediction.Bullet] at @s run function survivalotfittest:entity/marker/misc/malediction/
+
 #アトリビュート
 execute if entity @s[tag=Choco.SotF.PhantomStep.Shadow] at @s run function survivalotfittest:entity/marker/misc/phantom_step/
 
@@ -201,6 +229,10 @@ execute if entity @s[tag=Choco.SotF.Aotumuri.WaterSpear] at @s run function surv
 execute if entity @s[tag=Choco.SotF.Aotumuri.WaterSpear.Magic] at @s run function survivalotfittest:entity/marker/misc/admin/aotumuri/spear_magic/
 execute if entity @s[tag=Choco.SotF.Aotumuri.WaterSpear.Mini] at @s run function survivalotfittest:entity/marker/misc/admin/aotumuri/mini_spear/
 execute if entity @s[tag=Choco.SotF.Aotumuri.IceSpear.Mini] at @s run function survivalotfittest:entity/marker/misc/admin/aotumuri/mini_spear/ice/
+execute if entity @s[tag=Choco.SotF.Akatumuri.FlareLightning] at @s run function survivalotfittest:entity/marker/misc/admin/akatumuri/lightning/
+execute if entity @s[tag=Choco.SotF.Akatumuri.Explosion] at @s run function survivalotfittest:entity/marker/misc/admin/akatumuri/explosion/
+execute if entity @s[tag=Choco.SotF.Akatumuri.Magic] at @s run function survivalotfittest:entity/marker/misc/admin/akatumuri/magic/
+execute if entity @s[tag=Choco.SotF.Akatumuri.MagicLine] at @s run function survivalotfittest:entity/marker/misc/admin/akatumuri/magic/line
 
 # バグ対策
 execute if entity @s[tag=Choco.SotF.UndeadConjurer.Fang.ChangingDirection] run function survivalotfittest:internal/kill

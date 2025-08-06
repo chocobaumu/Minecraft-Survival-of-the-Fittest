@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:soul_lantern"
+      },
+      "title": "[4] サモン・ヴェックス",
+      "description": "3体のヴェックスを召喚する。ヴェックスは周囲のプレイヤー以外の対象を無差別に攻撃する。",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:skills/sorcery/lives/summon_heating_bug",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

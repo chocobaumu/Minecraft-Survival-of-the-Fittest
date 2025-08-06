@@ -1,0 +1,1 @@
+summon marker ^ ^ ^ {Tags:["Choco.SotF.Akatumuri.Explosion"]}

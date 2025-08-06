@@ -1,0 +1,3 @@
+execute if score @s Choco.SotF.Shield_ClickingTick matches 1.. if score @s Choco.SotF.Player.DodgeStack matches 1.. if score @s Choco.SotF.Player.PressSprintTick matches 1 if score @s Choco.SotF.Data.OnGround matches 1 at @s run function survivalotfittest:entity/player/skills/shield_bash/cast
+
+execute if score @s Choco.SotF.Skills.ShieldBash.Tick matches 1.. at @s run function survivalotfittest:entity/player/skills/shield_bash/bashing

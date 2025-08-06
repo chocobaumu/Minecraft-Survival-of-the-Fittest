@@ -1,7 +1,8 @@
 effect give @s invisibility infinite 0 true
 execute unless entity @e[type=end_crystal,distance=..1] run function survivalotfittest:internal/vanish
 
-execute if data entity @s {HurtTime:9s} run playsound block.glass.break hostile @a ~ ~ ~ 2 0.5
+execute store result score @s Choco.SotF.Data.HurtTime run data get entity @s HurtTime
+execute if score @s Choco.SotF.Data.HurtTime matches 9 run playsound block.glass.break hostile @a ~ ~ ~ 2 0.5
 
 scoreboard players add @s Choco.SotF.Tick.0 1
 
@@ -16,3 +17,7 @@ execute at @s unless entity @e[type=ender_dragon,distance=..24] run data merge e
 execute at @s if entity @e[type=ender_dragon,distance=..24] run function survivalotfittest:entity/end_crystal/show_bottom_true/invulnerable
 
 effect give @s fire_resistance infinite 0 true
+
+rotate @s ~24 0
+
+particle witch ^ ^1 ^2 0 0 0 0 1 force

@@ -1,0 +1,5 @@
+execute if score @s Choco.SotF.SorcerySelect matches 0 if entity @s[advancements={survivalotfittest:skills/sorcery/liquid/aqua_blessing=true}] run title @s subtitle {"text":"アクア・ブレッシング","color":"#3db89b"}
+execute if score @s Choco.SotF.SorcerySelect matches 1 if entity @s[advancements={survivalotfittest:skills/sorcery/liquid/mist=true}] run title @s subtitle {"text":"ミスト","color":"#3db89b"}
+execute if score @s Choco.SotF.SorcerySelect matches 2 if entity @s[advancements={survivalotfittest:skills/sorcery/liquid/hard_steam=true}] run title @s subtitle {"text":"ハードスチーム","color":"#3db89b"}
+execute if score @s Choco.SotF.SorcerySelect matches 3 if entity @s[advancements={survivalotfittest:skills/sorcery/liquid/frost_breath=true}] run title @s subtitle {"text":"フロストブレス","color":"#3db89b"}
+execute if score @s Choco.SotF.SorcerySelect matches 4 if entity @s[advancements={survivalotfittest:skills/sorcery/liquid/ice_spike=true}] run title @s subtitle {"text":"アイス・スパイク","color":"#3db89b"}

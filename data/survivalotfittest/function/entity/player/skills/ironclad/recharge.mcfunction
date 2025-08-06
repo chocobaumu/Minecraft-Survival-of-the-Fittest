@@ -1,0 +1,4 @@
+execute if score @s Choco.SotF.Skills.IronClad.Tick matches 399 at @s rotated ~ 0 positioned ~ ~0.6 ~ run function survivalotfittest:particle/ironclad_recharge/1
+execute if score @s Choco.SotF.Skills.IronClad.Tick matches 799 at @s rotated ~ 0 positioned ~ ~0.6 ~ run function survivalotfittest:particle/ironclad_recharge/2
+execute if score @s Choco.SotF.Skills.IronClad.Tick matches 1199 at @s rotated ~ 0 positioned ~ ~0.6 ~ run function survivalotfittest:particle/ironclad_recharge/3
+execute if score @s Choco.SotF.Skills.IronClad.Tick matches 1599 at @s rotated ~ 0 positioned ~ ~0.6 ~ run function survivalotfittest:particle/ironclad_recharge/4

@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "snowball"
+      },
+      "title": "魔術師狩り",
+      "description": "雪原の魔術師を討伐する",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:survivalotfittest/bosses/bosses",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:stray",
+                "nbt": "{Tags:[\"Choco.SotF.Sorcerer_of_SnowField\"]}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }

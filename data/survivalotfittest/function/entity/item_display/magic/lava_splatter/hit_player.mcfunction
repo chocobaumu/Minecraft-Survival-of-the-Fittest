@@ -1,0 +1,1 @@
+$execute positioned ~-0.5 ~-0.5 ~-0.5 if entity @a[gamemode=!creative,gamemode=!spectator,nbt=!{UUID:$(Owner)},dx=0] run function survivalotfittest:entity/item_display/magic/lava_splatter/hit with entity @s data

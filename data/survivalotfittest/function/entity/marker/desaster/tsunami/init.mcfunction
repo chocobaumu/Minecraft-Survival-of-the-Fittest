@@ -1,0 +1,24 @@
+# 位置設定
+execute store result storage sotf:tsunami PosX int 1 run random value -64..64
+execute store result storage sotf:tsunami PosZ int 1 run random value -64..64
+
+execute at @s run function survivalotfittest:entity/marker/desaster/tsunami/set_pos with storage sotf:tsunami
+
+# 方向設定
+execute store result score @s Choco.SotF.ScoreStorage.1 run random value 1..4
+
+# メッセージ
+execute store result score @s Choco.SotF.Pos.0 run data get entity @s Pos[0]
+execute store result score @s Choco.SotF.Pos.1 run data get entity @s Pos[1]
+execute store result score @s Choco.SotF.Pos.2 run data get entity @s Pos[2]
+function survivalotfittest:entity/marker/desaster/tsunami/set_level
+execute at @s if biome ~ ~ ~ #survivalotfittest:is_ocean if block ~ ~-1 ~ #survivalotfittest:water_and_else if block ~ ~-2 ~ #survivalotfittest:water_and_else if block ~ ~-3 ~ #survivalotfittest:water_and_else run tellraw @a [{"bold":true,"color":"dark_aqua","hover_event":{"action":"show_text","value":[{"text":"","color":"dark_red","italic":false}]},"italic":false,"text":"津波"},{"bold":false,"color":"red","hover_event":{"action":"show_text","value":[{"text":"","color":"dark_red","italic":false}]},"italic":false,"text":" Lv."},{"bold":false,"color":"red","hover_event":{"action":"show_text","value":[{"text":"","color":"dark_red","italic":false}]},"italic":false,"score":{"name":"@s","objective":"Choco.SotF.ScoreStorage.0"}},{"color":"dark_aqua","hover_event":{"action":"show_text","value":[{"text":"","color":"dark_red","italic":false}]},"italic":false,"text":" が"},{"bold":false,"color":"yellow","hover_event":{"action":"show_text","value":[{"text":"","color":"dark_red","italic":false}]},"italic":false,"score":{"name":"@s","objective":"Choco.SotF.Pos.0"}},{"hover_event":{"action":"show_text","value":[{"text":"","color":"dark_red","italic":false}]},"text":" "},{"bold":false,"color":"yellow","hover_event":{"action":"show_text","value":[{"text":"","color":"dark_red","italic":false}]},"italic":false,"score":{"name":"@s","objective":"Choco.SotF.Pos.1"}},{"hover_event":{"action":"show_text","value":[{"text":"","color":"dark_red","italic":false}]},"text":" "},{"bold":false,"color":"yellow","hover_event":{"action":"show_text","value":[{"text":"","color":"dark_red","italic":false}]},"italic":false,"score":{"name":"@s","objective":"Choco.SotF.Pos.2"}},{"hover_event":{"action":"show_text","value":[{"text":"","color":"dark_red","italic":false}]},"italic":false,"text":" に発生！"}]
+execute at @s if biome ~ ~ ~ #survivalotfittest:is_beach if block ~ ~-1 ~ #survivalotfittest:water_and_else if block ~ ~-2 ~ #survivalotfittest:water_and_else if block ~ ~-3 ~ #survivalotfittest:water_and_else run tellraw @a [{"bold":true,"color":"dark_aqua","hover_event":{"action":"show_text","value":[{"text":"","color":"dark_red","italic":false}]},"italic":false,"text":"津波"},{"bold":false,"color":"red","hover_event":{"action":"show_text","value":[{"text":"","color":"dark_red","italic":false}]},"italic":false,"text":" Lv."},{"bold":false,"color":"red","hover_event":{"action":"show_text","value":[{"text":"","color":"dark_red","italic":false}]},"italic":false,"score":{"name":"@s","objective":"Choco.SotF.ScoreStorage.0"}},{"color":"dark_aqua","hover_event":{"action":"show_text","value":[{"text":"","color":"dark_red","italic":false}]},"italic":false,"text":" が"},{"bold":false,"color":"yellow","hover_event":{"action":"show_text","value":[{"text":"","color":"dark_red","italic":false}]},"italic":false,"score":{"name":"@s","objective":"Choco.SotF.Pos.0"}},{"hover_event":{"action":"show_text","value":[{"text":"","color":"dark_red","italic":false}]},"text":" "},{"bold":false,"color":"yellow","hover_event":{"action":"show_text","value":[{"text":"","color":"dark_red","italic":false}]},"italic":false,"score":{"name":"@s","objective":"Choco.SotF.Pos.1"}},{"hover_event":{"action":"show_text","value":[{"text":"","color":"dark_red","italic":false}]},"text":" "},{"bold":false,"color":"yellow","hover_event":{"action":"show_text","value":[{"text":"","color":"dark_red","italic":false}]},"italic":false,"score":{"name":"@s","objective":"Choco.SotF.Pos.2"}},{"hover_event":{"action":"show_text","value":[{"text":"","color":"dark_red","italic":false}]},"italic":false,"text":" に発生！"}]
+
+# 規模設定
+scoreboard players add @s Choco.SotF.tick.1 200
+scoreboard players operation @s Choco.SotF.tick.1 *= @s Choco.SotF.ScoreStorage.0
+#scoreboard players operation @s Choco.SotF.tick.1 *= #10 Choco.SotF.Math
+scoreboard players operation @s Choco.SotF.tick.1 /= #2 Choco.SotF.Math
+scoreboard players operation @s Choco.SotF.ScoreStorage.3 -= @s Choco.SotF.ScoreStorage.0
+scoreboard players add @s Choco.SotF.ScoreStorage.3 11

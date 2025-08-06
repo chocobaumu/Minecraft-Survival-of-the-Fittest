@@ -17,6 +17,8 @@ execute if score #DoEarthQuakeHappnes Choco.SotF.ScoreStorage.0 matches 0 run fu
 execute if score #DoHeavyRainHappnes Choco.SotF.ScoreStorage.0 matches 1 run function survivalotfittest:event/heavyrain/
 #ハリケーン
 execute if score #DoHurricaneHappnes Choco.SotF.ScoreStorage.0 matches 0 run function survivalotfittest:event/hurricane/
+#津波
+execute if score #DoTsunamiHappnes Choco.SotF.ScoreStorage.0 matches 0 run function survivalotfittest:event/tsunami/
 
 #ナイトメア用
 execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 run function survivalotfittest:event/nightmare/
@@ -25,13 +27,21 @@ execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 run function sur
 scoreboard players add #World Choco.SotF.Temperature.Tick.0 1
 execute if score #World Choco.SotF.Temperature.Tick.0 matches 6000.. run function survivalotfittest:internal/temperature_world_bonus
 
+# 魔素Bonus値
+scoreboard players add #MagicParticle Choco.SotF.Tick.0 1
+execute if score #MagicParticle Choco.SotF.Tick.0 matches 1500.. run function survivalotfittest:internal/sorcery/magic_particle/random
+
 #Bossbar削除
 execute unless entity @e[type=cave_spider,tag=Choco.SotF.Spider_Boss] run bossbar remove sotf:broodmother
 execute unless entity @e[type=evoker,tag=Choco.SotF.Necromancer] run bossbar remove sotf:necromancer
 execute unless entity @e[type=slime,tag=Choco.SotF.Seaserpent] run bossbar remove sotf:seaserpent
 execute unless entity @e[type=skeleton,tag=Choco.SotF.Chocobaumu] run bossbar remove sotf:chocobaumu
 execute unless entity @e[type=slime,tag=Choco.SotF.LivingCrystal] run bossbar remove sotf:living_crystal
+execute unless entity @e[type=slime,tag=Choco.SotF.SculkStar] run bossbar remove sotf:sculk_star
+execute unless entity @e[type=stray,tag=Choco.SotF.Sorcerer_of_SnowField] run bossbar remove sotf:sorcerer_of_snowfield
 execute unless entity @e[type=skeleton,tag=Choco.SotF.Aotumuri] run bossbar remove sotf:aotumuri
+execute unless entity @e[type=skeleton,tag=Choco.SotF.Yukiikuma] unless entity @e[type=polar_bear,tag=Choco.SotF.YukiikumaGuardian] run bossbar remove sotf:yukiikuma
+execute unless entity @e[type=evoker,tag=Choco.SotF.NatureDominion] run bossbar remove sotf:nature_dominion
 
 #ワールド全体の時間
 scoreboard players add #World Choco.SotF.Tick.0 1
@@ -86,16 +96,3 @@ execute if score #Invasion.FlagPlaceTick Choco.SotF.ScoreStorage.0 matches 0 if 
 # 168000 = 1 week
 # 720000 = 1 month
 # 8760000 = 1 year
-
-# ナイトメアのAttribute
-# 値はChoco.SotF.HardMode.Attributesで管理される
-# 0 = 無し
-# 1 = マジックシールド(3枚の盾を装備、1毎につき1回攻撃を無効化する)
-# 2 = フロストノヴァ(周囲の水を凍らせる、弱体化I、採掘速度低下II、移動速度低下IIを付与する 水中にスポーンした場合とネザー勢の場合は無効化される)
-# 3 = ポイズンノヴァ(周囲の敵に毒IVを付与する)
-# 4 = マジシャン(腐敗の魔術師が使用するファングを出す)
-# 5 = タクティシャン(クールタイムはあるが無限にTNTを設置できる 同時に複数設置する)
-# 6 = クリスタライザー(アメジストをはやして攻撃する 多分認識さえしていれば壁越しとかでも使う)
-# 7 = ヴァンピリズム(暗いところで移動速度上昇X、攻撃力上昇X、耐性III)
-# 8 = 無敵(被ダメージ時永続の衝撃吸収V、ダメージごとに再付与)
-# 9 = ファントムステップ(敵対状態でダメージを受けるか動きを止めたとき、壁貫通の移動を行う)

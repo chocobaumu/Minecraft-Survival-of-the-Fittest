@@ -1,0 +1,32 @@
+{
+    "display": {
+      "icon": {
+        "id": "dark_oak_leaves"
+      },
+      "title": "その森の主を名乗る者",
+      "description": "ネイチャードミニオンを討伐する",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:survivalotfittest/bosses/bosses",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:player_killed_entity",
+        "conditions": {
+          "entity": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:evoker",
+                "nbt": "{Tags:[\"Choco.SotF.NatureDominion\"]}"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "sends_telemetry_event": true
+  }

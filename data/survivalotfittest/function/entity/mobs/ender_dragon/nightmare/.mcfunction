@@ -12,4 +12,4 @@ execute if score @s Choco.SotF.tick.8 matches 1 at @s run function survivalotfit
 execute unless score @s Choco.SotF.ScoreStorage.0 matches 4 run scoreboard players set @s Choco.SotF.tick.8 0
 
 scoreboard players add @s Choco.SotF.HardMode.Attributes.SpawnTick 1
-execute if score @s Choco.SotF.HardMode.Attributes.SpawnTick matches 1 store result score @s Choco.SotF.HardMode.Attributes run random value 0..6
+execute if score @s Choco.SotF.HardMode.Attributes.SpawnTick matches 1 store result score @s Choco.SotF.HardMode.Attributes run random value 0..14

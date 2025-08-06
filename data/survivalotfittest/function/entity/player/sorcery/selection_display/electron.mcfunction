@@ -1,0 +1,4 @@
+execute if score @s Choco.SotF.SorcerySelect matches 0 if entity @s[advancements={survivalotfittest:skills/sorcery/electron/voltage=true}] run title @s subtitle {"text":"ボルテージ","color":"#e6ffa7"}
+execute if score @s Choco.SotF.SorcerySelect matches 1 if entity @s[advancements={survivalotfittest:skills/sorcery/electron/acid_breath=true}] run title @s subtitle {"text":"アシッドブレス","color":"#e6ffa7"}
+execute if score @s Choco.SotF.SorcerySelect matches 2 if entity @s[advancements={survivalotfittest:skills/sorcery/electron/spark=true}] run title @s subtitle {"text":"スパーク","color":"#e6ffa7"}
+execute if score @s Choco.SotF.SorcerySelect matches 3 if entity @s[advancements={survivalotfittest:skills/sorcery/electron/electric_exterminate=true}] run title @s subtitle {"text":"エレクトリック・エクスターミネイト","color":"#e6ffa7"}

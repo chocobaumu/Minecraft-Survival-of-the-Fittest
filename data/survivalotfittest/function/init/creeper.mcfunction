@@ -1,5 +1,7 @@
 data merge entity @s {Fuse:600,attributes:[{id:"minecraft:movement_speed",base:0.28}]}
 
+attribute @s follow_range base set 128
+
 execute store result score @s Choco.SotF.Random run random value 1..100
 
 execute at @s if dimension ras:radioactiveabyss if biome ~ ~ ~ ras:the_central unless entity @e[tag=Choco.SotF.LivingCrystal,type=block_display] run function survivalotfittest:summon/mobs/bosses/living_crystal/
@@ -29,8 +31,24 @@ execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 run function sur
 execute if score @s Choco.SotF.Random matches 11..30 positioned over motion_blocking_no_leaves unless entity @s[distance=..1] at @s if biome ~ ~ ~ #survivalotfittest:cold run function survivalotfittest:summon/mobs/heating_bug
 execute if score @s Choco.SotF.Random matches 11..30 positioned over motion_blocking_no_leaves unless entity @s[distance=..1] at @s if biome ~ ~ ~ #survivalotfittest:hot run function survivalotfittest:summon/mobs/aquatic_bug
 
+# エクストリームクリーパー
+execute store result score @s Choco.SotF.Random run random value 1..1000
+execute if score @s Choco.SotF.Random matches 1 at @s run function survivalotfittest:summon/mobs/extreme_creeper
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 if score @s Choco.SotF.Random matches 2..9 at @s run function survivalotfittest:summon/mobs/extreme_creeper
+
+# 雪原の魔術師
+execute store result score @s Choco.SotF.Random run random value 1..100
+execute if score @s Choco.SotF.Random matches 1 at @s if biome ~ ~ ~ #survivalotfittest:is_snow_field if predicate survivalotfittest:if_thundering positioned over motion_blocking_no_leaves if entity @s[dy=100] at @s unless entity @e[type=stray,tag=Choco.SotF.Sorcerer_of_SnowField] run function survivalotfittest:summon/mobs/bosses/sorcerer_of_snowfield
+
+# エフェクト個体
+execute if score #World Choco.SotF.Tick.0 matches 480000.. store result score @s Choco.SotF.Random run random value 1..12
+execute if score #World Choco.SotF.Tick.0 matches 480000.. if score @s Choco.SotF.Random matches 1..6 at @s run scoreboard players operation @s Choco.SotF.ScoreStorage.18 = @s Choco.SotF.Random
+
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 store result score @s Choco.SotF.Random run random value 1..14
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 if score @s Choco.SotF.Random matches 1..7 at @s run scoreboard players operation @s Choco.SotF.ScoreStorage.17 = @s Choco.SotF.Random
+
 #ナイトメアのAttribute
-execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 store result score @s Choco.SotF.HardMode.Attributes run random value 0..9
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 store result score @s Choco.SotF.HardMode.Attributes run random value 0..14
 
 #execute positioned over motion_blocking_no_leaves unless entity @s[dy=100] at @s if score @s Choco.SotF.Pos.1 matches ..-1 if score @s Choco.SotF.Random matches 31..70 run function survivalotfittest:summon/misc/trap/fumarole
 

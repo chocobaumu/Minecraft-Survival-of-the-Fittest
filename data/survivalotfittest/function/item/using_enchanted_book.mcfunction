@@ -11,3 +11,7 @@ execute if score @s Choco.SotF.HealWand.Cool matches 0 if predicate survivalotfi
 ##聖戦の杖
 scoreboard players add @s Choco.SotF.PriestWand.Cool 0
 execute if score @s Choco.SotF.PriestWand.Cool matches 0 if predicate survivalotfittest:selected_priest_wand run scoreboard players set @s Choco.SotF.PriestWand.Clicking 2
+
+##
+scoreboard players add @s Choco.SotF.LevitationWand.Cool 0
+execute if score @s Choco.SotF.LevitationWand.Cool matches 0 if predicate survivalotfittest:selected_levitation_wand run function survivalotfittest:item/wand/levitation_wand/click

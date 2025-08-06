@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "survivalotfittest:ruined_power_line_grid",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 2,
+    "separation": 1,
+    "spread_type": "linear",
+    "salt": 5193906,
+    "frequency": 0.2,
+    "frequency_reduction_method": "legacy_type_1"
+  }
+}

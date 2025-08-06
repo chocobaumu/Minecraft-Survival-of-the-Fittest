@@ -1,8 +1,10 @@
 scoreboard players remove @s Choco.SotF.ScoreStorage.0 1
 
-execute rotated ~ ~90 run function survivalotfittest:particle/chocobaumu/laser_beam
+scoreboard players add @s Choco.SotF.ScoreStorage.1 1
+execute if score @s Choco.SotF.ScoreStorage.1 matches 1 rotated ~ ~90 run function survivalotfittest:particle/chocobaumu/laser_beam
+execute if score @s Choco.SotF.ScoreStorage.1 matches 5.. run scoreboard players set @s Choco.SotF.ScoreStorage.1 0
 
-particle flash ~ ~ ~ 0 0 0 0 1 force
+particle flash ~ ~ ~ 0 0 0 0 1 normal
 
 execute unless block ^ ^ ^0.5 #survivalotfittest:can_through run scoreboard players set @s Choco.SotF.ScoreStorage.1 -1
 execute unless block ^1 ^ ^0.5 #survivalotfittest:can_through run scoreboard players set @s Choco.SotF.ScoreStorage.1 -1

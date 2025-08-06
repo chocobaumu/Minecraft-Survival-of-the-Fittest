@@ -1,0 +1,1 @@
+give @p warped_fungus_on_a_stick[item_name="転写本",item_model="survivalotfittest:transcription_book",rarity="uncommon",lore=[{"color":"gray","italic":false,"text":"オフハンドのアイテムを転写します。"},[{"color":"gray","italic":false,"text":"転写可能: "},{"color":"green","italic":false,"text":"本、エンチャントの本、本と羽ペン、スキルブック、魔導書"}]],custom_data={SotF:Transcriptions,CanTranscription:Book},max_stack_size=1] 1

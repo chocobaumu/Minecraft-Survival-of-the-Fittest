@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:shield"
+      },
+      "title": "[5] ストーン・シールド",
+      "description": "石の盾を4枚生成し、攻撃を防ぐ。\nスニーク時、接触によるダメージとノックバックが大きく上昇するが、防御力は低下する。",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:skills/sorcery/earth/stone_scatter",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:horn_coral"
+      },
+      "title": "雷属性",
+      "description": "雷の魔素は情報保存の特性や移動の指向性があるため通信技術にも応用された。『充分に発達した科学技術は、魔法と見分けが付かない。』と言われるように、充分に発達した魔法技術もまた科学と見分けが付かない。",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "survivalotfittest:skills/sorcery/unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

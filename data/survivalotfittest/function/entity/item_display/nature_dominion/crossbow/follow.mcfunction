@@ -1,0 +1,2 @@
+execute unless entity @e[type=evoker,tag=Choco.SotF.NatureDominion,distance=..12] at @s positioned ~ ~-3 ~ facing entity @n[type=evoker,tag=Choco.SotF.NatureDominion,distance=..512] eyes positioned ~ ~3 ~ run tp @s ^ ^ ^0.2
+execute at @s rotated as @n[type=evoker,tag=Choco.SotF.NatureDominion,distance=..512] run rotate @s ~ ~

@@ -1,0 +1,12 @@
+{
+    "values": [
+      "#minecraft:is_savanna",
+      "#minecraft:is_badlands",
+      "#minecraft:is_beach",
+      "#minecraft:is_mountain",
+      "minecraft:desert",
+      "dripstone_caves",
+      "ras:crystalized_cave",
+      "ras:radioactive_abyss"
+    ]
+  }

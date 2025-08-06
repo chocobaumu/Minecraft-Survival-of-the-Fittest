@@ -35,3 +35,10 @@ scoreboard players reset @s Choco.SotF.Inferno.Tick.Max
 scoreboard players reset @s Choco.SotF.CuisineEffect.CoolingCurry
 scoreboard players reset @s Choco.SotF.CuisineEffect.HeatingStew
 scoreboard players reset @s Choco.SotF.CurseOfSword
+scoreboard players reset @s SculkAssimilated
+scoreboard players reset @s Choco.SotF.SorceryMode
+scoreboard players reset @s Choco.SotF.SorceryCool
+scoreboard players reset @s Choco.SotF.Malediction.Curse
+
+# スキルの没収
+advancement revoke @s from survivalotfittest:skills/skills

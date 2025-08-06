@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:coal"
+      },
+      "title": "[3] ディサピランス",
+      "description": "1秒間実体を消す。実体を消している間、飛行及びブロックの貫通が可能になり、ダメージが無効化されるが、視界が非常に限定的になる。復帰後、1秒間移動できなくなる。",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:skills/sorcery/void/infirmity",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

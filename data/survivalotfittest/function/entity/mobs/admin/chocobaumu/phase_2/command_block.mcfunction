@@ -1,0 +1,2 @@
+scoreboard players set @s Choco.SotF.tick.10 0
+execute as @e[tag=Choco.SotF.Enemies_Target,distance=..48,sort=random,limit=1] at @s run function survivalotfittest:summon/misc/admin/chocobaumu/command_block

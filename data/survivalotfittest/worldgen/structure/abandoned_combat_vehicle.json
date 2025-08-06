@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#survivalotfittest:has_abandoned_combat_vehicles",
+  "terrain_adaptation": "beard_thin",
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "start_pool": "survivalotfittest:abandoned_combat_vehicle",
+  "size": 1,
+  "start_height": {
+    "absolute": 1
+  },
+  "project_start_to_heightmap": "OCEAN_FLOOR_WG",
+  "max_distance_from_center": 32,
+  "use_expansion_hack": false
+}

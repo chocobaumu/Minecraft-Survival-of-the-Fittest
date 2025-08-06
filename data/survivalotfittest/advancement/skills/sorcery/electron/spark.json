@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:horn_coral_fan"
+      },
+      "title": "[3] スパーク",
+      "description": "電撃を放ち、着弾で拡散させる。広範囲の対象に雷4ダメージを与え、弱体化IIを10秒付与する。",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:skills/sorcery/electron/acid_breath",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

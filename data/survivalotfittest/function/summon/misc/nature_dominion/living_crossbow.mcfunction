@@ -1,0 +1,1 @@
+summon item_display ^ ^ ^ {teleport_duration:2,item_display:"thirdperson_righthand",Tags:["Choco.SotF.LivingCrossbow"],transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1f,1f,1f]},item:{id:"minecraft:crossbow",count:1,components:{"minecraft:enchantment_glint_override":true}}}

@@ -7,5 +7,9 @@ execute if predicate survivalotfittest:selected_sticky_light at @s run function 
 execute if predicate survivalotfittest:selected_eye_case at @s run function survivalotfittest:item/eye_case/
 execute if predicate survivalotfittest:selected_skulk_killer at @s run function survivalotfittest:item/consumes/sculk_killer/
 execute if predicate survivalotfittest:selected_medicine_of_calm at @s run function survivalotfittest:item/consumes/medicine_of_calm/
+execute if predicate survivalotfittest:selected_skill_book at @s run function survivalotfittest:item/skill_book/
+execute if predicate survivalotfittest:selected_unidentified_book at @s run function survivalotfittest:item/unidentified_books_and_scrolls/
+execute if predicate survivalotfittest:selected_unidentified_scroll at @s run function survivalotfittest:item/unidentified_books_and_scrolls/
+execute if predicate survivalotfittest:selected_transcriptions at @s run function survivalotfittest:item/transcriptions/
 
 scoreboard players reset @s Choco.SotF.WarpedFungs_Stick.Click

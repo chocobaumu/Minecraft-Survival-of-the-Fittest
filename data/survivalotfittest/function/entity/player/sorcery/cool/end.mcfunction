@@ -1,0 +1,1 @@
+tellraw @s {"text":"魔術が使用可能",color:gray}

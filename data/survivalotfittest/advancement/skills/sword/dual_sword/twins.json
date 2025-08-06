@@ -4,7 +4,7 @@
         "id": "minecraft:diamond_sword"
       },
       "title": "ツインズ",
-      "description": "オフハンドの剣の種類に応じて攻撃力が上昇します。",
+      "description": "オフハンドの剣の種類に応じて攻撃力上昇の効果を得ます。",
       "frame": "goal",
       "show_toast": true,
       "announce_to_chat": false,

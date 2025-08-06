@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:dirt"
+      },
+      "title": "地属性",
+      "description": "地属性は物質生成が主であり、魔術よりも魔導具の作成などで重視されてきた。しかし、死霊術や召喚術の発展に伴い魔術での重要性が再評価された。",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": true
+    },
+    "parent": "survivalotfittest:skills/sorcery/unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

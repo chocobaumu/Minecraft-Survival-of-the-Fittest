@@ -1,0 +1,6 @@
+execute rotated ~ 0 run summon item_display ^ ^2.4 ^ {teleport_duration:2,Tags:["Choco.SotF.EvokerSword","Choco.SotF.Diamond","Choco.SotF.NatureDominion","Choco.SotF.Temp"],transformation:[-0.0000f,0.0000f,1.0000f,0.0000f,0.7071f,0.7071f,0.0000f,0.0000f,-0.7071f,0.7071f,-0.0000f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f],item:{id:"minecraft:diamond_sword",count:1}}
+execute rotated ~ 0 run summon item_display ^1.5 ^2.4 ^ {teleport_duration:2,Tags:["Choco.SotF.EvokerSword","Choco.SotF.Diamond","Choco.SotF.NatureDominion","Choco.SotF.Temp"],transformation:[-0.0000f,0.0000f,1.0000f,0.0000f,0.7071f,0.7071f,0.0000f,0.0000f,-0.7071f,0.7071f,-0.0000f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f],item:{id:"minecraft:diamond_sword",count:1}}
+execute rotated ~ 0 run summon item_display ^-1.5 ^2.4 ^ {teleport_duration:2,Tags:["Choco.SotF.EvokerSword","Choco.SotF.Diamond","Choco.SotF.NatureDominion","Choco.SotF.Temp"],transformation:[-0.0000f,0.0000f,1.0000f,0.0000f,0.7071f,0.7071f,0.0000f,0.0000f,-0.7071f,0.7071f,-0.0000f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f],item:{id:"minecraft:diamond_sword",count:1}}
+
+execute as @e[type=item_display,tag=Choco.SotF.EvokerSword,tag=Choco.SotF.Temp] at @s run rotate @s facing entity @n[tag=Choco.SotF.Target] eyes
+tag @e[type=item_display,tag=Choco.SotF.EvokerSword,tag=Choco.SotF.Temp] remove Choco.SetF.Temp

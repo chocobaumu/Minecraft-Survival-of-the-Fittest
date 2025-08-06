@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:ice"
+      },
+      "title": "[4] フロストブレス",
+      "description": "低温の霧を吹きかけて攻撃する。凍傷5ダメージを与え、移動速度低下IVと採掘速度低下IVを10秒付与する。",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:skills/sorcery/liquid/hard_steam",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

@@ -120,7 +120,6 @@ execute unless items block ~ ~ ~ container.16 * if items block ~ ~ ~ container.1
 #カレー
 execute unless items block ~ ~ ~ container.16 * unless items block ~ ~ ~ container.1 * if items block ~ ~ ~ container.2 short_grass[count=1] unless items block ~ ~ ~ container.3 * if items block ~ ~ ~ container.10 cooked_beef[count=1] if items block ~ ~ ~ container.11 honey_bottle[count=1] if items block ~ ~ ~ container.12 carrot[count=1] unless items block ~ ~ ~ container.19 * if items block ~ ~ ~ container.20 bowl[count=1] unless items block ~ ~ ~ container.21 * run function survivalotfittest:entity/item_display/custom_crafter/crafting/cooling_curry
 
-
 #シチュー
 execute unless items block ~ ~ ~ container.16 * unless items block ~ ~ ~ container.1 * if items block ~ ~ ~ container.2 beetroot[count=1] unless items block ~ ~ ~ container.3 * if items block ~ ~ ~ container.10 cooked_chicken[count=1] if items block ~ ~ ~ container.11 wheat[count=1] if items block ~ ~ ~ container.12 potato[count=1] unless items block ~ ~ ~ container.19 * if items block ~ ~ ~ container.20 bowl[count=1] unless items block ~ ~ ~ container.21 * run function survivalotfittest:entity/item_display/custom_crafter/crafting/heating_stew
 
@@ -150,6 +149,18 @@ execute unless items block ~ ~ ~ container.16 * if items block ~ ~ ~ container.1
 
 # Frecciascura
 execute unless items block ~ ~ ~ container.16 * if items block ~ ~ ~ container.1 recovery_compass[custom_data={SotF:Steel},count=1] if items block ~ ~ ~ container.2 recovery_compass[custom_data={SotF:AircraftPlate},count=1] unless items block ~ ~ ~ container.3 * if items block ~ ~ ~ container.10 recovery_compass[custom_data={SotF:AircraftPlate},count=1] if items block ~ ~ ~ container.11 redstone_block[count=1] if items block ~ ~ ~ container.12 recovery_compass[custom_data={SotF:AircraftPlate},count=1] if items block ~ ~ ~ container.19 recovery_compass[custom_data={SotF:AircraftPlate},count=1] if items block ~ ~ ~ container.20 recovery_compass[custom_data={SotF:AircraftPlate},count=1] if items block ~ ~ ~ container.21 recovery_compass[custom_data={SotF:Steel},count=1] run function survivalotfittest:entity/item_display/custom_crafter/crafting/frecciascura
+
+# ベグリフ・オブ・デス
+execute unless items block ~ ~ ~ container.16 * if items block ~ ~ ~ container.1 netherite_ingot[count=1] if items block ~ ~ ~ container.2 netherite_ingot[count=1] if items block ~ ~ ~ container.3 wither_skeleton_skull[count=1] unless items block ~ ~ ~ container.10 * if items block ~ ~ ~ container.11 stick[count=1] if items block ~ ~ ~ container.12 netherite_ingot[count=1] if items block ~ ~ ~ container.19 stick[count=1] unless items block ~ ~ ~ container.20 * unless items block ~ ~ ~ container.21 * run function survivalotfittest:entity/item_display/custom_crafter/crafting/begriff_of_death
+
+# 強化されたネザライトの剣
+execute unless items block ~ ~ ~ container.16 * if items block ~ ~ ~ container.1 netherite_block[count=1] if items block ~ ~ ~ container.2 netherite_block[count=1] if items block ~ ~ ~ container.3 nether_star[count=1] if items block ~ ~ ~ container.10 netherite_block[count=1] if items block ~ ~ ~ container.11 netherite_sword[count=1] if items block ~ ~ ~ container.12 netherite_block[count=1] if items block ~ ~ ~ container.19 nether_star[count=1] if items block ~ ~ ~ container.20 netherite_block[count=1] if items block ~ ~ ~ container.21 netherite_block[count=1] run function survivalotfittest:entity/item_display/custom_crafter/crafting/advanced_netherite_sword
+
+# 転写本
+execute unless items block ~ ~ ~ container.16 * if items block ~ ~ ~ container.1 gold_nugget[count=1] if items block ~ ~ ~ container.2 experience_bottle[count=1] if items block ~ ~ ~ container.3 feather[count=1] if items block ~ ~ ~ container.10 amethyst_shard[count=1] if items block ~ ~ ~ container.11 book[count=1] if items block ~ ~ ~ container.12 glow_ink_sac[count=1] if items block ~ ~ ~ container.19 string[count=1] if items block ~ ~ ~ container.20 amethyst_shard[count=1] if items block ~ ~ ~ container.21 gold_nugget[count=1] run function survivalotfittest:entity/item_display/custom_crafter/crafting/transcription_book
+
+# 転写スクロール
+execute unless items block ~ ~ ~ container.16 * if items block ~ ~ ~ container.1 gold_nugget[count=1] if items block ~ ~ ~ container.2 experience_bottle[count=1] if items block ~ ~ ~ container.3 feather[count=1] if items block ~ ~ ~ container.10 amethyst_shard[count=1] if items block ~ ~ ~ container.11 paper[count=1] if items block ~ ~ ~ container.12 glow_ink_sac[count=1] if items block ~ ~ ~ container.19 string[count=1] if items block ~ ~ ~ container.20 amethyst_shard[count=1] if items block ~ ~ ~ container.21 gold_nugget[count=1] run function survivalotfittest:entity/item_display/custom_crafter/crafting/transcription_scroll
 
 #音とか
 execute unless entity @s[tag=Choco.SotF.Temp] run playsound ui.button.click player @a ~ ~ ~ 1 0.5

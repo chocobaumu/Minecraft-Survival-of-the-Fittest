@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:shears"
+      },
+      "title": "[1] エヴォケーション・ファング",
+      "description": "通常: 一直線にエヴォーカーの牙を召喚する。\nスニーク: 周囲にエヴォーカーの牙を召喚する。",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:skills/sorcery/earth/unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

@@ -3,4 +3,4 @@ execute if score @s Choco.SotF.ScoreStorage.1 matches 0 at @s if entity @e[tag=C
 execute if score @s Choco.SotF.ScoreStorage.1 matches 1.. run function survivalotfittest:entity/mobs/shulker/nightmare/tick
 
 scoreboard players add @s Choco.SotF.HardMode.Attributes.SpawnTick 1
-execute if score @s Choco.SotF.HardMode.Attributes.SpawnTick matches 1 store result score @s Choco.SotF.HardMode.Attributes run random value 0..6
+execute if score @s Choco.SotF.HardMode.Attributes.SpawnTick matches 1 store result score @s Choco.SotF.HardMode.Attributes run random value 0..14

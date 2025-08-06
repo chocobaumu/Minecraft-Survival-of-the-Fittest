@@ -1,0 +1,5 @@
+execute store result score @s Choco.SotF.Random run random value 1..60
+
+execute if score @s Choco.SotF.Random matches 1..15 run summon item_display ^ ^-0.5 ^ {Tags:["Choco.SotF.Magic","Choco.SotF.Magic.PaleManacle"],brightness:{sky:10,block:15},teleport_duration:2,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.001f,1.001f,1.001f]},item:{id:"minecraft:pale_oak_leaves",count:1}}
+execute if score @s Choco.SotF.Random matches 16..30 run summon item_display ^ ^-0.5 ^ {Tags:["Choco.SotF.Magic","Choco.SotF.Magic.PaleManacle"],brightness:{sky:10,block:15},teleport_duration:2,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.001f,1.001f,1.001f]},item:{id:"minecraft:pale_moss_block",count:1}}
+execute if score @s Choco.SotF.Random matches 31..45 run summon item_display ^ ^-0.5 ^ {Tags:["Choco.SotF.Magic","Choco.SotF.Magic.PaleManacle"],brightness:{sky:10,block:15},teleport_duration:2,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[1.001f,1.001f,1.001f]},item:{id:"minecraft:dead_horn_coral_block",count:1}}

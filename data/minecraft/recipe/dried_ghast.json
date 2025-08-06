@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "dry_ghast",
+  "key": {
+    "C": "minecraft:ghast_tear",
+    "H": "minecraft:soul_sand",
+    "O": "minecraft:nether_star",
+    "B": "blaze_powder",
+    "A": "bone_meal",
+    "U": "amethyst_shard",
+    "M": "echo_shard"
+  },
+  "pattern": [
+    "BAM",
+    "AOC",
+    "UCH"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:dried_ghast"
+  }
+}
