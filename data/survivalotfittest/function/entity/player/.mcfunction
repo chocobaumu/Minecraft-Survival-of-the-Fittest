@@ -170,6 +170,9 @@ execute if score @s Choco.SotF.SorceryCool matches 1.. at @s run function surviv
 
 execute if score @s Choco.SotF.Sorcery.Void.Disapperance matches 1.. at @s run function survivalotfittest:entity/player/sorcery/cast/disapperance/
 
+execute if entity @s[advancements={survivalotfittest:skills/sorcery_skills/quick_recast_1=true}] at @s run function survivalotfittest:entity/player/sorcery/cool/quick_recast/
+
+
 #アイテム系
 
 # > ハルバード

@@ -1,0 +1,3 @@
+execute if score @s Choco.SotF.SorceryMode matches 1 unless items entity @s weapon.mainhand * at @s anchored eyes run particle dust_color_transition{from_color:[0.220,0.220,1.000],scale:1,to_color:[0.282,0.055,0.310]} ^-0.625 ^-0.325 ^1.1 0.05 0.05 0.05 0 1 force @s
+
+execute if score @s Choco.SotF.SorceryCool matches 1.. run function survivalotfittest:entity/player/sorcery/cool/quick_recast/recasting

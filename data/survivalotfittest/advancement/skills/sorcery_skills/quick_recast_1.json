@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:clock"
+      },
+      "title": "クイックリキャスト I",
+      "description": "魔術のクールタイム終了後10秒間魔術を使用しなかった場合、次の1回魔術のクールタイムを即座に終了させます。",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:skills/sorcery_skills/middle_level_sorcerer",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

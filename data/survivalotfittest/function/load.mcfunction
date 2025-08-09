@@ -228,6 +228,7 @@ scoreboard objectives add Choco.SotF.Skills.Resistant.Tick dummy
 scoreboard objectives add Choco.SotF.Skills.ShieldBash.Tick dummy
 scoreboard objectives add Choco.SotF.Skills.JustGuard.Tick dummy
 scoreboard objectives add Choco.SotF.Skills.IronClad.Tick dummy
+scoreboard objectives add Choco.SotF.Skills.QuickRecast.Tick dummy
 
 # 航空機兵装
 scoreboard objectives add Choco.SotF.Aircraft.Left.WeaponType dummy

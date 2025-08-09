@@ -54,6 +54,11 @@ execute positioned ~ ~ ~ if dimension ras:radioactiveabyss run function survival
 execute positioned ~ ~ ~ if dimension abn:abyssalocean run function survivalotfittest:internal/sorcery/magic_particle/is_abn
 execute positioned ~ ~ ~ if biome ~ ~ ~ warped_forest run function survivalotfittest:internal/sorcery/magic_particle/is_end
 
+# ソーサリースキル
+execute if entity @s[advancements={survivalotfittest:skills/sorcery_skills/elementary_sorcerer=true}] run function survivalotfittest:internal/sorcery/magic_particle/elementary_sorcerer
+execute if entity @s[advancements={survivalotfittest:skills/sorcery_skills/middle_level_sorcerer=true}] run function survivalotfittest:internal/sorcery/magic_particle/middle_level_sorcerer
+execute if entity @s[advancements={survivalotfittest:skills/sorcery_skills/mastered_sorcerer=true}] run function survivalotfittest:internal/sorcery/magic_particle/mastered_sorcerer
+
 
 # 統合
 

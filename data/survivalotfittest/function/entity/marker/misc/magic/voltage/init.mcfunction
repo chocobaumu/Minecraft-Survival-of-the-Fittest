@@ -6,5 +6,7 @@ execute if score @s Choco.SotF.Particle.Electron matches ..15 run scoreboard pla
 execute if score @s Choco.SotF.Particle.Electron matches 16.. run scoreboard players operation @s Choco.SotF.ScoreStorage.1 /= #15 Choco.SotF.Math
 execute if score @s Choco.SotF.Particle.Electron matches 16.. run scoreboard players add @s Choco.SotF.ScoreStorage.1 10
 
+execute if score @s Choco.SotF.ScoreStorage.1 matches ..-1 run scoreboard players set @s Choco.SotF.ScoreStorage.1 0
+
 execute store result entity @s data.Damage int 1 run scoreboard players get @s Choco.SotF.ScoreStorage.1
 

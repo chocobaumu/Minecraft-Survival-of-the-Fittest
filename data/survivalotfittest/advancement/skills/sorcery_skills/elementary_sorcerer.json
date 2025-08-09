@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:potion",
+        "components": {
+            "potion_contents": "healing"
+        }
+      },
+      "title": "初等魔術師",
+      "description": "すべての属性の魔素を1増加させます。",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:skills/sorcery_skills/unlock",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

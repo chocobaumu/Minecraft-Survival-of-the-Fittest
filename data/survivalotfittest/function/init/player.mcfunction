@@ -39,6 +39,7 @@ scoreboard players reset @s SculkAssimilated
 scoreboard players reset @s Choco.SotF.SorceryMode
 scoreboard players reset @s Choco.SotF.SorceryCool
 scoreboard players reset @s Choco.SotF.Malediction.Curse
+scoreboard players reset @s Choco.SotF.Skills.QuickRecast.Tick
 
 # スキルの没収
 advancement revoke @s from survivalotfittest:skills/skills

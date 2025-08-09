@@ -14,5 +14,7 @@ $execute positioned ~-0.5 ~-0.5 ~-0.5 as @a[gamemode=!creative,gamemode=!spectat
 execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=Choco.SotF.Mobs,dx=0] at @s run tp @s
 execute positioned ~-0.5 ~-0.5 ~-0.5 as @a[gamemode=!creative,gamemode=!spectator,dx=0] at @s run tp @s
 
+say hit
+
 tag @s add Choco.SotF.AlreadyHit
 function survivalotfittest:internal/kill
