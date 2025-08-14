@@ -9,3 +9,6 @@ execute if score @s Choco.SotF.Particle.Electron matches 5.. if score @s Choco.S
 
 # エレクトリック・エクスターミネイト
 execute if score @s Choco.SotF.Particle.Electron matches 9.. if score @s Choco.SotF.SorcerySelect matches 3 if entity @s[advancements={survivalotfittest:skills/sorcery/electron/electric_exterminate=true}] at @s run function survivalotfittest:entity/interaction/magic/cast/electron/electric_exterminate
+
+# ライトニング・キャノン
+execute if score @s Choco.SotF.Particle.Electron matches 12.. if score @s Choco.SotF.SorcerySelect matches 4 if entity @s[advancements={survivalotfittest:skills/sorcery/electron/lightning_cannon=true}] at @s run function survivalotfittest:entity/interaction/magic/cast/electron/lightning_cannon

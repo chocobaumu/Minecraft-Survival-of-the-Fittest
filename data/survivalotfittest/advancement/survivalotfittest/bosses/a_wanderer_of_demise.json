@@ -1,7 +1,10 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:end_stone"
+        "id": "minecraft:end_stone",
+        "components": {
+          "item_model": "survivalotfittest:dimensional_blade"
+        }
       },
       "title": "終焉世界の放浪者",
       "description": "虚空の襲撃者を討伐する",

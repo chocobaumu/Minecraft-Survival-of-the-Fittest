@@ -1,0 +1,1 @@
+damage @s 15 survivalotfittest:projectile by @n[type=slime,tag=Choco.SotF.Fomalhaut,distance=..128]

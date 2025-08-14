@@ -41,3 +41,6 @@ execute if entity @s[tag=Choco.SotF.Magic.StalkIceImpact] at @s run function sur
 
 # ヌル・プロジェクション
 execute if entity @s[tag=Choco.SotF.Magic.NullProjection] at @s run function survivalotfittest:entity/marker/misc/magic/null_projection/
+
+# ライトニング・キャノン
+execute if entity @s[tag=Choco.SotF.Magic.LightningCannon] at @s run function survivalotfittest:entity/marker/misc/magic/lightning_cannon/

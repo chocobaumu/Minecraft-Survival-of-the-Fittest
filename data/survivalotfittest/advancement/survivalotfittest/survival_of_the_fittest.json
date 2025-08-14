@@ -1,7 +1,10 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:netherite_upgrade_smithing_template"
+        "id": "minecraft:netherite_upgrade_smithing_template",
+        "components": {
+          "item_model": "survivalotfittest:sotf"
+        }
       },
       "title": "Minecraft | Survival of the Fittest",
       "description": "進歩を続け、適応せよ。",

@@ -10,6 +10,11 @@ tag @s add Choco.SotF.Seaserpent_Eats
 execute unless entity @s[gamemode=!spectator,gamemode=!creative] run function survivalotfittest:entity/player/tag_remove
 tag @s remove Choco.SotF.NearSpawnerDestroyed
 
+# HP差取得
+execute store result score @s Choco.SotF.HealthBefore run data get entity @s Health
+scoreboard players operation @s Choco.SotF.HealthBefore -= @s Choco.SotF.Health
+scoreboard players operation @s Choco.SotF.HealthBefore *= #-1 Choco.SotF.Math
+
 # HP取得
 execute store result score @s Choco.SotF.Health run data get entity @s Health
 
@@ -249,6 +254,7 @@ execute if score @s Choco.SotF.ArtifactOfIndomitability.CT matches 1.. run score
 execute if score @s Choco.SotF.ArtifactOfImmunity.CT matches 1.. run scoreboard players remove @s Choco.SotF.ArtifactOfImmunity.CT 1
 execute if score @s Choco.SotF.ArtifactOfWarrior.CT matches 1.. run scoreboard players remove @s Choco.SotF.ArtifactOfWarrior.CT 1
 execute if score @s Choco.SotF.ArtifactOfHeartbeat.CT matches 1.. run scoreboard players remove @s Choco.SotF.ArtifactOfHeartbeat.CT 1
+execute if score @s Choco.SotF.ArtifactOfArmor.CT matches 1.. run scoreboard players remove @s Choco.SotF.ArtifactOfArmor.CT 1
 
 # > スピア
 execute if predicate survivalotfittest:selected_spear at @s run function survivalotfittest:item/weapon/spear/

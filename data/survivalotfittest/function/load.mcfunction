@@ -75,6 +75,8 @@ scoreboard objectives add Choco.SotF.Health dummy
 scoreboard objectives add Choco.SotF.Trigger trigger
 scoreboard objectives add Choco.SotF.Invaders.Legion dummy
 scoreboard objectives add Choco.SotF.Invaders.Tick.0 dummy
+scoreboard objectives add Choco.SotF.HealthBefore dummy
+
 
 # アイテム持たせるやつ用
 scoreboard objectives add Choco.SotF.Items.Random dummy
@@ -193,6 +195,7 @@ scoreboard objectives add Choco.SotF.ArtifactOfIndomitability.CT dummy
 scoreboard objectives add Choco.SotF.ArtifactOfIndomitability.Health dummy
 scoreboard objectives add Choco.SotF.ArtifactOfEvil.HealThirst dummy
 scoreboard objectives add Choco.SotF.ArtifactOfImmunity.CT dummy
+scoreboard objectives add Choco.SotF.ArtifactOfArmor.CT dummy
 scoreboard objectives add Choco.SotF.AmethystSpear.Charge dummy
 scoreboard objectives add Choco.SotF.RecoveryCompass.ClickingTick dummy
 scoreboard objectives add Choco.SotF.RecoveryCompass.Clicking dummy

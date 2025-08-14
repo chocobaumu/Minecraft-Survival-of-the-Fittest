@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:crossbow"
+      },
+      "title": "[5] ライトニング・キャノン",
+      "description": "雷撃砲を放ち攻撃する。雷20ダメージを与える。着弾地点から『スパーク』を発生させる。",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:skills/sorcery/electron/electric_exterminate",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

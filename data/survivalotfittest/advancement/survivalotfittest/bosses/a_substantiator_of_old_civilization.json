@@ -1,7 +1,10 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:netherrack"
+        "id": "minecraft:netherrack",
+        "components": {
+          "item_model": "survivalotfittest:crimson_mech_saber"
+        }
       },
       "title": "旧文明の証明者",
       "description": "獄炎の守護者を討伐する",

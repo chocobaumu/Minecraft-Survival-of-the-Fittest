@@ -42,6 +42,7 @@ execute unless entity @e[type=stray,tag=Choco.SotF.Sorcerer_of_SnowField] run bo
 execute unless entity @e[type=skeleton,tag=Choco.SotF.Aotumuri] run bossbar remove sotf:aotumuri
 execute unless entity @e[type=skeleton,tag=Choco.SotF.Yukiikuma] unless entity @e[type=polar_bear,tag=Choco.SotF.YukiikumaGuardian] run bossbar remove sotf:yukiikuma
 execute unless entity @e[type=evoker,tag=Choco.SotF.NatureDominion] run bossbar remove sotf:nature_dominion
+execute unless entity @e[type=slime,tag=Choco.SotF.Fomalhaut,scores={Choco.SotF.Tick.0=40..}] run bossbar remove sotf:fomalhaut
 
 #ワールド全体の時間
 scoreboard players add #World Choco.SotF.Tick.0 1

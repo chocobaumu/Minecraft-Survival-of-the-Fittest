@@ -1,0 +1,15 @@
+{
+  "structures": [
+    {
+      "structure": "survivalotfittest:ancient_laboratory",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing":72,
+    "separation": 64,
+    "spread_type": "triangular",
+    "salt": 5193906
+  }
+}

@@ -1,7 +1,10 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:blast_furnace"
+        "id": "minecraft:blast_furnace",
+        "components": {
+          "item_model": "survivalotfittest:refinery"
+        }
       },
       "title": "第二次産業革命",
       "description": "精油装置を作成する",

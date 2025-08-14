@@ -89,11 +89,17 @@ execute if entity @s[tag=Choco.SotF.StoneOfNatureDomain] at @s run function surv
 # ネイチャードミニオン
 execute if entity @s[tag=Choco.SotF.LivingCrossbow] at @s run function survivalotfittest:entity/item_display/nature_dominion/crossbow/
 
+# フォーマルハウト
+execute if entity @s[tag=aj.fomalhaut.root] at @s run function survivalotfittest:entity/item_display/fomalhaut/
+
 # 強化ブレイズ
 execute if entity @s[tag=Choco.SotF.ExplosiveRod] at @s run function survivalotfittest:entity/item_display/explosive_rod/
 
 # 強化エンダーマン
 execute if entity @s[tag=Choco.SotF.AlphaEnderman.Laser] at @s run function survivalotfittest:entity/item_display/enderman_alpha/laser/
+
+# パーティクル
+execute if entity @s[tag=Choco.SotF.Particle.Impact] at @s run function survivalotfittest:entity/item_display/custom_particle/impact/
 
 #ADMIN
 

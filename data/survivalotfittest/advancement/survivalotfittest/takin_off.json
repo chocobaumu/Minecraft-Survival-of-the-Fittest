@@ -1,7 +1,10 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:feather"
+        "id": "minecraft:feather",
+        "components": {
+          "item_model": "survivalotfittest:frecciascura"
+        }
       },
       "title": "離着陸に気を付けて",
       "description": "Frecciascuraを作成する\nTNT、鉄塊、ガソリンを充填することができます。",

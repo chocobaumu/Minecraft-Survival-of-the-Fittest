@@ -140,6 +140,13 @@ execute if entity @s[tag=Choco.SotF.SculkStarShard] at @s run function survivalo
 # ネイチャードミニオン
 execute if entity @s[tag=Choco.SotF.SoulExplosion] at @s run function survivalotfittest:entity/marker/misc/nature_dominion/soul_explosion/
 
+# フォーマルハウト
+execute if entity @s[tag=Choco.SotF.Fomalhaut.Gatling_Bullet] at @s run function survivalotfittest:entity/marker/misc/fomalhaut/gatling/
+execute if entity @s[tag=Choco.SotF.Fomalhaut.LaserShot] at @s run function survivalotfittest:entity/marker/misc/fomalhaut/laser_shot/
+execute if entity @s[tag=Choco.SotF.Fomalhaut.Missile] at @s run function survivalotfittest:entity/marker/misc/fomalhaut/missile/
+execute if entity @s[tag=Choco.SotF.Fomalhaut.LightningCannon.Target] at @s run function survivalotfittest:entity/marker/misc/fomalhaut/lightning_cannon_targeting
+execute if entity @s[tag=Choco.SotF.Fomalhaut.Spawnpoint] at @s run function survivalotfittest:entity/marker/misc/fomalhaut/spawnpoint
+
 #核
 execute if entity @s[tag=Choco.SotF.NukeBurst] at @s run function survivalotfittest:entity/item_display/nuke/explosion
 execute if entity @s[tag=Choco.SotF.NukeMushroomCloud] at @s run function survivalotfittest:entity/item_display/nuke/cloud

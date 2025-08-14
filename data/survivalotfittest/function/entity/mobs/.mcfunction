@@ -280,6 +280,9 @@ execute if entity @s[type=stray,tag=Choco.SotF.Sorcerer_of_SnowField] at @s run 
 # ネイチャードミニオン
 execute if entity @s[type=evoker,tag=Choco.SotF.NatureDominion] at @s run function survivalotfittest:entity/mobs/nature_dominion/
 
+# フォーマルハウト
+execute if entity @s[type=slime,tag=Choco.SotF.Fomalhaut] at @s run function survivalotfittest:entity/mobs/fomalhaut/
+
 # Chocobaumu_JPN
 execute if entity @s[type=skeleton,tag=Choco.SotF.Chocobaumu] at @s run function survivalotfittest:entity/mobs/admin/chocobaumu/
 

@@ -1,0 +1,1 @@
+damage @s 50 survivalotfittest:bypasses_armors by @n[type=slime,tag=Choco.SotF.Fomalhaut,distance=..128]

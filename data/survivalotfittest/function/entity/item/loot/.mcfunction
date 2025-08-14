@@ -82,5 +82,9 @@ execute if predicate survivalotfittest:loot/sorcerer_of_snowfield_scroll run fun
 execute if predicate survivalotfittest:loot/nature_dominion_artifact run function survivalotfittest:entity/item/loot/exchange/nature_dominion_artifact
 execute if predicate survivalotfittest:loot/nature_dominion_scroll run function survivalotfittest:entity/item/loot/exchange/nature_dominion_scroll
 
+# フォーマルハウト
+execute if predicate survivalotfittest:loot/fomalhaut_artifact run function survivalotfittest:entity/item/loot/exchange/fomalhaut_artifact
+execute if predicate survivalotfittest:loot/fomalhaut_scroll run function survivalotfittest:entity/item/loot/exchange/fomalhaut_scroll
+
 # > ランダムなスクロール
 execute if predicate survivalotfittest:loot/random_scroll run function survivalotfittest:entity/item/loot/exchange/random_scroll

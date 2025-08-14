@@ -9,3 +9,4 @@ execute if predicate survivalotfittest:artifacts/dragon run function survivalotf
 execute if predicate survivalotfittest:artifacts/eye run function survivalotfittest:item/artifacts/eye/
 execute if predicate survivalotfittest:artifacts/mysterious_object run function survivalotfittest:item/artifacts/mysterious_object/
 execute if predicate survivalotfittest:artifacts/assimilation at @s run function survivalotfittest:item/artifacts/assimilation/
+execute if predicate survivalotfittest:artifacts/armor at @s run function survivalotfittest:item/artifacts/armor/

@@ -1,0 +1,1 @@
+damage @s 30 mob_attack by @n[tag=Choco.SotF.Temp,distance=..16]

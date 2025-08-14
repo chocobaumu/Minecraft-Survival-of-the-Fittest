@@ -1,0 +1,17 @@
+{
+    "name": "abandoned_combat_vehicle",
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "projection": "rigid",
+          "location": "survivalotfittest:sotf/ancient_laboratory",
+          "processors": {
+            "processors": []
+          }
+        },
+        "weight": 1
+      }
+    ],
+    "fallback": "minecraft:empty"
+  }

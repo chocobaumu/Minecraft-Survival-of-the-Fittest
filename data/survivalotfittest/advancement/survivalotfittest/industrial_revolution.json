@@ -1,7 +1,10 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:crafting_table"
+        "id": "minecraft:crafting_table",
+        "components": {
+          "item_model": "survivalotfittest:custom_crafter"
+        }
       },
       "title": "産業革命",
       "description": "高度な作業台を作成する",

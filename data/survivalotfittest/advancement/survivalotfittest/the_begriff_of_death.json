@@ -1,7 +1,10 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:wither_skeleton_skull"
+        "id": "minecraft:wither_skeleton_skull",
+        "components": {
+          "item_model": "survivalotfittest:begriff_of_death"
+        }
       },
       "title": "呪ひて其の命灰に帰す...",
       "description": "ベグリフ・オブ・デスを手に入れる\n『死の概念』です。",
