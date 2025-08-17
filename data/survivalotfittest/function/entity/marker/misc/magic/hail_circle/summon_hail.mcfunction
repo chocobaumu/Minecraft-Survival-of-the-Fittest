@@ -1,0 +1,1 @@
+$summon minecraft:marker ^ ^10 ^$(hail_distance) {Tags:["Choco.SotF.Magic","Choco.SotF.Magic.HailCircle.Hail"]}

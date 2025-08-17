@@ -1,0 +1,1 @@
+$particle trail{color:$(Color),target:[$(PosX), $(PosY), $(PosZ)],duration:$(Duration)} $(Pos) $(Delta) $(Speed) $(Count) $(Visibility)

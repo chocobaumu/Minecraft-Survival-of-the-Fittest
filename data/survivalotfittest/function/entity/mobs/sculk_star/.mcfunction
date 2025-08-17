@@ -31,6 +31,8 @@ execute if score @s Choco.SotF.Data.HurtTime matches 9 run playsound minecraft:e
 # 分裂
 execute store result storage sotf:sculk_star health int 1 run data get entity @s Health
 execute if score @s Choco.SotF.ScoreStorage.0 matches 10.. at @s run function survivalotfittest:entity/mobs/sculk_star/split with storage sotf:sculk_star
+#* ナイトメア
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 if score @s Choco.SotF.ScoreStorage.0 matches 7.. at @s run function survivalotfittest:entity/mobs/sculk_star/split with storage sotf:sculk_star
 
 # カウント
 execute store result score #SculkStarAmount Choco.SotF.ScoreStorage.0 run execute if entity @e[type=slime,tag=Choco.SotF.SculkStar]

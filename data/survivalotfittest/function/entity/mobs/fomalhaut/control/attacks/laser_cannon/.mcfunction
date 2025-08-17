@@ -22,5 +22,6 @@ execute if score @s Choco.SotF.tick.4 matches 27 if score @s Choco.SotF.tick.8 m
 
 # リセット
 execute if score @s Choco.SotF.tick.4 matches 36 run scoreboard players set @s Choco.SotF.ScoreStorage.4 0
-execute if score @s Choco.SotF.tick.4 matches 36 run scoreboard players add @s Choco.SotF.tick.6 150
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 0 if score @s Choco.SotF.tick.4 matches 36 run scoreboard players add @s Choco.SotF.tick.6 150
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 if score @s Choco.SotF.tick.4 matches 36 run scoreboard players add @s Choco.SotF.tick.6 75
 execute if score @s Choco.SotF.tick.4 matches 36.. run scoreboard players set @s Choco.SotF.tick.4 0

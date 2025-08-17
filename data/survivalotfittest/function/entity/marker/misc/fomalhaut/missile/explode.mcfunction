@@ -26,6 +26,9 @@ execute as @e[distance=..12] run damage @s 4 explosion by @n[tag=Choco.SotF.Owne
 execute as @e[distance=..15] run damage @s 2 explosion by @n[tag=Choco.SotF.Owner]
 execute as @e[distance=..18] run damage @s 1 explosion by @n[tag=Choco.SotF.Owner]
 
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 run summon creeper ~ ~ ~ {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,powered:1b,ExplosionRadius:2b,Fuse:0,CustomName:"ミサイル"}
+
+
 tag @e remove Choco.SotF.Owner
 
 # 隆起

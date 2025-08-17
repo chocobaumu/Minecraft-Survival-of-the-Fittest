@@ -1,1 +1,1 @@
-execute at @s rotated as @n[type=marker,tag=Choco.SotF.SoulFunnel] run rotate @s ~ ~
+execute unless entity @s[tag=Choco.SotF.SculkStarShoot] at @s rotated as @n[type=marker,tag=Choco.SotF.SoulFunnel] run rotate @s ~ ~

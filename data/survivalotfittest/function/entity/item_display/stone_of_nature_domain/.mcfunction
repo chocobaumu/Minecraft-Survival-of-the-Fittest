@@ -28,3 +28,5 @@ execute if entity @s[tag=!Choco.SotF.Activated] if score @s Choco.SotF.tick.1 ma
 
 
 execute if entity @s[tag=Choco.SotF.Activated] at @s run function survivalotfittest:entity/item_display/stone_of_nature_domain/activated/
+
+execute at @s run advancement grant @a[distance=..8] only survivalotfittest:survivalotfittest/bosses/a_desirer_of_overbearing_succession

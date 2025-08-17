@@ -30,3 +30,9 @@ execute if score @s Choco.SotF.ScoreStorage.4 matches 9 at @s run function survi
 
 # 単発ミサイル
 execute if score @s Choco.SotF.ScoreStorage.4 matches 10 at @s run function survivalotfittest:entity/mobs/fomalhaut/control/attacks/missile/once
+
+# 火炎放射(ナイトメア限定)
+execute if score @s Choco.SotF.ScoreStorage.4 matches 11 at @s run function survivalotfittest:entity/mobs/fomalhaut/control/attacks/flamethrower/
+
+# 跳躍(ナイトメア限定)
+execute if score @s Choco.SotF.ScoreStorage.4 matches 12 at @s run function survivalotfittest:entity/mobs/fomalhaut/control/attacks/leap/

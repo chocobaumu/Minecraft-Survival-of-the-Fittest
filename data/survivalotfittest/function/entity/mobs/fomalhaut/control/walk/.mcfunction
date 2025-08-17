@@ -10,6 +10,7 @@ execute if score @s Choco.SotF.tick.1 matches 15 on vehicle if entity @s[type=it
 execute if score @s Choco.SotF.tick.1 matches 17 on vehicle if entity @s[type=item_display,tag=aj.fomalhaut.root] at @s run function survivalotfittest:entity/mobs/fomalhaut/control/walk/procceed
 execute if score @s Choco.SotF.tick.1 matches 25 on vehicle if entity @s[type=item_display,tag=aj.fomalhaut.root] at @s run function survivalotfittest:entity/mobs/fomalhaut/control/walk/procceed
 execute if score @s Choco.SotF.tick.1 matches 28 on vehicle if entity @s[type=item_display,tag=aj.fomalhaut.root] at @s run function survivalotfittest:entity/mobs/fomalhaut/control/walk/procceed
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 at @s run function survivalotfittest:entity/mobs/fomalhaut/control/walk/nightmare
 
 # パーティクル
 execute if score @s Choco.SotF.tick.1 matches 16 on vehicle if entity @s[type=item_display,tag=aj.fomalhaut.root] at @s rotated ~ 0 run particle campfire_cosy_smoke ^-1.4 ^0.1 ^3.5 0.5 0 0.5 0 5 normal

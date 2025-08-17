@@ -1,22 +1,30 @@
 # 攻撃方法をここから判定する
 # 関数内の下のものが優先される
 
+# Y差取得 
+execute store result score #TargetY Choco.SotF.Pos.1 run data get entity @n[tag=Choco.SotF.Target,distance=..64] Pos[1]
+scoreboard players operation #TargetY Choco.SotF.Pos.1 -= @s Choco.SotF.Pos.1
+
 
 # > 突進
 execute unless entity @e[tag=Choco.SotF.Target,distance=..16] run scoreboard players set @s Choco.SotF.ScoreStorage.4 2
+
+# > 跳躍(ナイトメア)
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 unless entity @e[tag=Choco.SotF.Target,distance=..24] run scoreboard players set @s Choco.SotF.ScoreStorage.4 12
 
 # レーザー砲(薙ぎ払い)
 #execute if score @s Choco.SotF.tick.6 matches 0 unless entity @e[tag=Choco.SotF.Target,distance=..18] if entity @e[tag=Choco.SotF.Target,distance=..27] run scoreboard players set @s Choco.SotF.ScoreStorage.4 4
 
 # レーザー砲(射撃)
-execute if score @s Choco.SotF.tick.6 matches ..200 unless entity @e[tag=Choco.SotF.Target,distance=..12] run scoreboard players set @s Choco.SotF.ScoreStorage.4 4
+execute if score @s Choco.SotF.tick.6 matches ..200 if score #TargetY Choco.SotF.Pos.1 matches -5..5 unless entity @e[tag=Choco.SotF.Target,distance=..12] run scoreboard players set @s Choco.SotF.ScoreStorage.4 4
 
 # > ガトリング
-execute if score @s Choco.SotF.tick.5 matches 0 unless entity @e[tag=Choco.SotF.Target,distance=..20] run scoreboard players set @s Choco.SotF.ScoreStorage.4 3
+execute if score @s Choco.SotF.tick.5 matches 0 if score #TargetY Choco.SotF.Pos.1 matches -5..5 unless entity @e[tag=Choco.SotF.Target,distance=..20] run scoreboard players set @s Choco.SotF.ScoreStorage.4 3
+
+# > 跳躍(ナイトメア)
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 unless score #TargetY Choco.SotF.Pos.1 matches ..3 run scoreboard players set @s Choco.SotF.ScoreStorage.4 12
 
 # > 単発ミサイル
-execute store result score #TargetY Choco.SotF.Pos.1 run data get entity @n[tag=Choco.SotF.Target,distance=..64] Pos[1]
-scoreboard players operation #TargetY Choco.SotF.Pos.1 -= @s Choco.SotF.Pos.1
 execute if score @s Choco.SotF.ScoreStorage.5 matches 1.. unless score #TargetY Choco.SotF.Pos.1 matches -7..7 run scoreboard players set @s Choco.SotF.ScoreStorage.4 10
 
 # > 魔術
@@ -29,6 +37,9 @@ execute if entity @e[tag=Choco.SotF.Target,distance=..7] positioned ^ ^2 ^3 if e
 # > コア叩きつけ
 execute if entity @e[tag=Choco.SotF.Target,distance=..7] run scoreboard players add @s Choco.SotF.tick.9 1
 execute if score @s Choco.SotF.tick.9 matches 100.. if entity @e[tag=Choco.SotF.Target,distance=..7] run scoreboard players set @s Choco.SotF.ScoreStorage.4 7
+
+# > 火炎放射(ナイトメア)
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 if score #TargetY Choco.SotF.Pos.1 matches -3..3 if score @s Choco.SotF.ScoreStorage.7 matches 0 if entity @e[tag=Choco.SotF.Target,distance=..16] run scoreboard players set @s Choco.SotF.ScoreStorage.4 11
 
 # > 距離を取り別行動に派生
 execute if score @s Choco.SotF.tick.6 matches 0 if score @s Choco.SotF.tick.5 matches 0 run scoreboard players set @s Choco.SotF.ScoreStorage.4 5

@@ -14,5 +14,7 @@ execute if score @s Choco.SotF.tick.4 matches 150.. if score #Random Choco.SotF.
 execute if score @s Choco.SotF.tick.4 matches 150.. if score #Random Choco.SotF.Random matches 2 run scoreboard players set @s Choco.SotF.ScoreStorage.4 3
 execute if score @s Choco.SotF.tick.4 matches 150.. if score #Random Choco.SotF.Random matches 3 run scoreboard players set @s Choco.SotF.ScoreStorage.4 4
 
+# ナイトメア
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 if score @s Choco.SotF.tick.4 matches 150.. run function survivalotfittest:entity/mobs/fomalhaut/control/attacks/get_distance/nightmare
 
 execute if score @s Choco.SotF.tick.4 matches 150.. run scoreboard players set @s Choco.SotF.tick.4 0

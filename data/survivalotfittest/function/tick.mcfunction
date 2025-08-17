@@ -1,7 +1,12 @@
+#! 以下のコメントには追加されていない項目が複数あります。
+#! メモとして残しますが、詳細はABOUT_DERIVATIVE_WORKS.mdを参照してください。
+#!-------------------------------------------------------------------------------------------------------------------- 
 #tag周り | Choco.SotF.Custom=追加AI無効 Choco.SotF.Zombie_Target=ゾンビ系が狙うやつ Choco.SotF.Mobs=Mob全般
 #   　　 | Choco.SotF.Block_Destroyable=ブロック破壊可能エンティティ Choco.SotF.Enemies_Target=敵mob全般狙うやつ
 #   　　 | Choco.SotF.TeleportwithEnderman=エンダーマンとTP可能 Choco.SotF.NotDisplayDamages=ダメージ表示しない
 #   　　 | Choco.SotF.Illigers = イリジャー系 Choco.SotF.Kraken_Eats = クラーケンが襲う
+#!-------------------------------------------------------------------------------------------------------------------- 
+
 
 execute as @e run function survivalotfittest:entity/
 
@@ -19,6 +24,8 @@ execute if score #DoHeavyRainHappnes Choco.SotF.ScoreStorage.0 matches 1 run fun
 execute if score #DoHurricaneHappnes Choco.SotF.ScoreStorage.0 matches 0 run function survivalotfittest:event/hurricane/
 #津波
 execute if score #DoTsunamiHappnes Choco.SotF.ScoreStorage.0 matches 0 run function survivalotfittest:event/tsunami/
+# 不安定な生成物
+execute run function survivalotfittest:event/unstable_meteorite/
 
 #ナイトメア用
 execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 run function survivalotfittest:event/nightmare/

@@ -1,0 +1,1 @@
+$summon marker ~ ~ ~ {Tags:["Choco.SotF.Unstable_Meteorite","Choco.SotF.Condition.$(Condition)"]}

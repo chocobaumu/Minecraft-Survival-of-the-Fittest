@@ -46,3 +46,11 @@ execute if score @s Choco.SotF.tick.12 matches 159.. run scoreboard players set 
 # > エヴォケーション・ファング
 scoreboard players add @s Choco.SotF.tick.13 1
 execute if score @s Choco.SotF.tick.13 matches 5.. at @s run function survivalotfittest:entity/mobs/nature_dominion/phase2/evocation_fang
+
+#* > ニーデッド・ソード(ナイトメア)
+scoreboard players add @s Choco.SotF.tick.2 0
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 at @s if entity @e[tag=Choco.SotF.Target,distance=..128] unless entity @e[tag=Choco.SotF.Target,distance=..16] if score @s Choco.SotF.tick.2 matches 0 run scoreboard players set @s Choco.SotF.tick.2 1
+execute if score @s Choco.SotF.tick.2 matches 1.. at @s run function survivalotfittest:entity/mobs/nature_dominion/sorcery/kneaded_sword/
+
+#* TNT(ナイトメア)
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 unless items entity @s weapon.mainhand totem_of_undying at @s run function survivalotfittest:entity/mobs/nature_dominion/phase2/nightmare/tnt/

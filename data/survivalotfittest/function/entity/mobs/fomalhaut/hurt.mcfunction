@@ -8,3 +8,4 @@ execute on attacker if entity @s[type=!player,tag=Choco.SotF.Mobs,tag=!Choco.Sot
 
 # コア叩きつけを何回かで発動
 scoreboard players add @s Choco.SotF.tick.9 15
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 run scoreboard players add @s Choco.SotF.tick.9 15

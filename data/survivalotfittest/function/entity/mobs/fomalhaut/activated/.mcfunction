@@ -42,11 +42,15 @@ execute if score @s Choco.SotF.tick.6 matches 1.. run scoreboard players remove 
 scoreboard players add @s Choco.SotF.tick.7 1
 execute if score @s Choco.SotF.ScoreStorage.5 matches 12.. run scoreboard players set @s Choco.SotF.tick.7 0
 execute if score @s Choco.SotF.tick.7 matches 200.. at @s run function survivalotfittest:entity/mobs/fomalhaut/control/attacks/missile/reloading
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 if score @s Choco.SotF.tick.7 matches 100.. at @s run function survivalotfittest:entity/mobs/fomalhaut/control/attacks/missile/reloading
 # 回復
 execute if score @s Choco.SotF.tick.10 matches 1.. run scoreboard players remove @s Choco.SotF.tick.10 1
 # まじゅちゅ
 execute if score @s Choco.SotF.tick.11 matches 1.. run scoreboard players remove @s Choco.SotF.tick.11 1
-
+# 火炎放射(ナイトメア)
+execute if score @s Choco.SotF.ScoreStorage.7 matches 1.. run scoreboard players remove @s Choco.SotF.ScoreStorage.7 1
+# 水撒き(ナイトメア)
+execute if score @s Choco.SotF.tick.12 matches 1.. run scoreboard players remove @s Choco.SotF.tick.12 1
 # 以下はメモ
 # ScoreStorage4は攻撃方法の判定用
 # tick5はｶﾞﾄｶﾞﾄのリロード時間、0が使用可能状態

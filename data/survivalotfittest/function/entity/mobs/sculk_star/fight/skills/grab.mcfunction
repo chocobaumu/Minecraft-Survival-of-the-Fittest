@@ -12,6 +12,11 @@ execute at @s positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=Choco.SotF.Target,dx=0] at 
 
 tag @s remove Choco.SotF.Temp
 
+#* ナイトメア
+execute store result score #Target Choco.SotF.Data.HurtTime run data get entity @n[tag=Choco.SotF.Target,dx=0] HurtTime
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 if score #Target Choco.SotF.Data.HurtTime matches 9.. at @s positioned ~-0.5 ~-0.5 ~-0.5 run scoreboard players add @e[tag=Choco.SotF.Target,dx=0] SculkAssimilated 20
+
+
 particle dust{color:[0.85, 0.0, 0.0],scale:1} ~ ~0.5 ~ 0.25 0.25 0.25 0 3 force
 particle witch ~ ~0.5 ~ 0.25 0.25 0.25 0 3 force
 

@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "survivalotfittest:survivalotfittest/bosses/bosses",
+    "parent": "survivalotfittest:survivalotfittest/bosses/ominous_communicator",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:impossible"

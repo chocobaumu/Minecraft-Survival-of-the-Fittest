@@ -10,7 +10,7 @@
       "announce_to_chat": true,
       "hidden": false
     },
-    "parent": "survivalotfittest:survivalotfittest/bosses/bosses",
+    "parent": "survivalotfittest:survivalotfittest/bosses/a_desirer_of_overbearing_succession",
     "criteria": {
       "requirement": {
         "trigger": "minecraft:player_killed_entity",

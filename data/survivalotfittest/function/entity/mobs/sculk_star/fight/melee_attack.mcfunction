@@ -3,9 +3,13 @@ execute at @s unless block ^ ^ ^0.7 #survivalotfittest:can_through run function 
 execute at @s rotated as @s run tp @s ^ ^ ^0.7
 
 tag @s add Choco.SotF.Temp
-execute unless entity @s[tag=hoco.SotF.Phase2] at @s positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=Choco.SotF.Target,dx=0] run damage @s 10 mob_attack by @n[tag=Choco.SotF.Temp]
-execute if entity @s[tag=hoco.SotF.Phase2] at @s positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=Choco.SotF.Target,dx=0] run damage @s 20 mob_attack by @n[tag=Choco.SotF.Temp]
+execute unless entity @s[tag=Choco.SotF.Phase2] at @s positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=Choco.SotF.Target,dx=0] run damage @s 10 mob_attack by @n[tag=Choco.SotF.Temp]
+execute if entity @s[tag=Choco.SotF.Phase2] at @s positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=Choco.SotF.Target,dx=0] run damage @s 20 mob_attack by @n[tag=Choco.SotF.Temp]
 tag @s remove Choco.SotF.Temp
+
+#* ナイトメア
+execute store result score #Target Choco.SotF.Data.HurtTime run data get entity @n[tag=Choco.SotF.Target,dx=0] HurtTime
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 if score #Target Choco.SotF.Data.HurtTime matches 9.. at @s positioned ~-0.5 ~-0.5 ~-0.5 run scoreboard players add @e[tag=Choco.SotF.Target,dx=0] SculkAssimilated 100
 
 particle dust{color:[0.85, 0.0, 0.0],scale:1} ~ ~0.5 ~ 0.25 0.25 0.25 0 3 force
 

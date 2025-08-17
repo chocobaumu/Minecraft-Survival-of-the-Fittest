@@ -44,3 +44,7 @@ execute if entity @s[tag=Choco.SotF.Magic.NullProjection] at @s run function sur
 
 # ライトニング・キャノン
 execute if entity @s[tag=Choco.SotF.Magic.LightningCannon] at @s run function survivalotfittest:entity/marker/misc/magic/lightning_cannon/
+
+# ヘイル・サークル
+execute if entity @s[tag=Choco.SotF.Magic.HailCircle] at @s run function survivalotfittest:entity/marker/misc/magic/hail_circle/
+execute if entity @s[tag=Choco.SotF.Magic.HailCircle.Hail] at @s run function survivalotfittest:entity/marker/misc/magic/hail_circle/hail/

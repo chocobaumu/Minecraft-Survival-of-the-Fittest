@@ -217,6 +217,9 @@ execute if entity @s[tag=Choco.SotF.Magic] at @s run function survivalotfittest:
 # マレディション
 execute if entity @s[tag=Choco.SotF.Malediction.Bullet] at @s run function survivalotfittest:entity/marker/misc/malediction/
 
+# 不安定な隕石
+execute if entity @s[tag=Choco.SotF.Unstable_Meteorite] at @s run function survivalotfittest:entity/marker/misc/unstable_meteorite/
+
 #アトリビュート
 execute if entity @s[tag=Choco.SotF.PhantomStep.Shadow] at @s run function survivalotfittest:entity/marker/misc/phantom_step/
 

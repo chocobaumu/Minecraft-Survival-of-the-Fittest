@@ -1,0 +1,4 @@
+execute if score @s Choco.SotF.tick.1 matches 15 on vehicle if entity @s[type=item_display,tag=aj.fomalhaut.root] at @s run function survivalotfittest:entity/mobs/fomalhaut/control/walk/procceed
+execute if score @s Choco.SotF.tick.1 matches 17 on vehicle if entity @s[type=item_display,tag=aj.fomalhaut.root] at @s run function survivalotfittest:entity/mobs/fomalhaut/control/walk/procceed
+execute if score @s Choco.SotF.tick.1 matches 25 on vehicle if entity @s[type=item_display,tag=aj.fomalhaut.root] at @s run function survivalotfittest:entity/mobs/fomalhaut/control/walk/procceed
+execute if score @s Choco.SotF.tick.1 matches 28 on vehicle if entity @s[type=item_display,tag=aj.fomalhaut.root] at @s run function survivalotfittest:entity/mobs/fomalhaut/control/walk/procceed

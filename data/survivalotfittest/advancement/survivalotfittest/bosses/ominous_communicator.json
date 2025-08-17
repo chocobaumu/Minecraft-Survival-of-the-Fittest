@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:echo_shard"
+      },
+      "title": "不吉な交信装置",
+      "description": "スカルクカタリスト、スカルクシュリーカー、額縁で星見人の祭壇を作る\nアメジストで信号を増幅すると...?",
+      "frame": "task",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:survivalotfittest/bosses/bosses",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

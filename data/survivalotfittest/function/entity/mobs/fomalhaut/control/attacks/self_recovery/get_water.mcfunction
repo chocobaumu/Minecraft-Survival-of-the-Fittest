@@ -15,6 +15,7 @@ particle bubble ~ ~0.1 ~ 2 0 2 0 100 force
 
 # 水保持スコアを増加させる
 scoreboard players add @s Choco.SotF.ScoreStorage.6 1
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 run scoreboard players add @s Choco.SotF.ScoreStorage.6 1
 
 # 3以上吸ったら回復
 execute if score @s Choco.SotF.ScoreStorage.6 matches 3.. run function survivalotfittest:entity/mobs/fomalhaut/control/attacks/self_recovery/recovery

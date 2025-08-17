@@ -7,3 +7,6 @@ execute if score @s Choco.SotF.tick.1 matches 2..42 at @s run function survivalo
 execute if score @s Choco.SotF.tick.1 matches 42 if items entity @s weapon.mainhand glass_bottle run item replace entity @s weapon.mainhand with air
 
 execute if score @s Choco.SotF.tick.1 matches 300.. run scoreboard players set @s Choco.SotF.tick.1 0
+
+#* ナイトメア
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 if score @s Choco.SotF.tick.1 matches 200.. run scoreboard players set @s Choco.SotF.tick.1 0

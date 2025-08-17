@@ -26,3 +26,6 @@ tag @s add Choco.SotF.Temp
 execute as @n[type=marker,tag=Choco.SotF.Fomalhaut.LaserShot,tag=Choco.SotF.Temp,distance=..16] at @s rotated as @n[type=item_display,tag=Choco.SotF.Temp] run rotate @s ~ ~5
 tag @n[type=marker,tag=Choco.SotF.Fomalhaut.LaserShot,tag=Choco.SotF.Temp,distance=..16] remove Choco.SotF.Temp
 tag @s remove Choco.SotF.Temp
+
+# ナイトメア
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 run function survivalotfittest:entity/mobs/fomalhaut/control/attacks/laser_cannon/nightmare

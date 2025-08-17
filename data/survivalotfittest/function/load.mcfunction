@@ -46,6 +46,7 @@ scoreboard objectives add Choco.SotF.tick.10 dummy
 scoreboard objectives add Choco.SotF.tick.11 dummy
 scoreboard objectives add Choco.SotF.tick.12 dummy
 scoreboard objectives add Choco.SotF.tick.13 dummy
+scoreboard objectives add Choco.SotF.tick.14 dummy
 scoreboard objectives add Choco.SotF.Math dummy
 scoreboard players set #-1 Choco.SotF.Math -1
 scoreboard players set #2 Choco.SotF.Math 2
