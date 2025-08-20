@@ -52,5 +52,11 @@ execute if score @s Choco.SotF.Health matches ..149 if score @s Choco.SotF.tick.
 execute if score @s Choco.SotF.Health matches ..149 if score @s Choco.SotF.tick.10 matches 0 on vehicle if entity @s[type=item_display,tag=aj.fomalhaut.root] at @s on passengers if entity @s[type=slime,tag=Choco.SotF.Fomalhaut] if block ~ ~-0.1 ~ #survivalotfittest:fomalhaut_destroy_with_generating_water[waterlogged=true] run scoreboard players set @s Choco.SotF.ScoreStorage.4 8
 execute if score @s Choco.SotF.Health matches ..149 if score @s Choco.SotF.tick.10 matches 0 on vehicle if entity @s[type=item_display,tag=aj.fomalhaut.root] at @s on passengers if entity @s[type=slime,tag=Choco.SotF.Fomalhaut] if block ~ ~-0.5 ~ #survivalotfittest:water_and_else run scoreboard players set @s Choco.SotF.ScoreStorage.4 8
 
+# > 水探し
+execute if score @s Choco.SotF.Health matches ..149 if score @s Choco.SotF.tick.13 matches 0 on vehicle if entity @s[type=item_display,tag=aj.fomalhaut.root] at @s on passengers if entity @s[type=slime,tag=Choco.SotF.Fomalhaut] run function survivalotfittest:entity/mobs/fomalhaut/control/attacks/search_water/
+
+# > 水の場所へ移動
+execute if score @s Choco.SotF.Health matches ..149 if score @s Choco.SotF.tick.10 matches 0 if score @s Choco.SotF.tick.14 matches 0 run scoreboard players set @s Choco.SotF.ScoreStorage.4 13
+
 # > ミサイルバラージ
 execute if score @s Choco.SotF.ScoreStorage.5 matches 12 run scoreboard players set @s Choco.SotF.ScoreStorage.4 6

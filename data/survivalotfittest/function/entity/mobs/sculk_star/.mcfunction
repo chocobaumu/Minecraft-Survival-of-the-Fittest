@@ -5,7 +5,7 @@ execute if score @s Choco.SotF.Tick.0 matches 1 store result score @s Choco.SotF
 execute if score @s Choco.SotF.Tick.0 matches 1 run scoreboard players operation @s Choco.SotF.ScoreStorage.5 /= #2 Choco.SotF.Math
 
 #bossbar
-bossbar add sotf:sculk_star {"bold":true,"color":"#0F4034","italic":false,"text":"スカルクの星"}
+bossbar add sotf:sculk_star [{"bold":false,"color":"dark_aqua","italic":false,"text":"―《├≪✯≫┤ "},{"bold":true,"color":"#0F4034","italic":false,"text":"スカルクの星"},{"bold":false,"color":"dark_aqua","italic":false,"text":" ├≪✯≫┤》―"}]
 execute unless entity @s[tag=Choco.SotF.Phase2] run bossbar set sotf:sculk_star color blue
 
 execute store result score #SculkStarMax Choco.SotF.Health run execute if entity @e[type=slime,tag=Choco.SotF.SculkStar]
@@ -13,7 +13,6 @@ scoreboard players operation #SculkStarMax Choco.SotF.Health *= #500 Choco.SotF.
 execute store result bossbar sotf:sculk_star max run scoreboard players get #SculkStarMax Choco.SotF.Health
 
 bossbar set sotf:sculk_star visible true
-bossbar set sotf:sculk_star style progress
 bossbar set sotf:sculk_star players @a[distance=..48]
 
 execute as @e[type=slime,tag=Choco.SotF.SculkStar] store result score @s Choco.SotF.Health run data get entity @s Health
@@ -50,3 +49,10 @@ tag @e remove Choco.SotF.Target
 scoreboard players add @s Choco.SotF.tick.13 0
 execute if score #SculkStarAmount Choco.SotF.ScoreStorage.0 matches 25.. at @s run scoreboard players add @e[type=slime,tag=Choco.SotF.SculkStar,scores={Choco.SotF.tick.13=0}] Choco.SotF.tick.13 1
 execute if score @s Choco.SotF.tick.13 matches 1.. at @s run function survivalotfittest:entity/mobs/sculk_star/return
+
+# 個体数によって表示を変化
+execute if score #SculkStarAmount Choco.SotF.ScoreStorage.0 matches 1..5 run bossbar set sotf:sculk_star style progress
+execute if score #SculkStarAmount Choco.SotF.ScoreStorage.0 matches 6..9 run bossbar set sotf:sculk_star style notched_6
+execute if score #SculkStarAmount Choco.SotF.ScoreStorage.0 matches 10..11 run bossbar set sotf:sculk_star style notched_10
+execute if score #SculkStarAmount Choco.SotF.ScoreStorage.0 matches 12..19 run bossbar set sotf:sculk_star style notched_12
+execute if score #SculkStarAmount Choco.SotF.ScoreStorage.0 matches 20.. run bossbar set sotf:sculk_star style notched_20

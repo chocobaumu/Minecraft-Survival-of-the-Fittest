@@ -6,14 +6,17 @@ effect clear @s poison
 scoreboard players add @s Choco.SotF.Tick.0 1
 
 #bossbar
-bossbar add sotf:nature_dominion {"bold":true,"color":"#42612F","italic":false,"text":"ネイチャードミニオン"}
+bossbar add sotf:nature_dominion [{"bold":true,"color":"green","italic":false,"text":"――≶🍃≷"},{"bold":true,"color":"#42612F","italic":false,"text":"ネイチャードミニオン"},{"bold":true,"color":"green","italic":false,"text":"≶🍃≷――"}]
 execute unless entity @s[tag=Choco.SotF.Phase2] run bossbar set sotf:nature_dominion color green
 execute if entity @s[tag=Choco.SotF.Phase2] run bossbar set sotf:nature_dominion color red
 bossbar set sotf:nature_dominion max 300
 bossbar set sotf:nature_dominion visible true
-bossbar set sotf:nature_dominion style progress
+bossbar set sotf:nature_dominion style notched_20
 bossbar set sotf:nature_dominion players @a[distance=..48]
 execute store result bossbar sotf:nature_dominion value run data get entity @s Health
+execute unless entity @s[tag=Choco.SotF.Phase2] run bossbar set sotf:nature_dominion name [{"bold":true,"color":"green","italic":false,"text":"――≶🍃≷"},{"bold":true,"color":"#42612F","italic":false,"text":"ネイチャードミニオン"},{"bold":true,"color":"green","italic":false,"text":"≶🍃≷――"}]
+execute if entity @s[tag=Choco.SotF.Phase2] run bossbar set sotf:nature_dominion name [{"bold":true,"color":"red","italic":false,"text":"――≶🍃≷"},{"bold":true,"color":"#42612F","italic":false,"text":"ネイチャードミニオン"},{"bold":true,"color":"red","italic":false,"text":"≶🍃≷――"}]
+
 
 # Health取得
 execute store result score @s Choco.SotF.Health run data get entity @s Health

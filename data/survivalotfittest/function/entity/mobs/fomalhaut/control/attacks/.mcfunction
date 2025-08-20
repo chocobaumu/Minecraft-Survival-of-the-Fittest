@@ -36,3 +36,6 @@ execute if score @s Choco.SotF.ScoreStorage.4 matches 11 at @s run function surv
 
 # 跳躍(ナイトメア限定)
 execute if score @s Choco.SotF.ScoreStorage.4 matches 12 at @s run function survivalotfittest:entity/mobs/fomalhaut/control/attacks/leap/
+
+# 水の場所へ移動
+execute if score @s Choco.SotF.ScoreStorage.4 matches 13 at @s run function survivalotfittest:entity/mobs/fomalhaut/control/attacks/get_water/

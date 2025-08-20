@@ -38,11 +38,14 @@ scoreboard players add @s Choco.SotF.tick.6 1
 execute if score @s Choco.SotF.tick.6 matches 2400.. run scoreboard players set @s Choco.SotF.tick.6 0
 execute if score @s Choco.SotF.tick.6 matches 500..505 run function survivalotfittest:entity/mobs/spider_boss/skills/summoning_spider
 #bossbar
-bossbar add sotf:broodmother {"bold":true,"color":"dark_green","italic":false,"text":"ブルードマザー"}
+bossbar add sotf:broodmother [{"bold":false,"color":"green","italic":false,"text":"─《∴🕷∵🕸]〚 "},{"bold":true,"color":"dark_green","italic":false,"text":"ブルードマザー"},{"bold":false,"color":"green","italic":false,"text":" 〛[∴🕷∵🕸》─"}]
 execute if score @s Choco.SotF.Health matches 151.. run bossbar set sotf:broodmother color green
 execute if score @s Choco.SotF.Health matches ..150 run bossbar set sotf:broodmother color red
 bossbar set sotf:broodmother max 300
 bossbar set sotf:broodmother visible true
-bossbar set sotf:broodmother style progress
+bossbar set sotf:broodmother style notched_20
 bossbar set sotf:broodmother players @a[distance=..48]
 execute store result bossbar sotf:broodmother value run data get entity @s Health
+
+execute if score @s Choco.SotF.Health matches 151.. run bossbar set sotf:broodmother name [{"bold":false,"color":"green","italic":false,"text":"─《∴🕷∵🕸]〚 "},{"bold":true,"color":"dark_green","italic":false,"text":"ブルードマザー"},{"bold":false,"color":"green","italic":false,"text":" 〛[∴🕷∵🕸》─"}]
+execute if score @s Choco.SotF.Health matches ..150 run bossbar set sotf:broodmother name [{"bold":false,"color":"red","italic":false,"text":"─《∴🕷∵🕸]〚 "},{"bold":true,"color":"dark_green","italic":false,"text":"ブルードマザー"},{"bold":false,"color":"red","italic":false,"text":" 〛[∴🕷∵🕸》─"}]

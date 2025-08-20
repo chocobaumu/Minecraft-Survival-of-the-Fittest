@@ -19,7 +19,7 @@ execute if score @s Choco.SotF.tick.7 matches 620 run tellraw @a {"text":"<Aotum
 execute if score @s Choco.SotF.tick.7 matches 630 run tellraw @a {"text":"<Chocobaumu_JPN> アイツも呼んでおこう。","color": "white"}
 execute if score @s Choco.SotF.tick.7 matches 650 run tellraw @a {"text":"<Yukiikuma> なんでしょうか","color": "white"}
 execute if score @s Choco.SotF.tick.7 matches 680 run tellraw @a {"text":"<Aotumuri> choco様　〜〜〜","color": "white"}
-execute if score @s Choco.SotF.tick.7 matches 685 run tellraw @a {"text":"<Chocobaumu_JPN> アイツを殺す。以上。負けたらそれはそれでヨシ。","color": "white"}
+execute if score @s Choco.SotF.tick.7 matches 685 run tellraw @a {"text":"<Chocobaumu_JPN> アイツを倒す。以上。負けたらそれはそれでヨシ。","color": "white"}
 execute if score @s Choco.SotF.tick.7 matches 725 run tellraw @a {"text":"<Yukiikuma> ああ","color": "white"}
 execute if score @s Choco.SotF.tick.7 matches 765 run tellraw @a {"text":"<Yukiikuma> 理解","color": "white"}
 execute if score @s Choco.SotF.tick.7 matches 710 run tellraw @a {"text":"<Chocobaumu_JPN> ...いつになったらやめるんだそれ... いいけど...","color": "white"}

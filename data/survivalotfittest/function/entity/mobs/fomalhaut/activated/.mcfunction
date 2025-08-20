@@ -1,16 +1,16 @@
 #ボスバー
-bossbar add sotf:fomalhaut {"bold":true,"color":"#89897d","italic":false,"text":"QPA-07/Prt/α-PsA-α FOMALHAUT"}
+bossbar add sotf:fomalhaut [{"bold":true,"color":"white","italic":false,"text":"―≪⚙≫―≪ "},{"bold":true,"color":"#89897d","italic":false,"text":"QPA-07/Prt/α-PsA-α FOMALHAUT"},{"bold":true,"color":"white","italic":false,"text":" ≫―≪⚙≫―"}]
 execute unless entity @s[tag=Choco.SotF.Phase2] run bossbar set sotf:fomalhaut color white
 #execute if entity @s[tag=Choco.SotF.Phase2] run bossbar set sotf:fomalhaut color red
 bossbar set sotf:fomalhaut max 300
 bossbar set sotf:fomalhaut visible true
-bossbar set sotf:fomalhaut style progress
+bossbar set sotf:fomalhaut style notched_20
 bossbar set sotf:fomalhaut players @a[distance=..64]
 execute store result bossbar sotf:fomalhaut value run data get entity @s Health
-execute if score @s Choco.SotF.ScoreStorage.6 matches 0 run bossbar set sotf:fomalhaut name {"bold":true,"color":"#89897d","italic":false,"text":"QPA-07/Prt/α-PsA-α FOMALHAUT"}
-execute if score @s Choco.SotF.ScoreStorage.6 matches 1 run bossbar set sotf:fomalhaut name [{"bold":true,"color":"#4574aa","italic":false,"text":"QPA-07/Pr"},{"bold":true,"color":"#89897d","italic":false,"text":"t/α-PsA-α FOMALHAUT"}]
-execute if score @s Choco.SotF.ScoreStorage.6 matches 2 run bossbar set sotf:fomalhaut name [{"bold":true,"color":"#4574aa","italic":false,"text":"QPA-07/Prt/α-PsA-α "},{"bold":true,"color":"#89897d","italic":false,"text":"FOMALHAUT"}]
-execute if score @s Choco.SotF.ScoreStorage.6 matches 3 run bossbar set sotf:fomalhaut name {"bold":true,"color":"#4574aa","italic":false,"text":"QPA-07/Prt/α-PsA-α FOMALHAUT"}
+execute if score @s Choco.SotF.ScoreStorage.6 matches 0 run bossbar set sotf:fomalhaut name [{"bold":true,"color":"white","italic":false,"text":"―≪⚙≫―≪ "},{"bold":true,"color":"#89897d","italic":false,"text":"QPA-07/Prt/α-PsA-α FOMALHAUT"},{"bold":true,"color":"white","italic":false,"text":" ≫―≪⚙≫―"}]
+execute if score @s Choco.SotF.ScoreStorage.6 matches 1 run bossbar set sotf:fomalhaut name [{"bold":true,"color":"white","italic":false,"text":"―≪⚙≫―≪ "},{"bold":true,"color":"#4574aa","italic":false,"text":"QPA-07/Pr"},{"bold":true,"color":"#89897d","italic":false,"text":"t/α-PsA-α FOMALHAUT"},{"bold":true,"color":"white","italic":false,"text":" ≫―≪⚙≫―"}]
+execute if score @s Choco.SotF.ScoreStorage.6 matches 2 run bossbar set sotf:fomalhaut name [{"bold":true,"color":"white","italic":false,"text":"―≪⚙≫―≪ "},{"bold":true,"color":"#4574aa","italic":false,"text":"QPA-07/Prt/α-PsA-α "},{"bold":true,"color":"#89897d","italic":false,"text":"FOMALHAUT"},{"bold":true,"color":"white","italic":false,"text":" ≫―≪⚙≫―"}]
+execute if score @s Choco.SotF.ScoreStorage.6 matches 3 run bossbar set sotf:fomalhaut name [{"bold":true,"color":"white","italic":false,"text":"―≪⚙≫―≪ "},{"bold":true,"color":"#4574aa","italic":false,"text":"QPA-07/Prt/α-PsA-α FOMALHAUT"},{"bold":true,"color":"white","italic":false,"text":" ≫―≪⚙≫―"}]
 
 # ターゲット設定
 execute at @s run function survivalotfittest:entity/mobs/fomalhaut/activated/targeting
@@ -51,6 +51,10 @@ execute if score @s Choco.SotF.tick.11 matches 1.. run scoreboard players remove
 execute if score @s Choco.SotF.ScoreStorage.7 matches 1.. run scoreboard players remove @s Choco.SotF.ScoreStorage.7 1
 # 水撒き(ナイトメア)
 execute if score @s Choco.SotF.tick.12 matches 1.. run scoreboard players remove @s Choco.SotF.tick.12 1
+# 水探し
+execute if score @s Choco.SotF.tick.13 matches 1.. run scoreboard players remove @s Choco.SotF.tick.13 1
+# 水の場所に移動
+execute if score @s Choco.SotF.tick.14 matches 1.. run scoreboard players remove @s Choco.SotF.tick.14 1
 # 以下はメモ
 # ScoreStorage4は攻撃方法の判定用
 # tick5はｶﾞﾄｶﾞﾄのリロード時間、0が使用可能状態

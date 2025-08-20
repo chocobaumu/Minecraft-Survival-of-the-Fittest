@@ -1,4 +1,4 @@
-execute store result score @s Choco.SotF.Random run random value 1..24
+execute store result score @s Choco.SotF.Random run random value 1..27
 
 execute if score @s Choco.SotF.Random matches 1 run data merge entity @s {transformation:[1.0000f,0.0000f,0.0000f,0.0000f,0.0000f,0.9659f,0.2588f,0.0000f,0.0000f,-0.2588f,0.9659f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f]}
 execute if score @s Choco.SotF.Random matches 2 run data merge entity @s {transformation:[1.0000f,0.0000f,0.0000f,0.0000f,0.0000f,0.8660f,0.5000f,0.0000f,0.0000f,-0.5000f,0.8660f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f]}
@@ -24,3 +24,6 @@ execute if score @s Choco.SotF.Random matches 21 run data merge entity @s {trans
 execute if score @s Choco.SotF.Random matches 22 run data merge entity @s {transformation:[0.8660f,0.5000f,0.0000f,0.0000f,-0.4830f,0.8365f,-0.2588f,0.0000f,-0.1294f,0.2241f,0.9659f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f]}
 execute if score @s Choco.SotF.Random matches 23 run data merge entity @s {transformation:[0.9659f,0.2588f,0.0000f,0.0000f,-0.2241f,0.8365f,-0.5000f,0.0000f,-0.1294f,0.4830f,0.8660f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f]}
 execute if score @s Choco.SotF.Random matches 24 run data merge entity @s {transformation:[0.8660f,0.5000f,-0.0000f,0.0000f,-0.4330f,0.7500f,-0.5000f,0.0000f,-0.2500f,0.4330f,0.8660f,0.0000f,0.0000f,0.0000f,0.0000f,1.0000f]}
+execute if score @s Choco.SotF.Random matches 25 run data merge entity @s {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.05f,0f],scale:[1f,1f,1f]}}
+execute if score @s Choco.SotF.Random matches 26 run data merge entity @s {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.10f,0f],scale:[1f,1f,1f]}}
+execute if score @s Choco.SotF.Random matches 27 run data merge entity @s {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.15f,0f],scale:[1f,1f,1f]}}

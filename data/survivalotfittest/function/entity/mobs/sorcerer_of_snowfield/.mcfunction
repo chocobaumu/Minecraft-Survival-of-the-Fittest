@@ -9,10 +9,10 @@ execute at @s unless entity @a[distance=..48] run effect give @s resistance 1 99
 execute at @s if entity @e[tag=Choco.SotF.Enemies_Target,distance=..48] run rotate @s facing entity @n[tag=Choco.SotF.Enemies_Target,distance=..48] feet
 
 #bossbar
-bossbar add sotf:sorcerer_of_snowfield {"bold":true,"color":"#238773","italic":false,"text":"雪原の魔術師"}
+bossbar add sotf:sorcerer_of_snowfield [{"bold":false,"color":"white","italic":false,"text":"─◄❆►─⁅ "},{"bold":true,"color":"#238773","italic":false,"text":"雪原の魔術師"},{"bold":false,"color":"white","italic":false,"text":" ⁆─◄❆►─"}]
 execute unless entity @s[tag=Choco.SotF.Phase2] run bossbar set sotf:sorcerer_of_snowfield color white
 bossbar set sotf:sorcerer_of_snowfield visible true
-bossbar set sotf:sorcerer_of_snowfield style progress
+bossbar set sotf:sorcerer_of_snowfield style notched_20
 bossbar set sotf:sorcerer_of_snowfield max 120
 execute at @s run bossbar set sotf:sorcerer_of_snowfield players @a[distance=..48]
 

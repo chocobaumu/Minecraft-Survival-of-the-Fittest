@@ -12,6 +12,10 @@ execute at @s run particle poof ~ ~ ~ 0 0 0 0.05 1 force
 execute at @s run particle campfire_cosy_smoke ~ ~ ~ 0 0 0 0.02 3 force
 
 tp @s ^ ^ ^0.2
+execute if entity @s[tag=Choco.SotF.Fomalhaut.Missile.Top] at @s if block ^ ^0.1 ^ #survivalotfittest:can_through run tp @s ^ ^0.1 ^
+execute if entity @s[tag=Choco.SotF.Fomalhaut.Missile.Bottom] at @s if block ^ ^-0.1 ^ #survivalotfittest:can_through run tp @s ^ ^-0.1 ^
+execute if entity @s[tag=Choco.SotF.Fomalhaut.Missile.Right] at @s if block ^-0.1 ^ ^ #survivalotfittest:can_through run tp @s ^-0.1 ^ ^
+execute if entity @s[tag=Choco.SotF.Fomalhaut.Missile.Left] at @s if block ^0.1 ^ ^ #survivalotfittest:can_through run tp @s ^0.1 ^ ^
 
 # 再起
 execute unless entity @s[tag=Choco.SotF.AlreadyHit] if score @s Choco.SotF.ScoreStorage.1 matches 1.. at @s rotated as @s run function survivalotfittest:entity/marker/misc/fomalhaut/missile/procceed

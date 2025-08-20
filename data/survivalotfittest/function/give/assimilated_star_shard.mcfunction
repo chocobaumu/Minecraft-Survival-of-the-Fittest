@@ -1,0 +1,1 @@
+give @p recovery_compass[item_name="侵食された地質",item_model="survivalotfittest:assimilated_star_shard",rarity="uncommon",lore=[{"italic":false,"text":" "},{"color":"dark_gray","italic":false,"text":"青緑色に光る星の欠片。無機質な石の中に生物的なぬめりと脈動、計略を感じる。"}],custom_data={SotF:Assimilated_Star_Shard}] 1

@@ -26,8 +26,15 @@ execute as @e[distance=..12] run damage @s 4 explosion by @n[tag=Choco.SotF.Owne
 execute as @e[distance=..15] run damage @s 2 explosion by @n[tag=Choco.SotF.Owner]
 execute as @e[distance=..18] run damage @s 1 explosion by @n[tag=Choco.SotF.Owner]
 
+#* > ナイトメア
 execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 run summon creeper ~ ~ ~ {Silent:1b,Invulnerable:1b,PersistenceRequired:1b,powered:1b,ExplosionRadius:2b,Fuse:0,CustomName:"ミサイル"}
-
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 at @s if score @s Choco.SotF.ScoreStorage.17 matches 1 run summon marker ~ ~ ~ {Tags:["Choco.SotF.CreeperEffectArea","Choco.SotF.Poison"]}
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 at @s if score @s Choco.SotF.ScoreStorage.17 matches 2 run summon marker ~ ~ ~ {Tags:["Choco.SotF.CreeperEffectArea","Choco.SotF.Wither"]}
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 at @s if score @s Choco.SotF.ScoreStorage.17 matches 3 run summon marker ~ ~ ~ {Tags:["Choco.SotF.CreeperEffectArea","Choco.SotF.Weakness"]}
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 at @s if score @s Choco.SotF.ScoreStorage.17 matches 4 run summon marker ~ ~ ~ {Tags:["Choco.SotF.CreeperEffectArea","Choco.SotF.Slowness"]}
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 at @s if score @s Choco.SotF.ScoreStorage.17 matches 5 run summon marker ~ ~ ~ {Tags:["Choco.SotF.CreeperEffectArea","Choco.SotF.MiningFatigue"]}
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 at @s if score @s Choco.SotF.ScoreStorage.17 matches 6 run summon marker ~ ~ ~ {Tags:["Choco.SotF.CreeperEffectArea","Choco.SotF.Blindness"]}
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 at @s if score @s Choco.SotF.ScoreStorage.17 matches 7 run summon marker ~ ~ ~ {Tags:["Choco.SotF.CreeperEffectArea","Choco.SotF.InstantDamage"]}
 
 tag @e remove Choco.SotF.Owner
 

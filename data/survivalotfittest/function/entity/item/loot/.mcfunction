@@ -48,7 +48,7 @@ execute if predicate survivalotfittest:loot/water_dust run function survivalotfi
 # 汚染晶
 execute if predicate survivalotfittest:loot/corrupt_crystal run function survivalotfittest:entity/item/loot/exchange/corrupt_crystal
 
-## ボスアーティファクト
+## ボス
 
 # > ウィザー
 execute if predicate survivalotfittest:loot/wither_artifact run function survivalotfittest:entity/item/loot/exchange/wither_artifact
@@ -85,6 +85,9 @@ execute if predicate survivalotfittest:loot/nature_dominion_scroll run function 
 # フォーマルハウト
 execute if predicate survivalotfittest:loot/fomalhaut_artifact run function survivalotfittest:entity/item/loot/exchange/fomalhaut_artifact
 execute if predicate survivalotfittest:loot/fomalhaut_scroll run function survivalotfittest:entity/item/loot/exchange/fomalhaut_scroll
+
+# スカルクの星
+execute if predicate survivalotfittest:loot/assimilated_star_shard run function survivalotfittest:entity/item/loot/exchange/assimilated_star_shard
 
 # > ランダムなスクロール
 execute if predicate survivalotfittest:loot/random_scroll run function survivalotfittest:entity/item/loot/exchange/random_scroll

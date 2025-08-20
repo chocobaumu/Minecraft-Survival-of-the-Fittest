@@ -13,4 +13,5 @@ execute if score @s Choco.SotF.tick.4 matches 15..126 at @s run function surviva
 
 # リセット
 execute if score @s Choco.SotF.tick.4 matches 135.. run scoreboard players set @s Choco.SotF.ScoreStorage.4 0
+execute if score @s Choco.SotF.tick.4 matches 135.. if score @s Choco.SotF.tick.6 matches 0 if score @s Choco.SotF.tick.5 matches 0 run function survivalotfittest:entity/mobs/fomalhaut/control/attacks/blade_charge/if_all_ready
 execute if score @s Choco.SotF.tick.4 matches 135.. run scoreboard players set @s Choco.SotF.tick.4 0

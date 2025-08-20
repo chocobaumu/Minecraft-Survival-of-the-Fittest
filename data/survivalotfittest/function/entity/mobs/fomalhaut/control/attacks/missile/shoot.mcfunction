@@ -24,6 +24,9 @@ tag @s add Choco.SotF.Temp
 execute as @n[type=marker,tag=Choco.SotF.Fomalhaut.Missile,tag=Choco.SotF.Temp,distance=..16] at @s facing entity @n[tag=Choco.SotF.Target,distance=..64] feet run rotate @s ~ -90
 execute as @n[type=marker,tag=Choco.SotF.Fomalhaut.Missile,tag=Choco.SotF.Temp,distance=..16] at @s run data modify entity @s data.Target set from entity @n[tag=Choco.SotF.Target,distance=..64] UUID
 execute as @n[type=marker,tag=Choco.SotF.Fomalhaut.Missile,tag=Choco.SotF.Temp,distance=..16] at @s run data modify entity @s data.Owner set from entity @n[type=slime,tag=Choco.SotF.Fomalhaut,distance=..64] UUID
+#* > ナイトメア
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 run function survivalotfittest:entity/mobs/fomalhaut/control/attacks/missile/nightmare
+
 tag @n[type=marker,tag=Choco.SotF.Fomalhaut.Missile,tag=Choco.SotF.Temp,distance=..16] remove Choco.SotF.Temp
 tag @s remove Choco.SotF.Temp
 

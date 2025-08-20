@@ -2,11 +2,11 @@
 tag @s add Choco.SotF.Kraken_Eats
 
 #bossbar
-bossbar add sotf:seaserpent {"bold":true,"color":"#0a4365","italic":false,"text":"シーサーペント"}
+bossbar add sotf:seaserpent [{"bold":false,"color":"dark_aqua","italic":false,"text":"――〚💧🐍💧〛――≪ "},{"bold":true,"color":"#0a4365","italic":false,"text":"シーサーペント"},{"bold":false,"color":"dark_aqua","italic":false,"text":" ≫――〚💧🐍💧〛――"}]
 execute run bossbar set sotf:seaserpent color blue
 bossbar set sotf:seaserpent max 300
 bossbar set sotf:seaserpent visible true
-bossbar set sotf:seaserpent style progress
+bossbar set sotf:seaserpent style notched_20
 bossbar set sotf:seaserpent players @a[distance=..48]
 execute store result bossbar sotf:seaserpent value run data get entity @s Health
 

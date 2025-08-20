@@ -6,12 +6,12 @@ execute store result score @s Choco.SotF.Data.HurtTime run data get entity @s Hu
 execute if score @s Choco.SotF.Data.HurtTime matches 9 run function survivalotfittest:entity/mobs/living_crystal/hurt
 
 #bossbar
-bossbar add sotf:living_crystal {"bold":true,"color":"#a421b3","italic":false,"text":"生ける汚染晶体"}
+bossbar add sotf:living_crystal [{"bold":true,"color":green,italic:false,"text":"─≪♦≫┤ "},{"bold":true,"color":"#a421b3","italic":false,"text":"生ける汚染晶体"},{"bold":true,"color":green,italic:false,"text":" ├≪♦≫─"}]
 execute unless entity @s[tag=Choco.SotF.Phase2] run bossbar set sotf:living_crystal color green
 #execute if entity @s[tag=Choco.SotF.Phase2] run bossbar set sotf:living_crystal color red
 bossbar set sotf:living_crystal max 300
 bossbar set sotf:living_crystal visible true
-bossbar set sotf:living_crystal style progress
+bossbar set sotf:living_crystal style notched_20
 bossbar set sotf:living_crystal players @a[distance=..48]
 execute store result bossbar sotf:living_crystal value run data get entity @s Health
 

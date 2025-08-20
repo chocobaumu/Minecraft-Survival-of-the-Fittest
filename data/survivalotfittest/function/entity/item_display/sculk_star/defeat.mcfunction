@@ -40,8 +40,8 @@ execute if score @s Choco.SotF.tick.1 matches 3.. run scoreboard players set @s 
 
 execute at @s run particle item{item:sculk} ~ ~-0.25 ~ 0.15 0.15 0.15 0.2 1 force
 
-# 本体ならドロップアイテム
-execute if entity @s[tag=Choco.SotF.Prime] at @s run loot spawn ~ ~ ~ loot survivalotfittest:entities/sculk_star_shard
+# ドロップ
+execute at @s run loot spawn ~ ~ ~ loot survivalotfittest:entities/sculk_star_shard
 
 execute if entity @s[tag=Choco.SotF.Prime] if score @s Choco.SotF.Tick.0 matches 99 at @s run summon item ~ ~ ~ {NoGravity:1b,Glowing:1b,Age:-32768,Health:1024,Item:{id:"minecraft:enchanted_book",count:1,components:{"minecraft:item_name":"同化のアーティファクト","minecraft:lore":[[{"color":"gray","italic":false,"text":"攻撃時、"},{"color":"yellow","italic":false,"text":"30%"},{"color":"gray","italic":false,"text":"の確率で対象に"},{"color":"#1A2D30","text":"スカルク汚染"},{"color":"gray","italic":false,"text":"を"},{"color":"green","italic":false,"text":"30"},{"color":"gray","italic":false,"text":"秒間付与します。"}]],"minecraft:rarity":"rare","minecraft:item_model":"survivalotfittest:artifact_of_assimilation","minecraft:custom_data":{SotF.Category:"Artifact",SotF:"Artifact_of_Assimilation"}}}}
 execute if entity @s[tag=Choco.SotF.Prime] if score @s Choco.SotF.Tick.0 matches 99 at @s run particle flash ~ ~ ~ 0 0 0 0 1 normal
