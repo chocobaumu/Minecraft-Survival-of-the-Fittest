@@ -25,6 +25,7 @@ scoreboard players add @s Choco.SotF.tick.10 0
 scoreboard players add @s Choco.SotF.tick.11 0
 scoreboard players add @s Choco.SotF.tick.13 0
 scoreboard players add @s Choco.SotF.tick.14 0
+scoreboard players add @s Choco.SotF.LifeDisturbance.Tick 0
 
 # ナイトメア
 execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 store result score @s Choco.SotF.HardMode.Attributes run random value 0..14

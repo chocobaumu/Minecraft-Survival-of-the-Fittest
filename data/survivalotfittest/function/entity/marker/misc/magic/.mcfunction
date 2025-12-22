@@ -48,3 +48,6 @@ execute if entity @s[tag=Choco.SotF.Magic.LightningCannon] at @s run function su
 # ヘイル・サークル
 execute if entity @s[tag=Choco.SotF.Magic.HailCircle] at @s run function survivalotfittest:entity/marker/misc/magic/hail_circle/
 execute if entity @s[tag=Choco.SotF.Magic.HailCircle.Hail] at @s run function survivalotfittest:entity/marker/misc/magic/hail_circle/hail/
+
+# アーテー・ネクロシス
+execute if entity @s[tag=Choco.SotF.Magic.AhthehNecrosis] at @s run function survivalotfittest:entity/marker/misc/magic/ahtheh_necrosis/

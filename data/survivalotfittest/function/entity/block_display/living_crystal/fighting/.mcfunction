@@ -14,9 +14,12 @@ execute if score @s Choco.SotF.tick.3 matches 1.. run scoreboard players remove 
 # 小さいレーザー
 scoreboard players add @s Choco.SotF.tick.4 1
 execute if score @s Choco.SotF.tick.4 matches 1 run function survivalotfittest:entity/block_display/living_crystal/fighting/mini_laser/
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 if score @s Choco.SotF.tick.4 matches 600 at @s run summon marker ~ ~ ~ {Tags:["Choco.SotF.LivingCrystal.Laser.Mini.Central"]}
 execute if score @s Choco.SotF.tick.4 matches 1067.. run scoreboard players set @s Choco.SotF.tick.4 0
 
 # 爆発
 scoreboard players add @s Choco.SotF.tick.5 1
 execute if score @s Choco.SotF.tick.5 matches 10..100 run function survivalotfittest:entity/block_display/living_crystal/fighting/explosion/
 execute if score @s Choco.SotF.tick.5 matches 1321.. run scoreboard players set @s Choco.SotF.tick.5 0
+
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 at @s run summon marker ~ ~ ~ {Tags:["Choco.SotF.Radiation"]}

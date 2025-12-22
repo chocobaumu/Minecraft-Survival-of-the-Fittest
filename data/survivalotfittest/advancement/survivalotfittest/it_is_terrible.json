@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:barrier"
+      },
+      "title": "...最ッッッ悪な状況",
+      "description": "感染症に罹る。頭が痛くてふわふわする。\n食中毒に罹る。お腹が痛くてぎゅるぎゅるする。\n恐怖状態になる。怖くて足元がぴょんぴょんする。\n裂傷状態になる。新しい古傷(?)が傷んでズキズキする。\n生命干渉状態になる。普通に冷汗が止まらなくなる。\n昏睡状態になる。眠くて頭がぽわぽわする。\n瘴気に汚染される。細胞が死んで普通にやばい。\nスカルク汚染状態になる。得体の知れないものがくっついてイライラする。\n全部一気になって生きた心地がしない。最高に最悪な状況だね。\n......待ってどうやって見つけたの？？？？",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": true
+    },
+    "parent": "survivalotfittest:survivalotfittest/hyper_too_died",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

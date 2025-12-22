@@ -1,0 +1,1 @@
+execute if score @s Choco.SotF.Tick.0 matches 10.. at @s run function survivalotfittest:entity/item_display/magic/inversion_shadow/vanish

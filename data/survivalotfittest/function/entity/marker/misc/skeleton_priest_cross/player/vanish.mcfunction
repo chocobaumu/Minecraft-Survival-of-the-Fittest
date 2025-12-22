@@ -11,7 +11,9 @@ playsound entity.skeleton_horse.death player @a ~ ~ ~ 3 0.85
 playsound minecraft:entity.allay.ambient_without_item player @a ~ ~ ~ 3 0.75
 playsound minecraft:entity.allay.ambient_without_item player @a ~ ~ ~ 3 0.85
 
-effect give @a[gamemode=!spectator,distance=..24] instant_health 1 0 true
+scoreboard players add @e[distance=...24] Choco.SotF.LifeDisturbance.Tick 0
+
+effect give @a[gamemode=!spectator,distance=..24,scores={Choco.SotF.LifeDisturbance.Tick=..0}] instant_health 1 0 true
 effect give @a[gamemode=!spectator,distance=..24] resistance 7 2
 execute as @a[gamemode=!spectator,distance=..24] at @s run particle trial_spawner_detection_ominous ~ ~0.85 ~ 0.25 0.55 0.25 0.1 20 normal
 

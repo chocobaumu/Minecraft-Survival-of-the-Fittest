@@ -1,0 +1,21 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:ender_pearl"
+      },
+      "title": "[5] インヴァージョン・シャドウ",
+      "description": "動きを模倣する『影』を召喚する。『影』は移動のみを模倣し、スニーク中は模倣を行わない。回避時、アクションを消費せず、自身と『影』の位置を交換する。",
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": false,
+      "hidden": false
+    },
+    "parent": "survivalotfittest:skills/sorcery/void/null_projection",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "sends_telemetry_event": true
+  }
+  

@@ -1,0 +1,10 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:shot_crossbow"
+      }
+    },
+    "rewards": {
+      "function": "survivalotfittest:item/using_crossbow"
+    }
+  }

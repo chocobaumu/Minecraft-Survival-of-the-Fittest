@@ -340,7 +340,18 @@ execute if score @s Choco.SotF.Skills.Pursuit.Tick matches 1.. at @s run functio
 # > スカルク汚染
 execute if score @s SculkAssimilated matches 1.. at @s run function survivalotfittest:effects/sculk_assimilated/
 
+# > 恐怖
+execute if score @s Choco.SotF.Scary.Tick matches 1.. at @s run function survivalotfittest:effects/scary/
+
+# > 生命干渉
+execute if score @s Choco.SotF.LifeDisturbance.Tick matches 1.. at @s run function survivalotfittest:effects/life_disturbance/
+
 execute if score @s Choco.SotF.Malediction.Curse matches 1.. run scoreboard players remove @s Choco.SotF.Malediction.Curse 1
+
+## 敵対解除
+
+# グリーゼ
+execute if entity @s[tag=Choco.SotF.Gliese.AdditionalTarget] at @s unless entity @e[type=item_display,tag=aj.gliese.root,distance=..128] run tag @s remove Choco.SotF.Gliese.AdditionalTarget
 
 ## バイオーム
 

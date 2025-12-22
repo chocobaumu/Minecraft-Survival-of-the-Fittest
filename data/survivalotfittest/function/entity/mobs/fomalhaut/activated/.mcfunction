@@ -31,7 +31,7 @@ execute if score @s Choco.SotF.ScoreStorage.4 matches 1.. at @s run function sur
 execute if score @s Choco.SotF.tick.8 matches 1.. at @s run function survivalotfittest:entity/mobs/fomalhaut/control/attacks/missile/shoot_with_auxiliary
 
 # ターゲット消去
-tag @e[tag=Choco.SotF.Enemies_Target,distance=..64] remove Choco.SotF.Target
+tag @e[distance=..64] remove Choco.SotF.Target
 
 # リロード系
 # > ガトリング

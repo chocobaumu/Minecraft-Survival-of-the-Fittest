@@ -12,7 +12,8 @@ function survivalotfittest:entity/marker/misc/skeleton_healer_heal/succeed_parti
 function survivalotfittest:entity/marker/misc/skeleton_healer_heal/succeed_particle
 function survivalotfittest:entity/marker/misc/skeleton_healer_heal/succeed_particle
 
-effect give @e[tag=Choco.SotF.SkeletonLegion,distance=..5.5] instant_damage 1 1 true
-execute as @e[tag=Choco.SotF.SkeletonLegion,distance=..5.5] at @s run particle happy_villager ~ ~0.85 ~ 0.25 0.55 0.25 0.1 10 normal
+scoreboard players add @e[tag=Choco.SotF.SkeletonLegion,distance=..5.5] Choco.SotF.LifeDisturbance.Tick 0
+effect give @e[tag=Choco.SotF.SkeletonLegion,distance=..5.5,scores={Choco.SotF.LifeDisturbance.Tick=..0}] instant_damage 1 1 true
+execute as @e[tag=Choco.SotF.SkeletonLegion,distance=..5.5,scores={Choco.SotF.LifeDisturbance.Tick=..0}] at @s run particle happy_villager ~ ~0.85 ~ 0.25 0.55 0.25 0.1 10 normal
 
 function survivalotfittest:internal/kill

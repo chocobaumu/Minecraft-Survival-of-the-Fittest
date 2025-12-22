@@ -4,7 +4,7 @@ execute unless entity @s[tag=Choco.SotF.Phase2] run bossbar set sotf:necromancer
 execute if entity @s[tag=Choco.SotF.Phase2] run bossbar set sotf:necromancer color red
 bossbar set sotf:necromancer max 300
 bossbar set sotf:necromancer visible true
-bossbar set sotf:necromancer style progress
+bossbar set sotf:necromancer style notched_20
 bossbar set sotf:necromancer players @a[distance=..48]
 execute store result bossbar sotf:necromancer value run data get entity @s Health
 execute unless entity @s[tag=Choco.SotF.Phase2] run bossbar set sotf:necromancer name [{"bold":true,"color":"yellow","italic":false,"text":"≪【🌌】≫"},{"bold":true,"color":"#694715","italic":false,"text":"ネクロマンサー"},{"bold":true,"color":"yellow","italic":false,"text":"≪【🌌】≫"}]

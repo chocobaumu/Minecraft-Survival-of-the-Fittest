@@ -9,3 +9,6 @@ execute if score @s Choco.SotF.SorcerySelect matches 2 if entity @s[advancements
 
 # > ヌル・プロジェクション
 execute if score @s Choco.SotF.SorcerySelect matches 3 if entity @s[advancements={survivalotfittest:skills/sorcery/void/null_projection=true}] at @s run function survivalotfittest:entity/interaction/magic/cast/void/null_projection
+
+# > インヴァージョン・シャドウ
+execute if score @s Choco.SotF.SorcerySelect matches 4 if entity @s[advancements={survivalotfittest:skills/sorcery/void/inversion_shadow=true}] at @s run function survivalotfittest:entity/interaction/magic/cast/void/inversion_shadow/

@@ -15,4 +15,13 @@ execute positioned ~-0.5 ~-0.5 ~-0.5 if entity @a[gamemode=!spectator,dx=0] run 
 
 tp @s ^ ^ ^1
 
+#execute at @s run tag @e[tag=!Choco.SotF.Contaminating,tag=!Choco.SotF.CorruptionCrystal,tag=!Choco.SotF.LivingCrystal,tag=Choco.SotF.Mobs,distance=..48] add Choco.SotF.Target
+#execute at @s run tag @a[gamemode=!spectator,gamemode=!creative,distance=..64] add Choco.SotF.Target
+
+#scoreboard players operation #Temp Choco.SotF.ScoreStorage.0 = @s Choco.SotF.ScoreStorage.0
+#scoreboard players operation #Temp Choco.SotF.ScoreStorage.0 %= #5 Choco.SotF.Math
+#execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1.. if score #Temp Choco.SotF.ScoreStorage.0 matches 0 at @s if entity @e[tag=Choco.SotF.Target,distance=..48] run function survivalotfittest:entity/marker/misc/living_crystal/mini_laser/changing_direction
+
+#execute at @s run tag @e[distance=..48] remove Choco.SotF.Target
+
 execute if score @s Choco.SotF.ScoreStorage.0 matches 1.. at @s run function survivalotfittest:entity/marker/misc/living_crystal/mini_laser/procceed

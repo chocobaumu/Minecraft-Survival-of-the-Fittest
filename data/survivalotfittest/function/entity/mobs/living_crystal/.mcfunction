@@ -17,3 +17,6 @@ execute store result bossbar sotf:living_crystal value run data get entity @s He
 
 # Health取得
 execute store result score @s Choco.SotF.Health run data get entity @s Health
+
+# ナイトメア
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 unless entity @s[tag=Choco.SotF.Attributed] run function survivalotfittest:entity/mobs/living_crystal/nightmare_init

@@ -75,5 +75,5 @@ execute if score @s Choco.SotF.tick.9 matches 1.. at @s run function survivalotf
 
 #* > ヘイル・サークル(ナイトメア)
 scoreboard players add @s Choco.SotF.tick.10 0
-execute at @s if entity @e[tag=Choco.SotF.Enemies_Target,distance=..48] if score @s Choco.SotF.tick.10 matches 0 run scoreboard players set @s Choco.SotF.tick.10 1
-execute if score @s Choco.SotF.tick.10 matches 1.. at @s run function survivalotfittest:entity/mobs/sorcerer_of_snowfield/sorcery/hail_circle/
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 at @s if entity @e[tag=Choco.SotF.Enemies_Target,distance=..48] if score @s Choco.SotF.tick.10 matches 0 run scoreboard players set @s Choco.SotF.tick.10 1
+execute if score #HardeMode Choco.SotF.ScoreStorage.0 matches 1 if score @s Choco.SotF.tick.10 matches 1.. at @s run function survivalotfittest:entity/mobs/sorcerer_of_snowfield/sorcery/hail_circle/

@@ -283,6 +283,9 @@ execute if entity @s[type=evoker,tag=Choco.SotF.NatureDominion] at @s run functi
 # フォーマルハウト
 execute if entity @s[type=slime,tag=Choco.SotF.Fomalhaut] at @s run function survivalotfittest:entity/mobs/fomalhaut/
 
+# グリーゼ
+execute if entity @s[type=wither_skeleton,tag=Choco.SotF.Gliese] at @s run function survivalotfittest:entity/mobs/gliese/mob
+
 # Chocobaumu_JPN
 execute if entity @s[type=skeleton,tag=Choco.SotF.Chocobaumu] at @s run function survivalotfittest:entity/mobs/admin/chocobaumu/
 
@@ -362,5 +365,11 @@ execute if score @s Choco.SotF.Skills.Pursuit.Tick matches 1.. at @s run functio
 
 # > スカルク汚染
 execute if score @s SculkAssimilated matches 1.. at @s run function survivalotfittest:effects/sculk_assimilated/
+
+# > 恐怖
+execute if score @s Choco.SotF.Scary.Tick matches 1.. at @s run function survivalotfittest:effects/scary/
+
+# > 生命干渉
+execute if score @s Choco.SotF.LifeDisturbance.Tick matches 1.. at @s run function survivalotfittest:effects/life_disturbance/
 
 execute if score @s Choco.SotF.Malediction.Curse matches 1.. run scoreboard players remove @s Choco.SotF.Malediction.Curse 1

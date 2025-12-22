@@ -221,6 +221,7 @@ scoreboard objectives add Choco.SotF.Malediction.Curse dummy
 scoreboard objectives add Choco.SotF.Malediction.Shoot dummy
 scoreboard objectives add Choco.SotF.BegriffOfDeath.Count dummy
 scoreboard objectives add Choco.SotF.BegriffOfDeath.Tick dummy
+scoreboard objectives add Choco.SotF.Zubenelgenubi.SorcerySelect dummy
 
 # スキル
 scoreboard objectives add Choco.SotF.Skills.WaterSaving.Tick dummy
@@ -346,6 +347,10 @@ scoreboard objectives add Choco.SotF.Particle.Status.Strength_Temper dummy
 scoreboard objectives add Choco.SotF.Particle.Status.Strength_Flow dummy
 scoreboard objectives add Choco.SotF.Particle.Status.Strength_Exist dummy
 scoreboard objectives add Choco.SotF.Sorcery.Void.Disapperance dummy
+scoreboard objectives add Choco.SotF.Sorcery.Void.InversionShadow.UUID0 dummy
+scoreboard objectives add Choco.SotF.Sorcery.Void.InversionShadow.UUID1 dummy
+scoreboard objectives add Choco.SotF.Sorcery.Void.InversionShadow.UUID2 dummy
+scoreboard objectives add Choco.SotF.Sorcery.Void.InversionShadow.UUID3 dummy
 
 #状態異常
 
@@ -365,6 +370,13 @@ scoreboard objectives add Choco.SotF.CurseOfSword dummy
 # > スカルク汚染
 scoreboard objectives add SculkAssimilated dummy
 scoreboard objectives add SculkAssimilatedDamage dummy
+
+# > 恐怖
+scoreboard objectives add Choco.SotF.Scary.Tick dummy
+
+# > 生命干渉
+scoreboard objectives add Choco.SotF.LifeDisturbance.Tick dummy
+
 
 #ディメンション
 

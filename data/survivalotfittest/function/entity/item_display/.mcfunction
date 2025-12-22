@@ -62,6 +62,9 @@ execute if entity @s[tag=Choco.SotF.SeaserpentBody] at @s run function survivalo
 execute if entity @s[tag=Choco.SotF.SculkStar] at @s run function survivalotfittest:entity/item_display/sculk_star/
 execute if entity @s[tag=Choco.SotF.SculkStarSpawn] at @s run function survivalotfittest:entity/item_display/sculk_star/spawn/
 
+# > グリーゼ
+execute if entity @s[tag=aj.gliese.root] at @s run function survivalotfittest:entity/mobs/gliese/
+
 # 衝撃
 execute if entity @s[tag=Choco.SotF.Smash] at @s run function survivalotfittest:entity/item_display/smash/
 
@@ -100,6 +103,10 @@ execute if entity @s[tag=Choco.SotF.AlphaEnderman.Laser] at @s run function surv
 
 # パーティクル
 execute if entity @s[tag=Choco.SotF.Particle.Impact] at @s run function survivalotfittest:entity/item_display/custom_particle/impact/
+
+# インヴァージョン・シャドウ
+execute if entity @s[tag=aj.shadow_player.root] at @s run function survivalotfittest:entity/item_display/magic/inversion_shadow/
+
 
 #ADMIN
 

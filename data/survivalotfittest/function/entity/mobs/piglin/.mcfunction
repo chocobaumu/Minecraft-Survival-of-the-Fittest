@@ -7,6 +7,7 @@ execute if score @s Choco.SotF.Tick.0 matches 1 run function survivalotfittest:i
 execute store result score @s Choco.SotF.ScoreStorage.0 run data get entity @s IsBaby
 
 #敵対
+#execute if entity @e[type=wither_skeleton,tag=Choco.SotF.Gliese,distance=..64] at @s run data modify entity @s AngryAt set from entity @n[type=wither_skeleton,tag=Choco.SotF.Gliese,distance=..64] UUID
 execute on target as @s run scoreboard players set @s Choc.SotF.Piglins_Angry 50
 
 #ブロック設置、破壊

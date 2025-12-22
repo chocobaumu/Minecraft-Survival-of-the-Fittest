@@ -40,6 +40,8 @@ scoreboard players reset @s Choco.SotF.SorceryMode
 scoreboard players reset @s Choco.SotF.SorceryCool
 scoreboard players reset @s Choco.SotF.Malediction.Curse
 scoreboard players reset @s Choco.SotF.Skills.QuickRecast.Tick
+scoreboard players reset @s Choco.SotF.Scary.Tick
+scoreboard players set @s Choco.SotF.LifeDisturbance.Tick 0
 
 # スキルの没収
 advancement revoke @s from survivalotfittest:skills/skills

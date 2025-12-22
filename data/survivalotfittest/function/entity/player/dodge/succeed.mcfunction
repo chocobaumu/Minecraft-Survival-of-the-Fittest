@@ -1,3 +1,5 @@
+scoreboard players add @s Choco.SotF.Tick.0 1
+
 execute at @s unless predicate survivalotfittest:artifacts/voidness run playsound entity.breeze.shoot player @a ~ ~ ~ 1 2
 
 execute at @s if predicate survivalotfittest:artifacts/voidness run function survivalotfittest:entity/player/dodge/voidness/effect

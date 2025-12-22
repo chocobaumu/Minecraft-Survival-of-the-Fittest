@@ -148,6 +148,9 @@ execute if entity @s[tag=Choco.SotF.Fomalhaut.LightningCannon.Target] at @s run 
 execute if entity @s[tag=Choco.SotF.Fomalhaut.Spawnpoint] at @s run function survivalotfittest:entity/marker/misc/fomalhaut/spawnpoint
 execute if entity @s[tag=Choco.SotF.Fomalhaut.WaterLocated] at @s run function survivalotfittest:entity/marker/misc/fomalhaut/water_located/
 
+# グリーゼ
+execute if entity @s[tag=Choco.SotF.Gliese.Arrow] at @s run function survivalotfittest:entity/marker/misc/gliese/arrow/
+
 #核
 execute if entity @s[tag=Choco.SotF.NukeBurst] at @s run function survivalotfittest:entity/item_display/nuke/explosion
 execute if entity @s[tag=Choco.SotF.NukeMushroomCloud] at @s run function survivalotfittest:entity/item_display/nuke/cloud

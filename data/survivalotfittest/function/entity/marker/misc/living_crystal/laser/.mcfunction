@@ -7,4 +7,4 @@ execute if score @s Choco.SotF.Tick.0 matches 10 at @s run function survivalotfi
 scoreboard players set @s Choco.SotF.ScoreStorage.0 50
 execute if score @s Choco.SotF.Tick.0 matches 10.. at @s run function survivalotfittest:entity/marker/misc/living_crystal/laser/procceed
 
-execute if score @s Choco.SotF.Tick.0 matches 13.. run function survivalotfittest:internal/kill
+execute if score @s Choco.SotF.Tick.0 matches 12.. run function survivalotfittest:internal/kill
